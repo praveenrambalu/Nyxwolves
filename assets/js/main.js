@@ -54,6 +54,7 @@
                     scale: 1.2,
                     autoAlpha: 0
                 });
+                $(".partner").addClass('d-none');
 
             } else {
                 $('header').removeClass('fixed-header');
@@ -61,6 +62,8 @@
                     scale: 1,
                     autoAlpha: 1
                 });
+                $(".partner").removeClass('d-none');
+
             }
 
         });

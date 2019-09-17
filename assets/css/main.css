@@ -287,7 +287,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 7vh !important;
+    height: 9vh !important;
 }
 
 
@@ -752,7 +752,7 @@ body {
 }
 
 .bg-hero-1 {
-    background: url('../img/hero-1.png') no-repeat, url('../img/hero-1-left.png') no-repeat;
+    background: url('../img/nyxgra1.png') no-repeat, url('../img/nyxgra2.png') no-repeat;
     background-position: center right, bottom left;
     background-position-y: 80px, 110%;
     background-size: contain, 300px;
@@ -1438,8 +1438,9 @@ a.button-work:hover {
 
 .about-image {
     padding: 30px;
-    background: url('../img/decor/about-decir.png') no-repeat top center;
+    background: url('../img/about-decirwolf.png') no-repeat top center;
     background-size: cover;
+    background-position: initial;
 }
 
 .about-2-bg {
@@ -2155,17 +2156,7 @@ ul.article-list li {
 }
 
 
-.light-logo {
-    -webkit-filter: drop-shadow(0px 0px 7px #ffffff);
-    filter: drop-shadow(0px 0px 7px #ffffff);
-    height: 70px;
-}
-
-.dark-logo {
-    -webkit-filter: drop-shadow(0px 0px 7px #ffffff);
-    filter: drop-shadow(0px 0px 7px #ffffff);
-    height: 70px;
-}
+/*  */
 .footer-logo {
     height: 100px;
 }
