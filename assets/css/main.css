@@ -1193,6 +1193,11 @@ body {
     background-image: -webkit-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
     background-image: -ms-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
 }
+.white-gradient {
+    background-image: -moz-linear-gradient(135deg, rgb(144, 144, 144) 0%, rgb(255, 255, 255) 100%);
+    background-image: -webkit-linear-gradient(135deg, rgb(144, 144, 144) 0%, rgb(255, 255, 255) 100%);
+    background-image: -ms-linear-gradient(135deg, rgb(144, 144, 144) 0%, rgb(255, 255, 255) 100%);
+}
 
 .blue-gradient i {
     color: #1073d2;
@@ -1438,7 +1443,7 @@ a.button-work:hover {
 
 .about-image {
     padding: 30px;
-    background: url('../img/about-decirwolf.png') no-repeat top center;
+    background: url('../img/about-decir.png') no-repeat top center;
     background-size: cover;
     background-position: initial;
 }
@@ -2209,4 +2214,16 @@ background:#fff;
     color: 
     #fff;
     opacity: 1;
+}
+.service-text > h3 {
+    font-size: 19px;
+    font-weight: bold;
+    color: 
+    #595959;
+}
+.modal-backdrop{
+    display:none;
+}
+.modal-backdrop.show {
+    display: none !important;
 }

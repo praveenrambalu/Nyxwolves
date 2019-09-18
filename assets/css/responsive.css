@@ -9,7 +9,7 @@
       
     }
     .bg-hero-1 {
-        background: url('../img/nyxgra1.png') no-repeat;
+        background: url('../img/nyxgra4.png') no-repeat;
         background-position: center right;
         background-position-y: 100%;
         background-size: contain;
@@ -103,7 +103,7 @@
         margin-top:-30vh;
     }
     .bg-hero-1 {
-        background: url('../img/hero-1.png') no-repeat;
+        background: url('../img/nyxgra4.png') no-repeat;
         background-position: center right;
         background-position-y: 50vh;
         background-size: contain;
@@ -133,7 +133,7 @@
         padding-bottom: 80px;
     }
     .bg-hero-1 {
-        background: url('../img/hero-1.png') no-repeat;
+        background: url('../img/nyxgra4.png') no-repeat;
         background-position: center right;
         background-position-y: 50vh;
         background-size: contain;
