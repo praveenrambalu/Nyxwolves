@@ -211,7 +211,7 @@ planet.loadPlugin(autorotate(10));
 
 
 // Make the planet fit well in its canvas
-planet.projection.scale(250).translate([300, 300]);
+planet.projection.scale(250).translate([250, 250]);
 var canvas = document.getElementById('globe');
 planet.draw(canvas);
 

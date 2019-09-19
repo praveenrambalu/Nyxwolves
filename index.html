@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!-- Team CSS -->
-    <link rel="stylesheet" href="assets/css/team-style.css">
 
     <style>
         .team-button {
@@ -134,6 +133,8 @@
             z-index: 1;
             display: block;
             font-size: 18px;
+            position: initial !important;
+    transform: none;
         }
 
         .text h3,
@@ -158,6 +159,7 @@
             width: 500px;
             margin: 0 auto;
         }
+
         .content{
 	display:flex;
 /* 	background:black; */
@@ -168,10 +170,62 @@
 #globe{
 /* 	z-index:500; */
 	margin-top:10px;
-	margin-left:5%
+    /* margin-left:5% */
+    height:500px;
+    width:500px;
 	
 }
+
+
+
+
+		/* Extra small devices (phones, 600px and down) */
+		@media only screen and (max-width: 600px) {
+            #globe{
+    height:300px !important;
+    width:300px !important;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    #globe{
+    height:300px !important;
+    width:300px !important;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #globe{
+    height:300px !important;
+    width:300px !important;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    #globe{
+    height:300px !important;
+    width:300px !important;
+}
+} 
+
+
+@media (pointer: coarse) and (hover: none) {
+#globe{
+    height:300px !important;
+    width:300px !important;
+}
+}
+
+
     </style>
+    <link rel="stylesheet" href="assets/css/team-style.css">
 
 </head>
 
@@ -769,8 +823,8 @@
     </section>
     <!-- Testimonial End -->
 
-    <!-- Team Start -->
-    <section class="team between" data-aos="fade-up" data-scroll-index="4" id="team">
+     <!-- Team Start -->
+     <section class="team between" data-aos="fade-up" data-scroll-index="4" id="team">
         <div class="container ">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -871,7 +925,6 @@
                     </div>
                 </div>
             </div>
-
             <!--data-->
             <div class="row">
                 <div class="col-sm-12">
@@ -913,20 +966,19 @@
         </div>
     </section>
     <!-- Team Start -->
-
-    <section class="map-back about between" style="" data-aos="fade-down">
+    <section class="map-back about between" data-aos="fade-down">
         <h1 class="title-text  text-center mb-40"><span class="color-dark">Locations Covered</span></h1>
         <div class="text-center">
+            <!-- <img src="assets/img/decor/nyxmap2.png" style="width: 70vw;  height:70vh;"> -->
             
 <div class="content">
 	
-    <canvas id='globe' width='700' height='700'></canvas>
+    <canvas id='globe' width="500" height="500" ></canvas>
   </div>
-
         </div>
     </section>
 
-    <section class="services-about about between">
+    <section class="services-about about between" style="padding-top:0px;">
         <div class="container">
 
             <div class="row">
@@ -1153,10 +1205,10 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/plugin.js"></script>
-
-
     <script src="assets/js/main.js"></script>
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         $(".openclose").mouseenter(function () {
             var value = $(this).attr('data');
@@ -1172,16 +1224,15 @@
             $("#" + value + "-text").delay(1000).addClass("display-none");
         });
     </script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-      <script type='text/javascript' src='https://d3js.org/d3.v3.min.js'></script>
-      <script type='text/javascript' src='https://d3js.org/topojson.v1.min.js'></script>
-      <script type='text/javascript' src='https://cdn.rawgit.com/BinaryMuse/planetary.js/v1.1.2/dist/planetaryjs.min.js'></script>
-      <script src="js/globe.js"></script>
+    
+      
+  <script>
+    AOS.init();
+  </script>
+  <script type='text/javascript' src='https://d3js.org/d3.v3.min.js'></script>
+  <script type='text/javascript' src='https://d3js.org/topojson.v1.min.js'></script>
+  <script type='text/javascript' src='https://cdn.rawgit.com/BinaryMuse/planetary.js/v1.1.2/dist/planetaryjs.min.js'></script>
+  <script src="js/globe.js"></script>
 </body>
 
 </html>
