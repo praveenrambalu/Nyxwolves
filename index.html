@@ -158,6 +158,19 @@
             width: 500px;
             margin: 0 auto;
         }
+        .content{
+	display:flex;
+/* 	background:black; */
+	justify-content:center;
+	align-items:center;
+}
+
+#globe{
+/* 	z-index:500; */
+	margin-top:10px;
+	margin-left:5%
+	
+}
     </style>
 
 </head>
@@ -904,7 +917,12 @@
     <section class="map-back about between" style="" data-aos="fade-down">
         <h1 class="title-text  text-center mb-40"><span class="color-dark">Locations Covered</span></h1>
         <div class="text-center">
-            <img src="assets/img/decor/nyxmap2.png" style="width: 70vw;  height:70vh;">
+            
+<div class="content">
+	
+    <canvas id='globe' width='700' height='700'></canvas>
+  </div>
+
         </div>
     </section>
 
@@ -1159,6 +1177,11 @@
     <script>
         AOS.init();
     </script>
+
+      <script type='text/javascript' src='https://d3js.org/d3.v3.min.js'></script>
+      <script type='text/javascript' src='https://d3js.org/topojson.v1.min.js'></script>
+      <script type='text/javascript' src='https://cdn.rawgit.com/BinaryMuse/planetary.js/v1.1.2/dist/planetaryjs.min.js'></script>
+      <script src="js/globe.js"></script>
 </body>
 
 </html>
