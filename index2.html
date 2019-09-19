@@ -1,738 +1,210 @@
 <!doctype html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Creativora</title>
+  <title>Planetary.js: Awesome interactive globes for the web</title>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="/semantic/css/semantic.min.css">
+<link type="text/css" rel="stylesheet" href="/css/planetaryjs.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta property="og:image" content="http://planetaryjs.com/images/ex-rotating.png">
+<meta property="og:site_name" content="Planetary.js">
 
-    <!-- Plugin CSs -->
-    <link rel="stylesheet" href="assets/css/plugin.css">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
+  <link href="http://planetaryjs.com/css/prism.css" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Header Start -->
-    <header class="home-1">
-        <nav class="navbar header-nav navbar-expand-lg">
-            <div class="container container-large">
-                <!-- Brand -->
-                <a class="navbar-brand" href="#">
-                    <img class="light-logo" src="assets/img/logo-purple.png" title="" alt="">
-                    <img class="dark-logo" src="assets/img/logo-purple.png" title="" alt="">
-                </a>
-                <!-- / -->
+  <div class='ui fixed inverted large menu main-menu'>
+  <div class='items'>
+    <a class='item title' href='/'>
+      <i class='globe icon'></i>Planetary.js
+    </a>
+    <span class='spacer hide-on-mobile'></span>
+    <a class='item minor ' href='/download/'>
+      <i class='download icon'></i><span class='hide-on-mobile'>Download</span>
+    </a>
+    <a class='item minor active' href='/examples/'>
+      <i class='laptop icon'></i><span class='hide-on-mobile'>Examples</span>
+    </a>
+    <a class='item minor ' href='/documentation/'>
+      <i class='book icon'></i><span class='hide-on-mobile'>Documentation</span>
+    </a>
+    <a class='item minor' href='https://github.com/BinaryMuse/planetary.js'
+      onclick="_gaq.push(['_trackPageview', '/redirect-to-github-project-page']);">
+      <i class='github alternate icon'></i><span class='hide-on-mobile'>Fork on GitHub</span>
+    </a>
+  </div>
+</div>
+
+
+  <div class='content container'>
+    <div class='page ui slim stackable grid'>
+      <div class='sixteen wide column'>
+        <div class="ui breadcrumb">
+  <a href='/examples/' class="section">Examples</a>
+  <i class="right arrow icon divider"></i>
+  <div class="active section">Rotating Globe with Pings</div>
+</div>
+
+<h1>Rotating Globe with Pings</h1>
+
+<p>This code shows the example from the homepage, which rotates, shows randomly positioned, colored, and sized pings on the globe, and supports mouse-based dragging and zooming. It also shows the creation and use of a plugin, which powers the automatic rotation and exposes a public API.</p>
+
+<p>We're using a specially-made TopoJSON file that includes lake data so that we can draw lakes on the globe with a custom plugin, which you can find at the bottom of the JavaScript. The custom TopoJSON was made using the <a href='https://github.com/mbostock/topojson/wiki/Command-Line-Reference'>TopoJSON command-line tool</a> and data from <a href='http://www.naturalearthdata.com/features/'>Natural Earth</a>; you can also <a href='/world-110m-withlakes.json'>download the JSON file</a> for your own use.</p>
+
+<p>The demo also shows how you can keep your globe from looking pixelated on high density displays by changing the canvas' width and height but keeping its <em>displayed</em> width and height the same via CSS styling.</p>
+
+<div style='text-align: center;'>
+  <canvas id='rotatingGlobe' width='400' height='400'
+    style="width: 400px; height: 400px; cursor: move;"></canvas>
+</div>
+
+<div class='ui raised segment'>
+<div class='ui blue ribbon label'>HTML</div>
+<pre class='line-numbers'><code class='language-html'>&lt;canvas id='rotatingGlobe' width='400' height='400'
+  style='width: 400px; height: 400px; cursor: move;'&gt;&lt;/canvas&gt;</code></pre>
+
+<div class='ui red ribbon label'>JavaScript</div>
+<pre class='line-numbers'><code class='language-javascript'>(function() {
+  var globe = planetaryjs.planet();
+  // Load our custom `autorotate` plugin; see below.
+  globe.loadPlugin(autorotate(10));
+  // The `earth` plugin draws the oceans and the land; it's actually
+  // a combination of several separate built-in plugins.
+  //
+  // Note that we're loading a special TopoJSON file
+  // (world-110m-withlakes.json) so we can render lakes.
+  globe.loadPlugin(planetaryjs.plugins.earth({
+    topojson: { file:   '/world-110m-withlakes.json' },
+    oceans:   { fill:   '#000080' },
+    land:     { fill:   '#339966' },
+    borders:  { stroke: '#008000' }
+  }));
+  // Load our custom `lakes` plugin to draw lakes; see below.
+  globe.loadPlugin(lakes({
+    fill: '#000080'
+  }));
+  // The `pings` plugin draws animated pings on the globe.
+  globe.loadPlugin(planetaryjs.plugins.pings());
+  // The `zoom` and `drag` plugins enable
+  // manipulating the globe with the mouse.
+  globe.loadPlugin(planetaryjs.plugins.zoom({
+    scaleExtent: [100, 300]
+  }));
+  globe.loadPlugin(planetaryjs.plugins.drag({
+    // Dragging the globe should pause the
+    // automatic rotation until we release the mouse.
+    onDragStart: function() {
+      this.plugins.autorotate.pause();
+    },
+    onDragEnd: function() {
+      this.plugins.autorotate.resume();
+    }
+  }));
+  // Set up the globe's initial scale, offset, and rotation.
+  globe.projection.scale(175).translate([175, 175]).rotate([0, -10, 0]);
+
+  // Every few hundred milliseconds, we'll draw another random ping.
+  var colors = ['red', 'yellow', 'white', 'orange', 'green', 'cyan', 'pink'];
+  setInterval(function() {
+    var lat = Math.random() * 170 - 85;
+    var lng = Math.random() * 360 - 180;
+    var color = colors[Math.floor(Math.random() * colors.length)];
+    globe.plugins.pings.add(lng, lat, { color: color, ttl: 2000, angle: Math.random() * 10 });
+  }, 150);
+
+  var canvas = document.getElementById('rotatingGlobe');
+  // Special code to handle high-density displays (e.g. retina, some phones)
+  // In the future, Planetary.js will handle this by itself (or via a plugin).
+  if (window.devicePixelRatio == 2) {
+    canvas.width = 800;
+    canvas.height = 800;
+    context = canvas.getContext('2d');
+    context.scale(2, 2);
+  }
+  // Draw that globe!
+  globe.draw(canvas);
+
+  // This plugin will automatically rotate the globe around its vertical
+  // axis a configured number of degrees every second.
+  function autorotate(degPerSec) {
+    // Planetary.js plugins are functions that take a `planet` instance
+    // as an argument...
+    return function(planet) {
+      var lastTick = null;
+      var paused = false;
+      planet.plugins.autorotate = {
+        pause:  function() { paused = true;  },
+        resume: function() { paused = false; }
+      };
+      // ...and configure hooks into certain pieces of its lifecycle.
+      planet.onDraw(function() {
+        if (paused || !lastTick) {
+          lastTick = new Date();
+        } else {
+          var now = new Date();
+          var delta = now - lastTick;
+          // This plugin uses the built-in projection (provided by D3)
+          // to rotate the globe each time we draw it.
+          var rotation = planet.projection.rotate();
+          rotation[0] += degPerSec * delta / 1000;
+          if (rotation[0] &gt;= 180) rotation[0] -= 360;
+          planet.projection.rotate(rotation);
+          lastTick = now;
+        }
+      });
+    };
+  };
+
+  // This plugin takes lake data from the special
+  // TopoJSON we're loading and draws them on the map.
+  function lakes(options) {
+    options = options || {};
+    var lakes = null;
+
+    return function(planet) {
+      planet.onInit(function() {
+        // We can access the data loaded from the TopoJSON plugin
+        // on its namespace on `planet.plugins`. We're loading a custom
+        // TopoJSON file with an object called &quot;ne_110m_lakes&quot;.
+        var world = planet.plugins.topojson.world;
+        lakes = topojson.feature(world, world.objects.ne_110m_lakes);
+      });
+
+      planet.onDraw(function() {
+        planet.withSavedContext(function(context) {
+          context.beginPath();
+          planet.path.context(context)(lakes);
+          context.fillStyle = options.fill || 'black';
+          context.fill();
+        });
+      });
+    };
+  };
+})();</code></pre>
+</div>
+
+<script type='text/javascript' src="http://planetaryjs.com/js/lib/d3.v3.min.js"></script>
+<script type='text/javascript' src="http://planetaryjs.com/js/lib/topojson.v1.min.js"></script>
+<script type="text/javascript" src="http://planetaryjs.com/js/lib/planetaryjs.min.js"></script>
+
+<script type='text/javascript' src='http://planetaryjs.com/examples/rotating.js'></script>
+
+
+      </div>
+    </div>
+  </div>
+  <script type='text/javascript' src='http://planetaryjs.comhttp://planetaryjs.com/js/prism.js'></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46705270-1', 'planetaryjs.com');
+  ga('send', 'pageview');
+</script>
 
-                <!-- Mobile Toggle -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <!-- / -->
-
-                <!-- Top Menu -->
-                <div class="collapse navbar-collapse justify-content-end" id="navbar">
-                    <ul class="navbar-nav ml-auto align-items-center">
-                        <li class="m-dropdown m-mega-menu">
-                            <a class="nav-link" href="#work" data-scroll-nav="0">Home</a>
-                            <i class="fa fa-angle-down m-dropdown-toggle"></i>
-                            <ul class="m-dropdown-menu m-dropdown-mega-menu">
-                                <li>
-                                    <div class="container container-large">
-                                        <div class="row">
-                                            <div class="mm-column col-12 col-md-3 text-center">
-                                                <a href="index-1.html">
-                                                    <p class="mm-header">Home V1</p>
-                                                </a>
-                                                <a href="index-1.html"><img class="img-fluid" src="assets/img/demo/1.jpg"
-                                                        alt="1"></a>
-
-                                            </div> <!-- mm-col -->
-
-                                            <div class="mm-column col-12 col-md-3 text-center">
-                                                <a href="index-2.html">
-                                                    <p class="mm-header">Home V2</p>
-                                                </a>
-
-
-                                                <a href="index-2.html">
-                                                    <img class="img-fluid" src="assets/img/demo/2.jpg" alt="1">
-                                                </a>
-
-                                            </div> <!-- mm-col -->
-
-                                            <div class="mm-column col-12 col-md-3 text-center">
-                                                <a href="index-3.html">
-                                                    <p class="mm-header">Home V3</p>
-                                                </a>
-                                                <a href="index-3.html">
-                                                    <img class="img-fluid" src="assets/img/demo/4.jpg" alt="1">
-                                                </a>
-
-                                            </div> <!-- mm-col -->
-
-                                            <div class="mm-column col-12 col-md-3 text-center">
-                                                <a href="index-4.html">
-                                                    <p class="mm-header">Home V4 dark</p>
-                                                </a>
-                                                <a href="index-4.html">
-                                                    <img class="img-fluid" src="assets/img/demo/3.jpg" alt="1">
-                                                </a>
-
-                                            </div> <!-- mm-col -->
-
-                                        </div> <!-- row -->
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a class="nav-link" href="#services" data-scroll-nav="1">Services</a></li>
-                        <li><a class="nav-link" href="#about" data-scroll-nav="2">About</a></li>
-                        <li><a class="nav-link" href="#services" data-scroll-nav="3">Works</a></li>
-                        <li><a class="nav-link" href="#services" data-scroll-nav="4">Team</a></li>
-                        <li class="m-dropdown m-dropdown-multilevel">
-                            <a class="nav-link" href="#">Pages</a>
-                            <i class="fa fa-angle-down m-dropdown-toggle"></i>
-                            <ul class="m-dropdown-menu">
-                                <li><a href="service-detail.html">Service Detail</a></li>
-                                <li><a href="work-detail.html">Portfolio Detail</a></li>
-                                <li><a href="work-page.html">Portfolio Page</a></li>
-                                <li><a href="service-detail-dark.html">Service Detail Dark</a></li>
-                                <li><a href="work-detail-dark.html">Portfolio Detail Dark</a></li>
-                                <li><a href="work-page-dark.html">Portfolio Page Dark</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="nav-link" href="#contatus" data-scroll-nav="5">Contact</a></li>
-
-
-                    </ul>
-                </div>
-                <!-- / -->
-
-            </div><!-- Container -->
-        </nav> <!-- Navbar -->
-    </header>
-    <!-- Header End -->
-
-    <!-- Hero Start -->
-    <section class="hero bg-hero-1 centered">
-
-        <div class="container ">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="hero-text text-center text-lg-left">
-                        <h1 class="fading">Hello,</h1>
-                        <h1 class="fading">We are <span>Creativora.</span></h1>
-                        <p class="sub-title fading">Web design and development agency that creates rich digital
-                            experiences
-                        </p>
-                        <a class="button-work purple-gradient fading" href="">Start A Project</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- Hero End -->
-
-    <section class="scroll-up" data-scroll-index="0"> <h2>.</h2></section>
-
-    <!-- Service Start -->
-    <section class="services mt-full fading" data-scroll-index="1">
-        <div class="container">
-            <div class="title text-center mb-40">
-                <h2 class="title-text"><span>Services</span></h2>
-                <p>Good design is simple, clear and uncluttered.</p>
-                <div class="dash"></div>
-            </div>
-            <div class=row>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="icon-round blue-gradient">
-                            <i class="fas fa-code az" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
-                        </div>
-                        <div class="service-text text-center">
-                            <h3>Website</h3>
-                            <p> Front-end Development,
-
-                                Back-end Development,
-
-                                E-commerce Solutions,
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="icon-round purple-gradient">
-                            <i class="fas fa-tablet" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
-                        </div>
-                        <div class="service-text text-center">
-                            <h3>Design</h3>
-                            <p>Graphic Design,
-
-                                Custom Illustration,
-
-                                Logo Design,
-
-                                Art Direction,
-
-                                Web Design </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="icon-round green-gradient">
-                            <i class="fas fa-seedling" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
-                        </div>
-                        <div class="service-text text-center">
-                            <h3>Strategy </h3>
-                            <p>Initial Findings & Research,
-
-                                Brand & Advertising Strategy,
-
-
-
-                                User Journeys </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="icon-round red-gradient">
-                            <i class="fas fa-marker" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
-                        </div>
-                        <div class="service-text text-center">
-                            <h3>Copywriting</h3>
-                            <p>Creative Copy,
-
-                                Site Copy,
-
-                                SEO Copy </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="icon-round orange-gradient">
-                            <i class="fas fa-camera-retro" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
-                        </div>
-                        <div class="service-text text-center">
-                            <h3>Photography</h3>
-                            <p>Photo Shoots,
-
-                                Copywriting,
-
-                                Storyboarding,
-
-                                Filming,
-
-                                Editing </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="icon-round pink-gradient">
-                            <i class="fas fa-cube" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
-                        </div>
-                        <div class="service-text text-center">
-                            <h3>Packaging</h3>
-                            <p>Package Design,
-
-                                Sustainable Packaging,
-
-                                All Types of Brand Identity </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Service End -->
-
-    <!-- About Start -->
-    <section class="about between" data-scroll-index="2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 ">
-                    <div class="title text-center">
-                        <h2 class="title-text"><span>About</span></h2>
-                        <p>We're your Creative Agency, since 2010</p>
-                        <div class="dash"></div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="about-slide">
-                        <div class="about-image">
-                            <div class="owl-carousel owl-theme">
-                                <div class="about-item">
-                                    <figure class="blue-gradient">
-                                        <img class="img-fluid" src="assets/img/about/slider-1.jpg" alt="about">
-                                    </figure>
-                                </div>
-                                <div class="about-item">
-                                    <figure class="red-gradient">
-                                        <img class="img-fluid" src="assets/img/about/slider-2.jpg" alt="about">
-                                    </figure>
-                                </div>
-                                <div class="about-item">
-                                    <figure class="dark-orange-gradient">
-                                        <img class="img-fluid" src="assets/img/about/slider-2.jpg" alt="about">
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-5 centered">
-                    <div class="about-text text-center text-lg-left mt-mobile">
-                        <h2>Who We Are</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quas
-                            dolore, exercitationem, quisquam aspernatur at temporibus possimus fugiat fugit nulla iusto
-                            illum delectus iure architecto ea, ex assumenda? Quia, voluptatibus?</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-text text-center text-lg-left mt-mobile mt-40">
-                        <h2>Our Vision</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quas
-                            dolore, exercitationem, quisquam aspernatur at temporibus possimus fugiat fugit nulla iusto
-                            illum delectus iure architecto ea, ex assumenda? Quia, voluptatibus?</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-text text-center text-lg-left mt-mobile mt-40">
-                        <h2>How we work</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quas
-                            dolore, exercitationem, quisquam aspernatur at temporibus possimus fugiat fugit nulla iusto
-                            illum delectus iure architecto ea, ex assumenda? Quia, voluptatibus?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- About End -->
-
-    <!-- Work Start -->
-    <section class="work between" data-scroll-index="3">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="title text-center mb-40">
-                        <h2 class="title-text"><span>Work</span></h2>
-                        <p>Digital Marketing Agency, providing innovative,</p>
-                        <div class="dash"></div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="owl-carousel owl-theme">
-                <div class="work-item">
-                    <div class="row">
-                        <div class="col-12 col-lg-7">
-                            <img class="img-fluid" src="assets/img/work/1.jpg" alt="">
-                        </div>
-                        <div class="col-12 col-lg-5">
-                            <div class="work-title">
-                                <h2>Midnight Town</h2>
-                                <p>Web Development, UI / UX</p>
-                                <a class="button-work purple-gradient" href="">View Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="row">
-                        <div class="col-12 col-lg-7">
-                            <img class="img-fluid" src="assets/img/work/2.jpg" alt="">
-                        </div>
-                        <div class="col-12 col-lg-5">
-                            <div class="work-title">
-                                <h2>Panorama</h2>
-                                <p>Photography / Video</p>
-                                <a class="button-work green-gradient" href="">View Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="row">
-                        <div class="col-12 col-lg-7">
-                            <img class="img-fluid" src="assets/img/work/3.jpg" alt="">
-                        </div>
-                        <div class="col-12 col-lg-5">
-                            <div class="work-title">
-                                <h2>Mombasa</h2>
-                                <p>Branding / Art Direction</p>
-                                <a class="button-work pink-gradient" href="">View Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <div class="row">
-                        <div class="col-12 col-lg-7">
-                            <img class="img-fluid" src="assets/img/work/4.jpg" alt="">
-                        </div>
-                        <div class="col-12 col-lg-5">
-                            <div class="work-title">
-                                <h2>Of Monsters and Men</h2>
-                                <p>Web Development, UI / UX</p>
-                                <a class="button-work dark-orange-gradient" href="">View Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12 text-center mt-40">
-                    <a class="dark-button" href="">VIEW ALL WORKS</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Work End -->
-
-    <!-- Testimonial Start -->
-    <section class="testimonial between">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-4 centered text-center text-lg-left">
-                    <div>
-
-                        <h2 class="title-text">What People Says</h2>
-
-
-                        <p class="sub-title mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="nav-custom mt-40 text-center text-lg-left text-md-left">
-                            <i class="fas fa-arrow-left nav-left"></i>
-                            <i class="fas fa-arrow-right nav-right"></i>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-8">
-                    <div class="testi-content">
-                        <div class="owl-carousel owl-theme">
-                            <div class="testi-item text-center">
-                                <p>"Breakfast agreeable incommode departure it an. By ignorant at on wondered relation.
-                                    Enough at tastes really so cousin am of."</p>
-                                <div class="author">
-                                    <img src="assets/img/photo-1.png" alt="1">
-                                    <p class="author-text">Nattasha, Aloka CEO</p>
-                                </div>
-                            </div>
-                            <div class="testi-item text-center">
-                                <p>"There is nothing to prevent us from living on the Moon. Many books have been
-                                    written on this subject. ."</p>
-                                <div class="author">
-                                    <img src="assets/img/photo-2.png" alt="1">
-                                    <p class="author-text">Rafian Sevent</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="partner mt-40">
-            <div class="container">
-                <div class="owl-carousel owl-theme">
-                    <div class="parter-item">
-                        <img src="assets/img/partner/1.png" alt="1">
-                    </div>
-                    <div class="parter-item">
-                        <img src="assets/img/partner/2.png" alt="1">
-                    </div>
-                    <div class="parter-item">
-                        <img src="assets/img/partner/3.png" alt="1">
-                    </div>
-                    <div class="parter-item">
-                        <img src="assets/img/partner/4.png" alt="1">
-                    </div>
-                    <div class="parter-item">
-                        <img src="assets/img/partner/5.png" alt="1">
-                    </div>
-                    <div class="parter-item">
-                        <img src="assets/img/partner/6.png" alt="1">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial End -->
-
-    <!-- Team Start -->
-    <section class="team between" data-scroll-index="4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="title text-center">
-                        <h2 class="title-text"><span>Team</span></h2>
-                        <p>Good design is simple, clear and uncluttered.</p>
-                        <div class="dash"></div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="owl-carousel owl-theme">
-                <div class="team-slide">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="team-item">
-                                <div class="team-image purple-gradient">
-                                    <figure><img src="assets/img/team/1.jpg" alt="1"/></figure>
-                                </div>
-                                <div class="team-text purple-gradient">
-                                    <h3>Jannifer Lucy</h3>
-                                    <p>Developer</p>
-                                    <ul class="team-social">
-                                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-behance" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-slide">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="team-item">
-                                <div class="team-image red-gradient">
-                                    <figure><img src="assets/img/team/2.jpg" alt="1"/></figure>
-                                </div>
-                                <div class="team-text red-gradient">
-                                    <h3>James Yanto</h3>
-                                    <p>Art Director</p>
-                                    <ul class="team-social">
-                                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-behance" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-slide">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="team-item">
-                                <div class="team-image blue-gradient">
-                                    <figure><img src="assets/img/team/3.jpg" alt="1"/></figure>
-                                </div>
-                                <div class="team-text blue-gradient">
-                                    <h3>Gerard Way</h3>
-                                    <p>Graphic Designer</p>
-                                    <ul class="team-social">
-                                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-behance" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-slide">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="team-item">
-                                <div class="team-image green-gradient">
-                                    <figure><img src="assets/img/team/4.jpg" alt="1"/></figure>
-                                </div>
-                                <div class="team-text green-gradient">
-                                    <h3>Mikayla Jade</h3>
-                                    <p>Senior Marketing</p>
-                                    <ul class="team-social">
-                                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                                        <li><a href=""><i class="fab fa-behance" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team Start -->
-
-  
-
-    <!-- Footer Start -->
-    <section class="work-with mt-80" data-scroll-index="5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <div class="title">
-                        <h2 class="title-text" data-text="CONTACT">LET'S WORK TOGETHER</h2>
-
-                        <p>Get in touch with us to get started.</p>
-                        <div class="dash"></div>
-                        <div class="mt-50"> <a class="light-button" href="mailto:webmaster@example.com">MAIL US</a></div>
-
-                    </div>
-
-                    <a class="to-top purple-gradient" href="#" data-scroll-goto="0">
-                        <i class="fa fa-angle-up" aria-hidden="true"></i>
-                        <p>PAGE</p>
-                        <p>TOP</p>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer footer-type-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <ul class="footer-link">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Service</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Works</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-12 text-center">
-                    <div class="logo-footer mt-90">
-                        <a href=""> <img src="assets/img/logo-dark.png" alt="logo"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-90 text-center">
-                <div class="col-lg-12">
-                    <h2>Get in Touch</h2>
-                </div>
-                <div class="col-lg-4 mt-30">
-                    <i class="fas fa-envelope" aria-hidden="true"></i>
-                    <div>
-                        <a href="">
-                            <p>hello@creativora.com</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-30">
-                    <i class="fas fa-map-marker" aria-hidden="true"></i>
-
-                    <p>Joxostreet 11/98, 56120, Klaten, Central Java, Indonesia</p>
-                </div>
-                <div class="col-lg-4 mt-30">
-                    <i class="fas fa-phone" aria-hidden="true"></i>
-                    <div>
-                        <a href="">
-                            <p>932-321-21-211</p>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="vertical-dash dark-orange-gradient">
-
-            </div>
-            <div class="row  text-center">
-                <div class="col-lg-12">
-                    <h2>Follow us</h2>
-                </div>
-                <div class="col-12 mt-30">
-                    <ul class="footer-social">
-                        <li><a href=""><i class="fab fa-twitter blue-gradient" aria-hidden="true"></i></a></li>
-                        <li><a href=""><i class="fab fa-instagram red-gradient" aria-hidden="true"></i></a></li>
-                        <li><a href=""><i class="fab fa-dribbble green-gradient" aria-hidden="true"></i></a></li>
-                        <li><a href=""><i class="fab fa-behance purple-gradient" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-12 mt-30">
-                    <p> &copy; 2018 Copyright Creativora</p>
-
-                    <p>Crafted with <i class="fa fa-heart" aria-hidden="true"></i> by <span>Cingunt</span></p>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-    <!-- Footer End -->
-
-    <!-- Optional JavaScript -->
-    <script src="assets/js/plugin.js"></script>
-
-    <script src="assets/js/main.js"></script>
 </body>
-
 </html>
