@@ -134,7 +134,7 @@
             display: block;
             font-size: 18px;
             position: initial !important;
-    transform: none;
+            transform: none;
         }
 
         .text h3,
@@ -160,70 +160,68 @@
             margin: 0 auto;
         }
 
-        .content{
-	display:flex;
-/* 	background:black; */
-	justify-content:center;
-	align-items:center;
-}
+        .content {
+            display: flex;
+            /* 	background:black; */
+            justify-content: center;
+            align-items: center;
+        }
 
-#globe{
-/* 	z-index:500; */
-	margin-top:10px;
-    /* margin-left:5% */
-    height:500px;
-    width:500px;
-	
-}
+        #globe {
+            /* 	z-index:500; */
+            margin-top: 10px;
+            /* margin-left:5% */
+            height: 500px;
+            width: 500px;
 
-
+        }
 
 
-		/* Extra small devices (phones, 600px and down) */
-		@media only screen and (max-width: 600px) {
-            #globe{
-    height:300px !important;
-    width:300px !important;
-}
 
 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-
-    #globe{
-    height:300px !important;
-    width:300px !important;
-}
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    #globe{
-    height:300px !important;
-    width:300px !important;
-}
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-    #globe{
-    height:300px !important;
-    width:300px !important;
-}
-} 
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            #globe {
+                height: 300px !important;
+                width: 300px !important;
+            }
 
 
-@media (pointer: coarse) and (hover: none) {
-#globe{
-    height:300px !important;
-    width:300px !important;
-}
-}
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (max-width: 600px) {
+
+            #globe {
+                height: 300px !important;
+                width: 300px !important;
+            }
+
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            #globe {
+                height: 300px !important;
+                width: 300px !important;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (max-width: 992px) {
+            #globe {
+                height: 300px !important;
+                width: 300px !important;
+            }
+        }
 
 
+        @media (pointer: coarse) and (hover: none) {
+            #globe {
+                height: 300px !important;
+                width: 300px !important;
+            }
+        }
     </style>
     <link rel="stylesheet" href="assets/css/team-style.css">
 
@@ -257,8 +255,8 @@
                         <li><a class="nav-link" href="index.html" data-scroll-nav="0">Home</a></li>
                         <li><a class="nav-link" href="#services" data-scroll-nav="1">Services</a></li>
                         <li><a class="nav-link" href="#about" data-scroll-nav="2">About</a></li>
-                        <li><a class="nav-link" href="#services" data-scroll-nav="3">Works</a></li>
-                        <li><a class="nav-link" href="#services" data-scroll-nav="4">Team</a></li>
+                        <li><a class="nav-link" href="#works" data-scroll-nav="3">Works</a></li>
+                        <li><a class="nav-link" href="#team" data-scroll-nav="5">Team</a></li>
                         <!-- <li class="m-dropdown m-dropdown-multilevel">
                                 <a class="nav-link" href="#">Pages</a>
                                 <i class="fa fa-angle-down m-dropdown-toggle"></i>
@@ -271,9 +269,9 @@
                                     <li><a href="work-page-dark.html">Portfolio Page Dark</a></li>
                                 </ul>
                             </li> -->
-                        <li><a class="nav-link" href="#contactus" data-scroll-nav="5">Contact</a></li>
-                        <li><a class="nav-link" href="#contactus" data-scroll-nav="5">Testimonials</a></li>
-                        <li><a class="nav-link" href="#contactus" data-scroll-nav="5">Locations</a></li>
+                        <li><a class="nav-link" href="#contactus" data-scroll-nav="7">Contact</a></li>
+                        <li><a class="nav-link" href="#testimonials" data-scroll-nav="4">Testimonials</a></li>
+                        <li><a class="nav-link" href="#location" data-scroll-nav="6">Locations</a></li>
                     </ul>
                 </div>
                 <!-- / -->
@@ -603,7 +601,7 @@
                         </div>
                     </div>
                 </div>
-              
+
 
             </div>
         </div>
@@ -758,7 +756,7 @@
         </div>
     </section>
     <!-- Testimonial Start -->
-    <section class="testimonial between">
+    <section class="testimonial between" id="testimonials" data-scroll-index="4"> 
 
         <div class="container">
 
@@ -780,6 +778,14 @@
                 <div class="col-lg-8">
                     <div class="testi-content">
                         <div class="owl-carousel owl-theme">
+                                <div class="testi-item text-center">
+                                        <p>"Breakfast agreeable incommode departure it an. By ignorant at on wondered relation.
+                                            Enough at tastes really so cousin am of."</p>
+                                        <div class="author">
+                                            <img src="assets/img/photo-1.png" alt="1">
+                                            <p class="author-text">Nattasha, Aloka CEO</p>
+                                        </div>
+                                    </div>
                             <div class="testi-item text-center">
                                 <img src="assets/img/testimonial/1.jpg">
                             </div>
@@ -825,8 +831,8 @@
     </section>
     <!-- Testimonial End -->
 
-     <!-- Team Start -->
-     <section class="team between" data-aos="fade-up" data-scroll-index="4" id="team">
+    <!-- Team Start -->
+    <section class="team between" data-aos="fade-up" data-scroll-index="5" id="team">
         <div class="container ">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -955,6 +961,55 @@
                     </div>
                 </div>
             </div>
+            <!--data-->
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-sm-12">
+                    <div class="text-header display-none" id="1-text">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="text red-gradient">
+                                    <h3>Mikayla Jade</h3>
+                                    <p>Senior Marketing</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-header display-none" id="2-text">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text orange-gradient">
+                                    <h3>Mikayla Jade</h3>
+                                    <p>Senior Marketing</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-header display-none" id="3-text">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text green-gradient">
+                                    <h3>Mikayla Jade</h3>
+                                    <p>Senior Marketing</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-header display-none" id="4-text">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text purple-gradient">
+                                    <h3>Mikayla Jade</h3>
+                                    <p>Senior Marketing</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="popular-articles" id="articles">
                 <div class="mini-card-grid">
                     <div class="col-md-3 team-slide mini-card openclose" data="5" id="5-card">
@@ -1071,53 +1126,10 @@
                     </div>
                 </div>
             </div>
+
             <!--data-->
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="text-header display-none" id="1-text">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="text red-gradient">
-                                    <h3>Mikayla Jade</h3>
-                                    <p>Senior Marketing</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-header display-none" id="2-text">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text orange-gradient">
-                                    <h3>Mikayla Jade</h3>
-                                    <p>Senior Marketing</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-header display-none" id="3-text">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text green-gradient">
-                                    <h3>Mikayla Jade</h3>
-                                    <p>Senior Marketing</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-header display-none" id="4-text">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text purple-gradient">
-                                    <h3>Mikayla Jade</h3>
-                                    <p>Senior Marketing</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="text-header display-none" id="5-text">
                         <div class="row">
                             <div class="col-lg-12">
@@ -1167,15 +1179,15 @@
         </div>
     </section>
     <!-- Team Start -->
-    <section class="map-back about between" data-aos="fade-down">
+    <section class="map-back about between" data-aos="fade-down"  data-scroll-index="6" id="location">
         <h1 class="title-text  text-center mb-40"><span class="color-dark">Locations Covered</span></h1>
         <div class="text-center">
             <!-- <img src="assets/img/decor/nyxmap2.png" style="width: 70vw;  height:70vh;"> -->
-            
-<div class="content">
-	
-    <canvas id='globe' width="500" height="500" ></canvas>
-  </div>
+
+            <div class="content">
+
+                <canvas id='globe' width="500" height="500"></canvas>
+            </div>
         </div>
     </section>
 
@@ -1220,7 +1232,7 @@
 
 
     <!-- Footer Start -->
-    <section class="work-with mt-80 " data-scroll-index="5" id="contactus">
+    <section class="work-with mt-80 " data-scroll-index="7" id="contactus">
         <div class="container">
             <div class="row">
 
@@ -1425,15 +1437,16 @@
             $("#" + value + "-text").delay(1000).addClass("display-none");
         });
     </script>
-    
-      
-  <script>
-    AOS.init();
-  </script>
-  <script type='text/javascript' src='https://d3js.org/d3.v3.min.js'></script>
-  <script type='text/javascript' src='https://d3js.org/topojson.v1.min.js'></script>
-  <script type='text/javascript' src='https://cdn.rawgit.com/BinaryMuse/planetary.js/v1.1.2/dist/planetaryjs.min.js'></script>
-  <script src="js/globe.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+    <script type='text/javascript' src='https://d3js.org/d3.v3.min.js'></script>
+    <script type='text/javascript' src='https://d3js.org/topojson.v1.min.js'></script>
+    <script type='text/javascript' src='https://cdn.rawgit.com/BinaryMuse/planetary.js/v1.1.2/dist/planetaryjs.min.js'>
+    </script>
+    <script src="js/globe.js"></script>
 </body>
 
 </html>

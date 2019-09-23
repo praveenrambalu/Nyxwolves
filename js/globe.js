@@ -7,8 +7,8 @@ planet.loadPlugin(planetaryjs.plugins.earth({
   topojson: { file: 'https://raw.githubusercontent.com/BinaryMuse/planetary.js/v1.1.2/dist/world-110m.json' },
   /* Let's add some color to the globe */
   oceans:   { fill:   '#fff' },
-  land:     { fill:   '#00f' },
-  borders:  { stroke: '#00f' }
+  land:     { fill:   '#0443b7' },
+  borders:  { stroke: '#0443b7' }
 }));
 planet.loadPlugin(planetaryjs.plugins.pings());
 // Load our custom autorotate plugin

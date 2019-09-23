@@ -287,7 +287,7 @@
             loop: true,
             margin: 30,
             mouseDrag: false,
-            autoplay: false,
+            autoplay: true,
             center: false,
             dots: false,
             dragEndSpeed: 700,

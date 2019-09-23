@@ -42,10 +42,18 @@
             border-bottom: 1px solid #5e5e5e;
         }
 
+        .gallery_product h2 {
+            text-align: center
+        }
+
+        .gallery_product h4 {
+            text-align: justify
+        }
+
         .filter-button {
             margin-bottom: 30px;
             padding: 7px 15px;
-            /* padding-right: 11px !important; */
+            padding-right: 15px !important;
             color: #fff;
             background-color: transparent;
             font-size: 12px;
@@ -62,8 +70,6 @@
             padding: 10px 20px;
             border: 2px #aaa solid;
             border-radius: 30px;
-            padding-right: 0px;
-
         }
 
         .filter-button:hover {
@@ -127,39 +133,35 @@
     
                             <li><a class="nav-link" href="index.html">Home</a></li>
                             <li class="m-dropdown m-dropdown-multilevel">
-                                    <a class="nav-link" href="services.html">Services</a>
-                                    <i class="fa fa-angle-down m-dropdown-toggle"></i>
-                                    <ul class="m-dropdown-menu">
-                                        <li><a href="services/Business.html">Business</a></li>
-                                        <li><a href="services/CopyWriting.html">Copy Writing</a></li>
-                                        <li><a href="services/Design.html">Design</a></li>
-                                        <li><a href="services/Digital Marketing.html">Digital Marketing</a></li>
-                                        <li><a href="services/Digital Transform.html">Digital Transform</a></li>
-                                        <li><a href="services/Startup Setup.html">Startup Setup</a></li>
-                                        <li><a href="services/Strategy.html">Strategy</a></li>
-                                        <li><a href="services/Video Production.html">Video Production</a></li>
-                                        <li><a href="services/Web Design.html">Web Design</a></li>
-    
-                                      
-                                    </ul>
-                                </li>
-                            <li class="m-dropdown m-dropdown-multilevel">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                <a class="nav-link" href="services.html">Services</a>
                                 <i class="fa fa-angle-down m-dropdown-toggle"></i>
                                 <ul class="m-dropdown-menu">
-                                        <li><a href="content.html">Content Writing</a></li>
-                                        <li><a href="graphics.html">Graphics Design</a></li>
-                                        <li><a href="Digital Marketing.html">Digital Marketing</a></li>
-                                        <li><a href="Digital Transform.html">Digital Transform</a></li>
-                                        <li><a href="Startup Setup.html">Startup Setup</a></li>
-                                        <li><a href="video.html">Video Production</a></li>
-                                        <li><a href="web.html">Web Design</a></li>
-                                        <li><a href="UI_UX.html">UI / UX Design</a></li>
-    
-                                    
-    
+                                    <li><a href="services/Business.html">Business</a></li>
+                                    <li><a href="services/CopyWriting.html">Copy Writing</a></li>
+                                    <li><a href="services/Design.html">Design</a></li>
+                                    <li><a href="services/Digital Marketing.html">Digital Marketing</a></li>
+                                    <li><a href="services/Digital Transform.html">Digital Transform</a></li>
+                                    <li><a href="services/Startup Setup.html">Startup Setup</a></li>
+                                    <li><a href="services/Strategy.html">Strategy</a></li>
+                                    <li><a href="services/Video Production.html">Video Production</a></li>
+                                    <li><a href="services/Web Design.html">Web Design</a></li>
+                                  
                                 </ul>
                             </li>
+                            <li class="m-dropdown m-dropdown-multilevel">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    <i class="fa fa-angle-down m-dropdown-toggle"></i>
+                                    <ul class="m-dropdown-menu">
+                                            <li><a href="web.html">Web Design</a></li>
+    
+                                            <li><a href="graphics.html">Graphics Design</a></li>
+                                            <li><a href="content.html">Content Writing</a></li>
+                                            <li><a href="video.html">Video Production</a></li>
+                                            <li><a href="Digital Marketing.html">Digital Marketing</a></li>
+                                            <li><a href="Digital Transform.html">Digital Transform</a></li>
+                                            <li><a href="Startup Setup.html">Startup Setup</a></li>
+                                    </ul>
+                                </li>
                         </ul>
                     </div>
                 <!-- / -->
@@ -203,7 +205,8 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm-11">
                     <div style="text-align: center">
-                        <button class="light-button filter-button" data-filter="all" style="padding-right: 15px;">All</button>
+                        <button class="light-button filter-button" data-filter="all"
+                            style="padding-right: 15px;">All</button>
 
                         <button class="light-button filter-button" data-filter="Blog">Blog
                             <input type="checkbox" value="Blog" id="Blog"></button>
@@ -230,271 +233,331 @@
 
 
                 <div>
-                    <div data-img="./images/portfolio/content/article (1).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Review">
-                        <img src="./images/portfolio/content/article (1).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>ARTICLE</h2></div></div>
+                    <div data-img="./images/portfolio/content/article (1).jpeg" data-toggle="modal"
+                        data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Review">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/article (1).jpeg" class="img-responsive  portfolio-img">
+                        <h2 class="title-text">ARTICLE</h2>
+                      </a>
+                            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit.</h4>
+                        
+
                     </div>
-                    <div data-img="./images/portfolio/content/article (2).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Review">
-                        <img src="./images/portfolio/content/article (2).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>ARTICLE</h2></div></div>
+                    <div data-img="./images/portfolio/content/article (2).jpeg" data-toggle="modal"
+                        data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Review">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/article (2).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">ARTICLE</h2>
+                        </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                           
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/article (3).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Review">
-                        <img src="./images/portfolio/content/article (3).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>ARTICLE</h2></div></div>
+                    <div data-img="./images/portfolio/content/article (3).jpeg" data-toggle="modal"
+                        data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Review">
+                            <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/article (3).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">ARTICLE</h2>
+                         </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                           
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/research (1).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Research">
-                        <img src="./images/portfolio/content/research (1).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>Research</h2></div></div>
+                    <div data-img="./images/portfolio/content/research (1).jpeg" data-toggle="modal"
+                        data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Research">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/research (1).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">RESEARCH</h2>
+                            </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                           
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/research (2).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Research">
-                        <img src="./images/portfolio/content/research (2).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>Research</h2></div></div>
+                    <div data-img="./images/portfolio/content/research (2).jpeg" data-toggle="modal"
+                        data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Research"> 
+                         <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/research (2).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">RESEARCH</h2>
+                          </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                            
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/research (3).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Research">
-                        <img src="./images/portfolio/content/research (3).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>Research</h2></div></div>
+                    <div data-img="./images/portfolio/content/research (3).jpeg" data-toggle="modal"
+                        data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Research">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/research (3).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">RESEARCH</h2>
+                           </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                            
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/news (1).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter News">
-                        <img src="./images/portfolio/content/news (1).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>news</h2></div></div>
+                    <div data-img="./images/portfolio/content/news (1).jpeg" data-toggle="modal" data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter News">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/news (1).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">NEWS</h2>
+                            </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                           
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/news (2).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter News">
-                        <img src="./images/portfolio/content/news (2).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>news</h2></div></div>
+                    <div data-img="./images/portfolio/content/news (2).jpeg" data-toggle="modal" data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter News">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/news (2).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">NEWS</h2>
+                           </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                           
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/news (3).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter News">
-                        <img src="./images/portfolio/content/news (3).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>news</h2></div></div>
+                    <div data-img="./images/portfolio/content/news (3).jpeg" data-toggle="modal" data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter News">
+                                    <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/news (3).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">NEWS</h2>
+                                 </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                           
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/blog (1).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
-                        <img src="./images/portfolio/content/blog (1).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>blog</h2></div></div>
+                    <div data-img="./images/portfolio/content/blog (1).jpeg" data-toggle="modal" data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/blog (1).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">BLOG</h2>
+                             </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                          
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/blog (2).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
-                        <img src="./images/portfolio/content/blog (2).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>blog</h2></div></div>
+                    <div data-img="./images/portfolio/content/blog (2).jpeg" data-toggle="modal" data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/blog (2).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">BLOG</h2>
+                        </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                          
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/blog (3).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
-                        <img src="./images/portfolio/content/blog (3).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>blog</h2></div></div>
+                    <div data-img="./images/portfolio/content/blog (3).jpeg" data-toggle="modal" data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/blog (3).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text"> BLOG</h2>
+                            </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                          
+                        </center>
                     </div>
-                    <div data-img="./images/portfolio/content/blog (4).jpeg" data-toggle="modal" data-target="#myModal" class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
-                        <img src="./images/portfolio/content/blog (4).jpeg" class="img-responsive  portfolio-img" >      <div class="portfolio_overlay" ><div class="text"><h2>blog</h2></div></div>
+                    <div data-img="./images/portfolio/content/blog (4).jpeg" data-toggle="modal" data-target="#myModal"
+                        class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Blog">
+                        <a href="./content blog/content detail.html">
+                        <img src="./images/portfolio/content/blog (4).jpeg" class="img-responsive  portfolio-img">
+                        <center>
+                            <h2 class="title-text">BLOG</h2>
+                    </a>
+                                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit.</h4>
+                           
+                        </center>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+  <!-- Service 3 Start -->
+  <section class="dark service-3 between">
+        <h2 class="title-text text-center mb-40"> <span>Other Portfolios </span> </h2>
 
-   <!-- all secion -->
-   <div class="container">
-        <h2 class="title-text text-center mb-40 mt-90"> <span>Other Portfolios </span> </h2>
+        <div class="container">
 
-        <div class="row">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-4-item service-item">
-                        <div class="icon-round red-gradient">
-                            <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="service-3-item ">
+                        <div class=" icon-service-3
+                        green-gradient">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
                         </div>
-                        <div class="service-text text-center">
-                            <h3 class="">Design & Branding</h3>
-                            <p>Graphic Design,
-
-                                Logo Design,
-
-                                Art Direction,
-
-                                Web Design </p>
+                        <div class="service-3-text">
+                            <h3 class="">Graphics Design</h3>
+                            <div class="line"></div>
+                            <p class="">By using the latest coding practices, embracing new…</p>
                             <div class="service-3-link mt-30">
-                                <a href="Design.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
+                                <a href="graphics.html">More info &nbsp; <i class="fa fa-angle-right"
                                         aria-hidden="true"></i> </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-4-item service-item">
-                        <div class="icon-round green-gradient">
-                            <i class="fas fa-code" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
+                <div class="col-lg-4">
+                    <div class="service-3-item ">
+                        <div class="icon-service-3 red-gradient">
+                            <i class="fas fa-code"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
                         </div>
-                        <div class="service-text text-center">
-                            <h3 class="">Web Designing & Development</h3>
-                            <p> Front-end Development,
-
-                                Back-end Development,
-
-                                E-commerce Solutions,
-                            </p>
+                        <div class="service-3-text">
+                            <h3 class="">Web Design & Development</h3>
+                            <div class="line"></div>
+                            <p class="">Good web design is simple, clear and uncluttered. Our…</p>
                             <div class="service-3-link mt-30">
-                                <a href="Web Design.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
+                                <a href="web.html">More info &nbsp; <i class="fa fa-angle-right"
                                         aria-hidden="true"></i> </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
-            
-            
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-4-item service-item">
-                        <div class="icon-round orange-gradient">
-                            <i class="fas fa-pen-fancy" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
+
+              
+
+                <div class="col-lg-4">
+                    <div class="service-3-item ">
+                        <div class="icon-service-3  blue-gradient">
+                            <i class="fas fa-pen-fancy"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
                         </div>
-                        <div class="service-text text-center">
+                        <div class="service-3-text">
                             <h3 class="">Copywriting</h3>
-                            <p>Creative Copy,
-
-                                Site Copy,
-
-                                SEO Copy,
-                                Article Copy</p>
+                            <div class="line"></div>
+                            <p class="">We are here to help your website achieve the valuable organic..</p>
                             <div class="service-3-link mt-30">
-                                <a href="CopyWriting.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
+                                <a href="content.html">More info &nbsp; <i class="fa fa-angle-right"
                                         aria-hidden="true"></i> </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-4-item service-item">
-                        <div class="icon-round red-gradient">
-                            <i class="fas fa-digital-tachograph" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
+
+                <div class="col-lg-4">
+                    <div class="service-3-item ">
+                        <div class="icon-service-3  green-gradient">
+                            <i class="fas fa-digital-tachograph"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
                         </div>
-                        <div class="service-text text-center">
+                        <div class="service-3-text">
                             <h3 class="">Digital Transformation</h3>
-                            <p>Creative Copy,
-
-                                Site Copy,
-
-                                SEO Copy,
-                                Article Copy</p>
+                            <div class="line"></div>
+                            <p class="">Our range of programmes and services are aimed at…</p>
                             <div class="service-3-link mt-30">
-                                <a href="Digital Transform.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
+                                <a href="digital transform.html">More info &nbsp; <i class="fa fa-angle-right"
                                         aria-hidden="true"></i> </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-4-item service-item">
-                        <div class="icon-round green-gradient">
-                            <i class="fas fa-ad" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
+                <div class="col-lg-4 ">
+                    <div class="service-3-item ">
+                        <div class="icon-service-3 red-gradient">
+                            <i class="fas fa-ad"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
                         </div>
-                        <div class="service-text text-center">
+                        <div class="service-3-text">
                             <h3 class="">Digital Marketing</h3>
-                            <p>Photo Shoots,
-
-                                Copywriting,
-
-                                Storyboarding,
-
-                                Filming,
-
-                                Editing </p>
+                            <div class="line "></div>
+                            <p class="">Our range of programmes and services are aimed at…</p>
                             <div class="service-3-link mt-30">
-                                <a href="Digital Marketing.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
+                                <a href="digital marketing.html">More info &nbsp; <i class="fa fa-angle-right"
                                         aria-hidden="true"></i> </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-4-item service-item">
-                        <div class="icon-round red-gradient">
-                            <i class="fas fa-video" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
+                <div class="col-lg-4 ">
+                    <div class="service-3-item ">
+                        <div class="icon-service-3 blue-gradient">
+                            <i class="fas fa-video"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
                         </div>
-                        <div class="service-text text-center">
+                        <div class="service-3-text">
                             <h3 class="">Video Production</h3>
-                            <p>Photo Shoots,
-
-                                Copywriting,
-
-                                Storyboarding,
-
-                                Filming,
-
-                                Editing </p>
+                            <div class="line "></div>
+                            <p class="">Our range of programmes and services are aimed at…</p>
                             <div class="service-3-link mt-30">
-                                <a href="Video Production.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
+                                <a href="video.html">More info &nbsp; <i class="fa fa-angle-right"
                                         aria-hidden="true"></i> </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-4-item service-item">
-                        <div class="icon-round green-gradient">
-                            <i class="fas fa-store" aria-hidden="true"></i>
-                            <div class="dots"></div>
-                            <div class="dots-2"></div>
-                            <div class="dots-3"></div>
-                            <div class="dots-4"></div>
+                <div class="col-lg-4 "></div>
+                <div class="col-lg-4 ">
+                    <div class="service-3-item ">
+                        <div class="icon-service-3 red-gradient">
+                            <i class="fas fa-store"></i>
+                            <i class="far fa-circle"></i>
+                            <i class="far fa-circle"></i>
                         </div>
-                        <div class="service-text text-center">
+                        <div class="service-3-text">
                             <h3 class="">Startup Setup</h3>
-                            <p>Photo Shoots,
-
-                                Copywriting,
-
-                                Storyboarding,
-
-                                Filming,
-
-                                Editing </p>
+                            <div class="line "></div>
+                            <p class="">Our range of programmes and services are aimed at…</p>
                             <div class="service-3-link mt-30">
-                                <a href="Startup Setup.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
+                                <a href="startup setup.html">More info &nbsp; <i class="fa fa-angle-right"
                                         aria-hidden="true"></i> </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6">
-                        <div class="service-4-item service-item">
-                            <div class="icon-round orange-gradient">
-                                <i class="fas fa-magic" aria-hidden="true"></i>
-                                <div class="dots"></div>
-                                <div class="dots-2"></div>
-                                <div class="dots-3"></div>
-                                <div class="dots-4"></div>
-                            </div>
-                            <div class="service-text text-center">
-                                <h3 class="">UI / UX Design</h3>
-                                <p>Package Design,
-    
-                                    Sustainable Packaging,
-    
-                                    All Types of Brand Identity </p>
-                                <div class="service-3-link mt-30">
-                                    <a href="UI_UX.html">View Portfolio &nbsp; <i class="fa fa-angle-right"
-                                            aria-hidden="true"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+              
 
             </div>
-</div>
-<!-- all section end -->
+        </div>
+    </section>
+    <!-- Service 3 End -->
 
 
-   <!-- Footer Start -->
-   <section class="work-with mt-80 " data-scroll-index="5" id="contactus">
+    <!-- Footer Start -->
+    <section class="work-with mt-80 " data-scroll-index="5" id="contactus">
         <div class="container">
             <div class="row">
 
@@ -513,12 +576,12 @@
                             <p>PAGE</p>
                             <p>TOP</p>
                         </a> -->
-                  
+
 
                 </div>
                 <div class="col-lg-7">
-                        <h2 class="title-text" data-text="CONTACT">Contact Us</h2>
-<br>
+                    <h2 class="title-text" data-text="CONTACT">Contact Us</h2>
+                    <br>
                     <form action="" method="get" id="contact-form">
                         <div class="row">
                             <div class="col-lg-4">
@@ -540,26 +603,28 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="form-group">
-                                    <textarea name="message" id="" cols="30" rows="1" class="form-control" placeholder="Message Here" style="resize: none;"></textarea>
+                                    <textarea name="message" id="" cols="30" rows="1" class="form-control"
+                                        placeholder="Message Here" style="resize: none;"></textarea>
                                     <!-- <input type="text" name="" id="" class="form-control" placeholder="Name"> -->
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="form-group">
-                                    <button type="submit" name="submit" id=""  class="light-button btn-block">Send</button>
+                                    <button type="submit" name="submit" id=""
+                                        class="light-button btn-block">Send</button>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
-                
+
             </div>
         </div>
     </section>
     <footer class="footer footer-type-2">
         <div class="container">
             <div class="row">
-              
+
 
                 <div class="col-lg-12 text-center">
                     <div class="logo-footer ">
@@ -603,86 +668,91 @@
                 </div>
                 <div class="col-12 mt-30">
                     <ul class="footer-social">
-                        <li><a href="https://www.facebook.com/nyxwolves"><i class="fab fa-facebook blue-gradient" aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/nyxwolves"><i class="fab fa-twitter blue-gradient" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.instagram.com/nyxwolves/"><i class="fab fa-instagram blue-gradient" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/nyxwolves"><i class="fab fa-facebook blue-gradient"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/nyxwolves"><i class="fab fa-twitter blue-gradient"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/nyxwolves/"><i class="fab fa-instagram blue-gradient"
+                                    aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-           
-            </div>
-            
-        </div>
-        <div class="col-12"  style="background:#252525; min-height: 100px; color:#fff; padding:50px;">
-<div class="container">
-    <div class="row">
-    <div class="col-sm-3">
-        <h2 class="text-white">Quick Links</h2>
-        <ul class="quick-links mt-4">
-                <li><a class="" href="index.html" data-scroll-nav="0">Home</a></li>
-                <li><a class="" href="index.html#services" data-scroll-nav="1">Service</a></li>
-                <li><a class="" href="index.html#about" data-scroll-nav="2">About</a></li>
-                <li><a class="" href="" data-scroll-nav="3">Works</a></li>
-                <li><a class="" href="" data-scroll-nav="4">Team</a></li>
-                <li><a class="" href="" data-scroll-nav="5">Contact</a></li>
-        </ul>
-    </div>
-    <div class="col-sm-3">
-            <h2 class="text-white">Services</h2>
-            <ul class="quick-links mt-4">
-                    <li><a href="services/Business.html">Business</a></li>
-                    <li><a href="services/CopyWriting.html">Copy Writing</a></li>
-                    <li><a href="services/Design.html">Design</a></li>
-                    <li><a href="services/Digital Marketing.html">Digital Marketing</a></li>
-                    <li><a href="services/Digital Transform.html">Digital Transform</a></li>
-                   
-            </ul>
-    </div>
-    <div class="col-sm-3">
-            <ul class="quick-links mt-lg-5">
-                  
-                    <li><a href="services/Startup Setup.html">Startup Setup</a></li>
-                    <li><a href="services/Strategy.html">Strategy</a></li>
-                    <li><a href="services/Video Production.html">Video Production</a></li>
-                    <li><a href="services/Web Design.html">Web Design</a></li>
-            </ul>
-    </div>
-    <div class="col-sm-3">
-            <h2 class="text-white">Portfolio</h2>
-            <ul class="quick-links mt-4">
-                    <li><a href="web.html">Web Designing & Development</a></li>
-                    <li><a href="graphics.html">Graphics Design</a></li>
-                    <li><a href="content.html">Content Writing</a></li>
-                    <li><a href="video.html">Video Production</a></li>
-            </ul>
-    </div>
-</div>
-</div>
-<div class="container">
-    <div class="col-12 mt-30 text-center text-white">
-            <p> &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> All Rights Reserved</p>
 
-         
-        </div>
-</div>
             </div>
-           
-           
-    </footer>
-    <!-- Footer End -->
-    <div class="modal" id="myModal" role="dialog" >
-            <div class="modal-overlay"></div>
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <img src="" alt="Image" id="modalimg" width="100%">
+
+        </div>
+        <div class="col-12" style="background:#252525; min-height: 100px; color:#fff; padding:50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h2 class="text-white">Quick Links</h2>
+                        <ul class="quick-links mt-4">
+                            <li><a class="" href="index.html" data-scroll-nav="0">Home</a></li>
+                            <li><a class="" href="index.html#services" data-scroll-nav="1">Service</a></li>
+                            <li><a class="" href="index.html#about" data-scroll-nav="2">About</a></li>
+                            <li><a class="" href="" data-scroll-nav="3">Works</a></li>
+                            <li><a class="" href="" data-scroll-nav="4">Team</a></li>
+                            <li><a class="" href="" data-scroll-nav="5">Contact</a></li>
+                        </ul>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <div class="col-sm-3">
+                        <h2 class="text-white">Services</h2>
+                        <ul class="quick-links mt-4">
+                            <li><a href="services/Business.html">Business</a></li>
+                            <li><a href="services/CopyWriting.html">Copy Writing</a></li>
+                            <li><a href="services/Design.html">Design</a></li>
+                            <li><a href="services/Digital Marketing.html">Digital Marketing</a></li>
+                            <li><a href="services/Digital Transform.html">Digital Transform</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="quick-links mt-lg-5">
+
+                            <li><a href="services/Startup Setup.html">Startup Setup</a></li>
+                            <li><a href="services/Strategy.html">Strategy</a></li>
+                            <li><a href="services/Video Production.html">Video Production</a></li>
+                            <li><a href="services/Web Design.html">Web Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2 class="text-white">Portfolio</h2>
+                        <ul class="quick-links mt-4">
+                            <li><a href="web.html">Web Designing & Development</a></li>
+                            <li><a href="graphics.html">Graphics Design</a></li>
+                            <li><a href="content.html">Content Writing</a></li>
+                            <li><a href="video.html">Video Production</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="col-12 mt-30 text-center text-white">
+                    <p> &copy; <script type="text/javascript">
+                            document.write(new Date().getFullYear());
+                        </script> All Rights Reserved</p>
+
+
+                </div>
+            </div>
         </div>
+
+
+    </footer>
+    <!-- Footer End -->
+    <div class="modal" id="myModal" role="dialog">
+        <div class="modal-overlay"></div>
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" alt="Image" id="modalimg" width="100%">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <script src="assets/js/plugin.js"></script>
@@ -728,7 +798,7 @@
             $(this).addClass("active");
 
 
-            $(".gallery_product").click(function() {
+            $(".gallery_product").click(function () {
                 var a = $(this).data("img");
                 // alert(a);
                 $("#modalimg").attr("src", a)
