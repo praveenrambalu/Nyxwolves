@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Portfolio - Content Writing</title>
+    <title>Portfolio - UI / UX Design</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -19,9 +19,7 @@
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
         .gallery-title {
             font-size: 36px;
@@ -40,18 +38,10 @@
             border-bottom: 1px solid #5e5e5e;
         }
 
-        .gallery_product h2 {
-            text-align: center
-        }
-
-        .gallery_product h4 {
-            text-align: justify
-        }
-
         .filter-button {
             margin-bottom: 30px;
             padding: 7px 15px;
-            padding-right: 15px !important;
+            /* padding-right: 11px !important; */
             color: #fff;
             background-color: transparent;
             font-size: 12px;
@@ -67,7 +57,7 @@
             text-align: center;
             padding: 10px 20px;
             border: 2px #aaa solid;
-            border-radius: 30px;
+            border-radius: 30px;padding-right: 15px !important;
         }
 
         .filter-button:hover {
@@ -85,6 +75,11 @@
             overflow: hidden;
         }
 
+        .btn-default:active .filter-button:active {
+            background-color: #0443B7;
+            color: white;
+        }
+
         .port-image {
             width: 100%;
         }
@@ -92,6 +87,7 @@
         .gallery_product {
             margin-bottom: 30px;
         }
+
 
         .active {
             color: white;
@@ -104,29 +100,29 @@
 
 </head>
 
-<body class="">
-      <!-- Header Start -->
-      <header class="home-1">
-            <nav class="navbar header-nav navbar-expand-lg">
-                <div class="container container-large">
-                    <!-- Brand -->
-                    <a class="navbar-brand" href="#">
-                            <img class="light-logo" src="assets/img/nyxl.png" title="" alt="">
-                            <img class="dark-logo" src="assets/img/nyxl.png" title="" alt="">
-                    </a>
-                    <!-- / -->
-    
-                    <!-- Mobile Toggle -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <!-- / -->
-    
-                    <!-- Top Menu -->
-                 <div class="collapse navbar-collapse justify-content-end" id="navbar">
+<body>
+    <!-- Header Start -->
+    <header class="home-1">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container container-large">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">
+                    <img class="light-logo" src="assets/img/nyxl.png" title="" alt="">
+                    <img class="dark-logo" src="assets/img/nyxl.png" title="" alt="">
+                </a>
+                <!-- / -->
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!-- / -->
+
+                <!-- Top Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar">
                         <ul class="navbar-nav ml-auto align-items-center pull-right">
     
                             <li><a class="nav-link" href="index.html">Home</a></li>
@@ -167,12 +163,12 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- / -->
-    
-                </div><!-- Container -->
-            </nav><!-- Navbar -->
-        </header>
-        <!-- Header End -->
+                <!-- / -->
+
+            </div><!-- Container -->
+        </nav><!-- Navbar -->
+    </header>
+    <!-- Header End -->
 
 
     <section class="main" data-scroll-index="0">
@@ -180,7 +176,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="title text-center">
-                        <h2 class="title-text ">Content Writing Portfolio</h2>
+                        <h2 class="title-text ">UI/UX Design Portfolio</h2>
                         <!-- <p class="">We're your Creative Agency</p> -->
                         <div class="dash"></div>
                     </div>
@@ -192,190 +188,145 @@
 
 
 
+       
         <div class="container mt-90">
                 <div class="row mt-90">
-                   
-                    <div class="col-sm-12 text-center mt-90">
-                       
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="all">All</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="blog">Blog</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="seo">SEO</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="technical">Technical</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="research">Research Papers & Thesis</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="business">Business</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="newsletter">Newsletter</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="whitepaper">White Paper</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="ebook">eBook</button>
-                                <button class="btn btn-default btn-group-sm filter-button" data-filter="website">Website</button>
-                               
-                     
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div data-img="./images/portfolio/content/article (1).jpeg" 
-                        data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Review">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/article (1).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                        <h3 class="title-text">ARTICLE</h3>
-                      </a>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                        
-                        </center>
+
+
+                <div class="row mt-90">
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Animated">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Brand">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Event">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Logo">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Youtube">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Animated Event">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Logo">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Youtube">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Animated Logo">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Youtube">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Brand">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div data-img="http://fakeimg.pl/365x365/" data-toggle="modal" data-target="#myModal"
+                            class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Brand">
+                            <img src="http://fakeimg.pl/365x365/" class="img-responsive img-thumbnail portfolio-img">
+                            <div class="portfolio_overlay">
+                                <div class="text">
+                                    <h2>SVGS</h2>
+                                </div>
+                            </div>
+    
+                        </div>
                     </div>
-                    <div data-img="./images/portfolio/content/article (2).jpeg" 
-                        data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Review">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/article (2).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">ARTICLE</h3>
-                        </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                           
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/article (3).jpeg" 
-                        data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Review">
-                            <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/article (3).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">ARTICLE</h3>
-                         </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                           
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/research (1).jpeg" 
-                        data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Research">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/research (1).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">RESEARCH</h3>
-                            </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                           
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/research (2).jpeg" 
-                        data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Research"> 
-                         <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/research (2).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">RESEARCH</h3>
-                          </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                            
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/research (3).jpeg" 
-                        data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Research">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/research (3).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">RESEARCH</h3>
-                           </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                            
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/news (1).jpeg"  data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter News">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/news (1).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">NEWS</h3>
-                            </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                           
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/news (2).jpeg"  data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter News">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/news (2).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">NEWS</h3>
-                           </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                           
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/news (3).jpeg"  data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter News">
-                                    <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/news (3).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">NEWS</h3>
-                                 </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                           
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/blog (1).jpeg"  data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Blog">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/blog (1).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">BLOG</h3>
-                             </a>
-                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                          
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/blog (2).jpeg"  data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Blog">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/blog (2).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">BLOG</h3>
-                        </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                          
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/blog (3).jpeg"  data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Blog">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/blog (3).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text"> BLOG</h3>
-                            </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                          
-                        </center>
-                    </div>
-                    <div data-img="./images/portfolio/content/blog (4).jpeg"  data-target="#myModal"
-                        class="gallery_product col-sm-12 col-md-6 col-lg-4 filter Blog">
-                        <a href="./content blog/content detail.html">
-                        <img src="./images/portfolio/content/blog (4).jpeg" class="img-responsive img-thumbnail  portfolio-img">
-                        <center>
-                            <h3 class="title-text">BLOG</h3>
-                    </a>
-                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit.</p>
-                           
-                        </center>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -557,6 +508,7 @@
     <!-- Service 3 End -->
 
 
+
     <!-- Footer Start -->
     <section class="work-with mt-80 " data-scroll-index="5" id="contactus">
         <div class="container">
@@ -622,8 +574,6 @@
             </div>
         </div>
     </section>
-   
-
     <footer class="footer footer-type-2">
         <div class="container">
             <div class="row">
@@ -693,9 +643,6 @@
         </div>
 
     </footer>
-
-
-
     <!-- Footer End -->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-overlay"></div>
@@ -719,40 +666,53 @@
 
     <script src="assets/js/main.js"></script>
     <script>
-     
-$(document).ready(function () {     
-    $(".gallery_product").click(function() {
-        var a = $(this).data("img");
-        // alert(a);
-        $("#modalimg").attr("src", a)
-    });
+        $(document).ready(function () {
+
+            $(".filter-button").click(function () {
+                $(this).addClass("active");
+                var value = $(this).attr('data-filter');
+
+                if (value == "all") {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                } else {
+                    //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    input = $("#" + value).prop("checked");
+                    if (input === true) {
+                        $("#" + value).prop("checked", false);
+                        $(this).removeClass("active");
+                    } else {
+                        $("#" + value).prop("checked", true);
+                    }
+
+                    $(".filter").hide('3000');
+                    $("input").each(function () {
+                        if ($(this).prop("checked")) {
+                            value = $(this).val();
+                            $('.filter').filter('.' + value).show('3000');
+                        }
+                    });
+                    //$(".filter").not('.' + value).hide('3000');
+                    //$('.filter').filter('.' + value).show('3000');
+                }
+            });
+
+            if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+            }
+            $(this).addClass("active");
 
 
-      $(".filter-button").click(function(){
-var value = $(this).attr('data-filter');
 
-if(value == "all")
-{
-//$('.filter').removeClass('hidden');
-$('.filter').show('1000');
-}
-else
-{
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-$(".filter").not('.'+value).hide('3000');
-$('.filter').filter('.'+value).show('3000');
+            $(".gallery_product").click(function () {
+                var a = $(this).data("img");
+                // alert(a);
+                $("#modalimg").attr("src", a)
+            });
 
-}
-});
-
-if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
-});
-          </script>
+        });
+    </script>
 </body>
 
 </html>
