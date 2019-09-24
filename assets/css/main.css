@@ -222,7 +222,7 @@ body {
 }
 
 .home-1.fixed-header .header-nav .navbar-nav .nav-link.active {
-    color: #b54761;
+    color: #022564;
 }
 
 
@@ -1193,6 +1193,17 @@ body {
     background-image: -ms-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
 }
 
+.insta-gradient{
+    /* background: #d6249f; */
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.twitter-gradient{
+    background: linear-gradient(45deg,#66757f,#00acee,#36d8ff,#00acee,#00acee);
+}
+.facebook-gradient{
+    background:linear-gradient(120deg,#3b5998,#114bb4,#114bb4,#3b5998)
+}
+
 .white-gradient {
     background-image: -moz-linear-gradient(135deg, rgb(144, 144, 144) 0%, rgb(255, 255, 255) 100%);
     background-image: -webkit-linear-gradient(135deg, rgb(144, 144, 144) 0%, rgb(255, 255, 255) 100%);
@@ -1471,15 +1482,15 @@ a.button-work:hover {
 .about-image figure img {
     mix-blend-mode: luminosity;
 
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1);
+    transform: scale(1);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
 .about-image:hover figure img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .about-text p {
@@ -1497,8 +1508,8 @@ a.button-work:hover {
    ========================================================================== */
 
 .team {
-    //background: url('../img/decor/nyxmountain.png') no-repeat bottom;
-    //background-size: cover;
+    background: url('../img/decor/nyxmountain.png') no-repeat bottom;
+    background-size: cover;
 }
 
 .team .container {
@@ -1669,9 +1680,9 @@ p.author-text {
     background: transparent !important;
 }
 
-
-.parter-item {
-    /* cursor: w-resize; */
+/* 
+ .parter-item {
+    cursor: w-resize;
     opacity: 0.6;
     transition: all 0.3s ease;
     -webkit-filter: grayscale(100%);
@@ -1680,7 +1691,7 @@ p.author-text {
 .parter-item:hover {
     opacity: 1;
     filter: none;
-}
+}  */
 
 /* ==========================================================================
                             [12] Footer
@@ -2084,7 +2095,7 @@ ul.article-list li {
     margin-top: -15px;
     width: 8px;
     height: 30px;
-    background: #ac6289;
+    background: #447be7;
     content: "";
     margin-left: -4px;
     z-index: 1;

@@ -97,6 +97,14 @@
     font-size: 10px !important;
     letter-spacing: 0px !important;
     }
+    .about-back {
+
+       background-size:contain;
+    
+    }
+    .hideonsmall{
+        display: none;
+    }
  }
  /* // Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) and (max-width: 767.98px) {
@@ -141,6 +149,13 @@
         padding: 7px 15px !important;
     font-size: 10px !important;
     letter-spacing: 0px !important;
+    }
+    .about-back {
+
+        background-size:contain;
+     }
+     .hideonsmall{
+        display: none;
     }
 }
 

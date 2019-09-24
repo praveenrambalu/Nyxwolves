@@ -276,12 +276,7 @@
                 }
             }
         });
-        $(".nav-left").on('click', function () {
-            testiSlide.trigger('next.owl.carousel');
-        });
-        $(".nav-right").on('click', function () {
-            testiSlide.trigger('prev.owl.carousel');
-        });
+   
     }
 
     // testimonial slider
