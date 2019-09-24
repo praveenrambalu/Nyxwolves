@@ -12,7 +12,7 @@ planet.loadPlugin(planetaryjs.plugins.earth({
 }));
 planet.loadPlugin(planetaryjs.plugins.pings());
 // Load our custom autorotate plugin
-planet.loadPlugin(autorotate(10));
+planet.loadPlugin(autorotate(20));
  
 // // zoom option
 // planet.loadPlugin(planetaryjs.plugins.zoom({

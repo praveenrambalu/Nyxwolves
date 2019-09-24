@@ -119,26 +119,26 @@ h1 {
     /* font-family: 'Montserrat', serif; */
     font-size: 50px;
     font-weight: 900;
-    color: #465e6a;
+    color: #000;
 }
 
 h2 {
     /* font-family: 'Montserrat', serif; */
     font-size: 24px;
     font-weight: 900;
-    color: #465e6a;
+    color: #000;
 }
 
 h3 {
     font-size: 16px;
     letter-spacing: 1px;
-    color: #4b527c;
+    color: #000;
     font-weight: 700;
 
 }
 
 h1 span {
-    color: #ac6289;
+    color: #022564;
 }
 
 p {
@@ -146,7 +146,7 @@ p {
     letter-spacing: 1px;
     font-weight: 500;
     line-height: 25px;
-    color: #7b8b8e;
+    color: #585b5c;;
 }
 
 p.sub-title {
@@ -182,7 +182,7 @@ body {
                             [02] Header/Navbar
    ========================================================================== */
 
-.header-nav {
+   .header-nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -200,6 +200,10 @@ body {
 .header-nav .dark-logo {
     display: none;
 }
+.dark-logo,.light-logo{
+    width: 130px;
+    height: 20px;
+}
 
 .header-nav .navbar-nav .nav-link {
     color: #fff;
@@ -213,8 +217,8 @@ body {
 }
 
 .home-1 .header-nav .navbar-nav .nav-link {
-    color: #fff;
-    /* opacity: .7; */
+    color:#fff;
+    opacity: 1;
 }
 
 .home-1.fixed-header .header-nav .navbar-nav .nav-link.active {
@@ -256,7 +260,7 @@ body {
 }
 
 .home-4.fixed-header .header-nav {
-    background: #fff;
+    background: #38424d;
     box-shadow: 0 8px 50px -6px rgba(84, 84, 120, .02)
 }
 
@@ -275,7 +279,7 @@ body {
 
 .header-nav .navbar-nav li:hover .nav-link,
 .header-nav .navbar-nav .nav-link.active {
-    color: #b54761;
+    color: #011843;
     opacity: 1;
 }
 
@@ -283,11 +287,6 @@ body {
 .header-nav .navbar-brand {
     color: #fff;
     font-weight: 600;
-    padding-top: 0px;
-}
-
-.navbar-brand img {
-    height: 15vh !important;
 }
 
 
@@ -431,7 +430,7 @@ body {
     border-bottom: 1px solid #eee;
 }
 
-.mm-column .mm-header a {
+.mm-column .mm-header  a{
     color: #323232;
     font-weight: 900;
 }
@@ -725,7 +724,6 @@ body {
 }
 
 /*@media*/
-
 
 /* ==========================================================================
                              [02] Hero
@@ -1182,7 +1180,7 @@ body {
 .service-4-item .service-text p {
     margin-top: 20px;
     padding: 0 20px;
-    color: ##7b8b8e;
+    color: #7b8b8e;
 }
 
 /* ==========================================================================
@@ -1593,7 +1591,10 @@ ul.team-social li {
 /* ==========================================================================
                             [10] Testimonial
    ========================================================================== */
+
+
 .testi-content {
+    
     background: url('../img/testi.png') no-repeat center center;
     background-size: contain;
     height: 500px;
@@ -1640,7 +1641,7 @@ p.author-text {
 
 .nav-custom {
     font-size: 25px;
-    color: #a9527d;
+    color: #19418B;
 }
 
 .nav-custom i:first-child {
@@ -2005,7 +2006,7 @@ ul.footer-social i {
     height: 10px;
     border-style: solid;
     border-width: 0 0 2rem 2rem;
-    border-color: transparent transparent #ac6289;
+    border-color: transparent transparent #2059BD;
 }
 
 ul.article-list {
@@ -2029,7 +2030,7 @@ ul.article-list li {
     height: .6rem;
     border-radius: 50%;
     content: "";
-    background: #ac6289;
+    background: #033185;
 }
 
 .article-icon {
@@ -2246,7 +2247,9 @@ body {
 
 .gallery_product {
     position: relative;
-    width: 50%;
+    width: 90%;
+
+margin: 0 auto;
 }
 
 .image {
@@ -2262,10 +2265,11 @@ body {
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 90%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(12, 94, 121, 0.796);
+    background-color:rgba(12, 94, 121, 0.796);
+    margin: 0 auto;
 }
 
 .gallery_product:hover .portfolio_overlay {
@@ -2289,12 +2293,29 @@ body {
     background-color: black !important;
     opacity: 0.7;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
+    height:100%;
 }
 
 .modal-dialog {
-    top: 25vh !important;
+    top: 15vh !important;
+}
+.text > h2 {
+
+    color: 
+
+    #fff;
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+
+    width: 30px;
+    background-image: -moz-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
+    background-image: -webkit-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
+    background-image: -ms-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
+
 }

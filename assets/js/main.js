@@ -54,7 +54,7 @@
                     scale: 1.2,
                     autoAlpha: 0
                 });
-                $(".partner").addClass('d-none');
+                // $(".partner").addClass('d-none');
 
             } else {
                 $('header').removeClass('fixed-header');
@@ -62,7 +62,7 @@
                     scale: 1,
                     autoAlpha: 1
                 });
-                $(".partner").removeClass('d-none');
+                // $(".partner").removeClass('d-none');
 
             }
 
@@ -276,6 +276,12 @@
                 }
             }
         });
+        $(".nav-left").on('click', function () {
+            testiSlide.trigger('next.owl.carousel');
+        });
+        $(".nav-right").on('click', function () {
+            testiSlide.trigger('prev.owl.carousel');
+        });
     }
 
     // testimonial slider
@@ -334,6 +340,7 @@
             dots: false,
             dragEndSpeed: 700,
             smartSpeed: 2000,
+            slideSpeed : 100,
             responsiveClass: true,
             responsive: {
                 0: {
@@ -428,7 +435,7 @@
     $.scrollIt({
         upKey: 38, // key code to navigate to the next section
         downKey: 40, // key code to navigate to the previous section
-        easing: 'linear', // the easing function for animation
+        easing: 'easeIn', // the easing function for animation
         scrollTime: 600, // how long (in ms) the animation takes
         activeClass: 'active', // class given to the active nav element
         onPageChange: null, // function(pageIndex) that is called when page is changed

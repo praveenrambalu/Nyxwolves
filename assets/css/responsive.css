@@ -50,7 +50,7 @@
     }
     .hero-text {
         width: 100%;
-        margin-top: -35vh;
+        margin-top: -20vh;
         text-align: center;
     }
     .hero-text-2 h1 {
@@ -87,6 +87,10 @@
         margin-top: 40px;
      
     }
+    .dark-logo,.light-logo{
+        width: 130px;
+    height: 20px;
+    }
  }
  /* // Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) and (max-width: 767.98px) {
@@ -121,6 +125,10 @@
       .bg-hero-4.centered {
           display: block;
       }
+      .dark-logo,.light-logo{
+        width: 130px;
+    height: 20px;
+    }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -155,6 +163,10 @@
       .bg-hero-4.centered {
           display: block;
       }
+      .dark-logo,.light-logo{
+        width: 130px;
+    height: 20px;
+    }
  }
 
 /* // Medium devices (tablets, less than 992px) */
