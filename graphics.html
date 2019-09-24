@@ -132,7 +132,7 @@
                                 <ul class="m-dropdown-menu">
                                     <li><a href="services/Business.html">Business Automation</a></li>
                                     <li><a href="services/CopyWriting.html">Copy Writing</a></li>
-                                    <li><a href="services/Design.html">Design</a></li>
+                                    <li><a href="services/Design.html">Design & Branding</a></li>
                                     <li><a href="services/Digital Marketing.html">Digital Marketing</a></li>
                                     <li><a href="services/Digital Transform.html">Digital Transform</a></li>
                                     <li><a href="services/Startup Setup.html">Startup Setup</a></li>
@@ -148,7 +148,7 @@
                                     <ul class="m-dropdown-menu">
                                             <li><a href="web.html">Web Design</a></li>
     
-                                            <li><a href="graphics.html">Graphics Design</a></li>
+                                            <li><a href="graphics.html"> Design & Branding</a></li>
                                             <li><a href="content.html">Content Writing</a></li>
                                             <li><a href="video.html">Video Production</a></li>
                                             <li><a href="Digital Marketing.html">Digital Marketing</a></li>
@@ -171,7 +171,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="title text-center">
-                        <h2 class="title-text ">Graphics Design Portfolio</h2>
+                        <h2 class="title-text ">Design & Branding Portfolio</h2>
                         <!-- <p class="">We're your Creative Agency</p> -->
                         <div class="dash"></div>
                     </div>
@@ -183,56 +183,25 @@
 
 
 
-        <div class="container">
-            <div class="row">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-                <!-- <div class="col-sm-"></div> -->
-                <div class="col-sm-12">
-                    <div style="text-align: center">
-                        <button class="light-button filter-button" data-filter="all" style="padding-right: 30px;">All</button>
-                        <!-- <button class="light-button filter-button" data-filter="UIUX">UI/UX
-                            <input type="checkbox" value="UIUX" id="UIUX"></button> -->
-                        <button class="light-button filter-button" data-filter="Tshirts">Tshirts<input type="checkbox"
-                                value="Tshirts" id="Tshirts"></button>
-              
-                        <button class="light-button filter-button" data-filter="Menus">Menus
-                            <input type="checkbox" value="Menus" id="Menus"></button>
-            
-                        <button class="light-button filter-button" data-filter="Logos">Logos
-                            <input type="checkbox" value="Logos" id="Logos"></button>
-                        <button class="light-button filter-button" data-filter="Letterhead">Letterhead<input
-                                type="checkbox" value="Letterhead" id="Letterhead"></button>
-                        <!-- <button class="light-button filter-button" data-filter="Infographics">Infographics
-                            <input type="checkbox" value="Infographics" id="Infographics"></button> -->
+     
+        <div class="container mt-90">
+                <div class="row mt-90">
                    
-                        <button class="light-button filter-button" data-filter="flyers">Flyers and Posters
-                            <input type="checkbox" value="flyers" id="flyers"></button>
-                       <!--    <button class="light-button filter-button" data-filter="Deck">Deck
-                            <input type="checkbox" value="Deck" id="Deck"></button>
-                      <button class="light-button filter-button" data-filter="Creatives">Creatives<input
-                                type="checkbox" value="Creatives" id="Creatives"></button>
-               
-                        <button class="light-button filter-button" data-filter="Catalogue">Catalogue
-                            <input type="checkbox" value="Catalogue" id="Catalogue"></button> -->
-                        <button class="light-button filter-button" data-filter="Business">Business Cards
-                            <input type="checkbox" value="Business" id="Business"></button>
-                        <button class="light-button filter-button" data-filter="Banners">Banners & Standees
-                            <input type="checkbox" value="Banners" id="Banners"></button>
-                        <button class="light-button filter-button" data-filter="Brochures">Brochures
-                            <input type="checkbox" value="Brochures" id="Brochures"></button>
+                    <div class="col-sm-12 text-center mt-90">
+                       
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="all">All</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="logos">Logos</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="printables">Printables</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="physicalad">Physical Advertisements</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="socialmedia">Social Media</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="corporate">Corporate Designs</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="promotional">Promotional Artworks</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="edesigns">E-Designs</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="brandexperience">Brand Experience</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="packaging">Packaging Designs</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="uiux">UI / UX Design</button>
+                               
+                     
                     </div>
                 </div>
 
@@ -683,7 +652,7 @@
         
             </footer>
         <!-- Footer End -->
-        <div class="modal" id="myModal" role="dialog" >
+        <div class="modal fade" id="myModal" role="dialog" >
             <div class="modal-overlay"></div>
                 <div class="modal-dialog">
                     <!-- Modal content-->
@@ -705,51 +674,38 @@
 
         <script src="assets/js/main.js"></script>
         <script>
-            $(document).ready(function () {
-    
-                $(".filter-button").click(function () {
-                    $(this).addClass("active");
-                    var value = $(this).attr('data-filter');
-    
-                    if (value == "all") {
-                        //$('.filter').removeClass('hidden');
-                        $('.filter').show('1000');
-                    } else {
-                        //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-                        //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-                        input = $("#" + value).prop("checked");
-                        if (input === true) {
-                            $("#" + value).prop("checked", false);
-                            $(this).removeClass("active");
-                        } else {
-                            $("#" + value).prop("checked", true);
-                        }
-    
-                        $(".filter").hide('3000');
-                        $("input").each(function () {
-                            if ($(this).prop("checked")) {
-                                value = $(this).val();
-                                $('.filter').filter('.' + value).show('3000');
-                            }
-                        });
-                        //$(".filter").not('.' + value).hide('3000');
-                        //$('.filter').filter('.' + value).show('3000');
-                    }
-                });
-    
-                if ($(".filter-button").removeClass("active")) {
-                    $(this).removeClass("active");
-                }
-                $(this).addClass("active");
-    
-    
-                $(".gallery_product").click(function() {
-                var a = $(this).data("img");
-                // alert(a);
-                $("#modalimg").attr("src", a)
-            });
-    
-            });
+          $(document).ready(function () {     
+    $(".gallery_product").click(function() {
+        var a = $(this).data("img");
+        // alert(a);
+        $("#modalimg").attr("src", a)
+    });
+
+
+      $(".filter-button").click(function(){
+var value = $(this).attr('data-filter');
+
+if(value == "all")
+{
+//$('.filter').removeClass('hidden');
+$('.filter').show('1000');
+}
+else
+{
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+$(".filter").not('.'+value).hide('3000');
+$('.filter').filter('.'+value).show('3000');
+
+}
+});
+
+if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
         </script>
     </body>
     

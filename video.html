@@ -131,7 +131,7 @@
                                 <ul class="m-dropdown-menu">
                                     <li><a href="services/Business.html">Business Automation</a></li>
                                     <li><a href="services/CopyWriting.html">Copy Writing</a></li>
-                                    <li><a href="services/Design.html">Design</a></li>
+                                    <li><a href="services/Design.html">Design & Branding</a></li>
                                     <li><a href="services/Digital Marketing.html">Digital Marketing</a></li>
                                     <li><a href="services/Digital Transform.html">Digital Transform</a></li>
                                     <li><a href="services/Startup Setup.html">Startup Setup</a></li>
@@ -147,7 +147,7 @@
                                     <ul class="m-dropdown-menu">
                                             <li><a href="web.html">Web Design</a></li>
     
-                                            <li><a href="graphics.html">Graphics Design</a></li>
+                                            <li><a href="graphics.html"> Design & Branding</a></li>
                                             <li><a href="content.html">Content Writing</a></li>
                                             <li><a href="video.html">Video Production</a></li>
                                             <li><a href="Digital Marketing.html">Digital Marketing</a></li>
@@ -182,54 +182,25 @@
 
 
 
-        <div class="container">
-            <div class="row">
-
-                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <br>
-                    <br>
-                    <br>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-11">
-                    <div style="text-align: center">
-                        <button class="light-button filter-button" data-filter="all" style="padding-right: 15px;">All</button>
-
-                        <button class="light-button filter-button" data-filter="Animated">Animated Explainer
-                            <input type="checkbox" value="Animated" id="Animated"></button>
-                        <button class="light-button filter-button" data-filter="Brand">Brand Promotion<input
-                                type="checkbox" value="Brand" id="Brand"></button>
-                        <button class="light-button filter-button" data-filter="Event">Event
-                            <input type="checkbox" value="Event" id="Event"></button>
-                        <button class="light-button filter-button" data-filter="Logo">Logo Reveal
-                            <input type="checkbox" value="Logo" id="Logo"></button>
-                        <button class="light-button filter-button" data-filter="Youtube">YouTube
-                            <input type="checkbox" value="Youtube" id="Youtube"></button>
-                        <button class="light-button filter-button" data-filter="Slideshow">Slideshow
-                            <input type="checkbox" value="Slideshow" id="Slideshow"></button>
-                        <button class="light-button filter-button" data-filter="Social">Social Media
-                            <input type="checkbox" value="Social" id="Social"></button>
-                        <button class="light-button filter-button" data-filter="VFX">VFX
-                            <input type="checkbox" value="VFX" id="VFX"></button>
-                        <!--
-                        <button class="light-button filter-button" data-filter="all">All</button>
-                        <button class="light-button filter-button" data-filter="Animated">Animated</button>
-                        <button class="light-button filter-button" data-filter="Brand">Brand</button>
-                        <button class="light-button filter-button" data-filter="Event">Event</button>
-                        <button class="light-button filter-button" data-filter="Logo">Logo and Portfolio</button>
-                        <button class="light-button filter-button" data-filter="Youtube">Web Applications</button>
-                        -->
+        <div class="container mt-90">
+                <div class="row mt-90">
+                   
+                    <div class="col-sm-12 text-center mt-90">
+                       
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="all">All</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="promotional">promotional</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="corporate">corporate</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="animated">animated 2d explainer</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="storyboarding">storyboarding</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="videoscripting">video scripting & screenplay</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="logo">logo reveals</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="typography">Typography</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="youtube">youtube</button>
+                                <button class="btn btn-default btn-group-sm filter-button" data-filter="social">social media</button>
+                              
+                     
                     </div>
                 </div>
-
-
                 <div class="row">
                     <div  class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Animated">
                         <iframe src="https://player.vimeo.com/video/359960697" width="300" height="250" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -636,54 +607,40 @@
 
     <script src="assets/js/main.js"></script>
     <script>
-        $(document).ready(function () {
-
-            $(".filter-button").click(function () {
-                $(this).addClass("active");
-                var value = $(this).attr('data-filter');
-
-                if (value == "all") {
-                    //$('.filter').removeClass('hidden');
-                    $('.filter').show('1000');
-                } else {
-                    //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-                    //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-                    input = $("#" + value).prop("checked");
-                    if (input === true) {
-                        $("#" + value).prop("checked", false);
-                        $(this).removeClass("active");
-                    } else {
-                        $("#" + value).prop("checked", true);
-                    }
-
-                    $(".filter").hide('3000');
-                    $("input").each(function () {
-                        if ($(this).prop("checked")) {
-                            value = $(this).val();
-                            $('.filter').filter('.' + value).show('3000');
-                        }
-                    });
-                    //$(".filter").not('.' + value).hide('3000');
-                    //$('.filter').filter('.' + value).show('3000');
-                }
+     
+            $(document).ready(function () {     
+                $(".gallery_product").click(function() {
+                    var a = $(this).data("img");
+                    // alert(a);
+                    $("#modalimg").attr("src", a)
+                });
+            
+            
+                  $(".filter-button").click(function(){
+            var value = $(this).attr('data-filter');
+            
+            if(value == "all")
+            {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+            }
+            else
+            {
+            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+            }
             });
-
+            
             if ($(".filter-button").removeClass("active")) {
-                $(this).removeClass("active");
+            $(this).removeClass("active");
             }
             $(this).addClass("active");
-
-
-
-            $(".gallery_product").click(function() {
-                var a = $(this).data("img");
-                // alert(a);
-                $("#modalimg").attr("src", a)
+            
             });
-
-
-        });
-    </script>
+                      </script>
 </body>
 
 </html>

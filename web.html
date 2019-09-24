@@ -136,7 +136,7 @@
                                 <ul class="m-dropdown-menu">
                                     <li><a href="services/Business.html">Business Automation</a></li>
                                     <li><a href="services/CopyWriting.html">Copy Writing</a></li>
-                                    <li><a href="services/Design.html">Design</a></li>
+                                    <li><a href="services/Design.html">Design & Branding</a></li>
                                     <li><a href="services/Digital Marketing.html">Digital Marketing</a></li>
                                     <li><a href="services/Digital Transform.html">Digital Transform</a></li>
                                     <li><a href="services/Startup Setup.html">Startup Setup</a></li>
@@ -152,7 +152,7 @@
                                     <ul class="m-dropdown-menu">
                                             <li><a href="web.html">Web Design</a></li>
     
-                                            <li><a href="graphics.html">Graphics Design</a></li>
+                                            <li><a href="graphics.html"> Design & Branding</a></li>
                                             <li><a href="content.html">Content Writing</a></li>
                                             <li><a href="video.html">Video Production</a></li>
                                             <li><a href="Digital Marketing.html">Digital Marketing</a></li>
@@ -187,54 +187,29 @@
 
 
 
-        <div class="container">
-            <div class="row">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-12 ">
+        <div class="container mt-90">
+            <div class="row mt-90">
+               
+                <div class="col-sm-12 text-center mt-90">
                    
-                        <br>
-                        <br>
-                        <br> <br>
-                        <br>
-                        <br>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="all">All</button>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="front">Front-End</button>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="back">Back-End</button>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="webapp">Web App</button>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="corporate">Corporate </button>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="blogs">Blogs & Personal </button>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="cms">CMS</button>
+                            <button class="btn btn-default btn-group-sm filter-button" data-filter="ecommerce">E-Commerce </button>
+                 
                 </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-11">
-                    <div style="text-align: center">
-                        <button class="light-button filter-button" data-filter="all" style="padding-right: 15px;">All</button>
-
-                        <button class="light-button filter-button" data-filter="Ecommerce">Ecommerce
-                            <input type="checkbox" value="Ecommerce" id="Ecommerce"></button>
-                        <button class="light-button filter-button" data-filter="Wordpress">Wordpres<input
-                                type="checkbox" value="Wordpress" id="Wordpress"></button>
-                        <button class="light-button filter-button" data-filter="Business">Business
-                            <input type="checkbox" value="Business" id="Business"></button>
-                        <button class="light-button filter-button" data-filter="Blogs">Blogs and Portfolio
-                            <input type="checkbox" value="Blogs" id="Blogs"></button>
-                        <button class="light-button filter-button" data-filter="webapp">Web Applications
-                            <input type="checkbox" value="webapp" id="webapp"></button>
-                        <!--
-                        <button class="light-button filter-button" data-filter="all">All</button>
-                        <button class="light-button filter-button" data-filter="Ecommerce">Ecommerce</button>
-                        <button class="light-button filter-button" data-filter="Wordpress">Wordpress</button>
-                        <button class="light-button filter-button" data-filter="Business">Business</button>
-                        <button class="light-button filter-button" data-filter="Blogs">Blogs and Portfolio</button>
-                        <button class="light-button filter-button" data-filter="webapp">Web Applications</button>
-                        -->
-                    </div>
-                </div>
+            </div>
 
                 <div class="row">
                     <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-12 col-xs-12 col-md-6 col-lg-4 filter Ecommerce" data-img="./images/web/SVGS.png">
                         <img src="./images/web/SVGS.png" class="img-responsive img-thumbnail portfolio-img" >
                         <div class="portfolio_overlay" ><div class="text"><h2>SVGS</h2></div></div>
                     </div>
-                    <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-12 col-xs-12 col-md-6 col-lg-4 filter Ecommerce" data-img="./images/web/Nutraboost.png">
+                    <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-12 col-xs-12 col-md-6 col-lg-4 filter hdpe" data-img="./images/web/Nutraboost.png">
                         <img src="./images/web/Nutraboost.png" class="img-responsive img-thumbnail portfolio-img">
                         <div class="portfolio_overlay" >
                                 <div class="text"><h2>NutraBoost</h2> </div>
@@ -626,7 +601,7 @@
         </footer>
     <!-- Footer End -->
 
-    <div class="modal" id="myModal" role="dialog" >
+    <div class="modal fade" id="myModal" role="dialog" >
         <div class="modal-overlay"></div>
             <div class="modal-dialog">
                 <!-- Modal content-->
@@ -647,55 +622,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 
     <script src="assets/js/main.js"></script>
-    <script>
-        $(document).ready(function () {
+<script>
 
-            $(".filter-button").click(function () {
-                $(this).addClass("active");
-                var value = $(this).attr('data-filter');
-
-                if (value == "all") {
-                    //$('.filter').removeClass('hidden');
-                    $('.filter').show('1000');
-                } else {
-                    //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-                    //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-                    input = $("#" + value).prop("checked");
-                    if (input === true) {
-                        $("#" + value).prop("checked", false);
-                        $(this).removeClass("active");
-                    } else {
-                        $("#" + value).prop("checked", true);
-                    }
-
-                    $(".filter").hide('3000');
-                    $("input").each(function () {
-                        if ($(this).prop("checked")) {
-                            value = $(this).val();
-                            $('.filter').filter('.' + value).show('3000');
-                        }
-                    });
-                    //$(".filter").not('.' + value).hide('3000');
-                    //$('.filter').filter('.' + value).show('3000');
-                }
-            });
-
-            if ($(".filter-button").removeClass("active")) {
-                $(this).removeClass("active");
-            }
-            $(this).addClass("active");
+$(document).ready(function () {     
+    $(".gallery_product").click(function() {
+        var a = $(this).data("img");
+        // alert(a);
+        $("#modalimg").attr("src", a)
+    });
 
 
+      $(".filter-button").click(function(){
+var value = $(this).attr('data-filter');
 
-       
-            $(".gallery_product").click(function() {
-                var a = $(this).data("img");
-                // alert(a);
-                $("#modalimg").attr("src", a)
-            });
+if(value == "all")
+{
+//$('.filter').removeClass('hidden');
+$('.filter').show('1000');
+}
+else
+{
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+$(".filter").not('.'+value).hide('3000');
+$('.filter').filter('.'+value).show('3000');
 
-        });
-    </script>
+}
+});
+
+if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+</script>
 </body>
 
 </html>
