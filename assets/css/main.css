@@ -1075,6 +1075,7 @@ body {
     border-radius: 5px;
     box-shadow: 0px 22px 54px 0px rgba(38, 168, 143, 0.1);
     transition: all .3s ease-in-out;
+    height: 280px;
 }
 
 .service-3-item:hover {
@@ -1171,6 +1172,7 @@ body {
     padding: 20px 0 55px 0;
     background: #fff;
     box-shadow: 0px 22px 54px 0px rgba(0, 0, 0, 0.1);
+    height: 400px;
 }
 
 .service-4-item.service-item {
@@ -1555,6 +1557,7 @@ figure {
     transition: .3s ease-in-out;
     opacity: 0;
     border-radius: 8px;
+    height: 180px;
 }
 
 .team-text h3 {
@@ -2329,4 +2332,42 @@ margin: 0 auto;
     background-image: -webkit-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
     background-image: -ms-linear-gradient(135deg, rgb(166, 242, 255) 0%, rgb(116, 177, 255) 100%);
 
+}
+
+
+/* new footer */
+
+.newfooter-socialicons{
+    height: 16px;
+padding-right: 20px;
+color:#585b5c;
+}
+.newfooter-text>a{
+    color:#585b5c;
+}
+.newfooter-text>a:hover{
+    color:#000 !important;
+}
+.newfooter-text{
+    font-size: 12px;line-height: 20px;letter-spacing: 0px;
+}
+
+.newfooter-socialicons:nth-child(1):hover{
+color:#3b5998 ;
+}
+.newfooter-socialicons:nth-child(2):hover{
+color:#1da1f2 ;
+}
+.newfooter-socialicons:nth-child(3):hover{
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.newfooter-head{
+line-height: 16px;
+font-weight: bold;
+}
+.newfooterlist>li{
+    display:block;
 }
