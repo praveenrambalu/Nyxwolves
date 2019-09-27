@@ -105,6 +105,9 @@
     .hideonsmall{
         display: none;
     }
+    .centeronmob{
+        text-align:center;
+    }
  }
  /* // Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) and (max-width: 767.98px) {
@@ -156,6 +159,9 @@
      }
      .hideonsmall{
         display: none;
+    }
+    .centeronmob{
+        text-align:center;
     }
 }
 
