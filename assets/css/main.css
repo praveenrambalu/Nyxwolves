@@ -2319,9 +2319,8 @@ margin: 0 auto;
 }
 .text > h2 {
 
-    color: 
-
-    #fff;
+    color:     #fff;
+    text-transform: uppercase;
 
 }
 
