@@ -254,7 +254,7 @@
             loop: true,
             margin: 30,
             mouseDrag: true,
-            autoplay: false,
+            autoplay: true,
             center: false,
             dots: true,
             nav: false,
