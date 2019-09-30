@@ -1384,5 +1384,11 @@
         </div> -->
 
 </body>
-
+<script>
+$('.team').on("mouseenter", function(e) {
+    // alert("entered");
+    var teamSlide = $('.team .owl-carousel');
+    teamSlide.trigger('play.owl.autoplay');
+})
+</script>
 </html>

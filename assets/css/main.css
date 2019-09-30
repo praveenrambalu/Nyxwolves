@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------
-Project             : Creativora - Creative Template for Agency and Portfolio.
+Project             : NYXWOLVES.
 Version             : 1.0
-Author              : Cingunt-Themes
+Author              : nyxwolves
 =====================================================================
 
 [Table of contents]
@@ -2352,12 +2352,15 @@ color:#585b5c;
 }
 
 .newfooter-socialicons:nth-child(1):hover{
-color:#3b5998 ;
+color:#0e76a8 ;
 }
 .newfooter-socialicons:nth-child(2):hover{
-color:#1da1f2 ;
+color:#3b5998 ;
 }
 .newfooter-socialicons:nth-child(3):hover{
+color:#1da1f2 ;
+}
+.newfooter-socialicons:nth-child(4):hover{
     background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
   background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
   -webkit-background-clip: text;
