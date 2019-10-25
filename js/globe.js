@@ -206,6 +206,13 @@ planet.loadPlugin(autorotate(20));
     var color ='#f00';
     planet.plugins.pings.add(lng, lat, { color: color, ttl: 2000, angle: Math.random() * 10 });
   }, 100);
+//   brazil
+  setInterval(function() {
+    var lat =-10.248815;
+    var lng = -53.771194;
+    var color ='#f00';
+    planet.plugins.pings.add(lng, lat, { color: color, ttl: 2000, angle: Math.random() * 10 });
+  }, 100);
 
 
 
