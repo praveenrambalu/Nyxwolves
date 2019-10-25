@@ -199,6 +199,13 @@ planet.loadPlugin(autorotate(20));
     var color ='#f00';
     planet.plugins.pings.add(lng, lat, { color: color, ttl: 2000, angle: Math.random() * 10 });
   }, 100);
+//   srilanka
+  setInterval(function() {
+    var lat =7.939173;
+    var lng = 80.785111;
+    var color ='#f00';
+    planet.plugins.pings.add(lng, lat, { color: color, ttl: 2000, angle: Math.random() * 10 });
+  }, 100);
 
 
 
