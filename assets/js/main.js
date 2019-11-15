@@ -448,9 +448,7 @@ $(function () {
     $('#contact-form').on('submit', function (e) {
 
       e.preventDefault();
-      if (grecaptcha.getResponse() == ""){
-        swal("Please Complete the Captcha");
-    } else {
+   
         $.ajax({
             type: 'post',
             url: 'contactform.php',
@@ -463,7 +461,7 @@ $(function () {
               }
             }
           });
-    }
+
       
 
 

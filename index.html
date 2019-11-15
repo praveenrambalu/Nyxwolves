@@ -1024,7 +1024,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-8">
-                                <div class="g-recaptcha" data-sitekey="6LdV8cEUAAAAAL29qYB7lDqSl0CAguMqe1p0yisB" data-theme="dark"> </div>
+                                <div class="g-recaptcha" data-sitekey="6LdV8cEUAAAAAL29qYB7lDqSl0CAguMqe1p0yisB" data-theme="dark"  data-callback="correctCaptcha"> </div>
                             </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
@@ -1395,11 +1395,8 @@ $('.work').on("mouseenter", function(e) {
 </script>
 
 <script>
-if (grecaptcha.getResponse() == ""){
-    alert("You can't proceed!");
-} else {
-    alert("Thank you");
-}
-
+var correctCaptcha = function(response) {
+        alert(response);
+    };
 </script>
 </html>
