@@ -1018,6 +1018,7 @@
                                     <textarea name="message" id="" cols="30" rows="1" class="form-control"
                                         placeholder="Message Here" style="resize: none;" required ></textarea>
                                     <!-- <input type="text" name="" id="" class="form-control" placeholder="Name"> -->
+                                    <input type="text" name="" id="captcha">
                                 </div>
                             </div>
                            
@@ -1396,7 +1397,8 @@ $('.work').on("mouseenter", function(e) {
 
 <script>
 var correctCaptcha = function(response) {
-        alert(response);
+        // alert(response);
+        $("#captcha").val(response);
     };
 </script>
 </html>
