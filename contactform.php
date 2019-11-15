@@ -11,7 +11,7 @@ $headers="From: ".$email;
 
 $msg="Name : $name \n\n Subject : $subject \n\n Email: $email \n\n \n\n Message: $message";
 
-if ($captcha!="") {
+if ($captcha=="") {
     echo 'captcha';
 }else{
 
