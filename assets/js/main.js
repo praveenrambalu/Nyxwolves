@@ -474,3 +474,9 @@ $(function () {
     });
 
   });
+
+
+var correctCaptcha = function(response) {
+    // alert(response);
+    $("#captcha").val(response);
+};
