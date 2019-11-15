@@ -456,7 +456,10 @@ $(function () {
             success: function (data) {
               if (data=="success") {
                   swal("Good job!", "We will contact you asap !", "success");
-              } else {
+              } else if(data=='captcha') {
+                swal ( "Oops" ,  "Please complete the captcha" ,  "error" )
+            }
+               else {
                   swal ( "Oops" ,  "Something went wrong!" ,  "error" )
               }
             }
