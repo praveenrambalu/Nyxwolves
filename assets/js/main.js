@@ -1,482 +1,557 @@
-(function ($) {
-    "use strict";
+/*----------------------------------------------
+*
+* [Main Scripts]
+*
+* Theme    : Leverage - Have a real factory of creative templates in your hands.
+* Version  : 1.1.0
+* Author   : Codings
+* Support  : adm.codings@gmail.com
+* 
+----------------------------------------------*/
 
+/*----------------------------------------------
 
-    //--------------------------------------------------
-    // Scroll down animation Hide/Reveal
-    //--------------------------------------------------
-    $(".navbar-toggler").on("click", function (a) {
-        a.preventDefault(), $("header").addClass("fixed-header")
-    });
+[ALL CONTENTS]
 
-    $('.navbar-nav .nav-link').on('click', function () {
-        var toggle = $('.navbar-toggler').is(':visible');
-        if (toggle) {
-            $('.navbar-collapse').collapse('hide');
-        }
-    });
+1. Responsive Menu
+2. Navigation 
+3. Slides 
+4. Gallery 
+5. Multi-Step Form 
+6. Submission Parameters 
 
+----------------------------------------------*/
 
-    //dropdown
-    dropDown();
+/*----------------------------------------------
+1. Responsive Menu
+----------------------------------------------*/
 
-    function dropDown() {
-        var mDropdown = $(".m-dropdown-toggle")
-        mDropdown.on("click", function () {
-            $(this).parent().toggleClass("open-menu-parent");
-            $(this).next('ul').toggleClass("open-menu");
-            $(this).toggleClass("open");
-        });
-        $(".submenu").attr("style", "display: none!important");
+$(function () {
 
-        $(".dropdowns").on('mouseover', function () {
-            $(".submenu").attr("style", "display: block!important");
-        });
-        $(".dropdowns").on('mouseleave', function () {
-            $(".submenu").attr("style", "display: none!important");
-        });
+    'use strict';
 
+    $(window).on('resize', function () {
+        navResponsive();
+    })
+
+    $(document).on('click', '#menu .nav-item a', function () {
+
+        $('#menu').modal('hide');
+    })
+
+    function navResponsive() {
+
+        let navbar = $('.navbar .items');
+        let menu = $('#menu .items');
+
+        menu.html('');
+
+        navbar.clone().appendTo(menu);
     }
 
-    // navbar scroll
-    navbarScrol();
+    navResponsive();
+})
 
-    function navbarScrol() {
-        var wind = $(window);
-        var HHeight = $('.header-height .fixed-header-bar').height();
-        wind.on("scroll", function () {
-            $('header').height(HHeight);
-            var bodyScroll = wind.scrollTop();
+/*----------------------------------------------
+2. Navigation
+----------------------------------------------*/
 
-            if (bodyScroll > 300) {
-                $('header').addClass('fixed-header');
-                TweenMax.to('.hero', 1, {
-                    scale: 1.2,
-                    autoAlpha: 0
-                });
-                // $(".partner").addClass('d-none');
+$(function () {
+
+    'use strict';
+
+    var position = $(window).scrollTop();
+    var toTop = $('#scroll-to-top');
+
+    toTop.hide();
+
+    $(window).scroll(function () {
+
+        let scroll = $(window).scrollTop();
+        let navbar = $('.navbar');
+
+        if (!navbar.hasClass('relative')) {
+
+            if (scroll > position) {
+
+                if (window.screen.width >= 767) {
+
+                    navbar.fadeOut('fast');
+
+                } else {
+
+                    navbar.addClass('navbar-sticky');
+                }
+
+                toTop.fadeOut('fast');
 
             } else {
-                $('header').removeClass('fixed-header');
-                TweenMax.to('.hero', 1, {
-                    scale: 1,
-                    autoAlpha: 1
-                });
-                // $(".partner").removeClass('d-none');
 
-            }
+                if (position < 76) {
 
-        });
-    }
+                    navbar.slideDown('fast').removeClass('navbar-sticky');
 
+                } else {
 
-
-    //tweenmax navbar
-    TweenMax.staggerFrom('.nav-link', 1, {
-        y: -200
-    }, 0.1);
-
-    TweenMax.staggerFrom('.fading', 1, {
-        y: 90,
-        autoAlpha: 0,
-        delay: 2,
-    }, 0.7);
-
-
-    //--------------------------------------------------
-    // Icon animation
-    //--------------------------------------------------
-    iconAnimation();
-
-    function iconAnimation() {
-        var icons = $('.icon-round i');
-        var dots = $('.dots');
-        var dots2 = $('.dots-2');
-        var dots3 = $('.dots-3');
-        var dots4 = $('.dots-4');
-        var boxesTL = new TimelineLite({
-            onComplete: function () {
-                this.restart()
-            }
-        });
-        boxesTL
-            .staggerFrom(icons, 3, {
-                rotation: '-=360deg',
-                delay: 1,
-
-            }, 2);
-
-
-        var dotsTL = new TimelineLite({
-            onComplete: function () {
-                this.restart()
-            }
-
-        });
-        dotsTL
-            .to(dots, 6, {
-                x: '-=70',
-                y: '+=10',
-                scale: '2',
-            })
-            .to(dots, 2, {
-                y: '-=10',
-            }, '-=3')
-            .to(dots, 1, {
-                autoAlpha: 0,
-            }, '-=1')
-
-            .to(dots2, 6, {
-                x: '+=70',
-                scale: '2',
-            }, '-=5')
-            .to(dots2, 2, {
-                y: '+=20',
-            }, '-=3')
-            .to(dots2, 1, {
-                autoAlpha: 0,
-            }, '-=2')
-
-            .to(dots3, 6, {
-                y: '+=60',
-                scale: '2',
-            }, '-=4')
-            .to(dots3, 2, {
-                x: '+=5',
-            }, '-=3')
-            .to(dots3, 1, {
-                autoAlpha: 0,
-            }, '-=2')
-
-            .to(dots4, 4, {
-                y: '-=50',
-                x: '-10',
-                scale: '2',
-            }, '-=7')
-            .to(dots4, 1, {
-                autoAlpha: 0,
-            }, '-=4')
-
-    }
-
-    //--------------------------------------------------
-    // Owl Carousel Setup
-    //--------------------------------------------------
-
-    // about slider
-    aboutSlider();
-
-    function aboutSlider() {
-        var aboutSlide = $('.about-image .owl-carousel');
-        aboutSlide.owlCarousel({
-            loop: true,
-            margin: 30,
-            mouseDrag: false,
-            autoplay: true,
-            center: false,
-            dots: false,
-            dragEndSpeed: 700,
-            smartSpeed: 2000,
-            responsiveClass: true,
-            autoplayHoverPause: true,
-            autoplayTimeout: 3000,
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 0,
-                },
-                600: {
-                    items: 1,
-                    margin: 0,
-                },
-                1000: {
-                    items: 1,
-                    margin: 0,
+                    navbar.slideDown('fast').addClass('navbar-sticky');
                 }
-            }
-        });
-    }
 
 
-    // work slider
-    workSlder();
+                if (position > 1023) {
 
-    function workSlder() {
-        var owl = $('.work .owl-carousel');
+                    if (window.screen.width >= 767) {
 
-        owl.children().each(function (index) {
-            $(this).attr('data-position', index); // NB: .attr() instead of .data()
-        });
+                        toTop.fadeIn('fast');
+                    }
 
-        owl.owlCarousel({
-            loop: false,
-            margin: 30,
-            mouseDrag: true,
-            autoplay: false,
-            center: true,
-            dots: true,
-            nav: false,
-            slideBy: 'page',
-            dragEndSpeed: 700,
-            smartSpeed: 1000,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 20,
-                },
-                600: {
-                    items: 2,
-                    margin: 30,
-                },
-                1000: {
-                    items: 2,
-                    margin: 0,
+                } else {
+
+                    toTop.fadeOut('fast');
 
                 }
+
             }
-        });
 
-        $(document).on('click', '.work .owl-item>div', function () {
-            owl.trigger('to.owl.carousel', $(this).data('position'));
-        });
-        owl.trigger('refresh.owl.carousel');
-    }
+            position = scroll;
 
-
-
-    // team slider
-    teamSlider();
-
-    function teamSlider() {
-        var teamSlide = $('.team .owl-carousel');
-        teamSlide.owlCarousel({
-            loop: true,
-            margin: 30,
-            mouseDrag: true,
-            center: false,
-            dots: true,
-            nav: false,
-            dragEndSpeed: 700,
-            smartSpeed: 1000,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 20,
-                },
-                600: {
-                    items: 2,
-                    margin: 30,
-                },
-                1000: {
-                    items: 4,
-                    margin: 30,
-                }
-            }
-        });
-   
-    }
-
-    // testimonial slider
-    testiSlider();
-
-    function testiSlider() {
-        var testiSlide = $('.testi-content .owl-carousel');
-        testiSlide.owlCarousel({
-            loop: true,
-            margin: 30,
-            mouseDrag: false,
-            autoplay: true,
-            center: false,
-            dots: false,
-            dragEndSpeed: 700,
-            smartSpeed: 1000,
-            responsiveClass: true,
-            animateOut: 'fadeOut',
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 20,
-                },
-                600: {
-                    items: 1,
-                    margin: 30,
-                },
-                1000: {
-                    items: 1,
-                    margin: 0,
-
-                }
-            }
-        });
-
-        $(".nav-left").on('click', function () {
-            testiSlide.trigger('next.owl.carousel');
-        });
-        $(".nav-right").on('click', function () {
-            testiSlide.trigger('prev.owl.carousel');
-        });
-    }
-
-
-    // partner slider
-    partnerSlider();
-
-    function partnerSlider() {
-        var partnerSlide = $('.partner .owl-carousel');
-        partnerSlide.owlCarousel({
-            loop: true,
-            margin: 30,
-            mouseDrag: true,
-            autoplay: true,
-            center: false,
-            dots: false,
-            dragEndSpeed: 700,
-            smartSpeed: 2000,
-            slideSpeed : 100,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 2,
-                    margin: 20,
-                },
-                600: {
-                    items: 3,
-                    margin: 30,
-                },
-                1000: {
-                    items: 5,
-                    margin: 0,
-                }
-            }
-        });
-    }
-
-
-    // service 2 slider
-    serviceSlide2();
-
-    function serviceSlide2() {
-        var service2Slide = $('.service-2 .owl-carousel');
-        service2Slide.children().each(function (index) {
-            $(this).attr('data-position', index); // NB: .attr() instead of .data()
-        });
-
-
-        service2Slide.owlCarousel({
-            loop: false,
-            margin: 30,
-            startPosition: '1',
-            mouseDrag: false,
-            autoplay: false,
-            dots: false,
-            dragEndSpeed: 700,
-            smartSpeed: 1000,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    center: true,
-                    items: 1,
-                    margin: 20,
-                },
-                600: {
-                    items: 3,
-                    center: true,
-                    margin: 30,
-                },
-                1000: {
-                    items: 3,
-                    margin: 0,
-                    center: true,
-
-                }
-            }
-        });
-
-
-        $(".nav-left-service-2").on('click', function () {
-            service2Slide.trigger('prev.owl.carousel');
-        });
-        $(".nav-right-service-2").on('click', function () {
-            service2Slide.trigger('next.owl.carousel');
-        });
-
-        $(document).on('click', '.service-2 .owl-item>div', function () {
-            service2Slide.trigger('to.owl.carousel', $(this).data('position'));
-        });
-
-    }
-    //--------------------------------------------------
-    // Dropdown
-    //--------------------------------------------------
-    $('.dropdown-top').on("click", function () {
-        if ($(this).parent(".dropdown-faq").hasClass("open")) {
-            $(this).parent(".dropdown-faq").removeClass("open");
-            $(this).siblings(".dropdown-btm").slideUp(500);
-        } else {
-            $(".dropdown-faq").removeClass("open");
-            $(".dropdown-faq .dropdown-btm").slideUp(500);
-            $(this).parent(".dropdown-faq").addClass("open");
-            $(this).siblings(".dropdown-btm").slideDown(500);
         }
     })
 
+    $(document).on('click', '.smoth-anchor', function (event) {
 
-    //--------------------------------------------------
-    // Scrollit setup
-    //--------------------------------------------------
-    $.scrollIt({
-        upKey: 38, // key code to navigate to the next section
-        downKey: 40, // key code to navigate to the previous section
-        easing: 'easeIn', // the easing function for animation
-        scrollTime: 600, // how long (in ms) the animation takes
-        activeClass: 'active', // class given to the active nav element
-        onPageChange: null, // function(pageIndex) that is called when page is changed
-        topOffset: -100 // offste (in px) for fixed top navigation
-    });
+        event.preventDefault();
 
-})(jQuery);
+        $('html, body').animate({
 
+            scrollTop: $($.attr(this, 'href')).offset().top
 
+        }, 500);
+    })
 
+    $('.dropdown-menu').each(function () {
 
+        let dropdown = $(this);
 
+        dropdown.hover(function () {
+
+            dropdown.parent().find('.nav-link').first().addClass('effect-motion-text');
+
+        }, function () {
+
+            dropdown.parent().find('.nav-link').first().removeClass('effect-motion-text');
+
+        })
+    })
+})
+
+/*----------------------------------------------
+3. Slides
+----------------------------------------------*/
 
 $(function () {
-      
-    $('#contact-form').on('submit', function (e) {
 
-      e.preventDefault();
-   
-        $.ajax({
+    'use strict';
+
+    var animation = (slider) => {
+
+        let image = $(slider + ' .swiper-slide-active img');
+        let title = $(slider + ' .title');
+        let description = $(slider + ' .description');
+        let btn = $(slider + ' .btn');
+        let nav = $(slider + ' nav');
+
+        image.toggleClass('aos-animate');
+        title.toggleClass('aos-animate');
+        description.toggleClass('aos-animate');
+        btn.toggleClass('aos-animate');
+        nav.toggleClass('aos-animate');
+
+        setTimeout(() => {
+
+            image.toggleClass('aos-animate');
+            title.toggleClass('aos-animate');
+            description.toggleClass('aos-animate');
+            btn.toggleClass('aos-animate');
+            nav.toggleClass('aos-animate');
+
+            AOS.refresh();
+
+        }, 100)
+
+        if ($('.slider-full').hasClass('animation')) {
+
+            $('.left').addClass('off');
+            $('.left').removeClass('init');
+
+            setTimeout(() => {
+
+                $('.left').removeClass('off');
+
+            }, 200)
+
+            setTimeout(() => {
+
+                $('.left').addClass('init');
+
+            }, 1000)
+
+        } else {
+
+            $('.left').addClass('init');
+        }
+    }
+
+    var sliderFull = new Swiper('.slider-full', {
+
+        autoplay: {
+            delay: 5000,
+        },
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+            el: '.swiper-pagination'
+        },
+        navigation: false,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+        keyboard: {
+            enabled: true,
+            onlyInViewport: false
+        },
+        on: {
+            init: () => {
+
+                animation('.slider-full')
+
+                let pagination = $('.slider-full .swiper-pagination');
+
+                pagination.hide();
+
+                setTimeout(() => {
+
+                    pagination.show();
+
+                }, 2000)
+
+            },
+            slideChange: () => {
+
+                animation('.slider-full')
+            }
+        }
+    })
+
+    var sliderMid = new Swiper('.slider-mid', {
+
+        autoplay: false,
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        breakpoints: {
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            1023: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            }
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        }
+    })
+
+    var sliderMin = new Swiper('.slider-min', {
+
+        autoplay: {
+            delay: 5000,
+        },
+        loop: true,
+        slidesPerView: 2,
+        spaceBetween: 15,
+        breakpoints: {
+            424: {
+                slidesPerView: 2,
+                spaceBetween: 15
+            },
+            767: {
+                slidesPerView: 3,
+                spaceBetween: 15
+            },
+            1023: {
+                slidesPerView: 4,
+                spaceBetween: 15
+            },
+            1199: {
+                slidesPerView: 5,
+                spaceBetween: 15
+            }
+        },
+        pagination: false,
+    })
+
+    var sliderDisabled = new Swiper('.slider-disabled', {
+
+        autoplay: false,
+        loop: false,
+        keyboard: false,
+        grabCursor: false,
+        allowTouchMove: false,
+        on: {
+            init: () => {
+                animation('.slider-disabled')
+            }
+        }
+    })
+})
+
+/*----------------------------------------------
+4. Gallery
+----------------------------------------------*/
+
+$(function () {
+
+    'use strict';
+
+    $('.gallery').lightGallery({
+        thumbnail: false,
+        share: false
+    })
+})
+
+/*----------------------------------------------
+5. Multi-Step Form
+----------------------------------------------*/
+
+$(function () {
+
+    'use strict';
+
+    var current_fs, next_fs, previous_fs;
+    var left, opacity, scale;
+    var animating;
+
+    $('#msform').css('height', $('#msform').height());
+
+    function next(button, group, show, hide) {
+
+        $(document).on('click', button, function () {
+
+            $(group + ' .form-control').each(function () {
+
+                var minlength = $(this).attr('minlength');
+
+                if ($(this).val() == null || $(this).val() == '') {
+
+                    var value = 0;
+
+                } else {
+
+                    var value = $(this).val().length;
+                }
+
+                if (Number(minlength) <= Number(value)) {
+
+                    $(this).removeClass('invalid').addClass('valid');
+
+                } else {
+
+                    $(this).removeClass('valid').addClass('invalid');
+                }
+            })
+
+            let field = $(group).find('.form-control').length;
+            let valid = $(group).find('.valid').length;
+
+            if (field == valid) {
+
+                if (animating) return false;
+                animating = true;
+
+                current_fs = $(this).parents().eq(1);
+                next_fs = $(this).parents().eq(1).next();
+
+                $('#progressbar li').eq($('fieldset').index(next_fs)).addClass('active');
+
+                next_fs.show();
+
+                current_fs.animate({
+
+                    opacity: 0
+
+                }, {
+                    step: function (now, mx) {
+
+                        scale = 1 - (1 - now) * 0.2;
+                        left = (now * 50) + '%';
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'transform': 'scale(' + scale + ')',
+                            'position': 'absolute'
+                        })
+
+                        next_fs.css({
+                            'left': left,
+                            'opacity': opacity
+                        })
+                    },
+                    duration: 800,
+                    complete: function () {
+                        current_fs.hide();
+                        animating = false;
+                    },
+                    easing: 'easeInOutBack'
+                })
+
+                $(hide).hide();
+                $(show).show();
+
+                if (button == '#next-2') {
+                    $('#progressbar').addClass('complete');
+                }
+
+                if (button == '#next-3') {
+
+                    $('.form .intro').css('opacity', '0');
+                    $(button).parents().eq(5).find('.message').addClass('active');
+
+                    // Here the form is sent.
+                    $('#msform').submit();
+                }
+            }
+        })
+
+    }
+
+    next('#next-1', '#group-1', '#step-2, #text-2', '#step-1, #text-1');
+    next('#next-2', '#group-2', '#step-3, #text-3', '#step-2, #text-2');
+    next('#next-3', '#group-3', '#step-4', '#step-3');
+
+    function prev(button, show, hide) {
+
+        $(document).on('click', button, function () {
+
+            if (animating) return false;
+            animating = true;
+
+            current_fs = $(this).parents().eq(1);
+            previous_fs = $(this).parents().eq(1).prev();
+
+            $('#progressbar li').eq($('fieldset').index(current_fs)).removeClass('active');
+
+            previous_fs.show();
+            current_fs.animate({
+
+                opacity: 0
+
+            }, {
+                step: function (now, mx) {
+
+                    scale = 0.8 + (1 - now) * 0.2;
+                    left = ((1 - now) * 50) + '%';
+                    opacity = 1 - now;
+
+                    current_fs.css({
+
+                        'left': left
+                    })
+
+                    previous_fs.css({
+
+                        'transform': 'scale(' + scale + ')',
+                        'opacity': opacity
+                    })
+                },
+                duration: 800,
+                complete: function () {
+
+                    current_fs.hide();
+                    animating = false;
+                },
+                easing: 'easeInOutBack'
+            })
+
+            $(hide).hide();
+            $(show).show();
+
+            if (button == '#prev-3') {
+                $('#progressbar').removeClass('complete');
+            }
+        })
+    }
+
+    prev('#prev-2', '#step-1, #text-1', '#step-2, #text-2');
+    prev('#prev-3', '#step-2, #text-2', '#step-3, #text-3');
+})
+
+/*----------------------------------------------
+6. Submission Parameters
+----------------------------------------------*/
+$(function () {
+
+    'use strict';
+
+    // Variable to hold request
+    var request;
+
+    // Bind to the submit event of our form
+    $('#msform').submit(function (event) {
+
+        // Prevent default posting of form - put here to work in case of errors
+        event.preventDefault();
+
+        // Abort any pending request
+        if (request) {
+            request.abort();
+        }
+
+        // setup some local variables
+        var $form = $(this);
+
+        // Let's select and cache all the fields
+        var $inputs = $form.find('input, select, button, textarea');
+
+        // Serialize the data in the form
+        var serializedData = $form.serialize();
+
+        // Let's disable the inputs for the duration of the Ajax request
+        // Note: we disable elements AFTER the form data has been serialized
+        // Disabled form elements will not be serialized
+        $inputs.prop('disabled', true);
+
+        // Fire off the request
+        request = $.ajax({
+            url: 'php/mail.php', // Enter your back-end URL here
             type: 'post',
-            url: 'contactform.php',
-            data: $('#contact-form').serialize(),
-            success: function (data) {
-              if (data=="success") {
-                  swal("Good job!", "We will contact you asap !", "success");
-              } else if(data=='captcha') {
-                swal ( "Oops" ,  "Please complete the captcha" ,  "error" )
-            }
-               else {
-                  swal ( "Oops" ,  "Something went wrong!" ,  "error" )
-              }
-            }
-          });
+            data: serializedData
+        })
 
-      
+        // Callback handler that will be called on success
+        request.done(function (response, textStatus, jqXHR) {
 
+            // Log a message to the console
+            console.log('Hooray, it worked!');
+        })
 
+        // Callback handler that will be called on failure
+        request.fail(function (jqXHR, textStatus, errorThrown) {
 
+            // Log the error to the console
+            console.error(textStatus, errorThrown);
+        })
 
-//   alert("hi");
-    });
+        // Callback handler that will be called regardless
+        // if the request failed or succeeded
+        request.always(function () {
 
-  });
-
-
-var correctCaptcha = function(response) {
-    // alert(response);
-    $("#captcha").val(response);
-};
+            // Reenable the inputs
+            $inputs.prop('disabled', false);
+        })
+    })
+})

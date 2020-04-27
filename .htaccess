@@ -1,3 +1,0 @@
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} nyxwolves\.com$ [NC]
-RewriteRule ^ https://nyxwolves.com%{REQUEST_URI}  [R=301,L,NE]

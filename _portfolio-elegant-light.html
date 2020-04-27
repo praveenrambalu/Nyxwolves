@@ -41,27 +41,25 @@
         Custom Stylesheet
         =============================================== -->
         <link rel="stylesheet" href="assets/css/default.css">
-        <link rel="stylesheet" href="assets/css/theme-dark.css">
+        <link rel="stylesheet" href="assets/css/theme-elegant.css">
+        <link rel="stylesheet" href="assets/css/theme-indigo.css">
 
         <!-- ==============================================
         Section Configuration
         =============================================== -->
         <style>
             :root {
-                --section-1-bg-color: #040402;
-                --section-2-bg-color: #040402;
-                --section-3-bg-color: #191919;
-                --section-4-bg-color: #111111;
-                --section-5-bg-color: #040402;
-                --section-6-bg-color: #040402;
-                --section-7-bg-color: #040402;
-                --section-8-bg-color: #191919;
-                --section-9-bg-color: #111111;
-                --section-10-bg-color: #191919;
-                --section-11-bg-color: #040402;
-            
-                --footer-1-bg-color: #111111;
-                --footer-2-bg-color: #040402;
+                --section-1-bg-color: #f5f5f5;
+                --section-2-bg-color: #f5f5f5;
+                --section-3-bg-color: #f5f5f5;
+                --section-4-bg-color: #eeeeee;
+                --section-5-bg-color: #f5f5f5;
+                --section-6-bg-color: #eeeeee;
+                --section-7-bg-color: #eeeeee;
+                --section-9-bg-color: #f5f5f5;
+                
+                --footer-1-bg-color: #040402;
+                --footer-2-bg-color: #111111;
             }
         </style>
         
@@ -78,7 +76,7 @@
 
                     <!-- Navbar Brand-->
                     <a class="navbar-brand" href="/">
-                        Nyx Wolves<i>.</i>
+                        Leverage<i>.</i>
                         <!-- 
                             Custom Logo
                             <img src="assets/images/logo.svg" alt="Leverage">
@@ -87,8 +85,24 @@
 
                     <!-- Navbar Itens-->
                     <ul class="navbar-nav items ml-auto">
-                        <li class="nav-item"><a href="/index.html" class="nav-link effect-motion-hover">Home </a></li>
-                        <!-- <li class="nav-item dropdown">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link effect-motion-hover">Home <i class="icon-arrow-down"></i></a>
+                            <div class="dropdown-menu">
+                                <a href="_agency-modern-light.html" class="nav-link">Light Modern Agency</a>
+                                <a href="_agency-modern-dark.html" class="nav-link">Dark Modern Agency</a>
+                                <a href="_agency-elegant-light.html" class="nav-link">Light Elegant Agency</a>
+                                <a href="_agency-elegant-dark.html" class="nav-link">Dark Elegant Agency</a>
+                                <a href="_startup-illustrative-light.html" class="nav-link">Light Illustrative Startup</a>
+                                <a href="_startup-illustrative-dark.html" class="nav-link">Dark Illustrative Startup</a>
+                                <a href="_agency-classic.html" class="nav-link">Classic Agency</a>
+                                <a href="_portfolio-elegant-light.html" class="nav-link">Light Elegant Portfolio</a>
+                                <a href="_portfolio-elegant-dark.html" class="nav-link">Dark Elegant Portfolio</a>
+                                <a href="_corporate-modern-light.html" class="nav-link">Light Modern Corporate</a>
+                                <a href="_corporate-classic.html" class="nav-link">Classic Corporate</a>
+                                <a href="_technology-classic.html" class="nav-link">Classic Technology</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
                             <a href="#" class="nav-link effect-motion-hover">Pages <i class="icon-arrow-down"></i></a>
                             <div class="dropdown-menu">
                                 <a href="about-1.html" class="nav-link">About</a>
@@ -103,24 +117,25 @@
                                 <a href="search-1.html" class="nav-link">Search Results</a>
                                 <a href="404-1.html" class="nav-link">404 Page</a>
                             </div>
-                        </li> -->
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link effect-motion-hover">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="services.html" class="nav-link effect-motion-hover">Services</a>
+                            <a href="about-1.html" class="nav-link effect-motion-hover">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="works.html" class="nav-link effect-motion-hover">Works</a>
+                            <a href="services-1.html" class="nav-link effect-motion-hover">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="taas.html" class="nav-link effect-motion-hover">TaaS Product</a>
+                        <li class="nav-item dropdown">
+                            <a href="blog-listing-1.html" class="nav-link effect-motion-hover">Blog <i class="icon-arrow-down"></i></a>
+                            <div class="dropdown-menu">
+                                <a href="blog-listing-1.html" class="nav-link">Blog Listing<a>
+                                <a href="blog-grid-1.html" class="nav-link">Blog Grid<a>
+                                <a href="blog-single-post-1.html" class="nav-link">Single Post</a>
+                            </div>
                         </li>
-                       
                     </ul>
 
                     <!-- Navbar Icons-->
-                    <!-- <ul class="navbar-nav icons ml-auto m-xl-0">
+                    <ul class="navbar-nav icons ml-auto m-xl-0">
                         <li class="nav-item">
                             <a href="#" class="nav-link effect-motion-hover" data-toggle="modal" data-target="#search">
                                 <i class="icon-magnifier"></i>
@@ -132,7 +147,7 @@
                         <li class="nav-item social">
                             <a href="#" class="nav-link effect-motion-hover"><i class="icon-social-instagram"></i></a>
                         </li>
-                    </ul> -->
+                    </ul>
 
                     <!-- Navbar Toggle-->
                     <ul class="navbar-nav toggle">
@@ -155,46 +170,18 @@
         </header>
 
         <!-- Banner -->
-        <section id="slider" class="p-0">
-            <div class="swiper-container slider-full animation slider-h-100">
+        <section id="slider" class="p-0 featured left all">
+            <div class="swiper-container slider-disabled animation slider-h-100 alt">
                 <div class="swiper-wrapper">
 
                     <!-- Item 1 -->
                     <div class="swiper-slide slide-center">
-                        <img data-aos="zoom-out-up" data-aos-delay="800" src="assets/images/hero-4.jpg" class="image-full">
+                        <img data-aos="zoom-out-up" data-aos-delay="800" src="assets/images/hero-9.jpg" class="image-full">
                         <div class="slide-content row justify-content-start">
                             <div class="col-12 d-flex inner">
                                 <div class="left align-self-center text-center text-md-left">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Let's Create Something.</h1>
+                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Hello Guys!<br> I'm Sarah Fox.</h1>
                                     <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Here you can choose a beautiful photo and briefly describe your idea of ​​innovation.</p>
-                                    <a href="#intro" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i class="icon-cup"></i>GET STARTED</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 2 -->
-                    <div class="swiper-slide slide-center">
-                        <img data-aos="zoom-out-up" data-aos-delay="800" src="assets/images/hero-5.jpg" class="image-full">
-                        <div class="slide-content row justify-content-start">
-                            <div class="col-12 d-flex inner">
-                                <div class="left align-self-center text-center text-md-left">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">A Touch of Creativity.</h1>
-                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">We take care of the initial design very carefully so that you can create amazing pages.</p>
-                                    <a href="#intro" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i class="icon-cup"></i>GET STARTED</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="swiper-slide slide-center">
-                        <img data-aos="zoom-out-up" data-aos-delay="800" src="assets/images/hero-6.jpg" class="image-full">
-                        <div class="slide-content row justify-content-start">
-                            <div class="col-12 d-flex inner">
-                                <div class="left align-self-center text-center text-md-left">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">For Modern Companies.</h1>
-                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Now you can be authentic and win over many potential customers who will find you stylish.</p>
                                     <a href="#intro" data-aos="zoom-out-up" data-aos-delay="1200" class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i class="icon-cup"></i>GET STARTED</a>
                                 </div>
                             </div>
@@ -206,8 +193,37 @@
             </div>
         </section>
 
+        <!-- Features -->
+        <section id="intro" class="offers featured right">
+            <div class="container">
+                <div class="row justify-content-center text-center items">
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card no-hover">
+                            <i class="icon icon-camera"></i>
+                            <h4>Image Capture</h4>
+                            <p>Lorem ipsum dolor sit amet as consectetur adipiscing elit praesent diam lacus, dapibus sed imper.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card no-hover">
+                            <i class="icon icon-note"></i>
+                            <h4>Customization</h4>
+                            <p>Lorem ipsum dolor sit amet as consectetur adipiscing elit praesent diam lacus, dapibus sed imper.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div class="card no-hover">
+                            <i class="icon icon-lock"></i>
+                            <h4>Data Security</h4>
+                            <p>Lorem ipsum dolor sit amet as consectetur adipiscing elit praesent diam lacus, dapibus sed imper.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- About [image] -->
-        <section id="intro" class="highlights left">
+        <section id="about" class="highlights featured left">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 align-self-center text-center text-md-left">
@@ -241,8 +257,8 @@
                         </div>
                     </div>
                     <div class="gallery col-12 col-md-6">
-                        <a href="assets/images/about-4.jpg">
-                            <img src="assets/images/about-4.jpg" class="image-fit">
+                        <a href="assets/images/about-3.jpg">
+                            <img src="assets/images/about-3.jpg" class="image-fit">
                         </a>
                     </div>
                 </div>
@@ -250,52 +266,27 @@
         </section>
 
         <!-- About [video] -->
-        <!-- <section id="video" class="highlights right">
-            <div class="container">
-                <div class="row">
-                    <div class="gallery col-12 col-md-6">
-                        <a data-poster="assets/images/about-5.jpg" href="https://www.youtube.com/watch?v=7e90gBu4pas">
-                            <i class="play-video icon-control-play"></i>
-                            <div class="mask-radius"></div>
-                            <img src="assets/images/about-5.jpg" class="image-fit">
-                        </a>
+        <section id="video" class="highlights featured right">
+            <div class="container short">
+                <div class="row text-center intro">
+                    <div class="col-12">
+                        <h2>Watch the Video</h2>
+                        <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus, id pellentesque mauris tincidunt.</p>
                     </div>
-                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-                        <div class="row intro">
-                            <div class="col-12 p-0">
-                                <h2 class="featured alt">Watch The Video</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
-                            </div>
-                        </div>
-                        <div class="row items">
-                            <div class="col-12 p-0">
-                                <div data-aos="fade-left" data-aos-delay="100" class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-trophy"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4>Technology</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>  
-                                </div>
-                                <div data-aos="fade-left" data-aos-delay="200" class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-diamond"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4>Innovation</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>  
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 gallery">
+                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="square-image d-flex justify-content-center align-items-center">
+                            <i class="icon bigger icon-control-play"></i>
+                            <img src="assets/images/news-4.jpg" class="image-fit">
+                        </a>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- Services -->
-        <section id="services" class="offers featured">
+        <section id="services" class="offers featured left">
             <div class="container">
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
@@ -360,7 +351,7 @@
         </section>
 
         <!-- Work -->
-        <section id="work" class="offers secondary featured">
+        <section id="work" class="offers secondary featured right">
             <div class="container">
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
@@ -383,7 +374,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item " data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <h4>Creative Wall</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -409,329 +400,8 @@
             </div>
         </section>
 
-        <!-- Team -->
-        <section id="team" class="carousel">
-            <div class="container">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <h2>Team of Experts</h2>
-                        <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet.</p>
-                    </div>
-                </div>
-                <div class="swiper-container slider-mid items">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-1.jpg" alt="Adams Baker" class="person">
-                                    <h4>Adams Baker</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-2.jpg" alt="Mary Evans" class="person">
-                                    <h4>Mary Evans</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
-                                    <h4>Sarah Lopez</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-4.jpg" alt="Joseph Hills" class="person">
-                                    <h4>Joseph Hills</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-5.jpg" alt="Karen Usman" class="person">
-                                    <h4>Karen Usman</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Partners -->
-        <section id="partner" class="logos">
-            <div class="container">
-                <div class="swiper-container slider-min">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-1.png" class="image-fit w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-2.png" class="image-fit w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-3.png" class="image-fit w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-4.png" class="image-fit w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-5.png" class="image-fit w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-6.png" class="image-fit w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-7.png" class="image-fit w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-8.png" class="image-fit w-85">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Blog -->
-        <section id="blog" class="carousel showcase">
-            <div class="container">
-                <div class="row intro">
-                    <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">Latest News</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="col-12 col-md-3 align-self-end">
-                        <a href="blog-listing-1.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-grid"></i>VIEW ALL</i></a>
-                    </div>
-                </div>
-                <div class="swiper-container slider-mid items">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-1-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-2-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-3-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-4-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-5-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-6-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Subscribe -->
-        <section id="subscribe" class="subscription">
-            <div class="container smaller">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <h2>Newsletter</h2>
-                        <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus, id pellentesque mauris tincidunt.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 p-0">
-                        <form class="row m-auto items">
-                            <div class="col-12 col-lg-5 m-lg-0 input-group align-self-center item">
-                                <input type="text" class="form-control input-style" placeholder="Name" required>
-                            </div>
-                            <div class="col-12 col-lg-5 m-lg-0 input-group align-self-center item">
-                                <input type="text" class="form-control input-style" placeholder="Email" required>
-                            </div>
-                            <div class="col-12 col-lg-2 m-lg-0 input-group align-self-center item">
-                                <button class="btn primary-button w-100"><i class="icon-note"></i>SUBSCRIBE</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Contact -->
-        <section id="contact" class="form">
+        <section id="contact" class="form featured all">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 align-self-center text-center text-md-left">
@@ -1068,6 +738,6 @@
         <script src="assets/js/vendor/gallery.min.js"></script>
         <script src="assets/js/vendor/animation.min.js"></script>
         <script src="assets/js/main.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
     </body>
 </html>
