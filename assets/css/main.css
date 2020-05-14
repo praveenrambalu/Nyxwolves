@@ -534,6 +534,7 @@ aside {
 .showcase .card {
     height: auto;
     background-color: transparent;
+    box-shadow:none;
 }
 
 .showcase .card .image-over {
