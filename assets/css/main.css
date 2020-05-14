@@ -2531,3 +2531,7 @@ footer .copyright p {
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;
 }
+.footer{
+    padding-bottom:50px ;
+    padding-top: 50px;
+}
