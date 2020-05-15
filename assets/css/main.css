@@ -2535,3 +2535,20 @@ footer .copyright p {
     padding-bottom:50px ;
     padding-top: 50px;
 }
+section.map{
+    /* background: url(/assets/images/map.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center center; */
+    padding: 40px 0;
+    background: rgb(17,17,17);
+}
+.amcharts-map-image {
+    display: none;
+}
+
+[title*="Interactive JavaScript maps"] {
+    display: hidden;
+    visibility: hidden;
+}
