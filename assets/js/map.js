@@ -6,7 +6,7 @@ AmCharts.makeChart("map",{
     "color": "#FFFFFF",
     "projection": "mercator",
     "backgroundAlpha": 1,
-    "backgroundColor": "rgba(17,17,17,1)",
+    "backgroundColor": "rgba(0,0,0,1)",
     "dataProvider": {
         "map": "worldLow",
         "getAreasFromMap": true,
