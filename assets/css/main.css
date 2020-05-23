@@ -2555,3 +2555,89 @@ section.map{
 #copyright a {
     font-size: 11px;
 }
+
+
+        /*Checkboxes styles*/
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"]+label {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 20px;
+            font: 14px/20px 'Open Sans', Arial, sans-serif;
+            color: #ddd;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        input[type="checkbox"]+label:last-child {
+            margin-bottom: 0;
+        }
+
+        input[type="checkbox"]+label:before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #6cc0e5;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: .6;
+            -webkit-transition: all .12s, border-color .08s;
+            transition: all .12s, border-color .08s;
+        }
+
+        input[type="checkbox"]:checked+label:before {
+            width: 10px;
+            top: -5px;
+            left: 5px;
+            border-radius: 0;
+            opacity: 1;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+
+        /* rain style */
+
+
+        canvas {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        #instructions {
+            opacity: 1;
+            transition: opacity 2s;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI1NnB4IiBoZWlnaHQ9IjI1NnB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjU2IDI1NjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBwb2ludHM9IjIyLjE0LDQ4IDM3LjA0NSwyMi4xODMgNTEuOTUxLDQ4Ii8+PHBvbHlnb24gc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIHBvaW50cz0iNTEuOTUxLDE4NiAzNy4wNDUsMjExLjgxNiAyMi4xNCwxODYiLz48cG9seWdvbiBzdHlsZT0iZmlsbDojRkZGRkZGOyIgcG9pbnRzPSI3MCwyMzMuODEyIDQ0LjE4NCwyMTguOTA2IDcwLDIwNC4wMDEiLz48cG9seWdvbiBzdHlsZT0iZmlsbDojRkZGRkZGOyIgcG9pbnRzPSIyMDgsMjA0LjAwMSAyMzMuODE2LDIxOC45MDYgMjA4LDIzMy44MTIiLz48cmVjdCB4PSIzMSIgeT0iNDciIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiB3aWR0aD0iMTIiIGhlaWdodD0iMTQxIi8+PHJlY3QgeD0iNjgiIHk9IjIxMyIgc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIHdpZHRoPSIxNDEiIGhlaWdodD0iMTIiLz48dGV4dCB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAxIDExNC45NDUzIDEwMy4zNTc5KSI+PHRzcGFuIHg9IjAiIHk9IjAiIHN0eWxlPSJmaWxsOiNGRkZGRkY7IGZvbnQtZmFtaWx5OidBcmlhbC1Cb2xkTVQnOyBmb250LXNpemU6MTY7Ij5EUkFHPC90c3Bhbj48dHNwYW4geD0iMTYuMDA0IiB5PSIxOS4yIiBzdHlsZT0iZmlsbDojRkZGRkZGOyBmb250LWZhbWlseTonQXJpYWwtQm9sZE1UJzsgZm9udC1zaXplOjE2OyI+dG88L3RzcGFuPjx0c3BhbiB4PSItMTEuMTEzIiB5PSIzOC40MDEiIHN0eWxlPSJmaWxsOiNGRkZGRkY7IGZvbnQtZmFtaWx5OidBcmlhbC1Cb2xkTVQnOyBmb250LXNpemU6MTY7Ij5DSEFOR0U8L3RzcGFuPjwvdGV4dD48dGV4dCB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAxIDExNy4xNzE5IDIwNy4xMzI4KSIgc3R5bGU9ImZpbGw6I0ZGRkZGRjsgZm9udC1mYW1pbHk6J0FyaWFsLUJvbGRNVCc7IGZvbnQtc2l6ZToxNjsiPldJTkQ8L3RleHQ+PHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoLTQuMzcxMTM5ZS0wOCAtMSAxIC00LjM3MTEzOWUtMDggNTkuODcwMSAxODEuMDU4NikiIHN0eWxlPSJmaWxsOiNGRkZGRkY7IGZvbnQtZmFtaWx5OidBcmlhbC1Cb2xkTVQnOyBmb250LXNpemU6MTY7Ij5SQUlOIElOVEVOU0lUWTwvdGV4dD48L3N2Zz4=);
+
+            @media (max-height: 400px) {
+                display: none;
+            }
+        }
+
+
+
+
+        #slider{
+            background: url("http://placehold.it/1080");
+            background-size: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+    }
+    .title.effect-static-text.aos-init.aos-animate {
+        text-align: left;
+        font-size: 3rem;
+    }
