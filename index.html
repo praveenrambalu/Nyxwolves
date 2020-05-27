@@ -60,6 +60,7 @@
     <link rel="stylesheet" href="assets/css/theme-dark.css">
     <link rel="stylesheet" href="assets/css/preloader.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.css" />
     <!-- ==============================================
         Section Configuration
         =============================================== -->
@@ -83,6 +84,50 @@
         #slider{
             background:#040402;
     }
+
+
+
+.noUi-handle.noUi-handle-lower, .noUi-handle.noUi-handle-upper  {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+.noUi-horizontal {
+    height: 10px;
+}
+.noUi-handle::before, .noUi-handle::after {
+    display:none;
+}
+
+.noUi-connect{
+
+background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+    background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+    background-size: 200% auto;
+    -webkit-animation: effect 1s linear infinite;
+    animation: effect 1s linear infinite;
+    color: var(--primary-b-color);
+
+}
+
+.noUi-tooltip {
+    display: none;
+}
+.noUi-active .noUi-tooltip {
+    display: block;
+}
+#lower-value {
+    float: left;
+    color: #fff;
+}
+#upper-value {
+    float: right;
+    color: #fff;
+}
+
+
+
     </style>
 </head>
 
@@ -1520,6 +1565,7 @@
                                                     class="form-control input-style" placeholder="Phone" required>
                                             </div>
                                         </div>
+                                    
                                         <div class="col-12 input-group p-0">
                                             <a id="next-1" class="next btn primary-button">NEXT<i
                                                     class="btn-icon icon-arrow-right-circle left"></i></a>
@@ -1551,6 +1597,17 @@
 
 
                                         </div>
+
+
+                                        <div class="row py-2">
+                                            <div class="col-12 text-left"><h5 class="pt-1 pb-3 text-white">Budget </h5>
+                                                 <div id="range-slider"></div>
+                                                 <div class="values-holder">
+                                                     <span class="leftexample-val" id="lower-value"></span>
+                                                     <span class="rightexample-val" id="upper-value"></span>
+                                                    </div>
+                                            </div>
+                                        </div>
                                        
 
                                         <div
@@ -1581,7 +1638,12 @@
                                 </form>
                             </div>
                         </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                     </div>
+
 
                     <div class="gallery col-12 col-md-6 pl-md-5 d-none d-md-block">
 
@@ -1822,6 +1884,44 @@
     </script>
 
     <script src="assets/js/rain.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.js"></script>
+    <script>
+        var rangeslider = document.getElementById('range-slider');
+        var updateSliderValue = document.getElementById('slider-value');
+noUiSlider.create(rangeslider, {
+    start: [20000, 80000],
+    step: 1000,
+    connect: true,
+    range: {
+        'min': 20000,
+        'max': 100000
+    },
+    tooltips:true,
+    format: wNumb({
+        decimals: 0, // default is 2
+        thousand: '.' // thousand delimiter
+        // postfix: ' (US $)', // gets appended after the number
+    })
+});
+
+
+
+
+var nodes = [
+    document.getElementById('lower-value'), // 0
+    document.getElementById('upper-value')  // 1
+];
+
+// Display the slider value and how far the handle moved
+// from the left edge of the slider.
+rangeslider.noUiSlider.on('update', function (values, handle, unencoded, isTap, positions) {
+    nodes[handle].innerHTML =  'Rs .' + values[handle] ;
+});
+
+
+
+    </script>
 </body>
 
 </html>
