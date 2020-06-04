@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'PagesController@homePage');
+Route::get('/about', 'PagesController@aboutPage');
+Route::get('/services', 'PagesController@services');
+Route::get('/works', 'PagesController@works');
+Route::get('/contact', 'PagesController@contact');
+
+Route::get('/services/brand-and-identity','PagesController@brandIdentity');
+Route::get('/services/web-design-and-development','PagesController@webDesignDevelopment');
+Route::get('/services/digital-marketing','PagesController@digitalMarketing');
+Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform');

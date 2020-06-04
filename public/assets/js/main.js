@@ -556,11 +556,11 @@ $(function () {
     })
 })
 
-$("document").ready(function(){
-    $(".fullpage").hide();
+// $("document").ready(function(){
+//     $(".fullpage").hide();
 
-    setTimeout(() => {
-        $(".fullpage").fadeIn(2000);
-        $("#preloader").fadeOut(2000);
-    }, 5000);
-});
+//     setTimeout(() => {
+//         $(".fullpage").fadeIn(2000);
+//         $("#preloader").fadeOut(2000);
+//     }, 5000);
+// });
