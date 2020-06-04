@@ -291,7 +291,7 @@
                     <main class="col-12 col-md-8 p-0">
                         <div class="row intro">
                             <div class="col-12 align-self-center">
-                                <h2 class="featured">why choose us</h2>
+                                <h2 class="featured">Why choose us</h2>
                                 <p>You are our first priority. We understand your every goal. Our energetic and tech-savvy pack of designers and developers create futuristic solutions to progressively elevate your growth and help you achieve your business goals. Our versatile team has years of expertise in building extraordinary things out of the ordinary. We assure quality in every aspect and guarantee your success. </p>
                                 <!-- <p>
                                     <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam tortor, ultrices accumsan mauris eget, pulvinar tincidunt erat. Sed nisi nisi, rutrum sit amet elit.</blockquote>
@@ -491,7 +491,7 @@
                     <p class="text-max-800">You are our first priority. We don’t just serve our clients; we understand your every need and progressively work to give you an edge in the competitive world. </p>
                     <br>
                     <br>
-                    <a href="services.html" class="btn m-auto mt-3 primary-button"><i class="icon-grid"></i>VIEW ALL SERVICES</i></a>
+                    <a href="services" class="btn m-auto mt-3 primary-button"><i class="icon-grid"></i>VIEW ALL SERVICES</i></a>
                 </div>
             </div>
         </div>
@@ -505,7 +505,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="col-12 col-md-3 align-self-end">
-                    <a href="contact.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-speech"></i>CONTACT US</i></a>
+                    <a href="contact" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-speech"></i>CONTACT US</i></a>
                 </div>
             </div>
             <div class="row justify-content-center text-center items">

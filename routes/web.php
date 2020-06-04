@@ -23,9 +23,10 @@ Route::get('/', 'PagesController@homePage');
 Route::get('/about', 'PagesController@aboutPage');
 Route::get('/services', 'PagesController@services');
 Route::get('/works', 'PagesController@works');
+Route::get('/wolf-pack', 'PagesController@wolfPack');
 Route::get('/contact', 'PagesController@contact');
 
 Route::get('/services/brand-and-identity','PagesController@brandIdentity');
 Route::get('/services/web-design-and-development','PagesController@webDesignDevelopment');
 Route::get('/services/digital-marketing','PagesController@digitalMarketing');
-Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform');
+Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform'); 

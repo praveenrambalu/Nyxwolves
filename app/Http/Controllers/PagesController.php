@@ -22,6 +22,10 @@ class PagesController extends Controller
     {
         return view('pages.works');
     }
+    public function wolfPack()
+    {
+        return view('pages.wolf-pack');
+    }
     public function contact()
     {
         return view('pages.contact');

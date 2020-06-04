@@ -268,7 +268,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             and progressively work to give you an edge in the competitive world. </p>
                     </div>
                     <div class="col-12 col-md-3 align-self-end">
-                        <a href="services.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
+                        <a href="/services" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
                                 class="icon-grid"></i>VIEW ALL</i></a>
                     </div>
                 </div>
@@ -281,7 +281,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <p>Our dynamic team builds your brand that speaks for itself. We strategize and inculcate
                                 design and creativity into branding that mirrors your business goals, ideals, and
                                 principles. </p>
-                            <a href="service-brand-and-identity.html"><i
+                            <a href="/services/brand-and-identity"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
                     </div>
@@ -292,7 +292,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <p>Our team uses cutting-edge technology to design and develop visually rich business
                                 websites. With simplified yet elegant designs, we guarantee an exclusive website or a
                                 web application to enhance your growth. </p>
-                            <a href="service-web-design-and-development.html"><i
+                            <a href="/services/web-design-and-development"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
                     </div>
@@ -303,7 +303,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <p>Our unique and powerful digital marketing strategies to reach potential customers will
                                 act as the best catalyst to expand your business. Our wolf pack diligently caters to
                                 numerous robust methods that help you grow. </p>
-                            <a href="service-digital-marketing.html"><i
+                            <a href="/services/digital-marketing"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
                     </div>
@@ -314,7 +314,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <p>With Artificial Intelligence, we help you build all forms of incredibly-smart software
                                 products and give them an exclusive edge. Our innovative solutions place your business
                                 on equal footing with the current trends and ensure a powerful tomorrow.</p>
-                            <a href="service-ai-digital-platforms.html"><i
+                            <a href="/services/ai-and-digital-platforms"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
                     </div>
@@ -334,7 +334,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             their success. </p>
                     </div>
                     <div class="col-12 col-md-3 align-self-end">
-                        <a href="work-1.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
+                        <a href="works" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
                                 class="icon-grid"></i>VIEW ALL</i></a>
                     </div>
                 </div>
