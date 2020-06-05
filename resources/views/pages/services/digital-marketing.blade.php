@@ -2,7 +2,7 @@
 @section('main-content')
     
         <!-- Banner -->
-        <section id="slider" class="p-0 featured odd">
+        <section id="slider" class="p-0 featured odd" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/digital-marketing.jpg)">
             <div class="swiper-container slider-disabled slider-h-75">
                 <div class="swiper-wrapper">
     

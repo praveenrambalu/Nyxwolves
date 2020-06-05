@@ -5,7 +5,7 @@
         <div class="container header">
 
             <!-- Navbar Brand-->
-            <a class="navbar-brand" href="/"><img src="/assets/images/logo-dark.png" alt="Nyx Wolves"></a>
+            <a class="navbar-brand" href="/"><img src="/assets/images/logo-light.png" alt="Nyx Wolves"></a>
 
 
             <!-- Navbar Itens-->
