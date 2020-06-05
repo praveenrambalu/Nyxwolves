@@ -80,16 +80,16 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
     color: #fff;
 }
 
-.showcase .card .image-over, .showcase .card:hover .image-over::before{
+#work.showcase .card .image-over, #work.showcase .card:hover .image-over::before{
             border-radius:30px;
             }
-            .showcase .card .image-over::before{
+            #work.showcase .card .image-over::before{
             background:none;
             }
-            .card:not(.no-hover):hover{
+            #work.showcase .card:not(.no-hover):hover{
                 background:none !important;
             }
-                .showcase .card:hover .image-over::before {
+                #work.showcase .card:hover .image-over::before {
                 background:none !important;
                 }
 
@@ -894,190 +894,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
         </section>
 
         <!-- Contact -->
-        <section id="contact" class="form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 align-self-center text-center text-md-left">
-
-                        <!-- Success Message -->
-                        <div class="row success message">
-                            <div class="col-12 p-0">
-                                <i class="icon bigger icon-check"></i>
-                                <h3>Success</h3>
-                                <p>Your message has been sent successfully.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit quisque sed leo vel dolor
-                                    dictum hendrerit.</p>
-                                <a href="" class="btn mx-auto primary-button"><i class="icon-refresh"></i>REFRESH</a>
-                            </div>
-                        </div>
-
-                        <!-- Steps Message -->
-                        <div class="row intro">
-                            <div class="col-12 p-0">
-
-                                <!-- Text 1 -->
-                                <div id="text-1">
-                                    <h2 class="featured alt">Let's Talk?</h2>
-                                    <p>Join us as we lead you through an exhilarating experience in creating world-class
-                                        business. Let’s share our passion and conquer the world!</p>
-                                </div>
-
-                                <!-- Text 2 -->
-                                <div id="text-2" style="display: none">
-                                    <h2 class="featured alt">Let's Talk?</h2>
-                                    <p>Join us as we lead you through an exhilarating experience in creating world-class
-                                        business. Let’s share our passion and conquer the world!</p>
-                                </div>
-
-                                <!-- Text 3 -->
-                                <div id="text-3" style="display: none">
-                                    <h2 class="featured alt">Let's Talk?</h2>
-                                    <p>Join us as we lead you through an exhilarating experience in creating world-class
-                                        business. Let’s share our passion and conquer the world!</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Form -->
-                        <div class="row text-center">
-                            <div class="col-12 p-0">
-                                <form id="msform">
-                                    <ul id="progressbar">
-                                        <li class="active">Personal Details</li>
-                                        <li>Company Detail</li>
-                                        <li>Write Message</li>
-                                    </ul>
-
-                                    <!-- Group 1 -->
-                                    <fieldset id="group-1">
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="text" name="name" minlength="3"
-                                                    class="form-control input-style" placeholder="Name" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="email" name="email" minlength="3"
-                                                    class="form-control input-style" placeholder="Email" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="text" name="phone" minlength="3"
-                                                    class="form-control input-style" placeholder="Phone" required>
-                                            </div>
-                                        </div>
-                                    
-                                        <div class="col-12 input-group p-0">
-                                            <a id="next-1" class="next btn primary-button">NEXT<i
-                                                    class="btn-icon icon-arrow-right-circle left"></i></a>
-                                        </div>
-                                    </fieldset>
-
-                                    <!-- Group 2 -->
-                                    <fieldset id="group-2">
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="text" name="company" minlength="3"
-                                                    class="form-control input-style" placeholder="Company" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 p-0 text-left">
-                                                <h5 class="pt-1 pb-3 text-white">Services</h5>
-                                                <input type="checkbox" id="box-1">
-                                                <label for="box-1">Web Design</label>
-                                                <input type="checkbox" id="box-2">
-                                                <label for="box-2">Web Development</label>
-                                                <input type="checkbox" id="box-3">
-                                                <label for="box-3">UI / UX</label>
-                                                <input type="checkbox" id="box-4">
-                                                <label for="box-4">Design Platforms</label>
-                                                <input type="checkbox" id="box-5">
-                                                <label for="box-5">Others</label>
-                                            </div>
-
-
-                                        </div>
-
-
-                                        <div class="row py-2">
-                                            <div class="col-12 text-left"><h5 class="pt-1 pb-3 text-white">Budget </h5>
-                                                 <div id="range-slider"></div>
-                                                 <div class="values-holder">
-                                                     <span class="leftexample-val" id="lower-value"></span>
-                                                     <span class="rightexample-val" id="upper-value"></span>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                       
-
-                                        <div
-                                            class="col-12 input-group p-0 d-flex justify-content-center justify-content-md-start">
-                                            <a id="prev-2" class="previous btn primary-button mr-4"><i
-                                                    class="btn-icon icon-arrow-left-circle"></i>PREV</a>
-                                            <a id="next-2" class="next btn primary-button">NEXT<i
-                                                    class="btn-icon icon-arrow-right-circle left"></i></a>
-                                        </div>
-                                    </fieldset>
-
-                                    <!-- Group 3 -->
-                                    <fieldset id="group-3">
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <textarea name="message" minlength="3" class="form-control input-style"
-                                                    placeholder="Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="col-12 input-group p-0 d-flex justify-content-center justify-content-md-start">
-                                            <a id="prev-3" class="previous btn primary-button mr-4"><i
-                                                    class="btn-icon icon-arrow-left-circle"></i>PREV</a>
-                                            <a id="next-3" class="send btn primary-button">SEND<i
-                                                    class="btn-icon icon-login left"></i></a>
-                                        </div>
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-
-
-                    <div class="gallery col-12 col-md-6 pl-md-5 d-none d-md-block">
-
-                        <!-- Step 1 -->
-                        <a id="step-1" data-poster="/assets/images/about-2.jpg"
-                            href="https://www.youtube.com/watch?v=2dz90LJOVz0">
-                            <i class="play-video icon-control-play"></i>
-                            <div class="mask-radius"></div>
-                            <img src="/assets/images/about-2.jpg" class="image-fit">
-                        </a>
-
-                        <!-- Step 2 -->
-                        <a id="step-2" href="/assets/images/about-3.jpg" style="display:none">
-                            <img src="/assets/images/about-3.jpg" class="image-fit">
-                        </a>
-
-                        <!-- Step 3 -->
-                        <a id="step-3" href="/assets/images/about-4.jpg" style="display:none">
-                            <img src="/assets/images/about-4.jpg" class="image-fit">
-                        </a>
-
-                        <!-- Step 4 -->
-                        <a id="step-4" href="/assets/images/about-leverage.jpg" style="display:none">
-                            <img src="/assets/images/about-leverage.jpg" class="image-fit">
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-        </section>
+     @include('inc.contact-form')
 
     @include('inc.footer')
     @include('inc.search-menu')
