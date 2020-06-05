@@ -40,12 +40,15 @@
                                     <img src="/assets/images/news-3.jpg" class="w-100">
                                 </a>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-5">
 
                             <h4>Services Offered</h4>
-                        
+                           
                             <ul>
-
-
 
                                 <li> Social Media Marketing </li>
                                 <li> Search Engine Optimization (SEO) </li>
@@ -57,50 +60,38 @@
                                 <li> Political & Event Promotions/Campaigns </li>
                                 <li> Applications, Branding Campaigns </li>
 
-
-
                             <ul>
                         </div>
-                    </div>
+                        <div class=" col-12 col-sm-6">
+                            <div class="gallery row justify-content-center">
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-1.jpg">
+                                    <img src="/assets/images/gallery-1.jpg" class="w-100">
+                                </a>
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-2.jpg">
+                                    <img src="/assets/images/gallery-2.jpg" class="w-100">
+                                </a>
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-3.jpg">
+                                    <img src="/assets/images/gallery-3.jpg" class="w-100">
+                                </a>
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-4.jpg">
+                                    <img src="/assets/images/gallery-4.jpg" class="w-100">
+                                </a>
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-5.jpg">
+                                    <img src="/assets/images/gallery-5.jpg" class="w-100">
+                                </a>
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-6.jpg">
+                                    <img src="/assets/images/gallery-6.jpg" class="w-100">
+                                </a>
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-5.jpg">
+                                    <img src="/assets/images/gallery-5.jpg" class="w-100">
+                                </a>
+                                <a class="col-sm-3 item" href="/assets/images/portfolio-6.jpg">
+                                    <img src="/assets/images/gallery-6.jpg" class="w-100">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-1"></div>
 
-                    <!-- Gallery -->
-                    <div class="gallery row justify-content-center">
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-1.jpg">
-                            <img src="/assets/images/gallery-1.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-2.jpg">
-                            <img src="/assets/images/gallery-2.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-3.jpg">
-                            <img src="/assets/images/gallery-3.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-4.jpg">
-                            <img src="/assets/images/gallery-4.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-5.jpg">
-                            <img src="/assets/images/gallery-5.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-6.jpg">
-                            <img src="/assets/images/gallery-6.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-7.jpg">
-                            <img src="/assets/images/gallery-7.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-8.jpg">
-                            <img src="/assets/images/gallery-8.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-9.jpg">
-                            <img src="/assets/images/gallery-9.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-10.jpg">
-                            <img src="/assets/images/gallery-10.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-11.jpg">
-                            <img src="/assets/images/gallery-11.jpg" class="w-100">
-                        </a>
-                        <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-12.jpg">
-                            <img src="/assets/images/gallery-12.jpg" class="w-100">
-                        </a>
                     </div>
 
                 </main>

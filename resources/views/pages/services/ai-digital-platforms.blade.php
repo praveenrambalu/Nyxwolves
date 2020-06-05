@@ -2,7 +2,7 @@
 @section('main-content')
     
         <!-- Banner -->
-        <section id="slider" class="p-0 featured odd">
+        <section id="slider" class="p-0 featured odd" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/digital-platforms.jpg)">
             <div class="swiper-container slider-disabled slider-h-75">
                 <div class="swiper-wrapper">
     
@@ -41,12 +41,22 @@
                                     </a>
                                 </div>
 
+                                
+                                  
+
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-sm-5">
+
                                 <h4>Services Offered</h4>
                                
                                 <ul>
 
 
-                                    <li> Mobile Application Development </li>
+                                     <li> Mobile Application Development </li>
                                     <li> SaaS Product Development </li>
                                     <li> ERP System Development </li>
                                     <li> Computer Vision Applications </li>
@@ -56,94 +66,40 @@
                                     <li> AR/VR System Integration </li>
                                     <li> WebAR Development </li>
                                     <li> AI Consulting </li>
-
-
-                                </ul>
-
-                                <br>
-                                <br>
-                                    <h4>Technical Capabilities</h4>
-                                    <br>
-                                    <br>
-
-                                    <div class="swiper-container slider-min">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-1.png" class="image-fit w-85">
-                                            </div>
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-2.png" class="image-fit w-85">
-                                            </div>
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-3.png" class="image-fit w-85">
-                                            </div>
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-4.png" class="image-fit w-85">
-                                            </div>
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-5.png" class="image-fit w-85">
-                                            </div>
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-6.png" class="image-fit w-85">
-                                            </div>
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-7.png" class="image-fit w-85">
-                                            </div>
-                                            <div class="swiper-slide slide-center item">
-                                                <img src="/assets/images/logo-8.png" class="image-fit w-85">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                  
-
-
+                                <ul>
                             </div>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                            <div class=" col-12 col-sm-6">
+                                <div class="gallery row justify-content-center">
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-1.jpg">
+                                        <img src="/assets/images/gallery-1.jpg" class="w-100">
+                                    </a>
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-2.jpg">
+                                        <img src="/assets/images/gallery-2.jpg" class="w-100">
+                                    </a>
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-3.jpg">
+                                        <img src="/assets/images/gallery-3.jpg" class="w-100">
+                                    </a>
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-4.jpg">
+                                        <img src="/assets/images/gallery-4.jpg" class="w-100">
+                                    </a>
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-5.jpg">
+                                        <img src="/assets/images/gallery-5.jpg" class="w-100">
+                                    </a>
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-6.jpg">
+                                        <img src="/assets/images/gallery-6.jpg" class="w-100">
+                                    </a>
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-5.jpg">
+                                        <img src="/assets/images/gallery-5.jpg" class="w-100">
+                                    </a>
+                                    <a class="col-sm-3 item" href="/assets/images/portfolio-6.jpg">
+                                        <img src="/assets/images/gallery-6.jpg" class="w-100">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-1"></div>
 
-                        <!-- Gallery -->
-                        <div class="gallery row justify-content-center">
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-1.jpg">
-                                <img src="/assets/images/gallery-1.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-2.jpg">
-                                <img src="/assets/images/gallery-2.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-3.jpg">
-                                <img src="/assets/images/gallery-3.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-4.jpg">
-                                <img src="/assets/images/gallery-4.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-5.jpg">
-                                <img src="/assets/images/gallery-5.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-6.jpg">
-                                <img src="/assets/images/gallery-6.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-7.jpg">
-                                <img src="/assets/images/gallery-7.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-8.jpg">
-                                <img src="/assets/images/gallery-8.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-9.jpg">
-                                <img src="/assets/images/gallery-9.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-10.jpg">
-                                <img src="/assets/images/gallery-10.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-11.jpg">
-                                <img src="/assets/images/gallery-11.jpg" class="w-100">
-                            </a>
-                            <a class="col-6 col-sm-4 col-md-3 col-lg-2 item" href="/assets/images/portfolio-12.jpg">
-                                <img src="/assets/images/gallery-12.jpg" class="w-100">
-                            </a>
                         </div>
+
 
                     </main>
                 </div>

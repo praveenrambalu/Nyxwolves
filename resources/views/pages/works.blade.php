@@ -59,7 +59,7 @@
                             -->
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
-                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Lorem ipsum dolor sit amet.
+                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text"> dolor sit amet.
                                 </h1>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                         <h2 class="featured">Our Work</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p> Our excellent digital platform solutions and persistent efforts have enabled our clients to achieve a great feat in their domain. They have embraced us and we are proud to be a part of their success. </p>
                     </div>
                     <div class="col-12 col-md-3 align-self-end">
                     </div>
@@ -83,12 +83,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="/assets/images/news-1-h.jpg" alt="Lorem ipsum">
+                                <img src="/assets/images/portfolio/jootfoods.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="blog-single-post-1.html">
-                                        <h4 class="m-0">How digital transformation has changed the world.</h4>
+                                        <h4 class="m-0">Joot Foods</h4>
                                     </a>
                                 </div>
                             </div>
@@ -97,12 +97,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="/assets/images/news-2-h.jpg" alt="Lorem ipsum">
+                                <img src="/assets/images/portfolio/homelyfreshfoods.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="blog-single-post-1.html">
-                                        <h4 class="m-0">How digital transformation has changed the world.</h4>
+                                        <h4 class="m-0">Homely Fresh Foods</h4>
                                     </a>
                                 </div>
                                 
@@ -112,12 +112,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="/assets/images/news-3-h.jpg" alt="Lorem ipsum">
+                                <img src="/assets/images/portfolio/northbay.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="blog-single-post-1.html">
-                                        <h4 class="m-0">How digital transformation has changed the world.</h4>
+                                        <h4 class="m-0">North Bay</h4>
                                     </a>
                                 </div>
                             </div>
@@ -126,12 +126,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="/assets/images/news-4-h.jpg" alt="Lorem ipsum">
+                                <img src="/assets/images/portfolio/varavasthu.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="blog-single-post-1.html">
-                                        <h4 class="m-0">How digital transformation has changed the world.</h4>
+                                        <h4 class="m-0">Vara Vasthu</h4>
                                     </a>
                                 </div>
                             </div>
@@ -140,12 +140,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="/assets/images/news-5-h.jpg" alt="Lorem ipsum">
+                                <img src="/assets/images/portfolio/westernvalley.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="blog-single-post-1.html">
-                                        <h4 class="m-0">How digital transformation has changed the world.</h4>
+                                        <h4 class="m-0">Western Valley</h4>
                                     </a>
                                 </div>
                               
@@ -155,7 +155,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="/assets/images/news-6-h.jpg" alt="Lorem ipsum">
+                                <img src="/assets/images/news-6-h.jpg" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
