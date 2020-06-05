@@ -308,7 +308,7 @@ input[type="checkbox"] + label::before {
 
                         <!-- Step 1 -->
                         <a id="step-1" data-poster="/assets/images/about-2.jpg"
-                            href="https://www.youtube.com/watch?v=7e90gBu4pas">
+                            href="https://www.youtube.com/watch?v=2dz90LJOVz0">
                             <i class="play-video icon-control-play"></i>
                             <div class="mask-radius"></div>
                             <img src="/assets/images/about-2.jpg" class="image-fit">

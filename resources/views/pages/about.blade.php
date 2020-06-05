@@ -155,7 +155,7 @@
                 </div>
                 <div class="gallery col-12 col-md-6">
                     <a href="/assets/images/about-1.jpg">
-                        <img src="/assets/images/about-1.jpg" class="image-fit">
+                        <img src="/assets/images/2.png" class="image-fit">
                     </a>
                 </div>
             </div>
@@ -217,7 +217,7 @@
         <div class="container">
             <div class="row">
                 <div class="gallery col-12 col-md-6">
-                    <a data-poster="/assets/images/about-2.jpg" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+                    <a data-poster="/assets/images/about-2.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
                         <i class="play-video icon-control-play"></i>
                         <div class="mask-radius"></div>
                         <img src="/assets/images/about-2.jpg" class="image-fit">

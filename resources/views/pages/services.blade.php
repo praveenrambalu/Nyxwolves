@@ -64,14 +64,11 @@
                         <h2 class="featured">Our Services</h2>
                         <p>You are our first priority. We don’t just serve our clients; we understand your every need and progressively work to give you an edge in the competitive world. </p>
                     </div>
-                    <div class="col-12 col-md-3 align-self-end">
-                        <a href="/services" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-grid"></i>VIEW ALL</i></a>
-                    </div>
                 </div>
                 <div class="row justify-content-center text-center items">
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card featured left">
-                            <i class="icon icon-tag"></i>
+                            <img src="/assets/images/icons/branding-icon-color.png" class="icon-services" alt="">
                             <h4>Branding & Identity</h4>
                             <p>Our dynamic team builds your brand that speaks for itself. We strategize and inculcate design and creativity into branding that mirrors your business goals, ideals, and principles. </p>
                             <a href="/services/brand-and-identity"><i class="btn-icon icon-arrow-right-circle"></i></a>
@@ -79,7 +76,8 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card">
-                            <i class="icon icon-globe"></i>
+                            <img src="/assets/images/icons/web.png" class="icon-services" alt="">
+
                             <h4>Web Design & Development</h4>
                             <p>Our team uses cutting-edge technology to design and develop visually rich business websites. With simplified yet elegant designs, we guarantee an exclusive website or a web application to enhance your growth. </p>
                             <a href="/services/web-design-and-development"><i class="btn-icon icon-arrow-right-circle"></i></a>
@@ -87,7 +85,8 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card">
-                            <i class="icon icon-briefcase"></i>
+                            <img src="/assets/images/icons/digital.png" class="icon-services" alt="">
+
                             <h4>Digital Marketing</h4>
                             <p>Our unique and powerful digital marketing strategies to reach potential customers will act as the best catalyst to expand your business. Our wolf pack diligently caters to numerous robust methods that help you grow. </p>
                             <a href="/services/digital-marketing"><i class="btn-icon icon-arrow-right-circle"></i></a>
@@ -95,7 +94,8 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card featured right">
-                            <i class="icon icon-bulb"></i>
+                            <img src="/assets/images/icons/ai-icon.png" class="icon-services" alt="">
+
                             <h4>AI & Digital Platforms</h4>
                             <p>With Artificial Intelligence, we help you build all forms of incredibly-smart software products and give them an exclusive edge. Our innovative solutions place your business on equal footing with the current trends and ensure a powerful tomorrow.</p>
                             <a href="/services/ai-and-digital-platforms"><i class="btn-icon icon-arrow-right-circle"></i></a>

@@ -294,7 +294,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
             <div class="container">
                 <div class="row">
                     <div class="gallery col-12 col-md-6">
-                        <a data-poster="/assets/images/about-5.jpg" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+                        <a data-poster="/assets/images/about-5.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
                             <i class="play-video icon-control-play"></i>
                             <div class="mask-radius"></div>
                             <img src="/assets/images/about-5.jpg" class="image-fit">
@@ -352,7 +352,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card featured left">
                             <!-- <i class="icon icon-tag"></i> -->
-                            <img src="/assets/images/icons/3 branding icon color.png" height="40px" alt="">
+                            <img src="/assets/images/icons/branding-icon-color.png" class="icon-services" alt="">
                             <h4>Branding & Identity</h4>
                             <p>Our dynamic team builds your brand that speaks for itself. We strategize and inculcate
                                 design and creativity into branding that mirrors your business goals, ideals, and
@@ -363,7 +363,8 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card">
-                            <i class="icon icon-globe"></i>
+                            <img src="/assets/images/icons/web.png" class="icon-services" alt="">
+
                             <h4>Web Design & Development</h4>
                             <p>Our team uses cutting-edge technology to design and develop visually rich business
                                 websites. With simplified yet elegant designs, we guarantee an exclusive website or a
@@ -374,7 +375,8 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card">
-                            <i class="icon icon-briefcase"></i>
+                            <img src="/assets/images/icons/digital.png" class="icon-services" alt="">
+
                             <h4>Digital Marketing</h4>
                             <p>Our unique and powerful digital marketing strategies to reach potential customers will
                                 act as the best catalyst to expand your business. Our wolf pack diligently caters to
@@ -385,7 +387,8 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <div class="card featured right">
-                            <i class="icon icon-bulb"></i>
+                            <img src="/assets/images/icons/ai-icon.png" class="icon-services" alt="">
+
                             <h4>AI & Digital Platforms</h4>
                             <p>With Artificial Intelligence, we help you build all forms of incredibly-smart software
                                 products and give them an exclusive edge. Our innovative solutions place your business
@@ -935,7 +938,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
 
                         <!-- Step 1 -->
                         <a id="step-1" data-poster="/assets/images/about-2.jpg"
-                            href="https://www.youtube.com/watch?v=7e90gBu4pas">
+                            href="https://www.youtube.com/watch?v=2dz90LJOVz0">
                             <i class="play-video icon-control-play"></i>
                             <div class="mask-radius"></div>
                             <img src="/assets/images/about-2.jpg" class="image-fit">
