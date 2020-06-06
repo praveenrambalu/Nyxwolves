@@ -99,6 +99,11 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
     min-height: 450px;
 }
 
+
+.row.card.testi-card{
+    background: none;
+    box-shadow: none;
+}
     </style>
 </head>
 
@@ -598,7 +603,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                 <div class="swiper-container slider-full  items">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card testi-card">
                                 <div class="col-12">
                                     <img src="/assets/images/testimonial/u.jpg" alt="" class="person">
                                     <h4>UpState E</h4>
@@ -625,7 +630,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card testi-card">
                                 <div class="col-12">
                                     <img src="/assets/images/testimonial/t.jpg" alt="Mary Evans" class="person">
                                     <h4>Thirukumaran</h4>
@@ -657,7 +662,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card testi-card">
                                 <div class="col-12">
                                     <img src="/assets/images/testimonial/s.jpg" alt="Sarah Lopez" class="person">
                                     <h4>Sudhakar Nemmatha</h4>
@@ -684,7 +689,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card testi-card">
                                 <div class="col-12">
                                     <img src="/assets/images/testimonial/c.jpg" alt="Joseph Hills" class="person">
                                     <h4>Chandra Shekar</h4>
@@ -711,7 +716,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card testi-card">
                                 <div class="col-12">
                                     <img src="/assets/images/testimonial/r.jpg" alt="Karen Usman" class="person">
                                     <h4>Raj Agarwal</h4>
