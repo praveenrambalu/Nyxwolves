@@ -94,6 +94,11 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                 }
 
 
+
+             #testimonials   .swiper-slide.slide-center.text-center.item .card{
+    min-height: 450px;
+}
+
     </style>
 </head>
 
@@ -579,36 +584,42 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
             </div>
         </section>
 
-        <!-- Team -->
-        <section id="team" class="carousel">
+        <!-- Testimonials -->
+       
+
+
+        <section id="testimonials" class="carousel">
             <div class="container">
                 <div class="row text-center intro">
                     <div class="col-12">
-                        <h2>Team of Experts</h2>
-                        <p class="text-max-800">Our team is the soul of the company. We house the finest team of
-                            designers and developers to deliver the best service to our clients. </p>
+                        <h2>Customer Testimonials</h2>
+                        <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet.</p>
                     </div>
                 </div>
-                <div class="swiper-container slider-mid items">
+                <div class="swiper-container slider-full  items">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-1.jpg" alt="Adams Baker" class="person">
-                                    <h4>Adams Baker</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
+                                    <img src="/assets/images/team-1.jpg" alt="" class="person">
+                                    <h4>UpState E</h4>
+                                    <p>It was really great working with them. Highly recommended!</p>
                                     <ul class="navbar-nav social share-list ml-auto">
+                                   
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -618,20 +629,29 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <div class="row card">
                                 <div class="col-12">
                                     <img src="/assets/images/team-2.jpg" alt="Mary Evans" class="person">
-                                    <h4>Mary Evans</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
+                                    <h4>Thirukumaran</h4>
+                                    <p>Nyx Wolves is a team that is highly professional, efficient and effective at what they do.
+
+                                        Commitments were realistic, budgets were affordable, quality was speckless. The team takes care to ensure that the project journey is a seamless one.
+                                        
+                                        The qualities mentioned were not just that of the founders' but of every single resource of Nyx.
+                                        </p>
                                     <ul class="navbar-nav social share-list ml-auto">
+                                        
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -641,20 +661,24 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <div class="row card">
                                 <div class="col-12">
                                     <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
-                                    <h4>Sarah Lopez</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
+                                    <h4>Sudhakar Nemmatha</h4>
+                                    <p>Nyx Wolves provides services to my business which is based in Sydney Australia. I have met many other hopeless developers before contacting Nyx Wolves. I am very much impressed with their work, skill set & mainly they communicate back promptly & also reasonably regards the fee for their services. I already recommended them to a few of my friends & will keep doing them. Highly recommended!!</p>
                                     <ul class="navbar-nav social share-list ml-auto">
+                                       
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -664,20 +688,24 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <div class="row card">
                                 <div class="col-12">
                                     <img src="/assets/images/team-4.jpg" alt="Joseph Hills" class="person">
-                                    <h4>Joseph Hills</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
+                                    <h4>Chandra Shekar</h4>
+                                    <p>This is my second project with them and they delivered great quality work again. Definitely coming back for more work</p>
                                     <ul class="navbar-nav social share-list ml-auto">
+                                        
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -687,20 +715,24 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <div class="row card">
                                 <div class="col-12">
                                     <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
-                                    <h4>Karen Usman</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
+                                    <h4>Raj Agarwal</h4>
+                                    <p>A perfect company for startups</p>
                                     <ul class="navbar-nav social share-list ml-auto">
+                                        
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="fa fa-star ml-2 mr-2"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -711,6 +743,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                 </div>
             </div>
         </section>
+
 
         <!-- Partners -->
         <section id="partner" class="logos">
@@ -892,7 +925,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
             <div class="row intro">
                 <div class="container">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">We've Server Around the World.</h2>
+                        <h2 class="featured">We've Served Around the World.</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>

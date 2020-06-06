@@ -163,7 +163,7 @@
     </section>
 
 
-    <section class="highlights left">
+    {{-- <section class="highlights left">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-12 align-self-center text-center text-md-left">
@@ -208,7 +208,7 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
 
@@ -243,199 +243,385 @@
      <section id="intro" class="bg_gray">
             <div class="container">
                 <div class="row">
-                    <main class="col-12 col-md-8 p-0">
+                  
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                         <div class="row intro">
-                            <div class="col-12 align-self-center">
-                                <h2 class="featured">Why choose us</h2>
+                            <div class="col-12 p-0">
+                                <h2 class="featured alt">Why Choose us?</h2>
                                 <p>You are our first priority. We understand your every goal. Our energetic and tech-savvy pack of designers and developers create futuristic solutions to progressively elevate your growth and help you achieve your business goals. Our versatile team has years of expertise in building extraordinary things out of the ordinary. We assure quality in every aspect and guarantee your success. </p>
-                                <!-- <p>
-                                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam tortor, ultrices accumsan mauris eget, pulvinar tincidunt erat. Sed nisi nisi, rutrum sit amet elit.</blockquote>
-                                </p>
-                                <p>Sed mauris nulla, tempor eu est vel, dapibus hendrerit mauris curabitur dictum pharetra.</p>
-                                <p>Etiam mollis sem sed bibendum blandit. Aenean quis luctus ligula, vitae suscipit dui. Nunc diam orci, tincidunt eget consectetur sit amet, vulputate.</p>
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet</li>
-                                    <li>Consectetur adipiscing elit</li>
-                                    <li>Integer molestie lorem at massa</li>
-                                    <li>Facilisis in pretium nisl aliquet</li>
-                                    <li>Nulla volutpat aliquam velit
-                                <ul> -->
-                            </div>
-                        </div>        
-                    </main>
-                    <!-- <aside class="col-12 col-md-4 pl-md-5 p-0 float-right">                    
-                        <div class="row">
-                            <div class="col-12 align-self-center text-left">
-                                <h4>Covering Industries</h4>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item d-flex justify-content-center align-items-center">
-                                        <a href="service-single-1.html"><i class="icon icon-layers"></i></a>
-                                        Lorem ipsum dolor sit amet consectetur.
-                                    </li>
-                                    <li class="list-group-item d-flex justify-content-center align-items-center">
-                                        <a href="service-single-1.html"><i class="icon icon-rocket"></i></a>
-                                        Lorem ipsum dolor sit amet consectetur.
-                                    </li>
-                                    <li class="list-group-item d-flex justify-content-center align-items-center">
-                                        <a href="service-single-1.html"><i class="icon icon-briefcase"></i></a>
-                                        Lorem ipsum dolor sit amet consectetur.
-                                    </li>
-                                    <li class="list-group-item d-flex justify-content-center align-items-center">
-                                        <a href="service-single-1.html"><i class="icon icon-plane"></i></a>
-                                        Lorem ipsum dolor sit amet consectetur.
-                                    </li>
-                                    <li class="list-group-item d-flex justify-content-center align-items-center">
-                                        <a href="service-single-1.html"><i class="icon icon-chart"></i></a>
-                                        Lorem ipsum dolor sit amet consectetur.
-                                    </li>
-                                    <li class="list-group-item d-flex justify-content-center align-items-center">
-                                        <a href="service-single-1.html"><i class="icon icon-drawer"></i></a>
-                                        Lorem ipsum dolor sit amet consectetur.
-                                    </li>
-                                </ul>
                             </div>
                         </div>
-                    </aside> -->
+                    </div>
+
+                    <div class="gallery col-12 col-md-6">
+                        <a href="/assets/images/about-1.jpg">
+                            <img src="/assets/images/2.png" class="image-fit">
+                        </a>
+                    </div>
+
+
                 </div>
             </div>
       </section>
 
 
-    <!-- Services -->
-  
-    <section id="testimonials" class="carousel">
-        <div class="container">
-            <div class="row text-center intro">
-                <div class="col-12">
-                    <h2>Customer Testimonials</h2>
-                    <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet.</p>
-                </div>
-            </div>
-            <div class="swiper-container slider-mid items">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-1.jpg" alt="Adams Baker" class="person">
-                                <h4>Adams Baker</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-2.jpg" alt="Mary Evans" class="person">
-                                <h4>Mary Evans</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
-                                <h4>Sarah Lopez</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-4.jpg" alt="Joseph Hills" class="person">
-                                <h4>Joseph Hills</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
-                                <h4>Karen Usman</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+    <!-- Team -->
+  <section id="team" class="carousel">
+            <div class="container">
+                <div class="row text-center intro">
+                    <div class="col-12">
+                        <h2>Team of Experts</h2>
+                        <p class="text-max-800">Our team is the soul of the company. We house the finest team of
+                            designers and developers to deliver the best service to our clients. </p>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-container slider-mid items">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-1.jpg" alt="Adams Baker" class="person">
+                                    <h4>Arangannal</h4>
+                                    <p>Director</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="https://www.facebook.com/arangannalthirumalai.t" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://www.linkedin.com/in/arangannal-thirumalai-6b4b76b2/"  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-2.jpg" alt="Mary Evans" class="person">
+                                    <h4>Sriram Sankar</h4>
+                                    <p>Director, CEO</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="https://www.facebook.com/injarsriram" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://www.linkedin.com/in/injarsriram/"  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
+                                    <h4>Sidhdharth Sivasubramanian</h4>
+                                    <p>Director, CTO</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="https://www.facebook.com/sidhdharthsivasubramanian/" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://www.linkedin.com/in/sidhdharths/"  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
+                                    <h4>Venkat Boyalla </h4>
+                                    <p>Director, CMO</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="http://linkedin.com/in/venkat-boyalla" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://www.instagram.com/venkeybnk"  target="_blank" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-4.jpg" alt="Joseph Hills" class="person">
+                                    <h4>Suraj K S
+                                    </h4>
+                                    <p>Head of Operations</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Sanjay Kumar</h4>
+                                    <p>Executive Manager</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Nirmalaya Sanyal</h4>
+                                    <p>Creative Head</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Jothicharan Jothibabu</h4>
+                                    <p>Development Head</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Sakthivel R</h4>
+                                    <p>Asst. Manager of Designs</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Pratik Seal</h4>
+                                    <p>Digital Marketing Strategist</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Sanjay</h4>
+                                    <p>Senior UI/UX Designer</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Jones</h4>
+                                    <p>Junior Designer</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Praveenram</h4>
+                                    <p>Web Developer</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Lakshmanan R</h4>
+                                    <p>Web Developer</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Chandru V</h4>
+                                    <p>Copywriter</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide-center text-center item">
+                            <div class="row card">
+                                <div class="col-12">
+                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <h4>Maybe You ?</h4>
+                                    <p>Join Us</p>
+                                    <ul class="navbar-nav social share-list ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
-        </div>
-    </section>
+</section>
 
 
       <section id="services" class="offers bg_gray">
@@ -452,7 +638,7 @@
         </div>
     </section>
 
-    <section id="contacts" class="offers">
+    {{-- <section id="contacts" class="offers">
         <div class="container">
             <div class="row intro">
                 <div class="col-12 col-md-9 align-self-center text-center text-md-left">
@@ -490,141 +676,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
 
-      <!-- Team -->
-      <section id="team" class="carousel bg_gray">
-        <div class="container">
-            <div class="row text-center intro">
-                <div class="col-12">
-                    <h2>Team of Experts</h2>
-                    <p class="text-max-800">Our team is the soul of the company. We house the finest team of designers and developers to deliver the best service to our clients. </p>
-                </div>
-            </div>
-            <div class="swiper-container slider-mid items">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-1.jpg" alt="Adams Baker" class="person">
-                                <h4>Adams Baker</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-2.jpg" alt="Mary Evans" class="person">
-                                <h4>Mary Evans</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
-                                <h4>Sarah Lopez</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-4.jpg" alt="Joseph Hills" class="person">
-                                <h4>Joseph Hills</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card">
-                            <div class="col-12">
-                                <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
-                                <h4>Karen Usman</h4>
-                                <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
     
 
     <!-- Footer -->

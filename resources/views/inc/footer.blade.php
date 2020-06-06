@@ -76,7 +76,7 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="icon-location-pin mr-2"></i>
-                                Chennai, Tamil Nadu.
+                                Chennai, Tamil Nadu
                             </a>
                         </li>
                         <!-- <li class="nav-item">
