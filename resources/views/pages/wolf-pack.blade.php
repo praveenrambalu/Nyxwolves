@@ -101,7 +101,8 @@ input[type="checkbox"] + label::before {
                             -->
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
-                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Lorem ipsum dolor sit amet.
+                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">All your digital needs with one team
+
                                 </h1>
                             </div>
                         </div>
@@ -115,10 +116,10 @@ input[type="checkbox"] + label::before {
             <div class="container">
                 <div class="row">
                     <div class="gallery col-12 col-md-6">
-                        <a data-poster="/assets/images/intro-video.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
-                            <i class="play-video icon-control-play"></i>
-                            <div class="mask-radius"></div>
-                            <img src="/assets/images/intro-video.jpg" class="image-fit">
+                        <a data-poster="/assets/images/wolf-pack.png" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
+                            {{-- <i class="play-video icon-control-play"></i> --}}
+                            {{-- <div class="mask-radius"></div> --}}
+                            <img src="/assets/images/wolf-pack.png" class="image-fit">
                         </a>
                     </div>
                     <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">

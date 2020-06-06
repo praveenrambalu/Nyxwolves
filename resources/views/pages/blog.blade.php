@@ -72,7 +72,7 @@
                         -->
                     <div class="slide-content row text-center">
                         <div class="col-12 mx-auto inner">
-                            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Lorem ipsum dolor sit amet.
+                            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Creativity, Tech, Business
                             </h1>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
         <div class="row text-center intro">
             <div class="col-12">
                 <h2>Blog</h2>
-                <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus, id pellentesque mauris tincidunt.</p>
+                {{-- <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus, id pellentesque mauris tincidunt.</p> --}}
             </div>
         </div>
 

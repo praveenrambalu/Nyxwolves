@@ -3,7 +3,7 @@
         <div class="row intro">
             <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                 <h2 class="featured">Latest News</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>See what’s trending in our industry and know more about what we’re into!</p>
             </div>
             <div class="col-12 col-md-3 align-self-end">
                 <a href="/blog" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i

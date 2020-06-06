@@ -79,7 +79,8 @@
                             -->
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
-                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text"> dolor sit amet.
+                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text"> We love what we do
+
                                 </h1>
                             </div>
                         </div>

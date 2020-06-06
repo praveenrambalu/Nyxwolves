@@ -216,7 +216,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                                 <div class="left align-self-center text-center text-md-left">
                                     <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">
                                         Let's Create Something.</h1>
-                                    <Accelerate data-aos="zoom-out-up" data-aos-delay="800" class="description">
+                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">
                                         Accelerate your success through our robust and agile processes. </p>
                                         <a href="/services" data-aos="zoom-out-up" data-aos-delay="1200"
                                             class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i
@@ -597,7 +597,8 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                 <div class="row text-center intro">
                     <div class="col-12">
                         <h2>Customer Testimonials</h2>
-                        <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet.</p>
+                        <p class="text-max-800">Hear what they have to say about us on different platforms! 
+                        </p>
                     </div>
                 </div>
                 <div class="swiper-container slider-full  items">
@@ -802,12 +803,12 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
      {{-- @include('inc.blog') --}}
 
         <!-- Subscribe -->
-        <section id="subscribe" class="subscription map" style="background:rgb(0,0,0);">
+        <section id="subscribe" class="subscription map" style="background:rgb(0,0,0); padding-top:150px">
             <div class="row intro">
                 <div class="container">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">We've Served Around the World.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h2 class="featured">We've Served Around the World</h2>
+                        <p>Serving clients from around the world for a variety of needs!</p>
                     </div>
                 </div>
                
