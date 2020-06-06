@@ -102,7 +102,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
 
 
     <div class="fullpage">
-        <canvas id="canvas">Canvas is not supported in your browser</canvas>
+        {{-- <canvas id="canvas">Canvas is not supported in your browser</canvas> --}}
         <!-- Header -->
      <header>
            <!-- Navbar -->
@@ -135,9 +135,18 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                 <li class="nav-item">
                     <a href="/about" class="nav-link effect-motion-hover">About</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a href="/services" class="nav-link effect-motion-hover">Services</a>
-                </li>
+                </li> --}}
+                  <li class="nav-item dropdown">
+                    <a href="/services" class="nav-link effect-motion-hover">Services <i class="icon-arrow-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="/services/brand-and-identity" class="nav-link">Brand & Identity</a>
+                        <a href="/services/web-design-and-development" class="nav-link">Web Design & Development</a>
+                        <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
+                        <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
+                    </div>
+                </li> 
                 <li class="nav-item">
                     <a href="/works" class="nav-link effect-motion-hover">Works</a>
                 </li>
@@ -908,7 +917,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
    @include('inc.scripts')
    
     <script src="/assets/js/map.js"></script>
-    <script src="/assets/js/rain.js"></script>
+    {{-- <script src="/assets/js/rain.js"></script> --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.js"></script>
     <script>
