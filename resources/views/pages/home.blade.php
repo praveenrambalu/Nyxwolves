@@ -104,6 +104,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
     background: none;
     box-shadow: none;
 }
+
     </style>
 </head>
 
@@ -813,7 +814,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                 </div>
                
             </div>
-            <div id="map" style="width: 100%; height: 500px;"></div>
+            <div id="map" style="width: 100%; height: 500px; "></div>
 
         </section>
 

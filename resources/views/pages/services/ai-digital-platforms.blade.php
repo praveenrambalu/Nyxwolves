@@ -70,30 +70,30 @@
                                 <ul>
                             </div>
                             <div class=" col-12 col-sm-6">
-                                <div class="gallery row justify-content-center">
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-1.jpg">
-                                        <img src="/assets/images/gallery-1.jpg" class="w-100">
+                                   <div class="gallery row justify-content-center">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/1.png" class="w-100">
                                     </a>
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-2.jpg">
-                                        <img src="/assets/images/gallery-2.jpg" class="w-100">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/2.png" class="w-100">
                                     </a>
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-3.jpg">
-                                        <img src="/assets/images/gallery-3.jpg" class="w-100">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/3.png" class="w-100">
                                     </a>
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-4.jpg">
-                                        <img src="/assets/images/gallery-4.jpg" class="w-100">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/4.png" class="w-100">
                                     </a>
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-5.jpg">
-                                        <img src="/assets/images/gallery-5.jpg" class="w-100">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/5.png" class="w-100">
                                     </a>
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-6.jpg">
-                                        <img src="/assets/images/gallery-6.jpg" class="w-100">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/6.png" class="w-100">
                                     </a>
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-5.jpg">
-                                        <img src="/assets/images/gallery-5.jpg" class="w-100">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/7.png" class="w-100">
                                     </a>
-                                    <a class="col-sm-3 item" href="/assets/images/portfolio-6.jpg">
-                                        <img src="/assets/images/gallery-6.jpg" class="w-100">
+                                    <a class="col-sm-3 item" >
+                                        <img src="/assets/images/services-icons-tech/ai/8.png" class="w-100">
                                     </a>
                                 </div>
                             </div>
