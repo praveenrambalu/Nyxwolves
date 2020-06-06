@@ -7,11 +7,18 @@
     
         <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     
-        <title>Nyx Wolves - Freelance & Business Solutions Pvt. Ltd.</title>
+        <title>Nyx Wolves - Transform Yours Digitally</title>
     
-        <meta name="description" content="Nyx Wolves - Freelance & Business Solutions Pvt. Ltd.">
-        <meta name="subject" content="Nyx Wolves - Freelance & Business Solutions Pvt. Ltd.">
+        <meta name="description" content="Nyx Wolves - Transform Yours Digitally">
+        <meta name="keywords" content="branding,web design, web development, ai, digital marketing, erp, application development">
         <meta name="author" content="Nyx Wolves">
+    
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content="Nyx Wolves - Transform Yours Digitally">
+        <meta property="og:image" content="https://nyxwolves.com/assets/images/logo.png">
+        <meta property="og:url" content="https://nyxwolves.com">
+        <meta property="og:site_name" content="Nyx Wolves - Transform Yours Digitally">
+        <meta property="og:description" content="Nyx Wolves - Transform Yours Digitally">
     
         <!-- ==============================================
             Favicons
