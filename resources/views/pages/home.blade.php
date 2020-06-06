@@ -204,7 +204,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
 
                     <!-- Item 1 -->
                     <div class="swiper-slide slide-center">
-                        <img data-aos="zoom-out-up" data-aos-delay="800" src="/assets/images/1.png"
+                        <img data-aos="zoom-out-up" data-aos-delay="800" src="/assets/images/banners/1.png"
                             class="image-full">
                         <div class="slide-content row justify-content-start">
                             <div class="col-12 d-flex inner">
@@ -213,9 +213,9 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                                         Let's Create Something.</h1>
                                     <Accelerate data-aos="zoom-out-up" data-aos-delay="800" class="description">
                                         Accelerate your success through our robust and agile processes. </p>
-                                        <a href="#intro" data-aos="zoom-out-up" data-aos-delay="1200"
+                                        <a href="/services" data-aos="zoom-out-up" data-aos-delay="1200"
                                             class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i
-                                                class="icon-cup"></i>GET STARTED</a>
+                                                class="icon-eye"></i>VIEW SERVICES</a>
                                 </div>
                             </div>
                         </div>
@@ -223,7 +223,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
 
                     <!-- Item 2 -->
                     <div class="swiper-slide slide-center">
-                        <img data-aos="zoom-out-up" data-aos-delay="800" src="/assets/images/1.png"
+                        <img data-aos="zoom-out-up" data-aos-delay="800" src="/assets/images/banners/2.png"
                             class="image-full">
                         <div class="slide-content row justify-content-start">
                             <div class="col-12 d-flex inner">
@@ -232,9 +232,9 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                                         Touch of Creativity.</h1>
                                     <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Be it any of our
                                         services, they are served with creativity at its best!</p>
-                                    <a href="#intro" data-aos="zoom-out-up" data-aos-delay="1200"
+                                    <a href="/works" data-aos="zoom-out-up" data-aos-delay="1200"
                                         class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i
-                                            class="icon-cup"></i>GET STARTED</a>
+                                            class="icon-grid"></i>VIEW WORKS</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
 
                     <!-- Item 3 -->
                     <div class="swiper-slide slide-center">
-                        <img data-aos="zoom-out-up" data-aos-delay="800" src="/assets/images/1.png"
+                        <img data-aos="zoom-out-up" data-aos-delay="800" src="/assets/images/banners/3.png"
                             class="image-full">
                         <div class="slide-content row justify-content-start">
                             <div class="col-12 d-flex inner">
@@ -251,9 +251,9 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                                         Modern Companies.</h1>
                                     <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Our technical
                                         proficiency assures state-of-the-art solutions in every domain. </p>
-                                    <a href="#intro" data-aos="zoom-out-up" data-aos-delay="1200"
+                                    <a href="/contact" data-aos="zoom-out-up" data-aos-delay="1200"
                                         class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i
-                                            class="icon-cup"></i>GET STARTED</a>
+                                            class="icon-cup"></i>CONTACT US </a>
                                 </div>
                             </div>
                         </div>
