@@ -62,11 +62,11 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
 }
 #lower-value {
     float: left;
-    color: #fff;
+    color: #000;
 }
 #upper-value {
     float: right;
-    color: #fff;
+    color: #000;
 }
 
 input[type="checkbox"] + label {
@@ -75,7 +75,28 @@ color:#000;
 input[type="checkbox"] + label::before {
     border: 1px solid #0443b7;
 }
+.pt-1.pb-3.text-white {
+    color: #000 !important;
+}
 
+
+.card{
+    word-wrap: unset;
+}
+
+.social-icons div a i{
+    font-size: 32px;
+    font-weight: bold;
+}
+.social-icons div a{
+    animation: bounce 5s linear infinite;
+
+}
+@keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(10px); }
+        100% { transform: translateY(0); }
+    }
         </style>
         
     </head>
@@ -116,7 +137,6 @@ input[type="checkbox"] + label::before {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="col-12 col-md-3 align-self-end">
-                        <a href="contact.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-speech"></i>CONTACT US</i></a>
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
@@ -144,6 +164,33 @@ input[type="checkbox"] + label::before {
                             <a href="#"><i class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
                     </div>
+                    
+                </div>
+
+                <div class="row justify-content-center text-center items social-icons">
+                    <div class="col-12 col-md-3 col-lg-2 item">
+                        <a href="https://www.linkedin.com/company/nyxwolves/about/"  target="_blank" class="nav-link"><i class="icon-social-linkedin ml-0"></i></a>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 item">
+                        <a href="https://www.facebook.com/nyxwolves"  target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 item">
+                        <a href="https://www.instagram.com/nyxwolves/"  target="_blank" class="nav-link"><i class="icon-social-instagram"></i></a>
+
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 item">
+                        <a href="https://twitter.com/nyxwolves"  target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
+
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 item">
+                        <a href="https://www.youtube.com/channel/UCWSG5vEn5cYu6Ta2NBmloSg"  target="_blank" class="nav-link"><i class="icon-social-youtube"></i></a>
+
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 item">
+                        <a href="https://www.behance.net/nyxwolves"  target="_blank" class="nav-link" ><i class="icon-social-behance"></i></a>
+
+                    </div>
+
                 </div>
             </div>
         </section>

@@ -2651,3 +2651,10 @@ section.map{
     .card:hover .icon-services{
        filter:invert(1) hue-rotate(504deg) grayscale(1) brightness(1)
     }
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+    }
+    
+    

@@ -37,6 +37,24 @@
                 .showcase .card:hover .image-over::before {
                 background:none !important;
                 }
+
+                a.filter-button{
+                    color: #9fa1b5 ;
+                    margin-right: 4%;
+                    padding-bottom: 1%;
+                    cursor:pointer;
+                }
+                a.filter-button.active{
+                    border-bottom: 1px solid #000;
+                    color: #040402;
+                }
+                a.filter-button:hover{
+                    color: #040402 ;
+                  /* text-decoration: underline; */
+                }
+                
+
+
         </style>
         
     </head>
@@ -73,35 +91,43 @@
             <div class="container">
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">Our Work</h2>
-                        <p> Our excellent digital platform solutions and persistent efforts have enabled our clients to achieve a great feat in their domain. They have embraced us and we are proud to be a part of their success. </p>
+                        {{-- <h2 class="featured">Our Work</h2> --}}
+                     
+                        <div id="filter">
+                            <a  class="filter-button active" data-filter="all">All Works</a>
+                            <a  class="filter-button" data-filter="branding">Branding</a>
+                            <a  class="filter-button" data-filter="digitalplatform">Digital Platforms</a>
+                            <a  class="filter-button" data-filter="webdesign">Web Design & Development</a>
+                            <a  class="filter-button" data-filter="digitalmarketing">Digital Marketing</a>
+                        </div>
+
                     </div>
                     <div class="col-12 col-md-3 align-self-end">
                     </div>
                 </div>
                 <div class="row items">
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <div class="col-12 col-md-6 col-lg-4 item circle-card  filter branding" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/jootfoods.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="blog-single-post-1.html">
+                                    <a href="/works/joot-foods">
                                         <h4 class="m-0">Joot Foods</h4>
                                     </a>
                                 </div>
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding digitalplatform" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/homelyfreshfoods.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="blog-single-post-1.html">
+                                    <a href="/works/homely-fresh-foods">
                                         <h4 class="m-0">Homely Fresh Foods</h4>
                                     </a>
                                 </div>
@@ -109,42 +135,42 @@
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter digitalmarketing" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/northbay.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="blog-single-post-1.html">
+                                    <a href="/works/north-bay">
                                         <h4 class="m-0">North Bay</h4>
                                     </a>
                                 </div>
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/varavasthu.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="blog-single-post-1.html">
+                                    <a href="/works/vara-vasthu">
                                         <h4 class="m-0">Vara Vasthu</h4>
                                     </a>
                                 </div>
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/westernvalley.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="blog-single-post-1.html">
+                                    <a href="/works/western-valley">
                                         <h4 class="m-0">Western Valley</h4>
                                     </a>
                                 </div>
@@ -152,7 +178,7 @@
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/news-6-h.jpg" alt="">
@@ -172,12 +198,40 @@
             </div>
         </section>
 
-  
+        @include('inc.contact-form')
         @include('inc.footer')
         @include('inc.search-menu')
         @include('inc.scroll-to-top')  
         @include('inc.scripts')
+<script>
+        $(".filter-button").click(function(){
+            var value = $(this).attr('data-filter');
+           
+            $(".filter-button").removeClass('active');
+            $(this).addClass('active');
+            if(value == "all")
+            {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+            
+            }
+            else
+            {
+            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+            }
+            });
+            
+            // if ($(".filter-button").removeClass("active")) {
+            //     $(this).removeClass("active");
+            // }
+            //     $(this).addClass("active");
+            
+            // });
 
-
+        </script>
     </body>
 </html>

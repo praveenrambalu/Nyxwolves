@@ -24,9 +24,12 @@
                 --footer-1-bg-color: #111111;
                 --footer-2-bg-color: #040402;
             }
+            #contact{
+                background:#fff;
+            }
         </style>
         
-        
+    
     </head>
 
     <body>
@@ -156,7 +159,7 @@
         </section>
 
 
-        <section id="partner" class="logos">
+        {{-- <section id="partner" class="logos">
             <div class="container">
                 <div class="swiper-container slider-min">
                     <div class="swiper-wrapper">
@@ -187,8 +190,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
+            @include('inc.contact-form')
 
 
         @include('inc.footer')

@@ -4,7 +4,7 @@
     <section id="footer" class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-3 p-3 text-center text-lg-left">
+                <div class="col-12 col-lg-4 p-3 text-center text-lg-left">
                     <div class="navbar-brand mb-4 p-0">
                         <a href="/" class="logo"><img src="/assets/images/logo-light.png" alt="Nyx Wolves"></a>
                     </div>
@@ -14,17 +14,23 @@
                             <a href="https://www.linkedin.com/company/nyxwolves/about/"  target="_blank" class="nav-link"><i class="icon-social-linkedin ml-0"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://www.facebook.com/nyxwolves"  target="_blank"class="nav-link"><i class="icon-social-facebook"></i></a>
+                            <a href="https://www.facebook.com/nyxwolves"  target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://www.instagram.com/nyxwolves/"  target="_blank"class="nav-link"><i class="icon-social-instagram"></i></a>
+                            <a href="https://www.instagram.com/nyxwolves/"  target="_blank" class="nav-link"><i class="icon-social-instagram"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://twitter.com/nyxwolves"  target="_blank"class="nav-link"><i class="icon-social-twitter"></i></a>
+                            <a href="https://twitter.com/nyxwolves"  target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.youtube.com/channel/UCWSG5vEn5cYu6Ta2NBmloSg"  target="_blank" class="nav-link"><i class="icon-social-youtube"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.behance.net/nyxwolves"  target="_blank" class="nav-link" ><i class="icon-social-behance"></i></a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-lg-3 p-3 text-center">
+                <div class="col-12 col-lg-2 p-3 text-center">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="/" class="nav-link">Home</a>
@@ -96,7 +102,7 @@
                     <p> © 2020 Nyx Wolves. All Rights Reserved. </p>
                 </div>
                 <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                   <p> <a href=""> Terms & Conditions</a> |  <a href="">Privacy Policy</a> | <a href="">Copyright</a></p>
+                   <p> <a href=""> Terms & Conditions</a> |  <a href="">Privacy Policy</a> </p>
                 </div>
             </div>
         </div>
