@@ -36,8 +36,8 @@
                                 <p>The evolution of Artificial Intelligence has revolutionized businesses of today. Our pack of developers offer top-notch AI-powered solutions to incorporate simple, agile, and smart operations into your own business. We deliver state-of-the-art technical solutions through our capability to develop and deploy CRM, ERP, Project Management and Team Management applications to create a drastic shift in your productivity and increase the efficiency of your business processes. Our innovative and efficient solutions assure consistent cross-platform solutions in a glitch-free environment to boost your progress.  </p>
 
                                 <div class="gallery">
-                                    <a href="/assets/images/news-3.jpg">
-                                        <img src="/assets/images/news-3.jpg" class="w-100">
+                                    <a >
+                                        <img src="/assets/images/services-featured-image/ai.jpg" class="w-100">
                                     </a>
                                 </div>
 

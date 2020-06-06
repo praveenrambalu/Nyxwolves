@@ -42,8 +42,8 @@
                                 and help you make a difference. </p>
 
                             <div class="gallery">
-                                <a href="/assets/images/news-3.jpg">
-                                    <img src="/assets/images/news-3.jpg" class="w-100">
+                                <a >
+                                    <img src="/assets/images/services-featured-image/webdev.jpg" class="w-100">
                                 </a>
                             </div>
 

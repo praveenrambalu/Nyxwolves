@@ -13,7 +13,7 @@
         <div class="swiper-container slider-mid items">
             <div class="swiper-wrapper">
 
-                @if (count($posts=\App\Posts::where('status','active')->orderBy('id','desc')->get())>0)
+                @if (count($posts=\App\Posts::where('status','active')->orderBy('id','desc')->paginate(6))>0)
                     
                 
                 @foreach ($posts as $post)

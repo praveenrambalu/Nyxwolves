@@ -36,8 +36,8 @@
                             <p>In a world where everything runs on fingertips, marketing on online platforms has become an inevitable part of success in every field. Our effective and novel digital marketing strategies redefine your opportunities and generate potential prospects to nurture your growth by creating backlinks to your website. Our wide spectrum of digital marketing campaigns tremendously increases your online presence and engages your audience with brilliance and charm. Our extensive digital marketing strategies are designed to tailor customized posts to get your customers hooked and enhance your brand awareness.  </p>
 
                             <div class="gallery">
-                                <a href="/assets/images/news-3.jpg">
-                                    <img src="/assets/images/news-3.jpg" class="w-100">
+                                <a >
+                                    <img src="/assets/images/services-featured-image/marketing.jpg" class="w-100">
                                 </a>
                             </div>
                         </div>

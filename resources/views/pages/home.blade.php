@@ -600,7 +600,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-1.jpg" alt="" class="person">
+                                    <img src="/assets/images/testimonial/u.jpg" alt="" class="person">
                                     <h4>UpState E</h4>
                                     <p>It was really great working with them. Highly recommended!</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -627,7 +627,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-2.jpg" alt="Mary Evans" class="person">
+                                    <img src="/assets/images/testimonial/t.jpg" alt="Mary Evans" class="person">
                                     <h4>Thirukumaran</h4>
                                     <p>Nyx Wolves is a team that is highly professional, efficient and effective at what they do.
 
@@ -659,7 +659,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
+                                    <img src="/assets/images/testimonial/s.jpg" alt="Sarah Lopez" class="person">
                                     <h4>Sudhakar Nemmatha</h4>
                                     <p>Nyx Wolves provides services to my business which is based in Sydney Australia. I have met many other hopeless developers before contacting Nyx Wolves. I am very much impressed with their work, skill set & mainly they communicate back promptly & also reasonably regards the fee for their services. I already recommended them to a few of my friends & will keep doing them. Highly recommended!!</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -686,7 +686,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-4.jpg" alt="Joseph Hills" class="person">
+                                    <img src="/assets/images/testimonial/c.jpg" alt="Joseph Hills" class="person">
                                     <h4>Chandra Shekar</h4>
                                     <p>This is my second project with them and they delivered great quality work again. Definitely coming back for more work</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -713,7 +713,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/testimonial/r.jpg" alt="Karen Usman" class="person">
                                     <h4>Raj Agarwal</h4>
                                     <p>A perfect company for startups</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -779,7 +779,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
         </section>
 
         <!-- Blog -->
-     {{-- @include('inc.blog') --}}
+     @include('inc.blog')
 
         <!-- Subscribe -->
         <section id="subscribe" class="subscription map" style="background:rgb(0,0,0);">
