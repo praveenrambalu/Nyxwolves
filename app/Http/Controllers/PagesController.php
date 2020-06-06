@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Posts;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -29,6 +30,19 @@ class PagesController extends Controller
     public function contact()
     {
         return view('pages.contact');
+    }
+    public function blog()
+    {
+        $posts=Posts::where('status','active')->orderBy('id','desc')->paginate(3);
+        return view('pages.blog')->with('posts',$posts);
+    }
+    public function singleBlogPost($id)
+    {
+        if($post=Posts::where('id',$id)->where('status','active')->first()){
+            return view('pages.blog-detail')->with('post',$post);
+        }else{
+            abort(404);
+        }
     }
 
 

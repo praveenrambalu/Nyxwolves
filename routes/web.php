@@ -26,6 +26,8 @@ Route::get('/services', 'PagesController@services');
 Route::get('/works', 'PagesController@works');
 Route::get('/wolf-pack', 'PagesController@wolfPack');
 Route::get('/contact', 'PagesController@contact');
+Route::get('/blog', 'PagesController@blog');
+Route::get('/blog/posts/{id}', 'PagesController@singleBlogPost');
 
 Route::get('/services/brand-and-identity','PagesController@brandIdentity');
 Route::get('/services/web-design-and-development','PagesController@webDesignDevelopment');
@@ -36,7 +38,7 @@ Route::get('/works/homely-fresh-foods','PagesController@homelyfreshfoods');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
-    Route::get('/','PostsController@addpost');
+    Route::get('/','PostsController@viewPosts');
     Route::get('add-post','PostsController@addpost');
     Route::post('add-post','PostsController@addpostPost');
 });

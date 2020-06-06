@@ -33,4 +33,12 @@ class PostsController extends Controller
         $post->save();
         return redirect()->back()->with('success','Post Published');
     }
+
+    public function viewPosts()
+    {
+        $posts=Posts::where('status','active')->orderBy('id','desc')->paginate(10);
+        return view('pages.admin.blog.view-posts')->with('posts',$posts);
+    }
+
+
 }
