@@ -564,7 +564,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    {{-- <div class="col-12 col-md-6 col-lg-4 item circle-card filter" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/news-6-h.jpg" alt="">
@@ -578,7 +578,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                                 
                             </div>
                         </div> 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
@@ -779,145 +779,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
         </section>
 
         <!-- Blog -->
-        <section id="blog" class="carousel showcase">
-            <div class="container">
-                <div class="row intro">
-                    <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">Latest News</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="col-12 col-md-3 align-self-end">
-                        <a href="blog-listing-1.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
-                                class="icon-grid"></i>VIEW ALL</i></a>
-                    </div>
-                </div>
-                <div class="swiper-container slider-mid items">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/news-1-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/news-2-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/news-3-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/news-4-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/news-5-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/news-6-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post-1.html">
-                                            <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-user"></i>John Doe</a>
-                                        <a href="blog-single-post-1.html" class="d-lg-flex align-items-center"><i
-                                                class="icon-clock"></i>3 Days Ago</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
+     {{-- @include('inc.blog') --}}
 
         <!-- Subscribe -->
         <section id="subscribe" class="subscription map" style="background:rgb(0,0,0);">
