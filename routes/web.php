@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-// Auth::routes();
+Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
 
@@ -32,3 +33,10 @@ Route::get('/services/digital-marketing','PagesController@digitalMarketing');
 Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform'); 
 
 Route::get('/works/homely-fresh-foods','PagesController@homelyfreshfoods');
+
+
+Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
+    Route::get('/','PostsController@addpost');
+    Route::get('add-post','PostsController@addpost');
+    Route::post('add-post','PostsController@addpostPost');
+});

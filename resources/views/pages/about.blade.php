@@ -46,6 +46,9 @@
             .bg_gray{
             background-color: var(--section-4-bg-color) !important;
             }
+            .team{
+               height:350px;
+            }
         </style>
 
 </head>
@@ -278,9 +281,9 @@
                 <div class="swiper-container slider-mid items">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-1.jpg" alt="Adams Baker" class="person">
+                                    <img src="/assets/images/team/aranganel.jpg" alt="Adams Baker" class="person">
                                     <h4>Arangannal</h4>
                                     <p>Director</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -295,9 +298,9 @@
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-2.jpg" alt="Mary Evans" class="person">
+                                    <img src="/assets/images/team/sriram2.jpg" alt="Mary Evans" class="person">
                                     <h4>Sriram Sankar</h4>
                                     <p>Director, CEO</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -312,9 +315,9 @@
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
+                                    <img src="/assets/images/team/sid.jpg" alt="Sarah Lopez" class="person">
                                     <h4>Sidhdharth Sivasubramanian</h4>
                                     <p>Director, CTO</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -329,9 +332,9 @@
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
+                                    <img src="/assets/images/team/venkat.jpg" alt="Sarah Lopez" class="person">
                                     <h4>Venkat Boyalla </h4>
                                     <p>Director, CMO</p>
                                     <ul class="navbar-nav social share-list ml-auto">
@@ -346,269 +349,115 @@
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-4.jpg" alt="Joseph Hills" class="person">
+                                    <img src="/assets/images/team/suraj.jpg" alt="Suraj" class="person">
                                     <h4>Suraj K S
                                     </h4>
                                     <p>Head of Operations</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/sanjay.jpg" alt="Nirmalaya" class="person">
                                     <h4>Sanjay Kumar</h4>
                                     <p>Executive Manager</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
 
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/nirmal.jpg" alt="Karen Usman" class="person">
                                     <h4>Nirmalaya Sanyal</h4>
                                     <p>Creative Head</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/jothi.jpg" alt="Jothicharan" class="person">
                                     <h4>Jothicharan Jothibabu</h4>
                                     <p>Development Head</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/sakthi.jpg" alt="Sakthivel" class="person">
                                     <h4>Sakthivel R</h4>
                                     <p>Asst. Manager of Designs</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/pratik.jpg" alt="Pratik" class="person">
                                     <h4>Pratik Seal</h4>
                                     <p>Digital Marketing Strategist</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/sanjayd.jpg" alt="Sanjay" class="person">
                                     <h4>Sanjay</h4>
                                     <p>Senior UI/UX Designer</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/jones.jpg" alt="Jones" class="person">
                                     <h4>Jones</h4>
                                     <p>Junior Designer</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
-                                    <h4>Praveenram</h4>
+                                    <img src="/assets/images/team/praveen.jpg" alt="Praveenram" class="person">
+                                    <h4>Praveenram Balachandran</h4>
                                     <p>Web Developer</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team/lakshmanan.jpg" alt="Lakshmanan" class="person">
                                     <h4>Lakshmanan R</h4>
                                     <p>Web Developer</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
-                                    <h4>Chandru V</h4>
+                                    <img src="/assets/images/team/chandu.jpg" alt="Chandu" class="person">
+                                    <h4>Chandu V</h4>
                                     <p>Copywriter</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
+                            <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Karen Usman" class="person">
+                                    <img src="/assets/images/team-5.jpg" alt="Maybe You" class="person">
                                     <h4>Maybe You ?</h4>
                                     <p>Join Us</p>
                                     <ul class="navbar-nav social share-list ml-auto">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                            <a href="/contact"  class="nav-link"> <i class="icon-envelope"></i></a>
                                         </li>
                                     </ul>
                                 </div>
