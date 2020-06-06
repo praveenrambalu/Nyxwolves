@@ -750,28 +750,43 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                 <div class="swiper-container slider-min">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-1.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/1.png" class="image-fit w-85">
                         </div>
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-2.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/2.png" class="image-fit w-85">
                         </div>
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-3.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/3.png" class="image-fit w-85">
                         </div>
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-4.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/4.png" class="image-fit w-85">
                         </div>
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-5.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/5.png" class="image-fit w-85">
                         </div>
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-6.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/6.png" class="image-fit w-85">
                         </div>
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-7.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/7.png" class="image-fit w-85">
                         </div>
                         <div class="swiper-slide slide-center item">
-                            <img src="/assets/images/logo-8.png" class="image-fit w-85">
+                            <img src="/assets/images/clients/9.png" class="image-fit w-85">
+                        </div>
+                        <div class="swiper-slide slide-center item">
+                            <img src="/assets/images/clients/10.png" class="image-fit w-85">
+                        </div>
+                        <div class="swiper-slide slide-center item">
+                            <img src="/assets/images/clients/11.png" class="image-fit w-85">
+                        </div>
+                        <div class="swiper-slide slide-center item">
+                            <img src="/assets/images/clients/12.png" class="image-fit w-85">
+                        </div>
+                        <div class="swiper-slide slide-center item">
+                            <img src="/assets/images/clients/13.png" class="image-fit w-85">
+                        </div>
+                        <div class="swiper-slide slide-center item">
+                            <img src="/assets/images/clients/14.png" class="image-fit w-85">
                         </div>
                     </div>
                 </div>
