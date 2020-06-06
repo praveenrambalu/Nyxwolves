@@ -779,7 +779,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
         </section>
 
         <!-- Blog -->
-     @include('inc.blog')
+     {{-- @include('inc.blog') --}}
 
         <!-- Subscribe -->
         <section id="subscribe" class="subscription map" style="background:rgb(0,0,0);">

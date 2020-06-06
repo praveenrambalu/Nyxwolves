@@ -2658,3 +2658,75 @@ section.map{
     }
     
     
+
+
+    .rectangle-shape.right{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 0;
+        -webkit-animation: movebounce 5s linear infinite;
+        animation: movebounce 5s linear infinite;
+    }
+    .rectangle-shape.left{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 0;
+        -webkit-animation: movebounce 5s linear infinite;
+        animation: movebounce 5s linear infinite;
+    }
+    .rectangle-shape.shape1{
+        top: 75%;
+    }
+    .rectangle-shape.shape2{
+        top: 175%;
+    }
+    .rectangle-shape.shape3{
+        top: 275%;
+    }
+
+
+    @keyframes movebounce {
+        0% {
+            transform: translateY(0px); 
+        }
+        50% {
+            transform: translateY(20px); 
+        }
+        100% {
+            transform: translateY(0px); 
+        } 
+    }
+    @keyframes animationFramesOne {
+        0% {
+            transform: translate(0px,0px) rotate(0deg) ;
+        }
+        20% {
+            transform: translate(73px,-1px) rotate(36deg) ;
+        }
+        40% {
+            transform: translate(141px,72px) rotate(72deg) ;
+        }
+        60% {
+            transform: translate(83px,122px) rotate(108deg) ;
+        }
+        80% {
+            transform: translate(-40px,72px) rotate(144deg) ;
+        }
+        100% {
+            transform:  translate(0px,0px) rotate(0deg) ;
+        }
+    }
+    @keyframes rotateme {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }

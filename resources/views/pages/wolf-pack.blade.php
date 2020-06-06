@@ -56,41 +56,134 @@
             </div>
         </section>
 
-       <!-- Features -->
-       <section id="intro" class="offers featured right">
-        <div class="container-fluid">
-            <div class="row justify-content-center text-center items">
-                <div class="col-12 col-md-6 col-lg-3 item">
-                    <div class="card no-hover">
-                        <i class="icon icon-user-follow"></i>
-                        <h4>Your Team</h4>
-                        <p>Our team acts as an extension of your own. We designate teams to accommodate your preferences. </p>
+
+
+        <section id="intro" class="highlights left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="featured alt">About Us</h2>
+                                <p>Our passion-driven team turns your every idea into reality. Brewing beauty out of chaos is our forte. We enable our clients to meet their goals and exceed their own expectations. We help you build and scale business on digital platforms in today’s digitally-driven world.</p>
+                                    <p>We work with our customers to build their business right from scratch to where they are today. Your success is our mantra. With a broad expertise of enabling successful enterprises and startups in the domain of Food, Healthcare, Education & Training, Media & Entertainment, we are committed to create a global digital impact for your brand.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 item">
-                    <div class="card no-hover">
-                        <i class="icon icon-note"></i>
-                        <h4>Realistic planning</h4>
-                        <p>Our exceptional team weaves a tactical and foolproof plan to help you achieve your goals. </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 item">
-                    <div class="card no-hover">
-                        <i class="icon icon-chart"></i>
-                        <h4>Growth accelerator</h4>
-                        <p>Our elite team of designers and developers work at an accelerating rate and ensures rapid scalability in your domain.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 item">
-                    <div class="card no-hover">
-                        <i class="icon icon-lock"></i>
-                        <h4>Impromptu commitment</h4>
-                        <p>Our sole purpose is to meet your target. We embark even on short-term commitments, be it a week or a month.</p>
+                    <div class="gallery col-12 col-md-6">
+                        <a >
+                            <img src="/assets/images/about-us.jpg" class="image-fit">
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    
+    
+        {{-- <section class="highlights left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 align-self-center text-center text-md-left">
+                        <div class="wrapper row">
+                            <div class="counter  text-center col-sm-3">
+                                <div class="counter-holder">
+                                    <i class="icon icon-fire"></i>
+                                    <h2 class="timer count-title count-number" data-to="1000" data-speed="1500">1000</h2>
+                                    <p class="count-text ">Designs</p>
+                                </div>
+                            </div>
+    
+                            <div class="counter  text-center col-sm-3">
+                                <div class="counter-holder">
+    
+                                    <i class="icon icon-folder-alt"></i>
+                                    <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+                                    <p class="count-text ">Projects</p>
+                                </div>
+                            </div>
+    
+                            <div class="counter  text-center col-sm-3">
+    
+                                <div class="counter-holder">
+    
+                                    <i class="icon icon-emotsmile"></i>
+                                    <h2 class="timer count-title count-number" data-to="200" data-speed="1500"></h2>
+                                    <p class="count-text ">Happy Customers</p>
+                                </div>
+                            </div>
+    
+                            <div class="counter  text-center col-sm-3">
+                                <div class="counter-holder">
+    
+                                    <i class="icon icon-globe"></i>
+                                    <h2 class="timer count-title count-number" data-to="25" data-speed="1500"></h2>
+                                    <p class="count-text ">Countriese</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section> --}}
+    
+    
+    
+        <!-- About [video] -->
+        <section id="video" class="highlights right">
+            <div class="container">
+                <div class="row">
+                    <div class="gallery col-12 col-md-6">
+                        <a data-poster="/assets/images/intro-video.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
+                            <i class="play-video icon-control-play"></i>
+                            <div class="mask-radius"></div>
+                            <img src="/assets/images/intro-video.jpg" class="image-fit">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="featured alt">Who we Are ?</h2>
+                                <p>We are a bootstrapped team embedded with strong values in assisting our clients to scale up in their fields. Quality and innovation bleeds in every work that we pursue. Since the inception, we have been excelling in developing innovative and creative solutions for our clients. Our growth as a team has aided numerous companies to succeed like never before.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+      
+    
+    
+    
+         <section id="intro" class="bg_gray">
+                <div class="container">
+                    <div class="row">
+                      
+                        <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                            <div class="row intro">
+                                <div class="col-12 p-0">
+                                    <h2 class="featured alt">Why Choose us?</h2>
+                                    <p>You are our first priority. We understand your every goal. Our energetic and tech-savvy pack of designers and developers create futuristic solutions to progressively elevate your growth and help you achieve your business goals. Our versatile team has years of expertise in building extraordinary things out of the ordinary. We assure quality in every aspect and guarantee your success. </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="gallery col-12 col-md-6">
+                            <a >
+                                <img src="/assets/images/why-choose-us.jpg" class="image-fit">
+                            </a>
+                        </div>
+    
+    
+                    </div>
+                </div>
+          </section>
+
+          
+          
+
 
 
     <!-- About [video] -->
@@ -98,10 +191,10 @@
         <div class="container">
             <div class="row">
                 <div class="gallery col-12 col-md-6">
-                    <a data-poster="assets/images/about-11.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
+                    <a data-poster="/assets/images/intro-video.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
                         <i class="play-video icon-control-play"></i>
                         <div class="mask-radius"></div>
-                        <img src="assets/images/about-11.jpg" class="image-fit">
+                        <img src="/assets/images/intro-video.jpg" class="image-fit">
                     </a>
                 </div>
                 <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">

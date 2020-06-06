@@ -162,7 +162,10 @@
                     </a>
                 </div>
             </div>
+
         </div>
+        <div class="rectangle-shape right shape1"><img src="/assets/images/shape1.png" alt="image"></div>
+
     </section>
 
 
@@ -236,6 +239,8 @@
                 </div>
             </div>
         </div>
+        <div class="rectangle-shape left shape2"><img src="/assets/images/shape1.png" alt="image"></div>
+        
     </section>
 
 
@@ -265,6 +270,8 @@
 
                 </div>
             </div>
+        <div class="rectangle-shape right shape3"><img src="/assets/images/shape1.png" alt="image"></div>
+
       </section>
 
 
