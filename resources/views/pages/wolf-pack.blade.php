@@ -24,6 +24,60 @@
                 --footer-1-bg-color: #111111;
                 --footer-2-bg-color: #040402;
             }
+            #contact{
+                background:#fff;
+            }
+
+            .noUi-handle.noUi-handle-lower, .noUi-handle.noUi-handle-upper  {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+.noUi-horizontal {
+    height: 10px;
+}
+.noUi-handle::before, .noUi-handle::after {
+    display:none;
+}
+
+.noUi-connect{
+
+background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+    background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+    background-size: 200% auto;
+    -webkit-animation: effect 1s linear infinite;
+    animation: effect 1s linear infinite;
+    color: var(--primary-b-color);
+
+}
+
+.noUi-tooltip {
+    display: none;
+}
+.noUi-active .noUi-tooltip {
+    display: block;
+}
+#lower-value {
+    float: left;
+    color: #000;
+}
+#upper-value {
+    float: right;
+    color: #000;
+}
+
+input[type="checkbox"] + label {
+color:#000;
+}
+input[type="checkbox"] + label::before {
+    border: 1px solid #0443b7;
+}
+.pt-1.pb-3.text-white {
+    color: #000 !important;
+}
+
+
         </style>
         
         
@@ -56,6 +110,32 @@
             </div>
         </section>
 
+
+        <section id="video" class="highlights right">
+            <div class="container">
+                <div class="row">
+                    <div class="gallery col-12 col-md-6">
+                        <a data-poster="/assets/images/intro-video.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
+                            <i class="play-video icon-control-play"></i>
+                            <div class="mask-radius"></div>
+                            <img src="/assets/images/intro-video.jpg" class="image-fit">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="featured alt">Wolf Pack</h2>
+                                <p>To achieve your goals, our agile, cohesive, and a dedicated pack of designers and developers blend with your team as your own. We help you get quick access to cross-platform digital specialists to integrate and develop state-of-the-art solutions. Our coherent team that forms TaaS (Team as a Service) provides highly-skilled, top-quality professionals who will create a difference in your workforce right from their immersion.</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
        <!-- Features -->
        <section id="intro" class="offers featured right">
         <div class="container-fluid">
@@ -93,35 +173,18 @@
     </section>
 
 
+        @include('inc.contact-form')
+
     <!-- About [video] -->
-    <section id="video" class="highlights right">
-        <div class="container">
-            <div class="row">
-                <div class="gallery col-12 col-md-6">
-                    <a data-poster="/assets/images/intro-video.jpg" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
-                        <i class="play-video icon-control-play"></i>
-                        <div class="mask-radius"></div>
-                        <img src="/assets/images/intro-video.jpg" class="image-fit">
-                    </a>
-                </div>
-                <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-                    <div class="row intro">
-                        <div class="col-12 p-0">
-                            <h2 class="featured alt">Wolf Pack</h2>
-                            <p>To achieve your goals, our agile, cohesive, and a dedicated pack of designers and developers blend with your team as your own. We help you get quick access to cross-platform digital specialists to integrate and develop state-of-the-art solutions. Our coherent team that forms TaaS (Team as a Service) provides highly-skilled, top-quality professionals who will create a difference in your workforce right from their immersion.</p>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
-    </section>
+  
 
 
         @include('inc.footer')
         @include('inc.search-menu')
         @include('inc.scroll-to-top')  
         @include('inc.scripts')
+        @include('inc.contact-form-scripts')
+
 
     </body>
 </html>

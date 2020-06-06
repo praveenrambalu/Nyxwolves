@@ -24,11 +24,9 @@
                 --footer-1-bg-color: #111111;
                 --footer-2-bg-color: #040402;
             }
-            #contact{
-                background:#fff;
-            }
+    
         </style>
-        
+      @include('inc.contact-form-white-style')  
     
     </head>
 
@@ -199,6 +197,7 @@
         @include('inc.search-menu')
         @include('inc.scroll-to-top')  
         @include('inc.scripts')
-
+        @include('inc.contact-form-scripts')
+        
     </body>
 </html>

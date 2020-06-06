@@ -28,56 +28,7 @@
                 --footer-2-bg-color: #040402;
             }
 
-  
 
-.noUi-handle.noUi-handle-lower, .noUi-handle.noUi-handle-upper  {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    box-shadow: none;
-}
-.noUi-horizontal {
-    height: 10px;
-}
-.noUi-handle::before, .noUi-handle::after {
-    display:none;
-}
-
-.noUi-connect{
-
-background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    background-size: 200% auto;
-    -webkit-animation: effect 1s linear infinite;
-    animation: effect 1s linear infinite;
-    color: var(--primary-b-color);
-
-}
-
-.noUi-tooltip {
-    display: none;
-}
-.noUi-active .noUi-tooltip {
-    display: block;
-}
-#lower-value {
-    float: left;
-    color: #000;
-}
-#upper-value {
-    float: right;
-    color: #000;
-}
-
-input[type="checkbox"] + label {
-color:#000;
-}
-input[type="checkbox"] + label::before {
-    border: 1px solid #0443b7;
-}
-.pt-1.pb-3.text-white {
-    color: #000 !important;
-}
 
 
 .card{
@@ -99,6 +50,8 @@ input[type="checkbox"] + label::before {
     }
         </style>
         
+
+        @include('inc.contact-form-white-style')
     </head>
 
     <body>
@@ -203,43 +156,7 @@ input[type="checkbox"] + label::before {
         @include('inc.search-menu')
         @include('inc.scroll-to-top')  
         @include('inc.scripts')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.js"></script>
-    <script>
-        var rangeslider = document.getElementById('range-slider');
-        var updateSliderValue = document.getElementById('slider-value');
-noUiSlider.create(rangeslider, {
-    start: [20000, 80000],
-    step: 1000,
-    connect: true,
-    range: {
-        'min': 20000,
-        'max': 100000
-    },
-    tooltips:true,
-    format: wNumb({
-        decimals: 0, // default is 2
-        thousand: '.' // thousand delimiter
-        // postfix: ' (US $)', // gets appended after the number
-    })
-});
-
-
-
-
-var nodes = [
-    document.getElementById('lower-value'), // 0
-    document.getElementById('upper-value')  // 1
-];
-
-// Display the slider value and how far the handle moved
-// from the left edge of the slider.
-rangeslider.noUiSlider.on('update', function (values, handle, unencoded, isTap, positions) {
-    nodes[handle].innerHTML =  'Rs .' + values[handle] ;
-});
-
-
-
-    </script>
+        @include('inc.contact-form-scripts')
+        
     </body>
 </html>

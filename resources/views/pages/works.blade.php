@@ -57,6 +57,7 @@
 
 
         </style>
+        @include('inc.contact-form-white-style')
         
     </head>
 
@@ -204,6 +205,7 @@
         @include('inc.search-menu')
         @include('inc.scroll-to-top')  
         @include('inc.scripts')
+        @include('inc.contact-form-scripts')
 <script>
         $(".filter-button").click(function(){
             var value = $(this).attr('data-filter');

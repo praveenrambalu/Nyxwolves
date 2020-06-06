@@ -9,8 +9,7 @@
                         <i class="icon bigger icon-check"></i>
                         <h3>Success</h3>
                         <p>Your message has been sent successfully.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit quisque sed leo vel dolor
-                            dictum hendrerit.</p>
+                        <p>Our team will get in touch with you soon.</p>
                         <a href="" class="btn mx-auto primary-button"><i class="icon-refresh"></i>REFRESH</a>
                     </div>
                 </div>
@@ -108,7 +107,8 @@
 
 
                                 <div class="row py-2">
-                                    <div class="col-12 text-left"><h5 class="pt-1 pb-3 text-white">Budget </h5>
+                                    <h5 class="pt-1 pb-3 text-white">Budget </h5>
+                                    <div class="col-12 text-left">
                                          <div id="range-slider"></div>
                                          <div class="values-holder">
                                              <span class="leftexample-val" id="lower-value"></span>
