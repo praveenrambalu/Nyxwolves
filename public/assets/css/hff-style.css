@@ -1,0 +1,348 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.navbar .nav-link.effect-motion-hover {
+    color: #000 !important;
+}
+
+
+
+.navbar-sticky .nav-link.effect-motion-hover {
+    color: #fff !important;
+}
+
+.navbar .navbar-nav.toggle li a {
+    color: #000 !important;
+}
+.navbar-sticky .navbar-nav.toggle li a {
+    color: #fff !important;
+}
+
+
+
+section{
+    padding: 0 ;
+}
+
+
+.first-section{
+    margin-top: 200px;
+}
+.hff-logo{
+    height: 300px;
+}
+.orange-bg{
+    background:#f95e21;
+    height: 500px;
+    padding-top: 100px;
+    margin-top: 100px;
+
+
+}
+.about-text{
+font-size: 36px;
+color: #ffffff;
+font-family: "Poppins";
+font-weight: 500;
+text-align: left;
+}
+.leaf-image{
+    margin-top: -130px;
+
+}
+.heading-deliverables{
+ /*    width: 782px;
+height: 423px; */
+font-size: 66px;
+line-height: 50px;
+color: #9ac632;
+font-family: "Poppins";
+font-weight: 500;
+margin-bottom: 30px;
+}
+.deliverables-text{
+    /* width: 979px;
+height: 423px; */
+font-size: 45px;
+line-height: 68px;
+color: #231f20;
+font-family: "Poppins";
+font-weight: 400;
+}
+.deliverables-section-text{
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+#deliverables{
+    padding: 100px;
+}
+.phone-img{
+    position: absolute;
+    top: -275px;
+    left: -20px;
+    height: 1050px;
+    animation: bounce 2s linear  infinite;
+}
+
+
+
+#webapp{
+    background-color: #ededed;
+    padding: 100px;
+}
+
+.webapp-heading{
+    /* width: 1112px;
+height: 407px; */
+font-size: 108px;
+line-height: 112px;
+color: #949393;
+font-family: "Poppins";
+font-weight: 700;
+}
+.webapp-text{
+ font-size: 28px;
+color: #161717;
+font-family: "Poppins";
+font-weight: 300;
+}
+
+.macbook{
+    margin-top: -300px;
+    margin-left: 300px;
+    animation: bounce 2s linear  infinite;
+}
+
+#socialmedia{
+   margin-top: -200px;
+     background: url('/assets/img/hff/vector-bg.png');
+     background-repeat: no-repeat;
+     background-repeat: repeat-x;
+     background-position: top center;
+}
+.vector-bg{
+   padding: 200px;
+}
+
+
+.socialmedia{
+font-size: 108px;
+line-height: 112px;
+color: #657c2a;
+font-family: "Poppins";
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+margin-top: 150px;
+}
+
+.socialmedia-phone:hover{
+    transition:all 1s ease;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    .hff-logo{
+        height: 100px;
+    }
+    .first-section{
+        margin-top: 70px;
+    }
+    .orange-bg{
+        height: auto;
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+    .about-text{
+    font-size: 18px;
+    }
+    .leaf-image{
+        margin-top: 0px;
+        height: 300px;
+    }
+
+    .heading-deliverables{
+       font-size: 20px;
+       line-height: 30px;
+       color: #9ac632;
+       font-family: "Poppins";
+       font-weight: 500;
+       margin-bottom: 30px;
+       }
+       .deliverables-text{
+       font-size: 16px;
+       line-height: 25px;
+       color: #231f20;
+       font-family: "Poppins";
+       font-weight: 400;
+       }
+       .deliverables-section-text{
+           padding-top: 50px;
+           padding-left: 20px;
+       }
+       
+       #deliverables{
+           padding: 0;
+       }
+       .phone-img{
+            position: relative;
+            top: 0;
+            left: 0;
+            height: 300px;
+            margin-top: 0;
+       }
+
+
+       #webapp{
+        padding: 20px;
+    }
+    
+    .webapp-heading{
+    font-size: 28px;
+    color: #949393;
+    }
+    .webapp-text{
+     font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 200;
+    }
+
+    .macbook{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    #socialmedia{
+        margin-top: -200px;
+         background: url('/assets/img/hff/vector-bg.png');
+         background-repeat: no-repeat;
+         background-repeat: no-repeat;
+         background-position: top center;
+    }
+    .vector-bg{
+       padding: 20px;
+
+    }
+    
+    
+    .socialmedia{
+    font-size: 32px;
+    margin-top: 250px;
+    }
+    .socialmedia-phone{
+        height: 500px;
+        text-align:center;
+        margin-left: 20px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    .hff-logo{
+        height: 100px;
+    }
+    .first-section{
+        margin-top: 70px;
+    }
+    .orange-bg{
+        height: auto;
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+    .about-text{
+    font-size: 22px;
+    }
+    .leaf-image{
+        margin-top: 0px;
+        height: 300px;
+    }
+
+    .heading-deliverables{
+       font-size: 25px;
+       line-height: 30px;
+       color: #9ac632;
+       font-family: "Poppins";
+       font-weight: 500;
+       margin-bottom: 30px;
+       }
+       .deliverables-text{
+       font-size: 19px;
+       line-height: 25px;
+       color: #231f20;
+       font-family: "Poppins";
+       font-weight: 400;
+       }
+       .deliverables-section-text{
+           padding-top: 50px;
+           padding-left: 20px;
+       }
+       
+       #deliverables{
+           padding: 30px;
+       }
+       .phone-img{
+            position: relative;
+            top: 0;
+            left: 0;
+            height: 400px;
+            margin-top: 0;
+       }
+
+
+       #webapp{
+        padding: 20px;
+    }
+    
+    .webapp-heading{
+    font-size: 30px;
+    color: #949393;
+    }
+    .webapp-text{
+     font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 200;
+    }
+
+    .macbook{
+        margin-top: -150px;
+        margin-left: 0;
+    }
+    
+    #socialmedia{
+        margin-top: -200px;
+         background: url('/assets/img/hff/vector-bg.png');
+         background-repeat: no-repeat;
+         background-repeat: no-repeat;
+         background-position: top center;
+    }
+    .vector-bg{
+       padding: 20px;
+
+    }
+    
+    
+    .socialmedia{
+    font-size: 40px;
+    margin-top: 250px;
+    margin-left: 25px;
+    }
+    .socialmedia-phone{
+        height: 400px;
+        text-align:center;
+        margin-left: 0px;
+    }
+
+
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+

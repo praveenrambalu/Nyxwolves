@@ -30,3 +30,5 @@ Route::get('/services/brand-and-identity','PagesController@brandIdentity');
 Route::get('/services/web-design-and-development','PagesController@webDesignDevelopment');
 Route::get('/services/digital-marketing','PagesController@digitalMarketing');
 Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform'); 
+
+Route::get('/works/homely-fresh-foods','PagesController@homelyfreshfoods');

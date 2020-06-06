@@ -49,4 +49,10 @@ class PagesController extends Controller
     {
         return view('pages.services.ai-digital-platforms');
     }
+
+
+     public function homelyfreshfoods()
+    {
+        return view('pages.works.homelyfreshfoods');
+    }
 }

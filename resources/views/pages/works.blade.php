@@ -43,6 +43,7 @@
                     margin-right: 4%;
                     padding-bottom: 1%;
                     cursor:pointer;
+                    line-height: 3;
                 }
                 a.filter-button.active{
                     border-bottom: 1px solid #000;
