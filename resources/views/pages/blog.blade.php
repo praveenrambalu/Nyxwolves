@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@section('page','Blog - ')
 
 <html lang="en">
 

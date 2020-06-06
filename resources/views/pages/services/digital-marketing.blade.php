@@ -1,3 +1,5 @@
+@section('page','Digital Marketing - ')
+
 @extends('layouts.services')
 @section('main-content')
     

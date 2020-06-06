@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@section('page','Contact - ')
 
 <html lang="en">
 

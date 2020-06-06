@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+@section('page','About - ')
 
 <html lang="en">
 
 <head>
 
 @include('inc.head')
+    
     
         <!-- ==============================================
             Custom Stylesheet

@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+@section('page','Works - ')
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

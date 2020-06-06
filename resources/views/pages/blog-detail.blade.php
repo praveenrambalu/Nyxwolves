@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+{{-- @section('page','{{$post->title}} - ') --}}
+@section('page','Blog - ')
 
 <html lang="en">
 

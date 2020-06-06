@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@section('page','Works - ')
 
 <html lang="en">
 

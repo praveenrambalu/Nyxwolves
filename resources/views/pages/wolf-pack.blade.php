@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+@section('page','Wolf Pack - ')
 
 <html lang="en">
 

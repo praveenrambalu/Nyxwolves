@@ -1,3 +1,5 @@
+@section('page','AI & Digital Platforms - ')
+
 @extends('layouts.services')
 @section('main-content')
     

@@ -1,3 +1,5 @@
+@section('page','Brand & Identity - ')
+
 @extends('layouts.services')
 @section('main-content')
     
