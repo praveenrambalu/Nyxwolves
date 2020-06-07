@@ -35,6 +35,9 @@
 .card{
     word-wrap: unset;
 }
+.card h4{
+    font-size: 1rem
+}
 
 .social-icons div a i{
     font-size: 32px;
@@ -42,6 +45,9 @@
 }
 .social-icons div a{
     animation: bounce 5s linear infinite;
+    display: inline-block;
+    padding: 11px;
+    
 
 }
 @keyframes bounce {
@@ -56,7 +62,8 @@
     </head>
 
     <body>
-
+        @include('inc.preloader')
+        <div class="fullpage">
         <!-- Header -->
       @include('inc.header')
 
@@ -122,27 +129,13 @@
                 </div>
 
                 <div class="row justify-content-center text-center items social-icons">
-                    <div class="col-12 col-md-3 col-lg-2 item">
+                    <div class=" ">
                         <a href="https://www.linkedin.com/company/nyxwolves/about/"  target="_blank" class="nav-link"><i class="icon-social-linkedin ml-0"></i></a>
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-2 item">
                         <a href="https://www.facebook.com/nyxwolves"  target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-2 item">
                         <a href="https://www.instagram.com/nyxwolves/"  target="_blank" class="nav-link"><i class="icon-social-instagram"></i></a>
-
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-2 item">
                         <a href="https://twitter.com/nyxwolves"  target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
-
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-2 item">
                         <a href="https://www.youtube.com/channel/UCWSG5vEn5cYu6Ta2NBmloSg"  target="_blank" class="nav-link"><i class="icon-social-youtube"></i></a>
-
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-2 item">
                         <a href="https://www.behance.net/nyxwolves"  target="_blank" class="nav-link" ><i class="icon-social-behance"></i></a>
-
                     </div>
 
                 </div>
@@ -155,7 +148,8 @@
 
         @include('inc.footer')
         @include('inc.search-menu')
-        @include('inc.scroll-to-top')  
+        @include('inc.scroll-to-top') 
+        </div> 
         @include('inc.scripts')
         @include('inc.contact-form-scripts')
         

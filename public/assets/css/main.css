@@ -2174,6 +2174,11 @@ footer .copyright p {
 
 @media(max-width: 991px) {
 
+    .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        top: 30px;
+        position: relative;
+        display: none;
+    }
     /* #region General */
 
     body h1 {

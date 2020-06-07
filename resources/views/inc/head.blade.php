@@ -55,3 +55,4 @@
         <link rel="stylesheet" href="/assets/css/vendor/animation.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.css" />
+        <link rel="stylesheet" href="/assets/css/preloader.css">

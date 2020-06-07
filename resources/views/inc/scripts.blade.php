@@ -9,4 +9,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js"></script>
 <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
-<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script> 
