@@ -7,17 +7,17 @@
     
         <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     
-        <title> @yield('page') Nyx Wolves - Transform Yours Digitally</title>
+        <title> @yield('page') Nyx Wolves - Transform Your Business Digitally</title>
     
         <meta name="description" content="A power-packed team delivering top-notch solutions in Branding, Web designing, and Digital platforms powered by AI. We create what’s best for you, always!">
         <meta name="keywords" content="branding,web design, web development, ai, digital marketing, erp, application development">
         <meta name="author" content="Nyx Wolves">
     
         <!-- Facebook and Twitter integration -->
-        <meta property="og:title" content="Nyx Wolves - Transform Yours Digitally">
+        <meta property="og:title" content="Nyx Wolves - Transform Your Business Digitally">
         <meta property="og:image" content="https://nyxwolves.com/nyximage.jpg">
         <meta property="og:url" content="https://nyxwolves.com">
-        <meta property="og:site_name" content="Nyx Wolves - Transform Yours Digitally">
+        <meta property="og:site_name" content="Nyx Wolves - Transform Your Business Digitally">
         <meta property="og:description" content="A power-packed team delivering top-notch solutions in Branding, Web designing, and Digital platforms powered by AI. We create what’s best for you, always!">
     
         <!-- ==============================================

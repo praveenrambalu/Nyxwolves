@@ -47,6 +47,9 @@
 1. Reset
 HTML5 display-role reset for older browsers
 ----------------------------------------------*/
+.amcharts-main-div{
+    pointer-events:none;
+}
 
 /* #region Reset */
 

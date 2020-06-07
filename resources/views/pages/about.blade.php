@@ -295,7 +295,7 @@
                                 <div class="col-12">
                                     <img src="/assets/images/team/aranganel.jpg" alt="Adams Baker" class="person">
                                     <h4>Arangannal</h4>
-                                    <p>Director</p>
+                                    <p>Venture Partner</p>
                                     <ul class="navbar-nav social share-list ml-auto">
                                         <li class="nav-item">
                                             <a href="https://www.facebook.com/arangannalthirumalai.t" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
@@ -312,7 +312,7 @@
                                 <div class="col-12">
                                     <img src="/assets/images/team/sriram2.jpg" alt="Mary Evans" class="person">
                                     <h4>Sriram Sankar</h4>
-                                    <p>Director, CEO</p>
+                                    <p>Co-Founder, Director</p>
                                     <ul class="navbar-nav social share-list ml-auto">
                                         <li class="nav-item">
                                             <a href="https://www.facebook.com/injarsriram" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
@@ -329,7 +329,7 @@
                                 <div class="col-12">
                                     <img src="/assets/images/team/sid.jpg" alt="Sarah Lopez" class="person">
                                     <h4>Sidhdharth Sivasubramanian</h4>
-                                    <p>Director, CTO</p>
+                                    <p>Co-Founder, Director</p>
                                     <ul class="navbar-nav social share-list ml-auto">
                                         <li class="nav-item">
                                             <a href="https://www.facebook.com/sidhdharthsivasubramanian/" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
@@ -349,7 +349,7 @@
                                     <p>Director, CMO</p>
                                     <ul class="navbar-nav social share-list ml-auto">
                                         <li class="nav-item">
-                                            <a href="http://linkedin.com/in/venkat-boyalla" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                            <a href="http://linkedin.com/in/venkat-boyalla" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="https://www.instagram.com/venkeybnk"  target="_blank" class="nav-link"><i class="icon-social-instagram"></i></a>
@@ -364,7 +364,7 @@
                                     <img src="/assets/images/team/suraj.jpg" alt="Suraj" class="person">
                                     <h4>Suraj K S
                                     </h4>
-                                    <p>Head of Operations</p>
+                                    <p> Chief Operations Officer</p>
                                 </div>
                             </div>
                         </div>
@@ -462,7 +462,7 @@
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card team">
                                 <div class="col-12">
-                                    <img src="/assets/images/team-5.jpg" alt="Maybe You" class="person">
+                                    <img src="/assets/images/team/PersonAvatar.png" alt="Maybe You" class="person">
                                     <h4>Maybe You ?</h4>
                                     <p>Join Us</p>
                                     <ul class="navbar-nav social share-list ml-auto">

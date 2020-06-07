@@ -216,9 +216,9 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <div class="col-12 d-flex inner">
                                 <div class="left align-self-center text-center text-md-left">
                                     <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">
-                                        Let's Create Something.</h1>
+                                        Filled with Creativity.</h1>
                                     <p data-aos="zoom-out-up" data-aos-delay="800" class="description">
-                                        Accelerate your success through our robust and agile processes. </p>
+                                        All our services have a little tinge of creativity and passion! </p>
                                         <a href="/services" data-aos="zoom-out-up" data-aos-delay="1200"
                                             class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i
                                                 class="icon-eye"></i>VIEW SERVICES</a>
@@ -235,9 +235,8 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <div class="col-12 d-flex inner">
                                 <div class="left align-self-center text-center text-md-left">
                                     <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">A
-                                        Touch of Creativity.</h1>
-                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Be it any of our
-                                        services, they are served with creativity at its best!</p>
+                                        For Rapid Execution.</h1>
+                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Our power-packed team delivers rapid results with high quality.</p>
                                     <a href="/works" data-aos="zoom-out-up" data-aos-delay="1200"
                                         class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i
                                             class="icon-grid"></i>VIEW WORKS</a>
@@ -253,10 +252,8 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                         <div class="slide-content row justify-content-start">
                             <div class="col-12 d-flex inner">
                                 <div class="left align-self-center text-center text-md-left">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">For
-                                        Modern Companies.</h1>
-                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Our technical
-                                        proficiency assures state-of-the-art solutions in every domain. </p>
+                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">For Digital Boost.</h1>
+                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">We give you the wittiest and most rewarding digital solution. </p>
                                     <a href="/contact" data-aos="zoom-out-up" data-aos-delay="1200"
                                         class="ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i
                                             class="icon-cup"></i>CONTACT US </a>
@@ -381,8 +378,9 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
-                    <div class="col-12 col-md-6 col-lg-6 item">
-                        <div class="card featured left">
+                    <div  class="col-12 col-md-6 col-lg-6 item">
+                         <a href="/services/brand-and-identity">                        
+                        <div href="/services/brand-and-identity" class="card featured left">
                             <!-- <i class="icon icon-tag"></i> -->
                             <img src="/assets/images/icons/branding-icon-color.png" class="icon-services" alt="">
                             <h4>Branding & Identity</h4>
@@ -392,8 +390,10 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <a href="/services/brand-and-identity"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
+                         <a href="/services/web-design-and-development">
                         <div class="card">
                             <img src="/assets/images/icons/web.png" class="icon-services" alt="">
 
@@ -404,11 +404,13 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <a href="/services/web-design-and-development"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
+                        <a href="/services/digital-marketing">
                         <div class="card">
                             <img src="/assets/images/icons/digital.png" class="icon-services" alt="">
-
+                            
                             <h4>Digital Marketing</h4>
                             <p>Our unique and powerful digital marketing strategies to reach potential customers will
                                 act as the best catalyst to expand your business. Our wolf pack diligently caters to
@@ -416,8 +418,10 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <a href="/services/digital-marketing"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
+                         <a href="/services/ai-and-digital-platforms">
                         <div class="card featured right">
                             <img src="/assets/images/icons/ai-icon.png" class="icon-services" alt="">
 
@@ -428,6 +432,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                             <a href="/services/ai-and-digital-platforms"><i
                                     class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
+                        </a>
                     </div>
 
                 </div>
@@ -498,77 +503,89 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
                     </div>
                 </div>
                 <div class="row items">
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card  filter branding" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    
+                    <div href="#" class="col-12 col-md-6 col-lg-4 item circle-card  filter branding" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                        <a href="#">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/jootfoods.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="/works/joot-foods">
+                                    
                                         <h4 class="m-0">Joot Foods</h4>
-                                    </a>
+                                    
                                 </div>
                             </div>
                         </div> 
+                        </a>
                     </div>
+                    
                     <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding digitalplatform" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                         <a href="/works/homely-fresh-foods">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/homelyfreshfoods.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="/works/homely-fresh-foods">
+                                   
                                         <h4 class="m-0">Homely Fresh Foods</h4>
-                                    </a>
+                                    
                                 </div>
                                 
                             </div>
+                        </a>    
                         </div> 
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item circle-card filter digitalmarketing" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                        <a href="#">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/northbay.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="/works/north-bay">
+
                                         <h4 class="m-0">North Bay</h4>
-                                    </a>
+                                    
                                 </div>
                             </div>
-                        </div> 
+                        </div>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                    <a href="#">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/varavasthu.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="/works/vara-vasthu">
+
                                         <h4 class="m-0">Vara Vasthu</h4>
-                                    </a>
+                                    
                                 </div>
                             </div>
-                        </div> 
+                        </div>
+                    </a>    
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                        <a href="#">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/westernvalley.png" alt="">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
-                                    <a href="/works/western-valley">
+                                    
                                         <h4 class="m-0">Western Valley</h4>
-                                    </a>
+                                    
                                 </div>
                               
                             </div>
-                        </div> 
+                        </div>
+                        </a>
                     </div>
                     {{-- <div class="col-12 col-md-6 col-lg-4 item circle-card filter" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
@@ -801,7 +818,7 @@ background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var
         </section>
 
         <!-- Blog -->
-     {{-- @include('inc.blog') --}}
+     @include('inc.blog')
 
         <!-- Subscribe -->
         <section id="subscribe" class="subscription map" style="background:rgb(0,0,0); padding-top:150px">
