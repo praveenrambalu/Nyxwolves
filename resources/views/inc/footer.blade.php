@@ -80,7 +80,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="https://g.page/nyxwolves?share" target="_blank" class="nav-link">
                                 <i class="icon-location-pin mr-2"></i>
                                 Chennai, Tamil Nadu
                             </a>
@@ -102,7 +102,7 @@
                     <p> © 2020 Nyx Wolves. All Rights Reserved. </p>
                 </div>
                 <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                   <p> <a href=""> Terms & Conditions</a> |  <a href="">Privacy Policy</a> </p>
+                   <p> <a href="/terms-and-conditions"> Terms & Conditions</a> |  <a href="/privacy-policy">Privacy Policy</a> </p>
                 </div>
             </div>
         </div>

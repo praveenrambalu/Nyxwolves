@@ -122,7 +122,7 @@
                             <i class="icon icon-location-pin"></i>
                             <h4> Chennai, Tamil Nadu.</h4>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p> -->
-                            <a href="#"><i class="btn-icon icon-arrow-right-circle"></i></a>
+                            <a href="https://g.page/nyxwolves?share" target="_blank"><i class="btn-icon icon-arrow-right-circle"></i></a>
                         </div>
                     </div>
                     

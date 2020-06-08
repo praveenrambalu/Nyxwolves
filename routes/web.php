@@ -34,6 +34,9 @@ Route::get('/services/web-design-and-development','PagesController@webDesignDeve
 Route::get('/services/digital-marketing','PagesController@digitalMarketing');
 Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform'); 
 
+Route::get('/terms-and-conditions','PagesController@Terms');
+Route::get('/privacy-policy','PagesController@Privacy');
+
 Route::get('/works/homely-fresh-foods','PagesController@homelyfreshfoods');
 
 

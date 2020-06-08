@@ -45,6 +45,15 @@ class PagesController extends Controller
         }
     }
 
+    public function Terms()
+    {
+        return view('pages.legal.terms');
+    }
+    public function Privacy()
+    {
+        return view('pages.legal.privacy');
+    }
+
 
 
     public function brandIdentity()
