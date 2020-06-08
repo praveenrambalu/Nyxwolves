@@ -114,7 +114,7 @@
                                          <div class="values-holder">
                                              <span class="leftexample-val" id="lower-value"></span>
                                              <span class="rightexample-val" id="upper-value"></span>
-                                             <input type="text" name="budget" id="budget">
+                                             <input type="hidden" name="budget" id="budget">
                                             </div>
                                     </div>
                                 </div>
