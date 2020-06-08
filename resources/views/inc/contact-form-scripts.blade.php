@@ -31,6 +31,7 @@ document.getElementById('upper-value')  // 1
 // from the left edge of the slider.
 rangeslider.noUiSlider.on('update', function (values, handle, unencoded, isTap, positions) {
 nodes[handle].innerHTML =  'Rs. ' + values[handle] ;
+$("#budget").val(values)
 });
 
 

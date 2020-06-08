@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactForm;
+use App\Notifications\ContactForm as NotificationsContactForm;
 use App\Posts;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PagesController extends Controller
 {
@@ -30,6 +34,17 @@ class PagesController extends Controller
     public function contact()
     {
         return view('pages.contact');
+        $name="Name";
+        $phoneno="9876543210";
+        $email="praveen@nyxwolves.com";
+        $company="nyxwolves.com";
+        $services="Web Design";
+        $budget="Budget";
+        $message=" Hiiiiiiiiiiiii ";
+        $user=User::find(1);
+        $user->notify(new NotificationsContactForm($name,$phoneno,$email,$company,$services,$budget,$message));
+        return "success";
+        
     }
     public function blog()
     {
@@ -77,5 +92,24 @@ class PagesController extends Controller
      public function homelyfreshfoods()
     {
         return view('pages.works.homelyfreshfoods');
+    }
+     public function contactForm(Request $request)
+    {
+        // return $request;
+        $services=$request->services;
+        $servicesmail="";
+        foreach ($services as $service) {
+            $servicesmail=$servicesmail.' , '.$service;
+        }
+
+        $name=$request->name;
+        $phoneno=$request->name;
+        $email=$request->email;
+        $company=$request->company;
+        $services=$servicesmail;
+        $budget=$request->budget;
+        $message=$request->message;
+        $user=User::find(1);
+        $user->notify(new NotificationsContactForm($name,$phoneno,$email,$company,$services,$budget,$message));
     }
 }

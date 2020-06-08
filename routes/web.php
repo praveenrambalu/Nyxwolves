@@ -26,6 +26,7 @@ Route::get('/services', 'PagesController@services');
 Route::get('/works', 'PagesController@works');
 Route::get('/wolf-pack', 'PagesController@wolfPack');
 Route::get('/contact', 'PagesController@contact');
+Route::post('/contact-form', 'PagesController@contactForm');
 Route::get('/blog', 'PagesController@blog');
 Route::get('/blog/posts/{id}', 'PagesController@singleBlogPost');
 

@@ -527,7 +527,7 @@ $(function () {
 
         // Fire off the request
         request = $.ajax({
-            url: 'php/mail.php', // Enter your back-end URL here
+            url: '/contact-form', // Enter your back-end URL here
             type: 'post',
             data: serializedData
         })
@@ -537,6 +537,7 @@ $(function () {
 
             // Log a message to the console
             console.log('Hooray, it worked!');
+            console.log(response)
         })
 
         // Callback handler that will be called on failure

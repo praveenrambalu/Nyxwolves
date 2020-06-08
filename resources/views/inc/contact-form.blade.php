@@ -46,6 +46,7 @@
                 <div class="row text-center">
                     <div class="col-12 p-0">
                         <form id="msform">
+                            @csrf
                             <ul id="progressbar">
                                 <li class="active">Personal Details</li>
                                 <li>Company Detail</li>
@@ -90,15 +91,15 @@
                                 <div class="row">
                                     <div class="col-12 p-0 text-left">
                                         <h5 class="pt-1 pb-3 text-white">Services</h5>
-                                        <input type="checkbox" id="box-1">
+                                        <input type="checkbox" name="services[]" value="Web Design" id="box-1">
                                         <label for="box-1">Web Design</label>
-                                        <input type="checkbox" id="box-2">
+                                        <input type="checkbox" name="services[]" value="Web Development" id="box-2">
                                         <label for="box-2">Web Development</label>
-                                        <input type="checkbox" id="box-3">
+                                        <input type="checkbox" name="services[]" value="UI UX" id="box-3">
                                         <label for="box-3">UI / UX</label>
-                                        <input type="checkbox" id="box-4">
+                                        <input type="checkbox" name="services[]" value="Design Platforms" id="box-4">
                                         <label for="box-4">Design Platforms</label>
-                                        <input type="checkbox" id="box-5">
+                                        <input type="checkbox" name="services[]" value="Others" id="box-5">
                                         <label for="box-5">Others</label>
                                     </div>
 
@@ -113,6 +114,7 @@
                                          <div class="values-holder">
                                              <span class="leftexample-val" id="lower-value"></span>
                                              <span class="rightexample-val" id="upper-value"></span>
+                                             <input type="text" name="budget" id="budget">
                                             </div>
                                     </div>
                                 </div>
