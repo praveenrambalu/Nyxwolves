@@ -95,35 +95,36 @@
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                         <h2 class="featured">How Can We Help?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> --}}
                     </div>
                     <div class="col-12 col-md-3 align-self-end">
                     </div>
                 </div>
                 <div class="row justify-content-center text-center items">
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card featured left">
+                        <a href="tel:+91 6381751802"> <div class="card featured left">
                             <i class="icon icon-phone"></i>
                             <h4>+91  63817 51802</h4>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p> -->
-                            <a href="tel:+91 6381751802"><i class="btn-icon icon-arrow-right-circle"></i></a>
+                            <i class="btn-icon icon-arrow-right-circle"></i>
                         </div>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card">
+                        <a href="mailto:admin@nyxwolves.com"> <div class="card">
                             <i class="icon icon-envelope"></i>
                             <h4>admin@nyxwolves.com</h4>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p> -->
-                            <a href="mailto:admin@nyxwolves.com"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
+                            <i class="btn-icon icon-arrow-right-circle"></i>
+                        </div></a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card featured right">
+                        <a href="https://g.page/nyxwolves?share" target="_blank"><div class="card featured right">
                             <i class="icon icon-location-pin"></i>
-                            <h4> Chennai, Tamil Nadu.</h4>
+                            <h4> Chennai, Tamil Nadu</h4>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p> -->
-                            <a href="https://g.page/nyxwolves?share" target="_blank"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
+                        <i class="btn-icon icon-arrow-right-circle"></i>
+                        </div></a>
                     </div>
                     
                 </div>

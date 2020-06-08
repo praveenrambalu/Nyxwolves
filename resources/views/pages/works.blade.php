@@ -63,8 +63,8 @@
     </head>
 
     <body>
-        @include('inc.preloader')
-        <div class="fullpage">
+        {{-- @include('inc.preloader')
+        <div class="fullpage"> --}}
         <!-- Header -->
         @include('inc.header')
 
