@@ -1,4 +1,4 @@
-@section('page','Brand & Identity - ')
+@section('page','Branding & Identity - ')
 
 @extends('layouts.services')
 @section('main-content')

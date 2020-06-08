@@ -52,7 +52,7 @@
                 <div class="col-12 col-lg-3 p-3 text-center">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/services/brand-and-identity" class="nav-link">Brand & Identity</a>
+                            <a href="/services/brand-and-identity" class="nav-link">Branding & Identity</a>
                         </li>
                         <li class="nav-item">
                             <a href="/services/web-design-and-development" class="nav-link">Web Design & Development</a>
