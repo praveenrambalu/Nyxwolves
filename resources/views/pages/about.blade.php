@@ -469,7 +469,7 @@
                                     <p>Join Us</p>
                                     <ul class="navbar-nav social share-list ml-auto">
                                         <li class="nav-item">
-                                            <a href="/contact"  class="nav-link"> <i class="icon-envelope"></i></a>
+                                            <a href="mailto:admin@nyxwolves.com"  class="nav-link"> <i class="icon-envelope"></i></a>
                                         </li>
                                     </ul>
                                 </div>
