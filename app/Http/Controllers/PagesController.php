@@ -101,6 +101,10 @@ class PagesController extends Controller
     {
         return view('pages.works.northbay');
     }
+     public function varavasthu()
+    {
+        return view('pages.works.varavasthu');
+    }
 
 
 

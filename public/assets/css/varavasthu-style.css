@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#e6e6e6
+}
+.navbar .nav-link.effect-motion-hover {
+    color: #000 !important;
+  }
+  
+  
+  
+  .navbar-sticky .nav-link.effect-motion-hover {
+    color: #fff !important;
+  }
+  
+  .navbar .navbar-nav.toggle li a {
+    color: #000 !important;
+  }
+  .navbar-sticky .navbar-nav.toggle li a {
+    color: #fff !important;
+  }
+  
+  
+  
+  section{
+    padding: 0 ;
+  }
+  
+
+  
+#logointro{
+    background-color: #c9a654;
+    padding: 200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.intro-text-name{
+    font-size  : 160px;
+    color      : #ffffff;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.logo-box{
+    height: 500px;
+    width: 500px;
+    background: white;
+    border-radius:30px;
+    box-shadow: 0px 0px 10px black;
+    animation: bounceX 5s ease infinite;
+}
+
+.varavasthu-logo{
+    height: 500px;
+}
+
+.varavasthu-about-text{
+font-size: 19px;
+color: #000000;
+font-family: "Poppins";
+font-weight: 300;
+margin-top: 40px;
+}
+
+
+#about-vara{
+    background-color: #e6e6e6;
+    padding-bottom: 100px;
+}
+.bag-image{
+    margin-top: -250px;
+    animation: bounce 5s linear infinite;
+
+}
+.bag-side-text{
+    font-size: 19px;
+color: #000000;
+font-family: "Poppins";
+font-weight: 300;
+margin-top: 200px;
+}
+
+
+#deliverables{
+    background:url('/assets/img/varavasthu/sandal-box.png') no-repeat;
+    background-size:cover;
+    /* background-clip-path: polygon(0 0, 100% 0%, 100% 82%, 0 51%); */
+    padding: 100px;
+    background-position: bottom;
+    /* padding-bottom: 0; */
+}
+.deliverables-heading{
+    font-size: 96px;
+    letter-spacing: 7px;
+    color: #5c5c5c;
+    font-family: "Poppins";
+    font-weight: 700; 
+    margin-top: -150px;
+}
+.deliverable-contents{
+    margin-top: 25px;
+}
+.deliverable-content{
+    font-size: 34px;
+
+font-family: "Poppins";
+font-weight: 700;
+padding-bottom: 35px;
+}
+.deliverable-content.gold{
+    color:#be9536
+}
+.deliverable-content.dark{
+    color: #5c5c5c;
+}
+
+.img.img-responsive.book-image {
+    margin-left: 270px;
+    margin-top: -200px;
+}
+/* .img.img-responsive.book-image[data-scroll="in"] ,
+.img.img-responsive.book-image[data-scroll = "in"] {
+  opacity: 1;
+  transform: translateX(0) ;
+}
+.img.img-responsive.book-image[data-scroll="out"],
+.img.img-responsive.book-image[data-scroll = "out"] {
+  opacity: 0;
+  transform:translateX(-100%);
+} */
+[data-scroll] {
+    transition: all  3s ease-in-out;
+  }
+  [data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0) ;
+  }
+  [data-scroll="out"] {
+    opacity: 0;
+    transform:translateX(-20px);
+  }
+
+#black-box-bg{
+    background:url(/assets/img/varavasthu/black-box.png) no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+#brown-bg{
+    background-color: #efdcaf;
+    height: 150px;
+}
+#mobile-section{
+    padding: 200px;
+    /* padding-bottom: 0; */
+    background: #fff;
+}
+.phone-left-text{
+font-size: 23px;
+color: #000000;
+font-family: "Poppins";
+font-weight: 300;
+}
+.img.img-responsive.phone-image {
+    margin-left: -128px;
+    margin-top: -360px;
+    animation: bounce 5s linear infinite;
+
+}
+
+#letterhead-section{
+    padding-top: 100px;
+    background: #272727;
+    margin-top: -80px;
+}
+/* .img.img-responsive.letter-head-image {
+    animation: bounceY 5s linear infinite;
+} */
+
+.personal-touch-text{
+    font-size: 90px;
+color: #fff;
+font-family: "Poppins";
+font-weight: 600;
+width: 70%;
+margin-top: 500px;
+}
+span.golden{
+    color: #d4b161;
+}
+.golden-line {
+	background-color: #d4b161;
+	height: 10px;
+	width: 50%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.vara-website{
+font-size: 45px;
+color: #ffffff;
+font-family: "Poppins";
+font-weight: 600;
+}
+
+
+/* Mobile Responsive   */
+
+@media only screen and (max-width: 600px) {
+    #logointro{
+        background-color: #c9a654;
+        padding: 20px;
+        padding-top: 100px;
+    }
+    .intro-text-name{
+        font-size  : 40px;
+        text-align: center;
+    }
+    .logo-box {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .varavasthu-logo {
+        height: 200px;
+    }
+    .varavasthu-about-text{
+        font-size: 16px;
+    }
+    #about-vara {
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+    .bag-image {
+        margin-top: 0;
+        height: 250px;
+    }
+    .bag-side-text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #deliverables {
+        padding: unset;
+        padding-top: 100px;
+    }
+    .deliverables-heading {
+        font-size: 30px;
+        margin-top: -115px;
+    }
+    .deliverable-content {
+        font-size: 18px;
+    }
+    .img.img-responsive.book-image {
+        margin-left: 30px;
+        margin-top: 0;
+        height: 450px;
+    }
+    #brown-bg {
+        height: 75px;
+    }
+    #mobile-section {
+        padding: 20px;
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .phone-left-text {
+        font-size: 16px;
+    }
+    .img.img-responsive.phone-image {
+        margin-left: 0;
+        margin-top: 0;
+        height: 300px;
+    }
+    #letterhead-section {
+        padding-bottom: 80px;
+    }
+    .img.img-responsive.letter-head-image {
+        height: 300px;
+    }
+    .personal-touch-text {
+        font-size: 40px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .vara-website {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    #logointro{
+        background-color: #c9a654;
+        padding: 20px;
+        padding-top: 100px;
+    }
+    .intro-text-name{
+        font-size  : 85px;
+        text-align: left;
+    }
+    .logo-box {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .varavasthu-logo {
+        height: 200px;
+    }
+    .varavasthu-about-text{
+        font-size: 20px;
+    }
+    #about-vara {
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+    .bag-image {
+        margin-top: 0;
+        height: 250px;
+    }
+    .bag-side-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #deliverables {
+        padding: unset;
+        padding-top: 100px;
+    }
+    .deliverables-heading {
+        font-size: 50px;
+        margin-top: -130px;
+    }
+    .deliverable-content {
+        font-size: 22px;
+    }
+    .img.img-responsive.book-image {
+        margin-left: 30px;
+        margin-top: 0;
+        height: 450px;
+    }
+    #brown-bg {
+        height: 75px;
+    }
+    #mobile-section {
+        padding: 20px;
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .phone-left-text {
+        font-size: 20px;
+    }
+    .img.img-responsive.phone-image {
+        margin-left: -50px;
+        margin-top: 0;
+        height: 300px;
+    }
+    #letterhead-section {
+        margin-top: 0;
+    }
+    #letterhead-section {
+        padding-bottom: 80px;
+    }
+    .img.img-responsive.letter-head-image {
+        height: 450px;
+    }
+    .personal-touch-text {
+        font-size: 40px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .vara-website {
+        font-size: 23px;
+    }
+}
+
+
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+@keyframes bounceX {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-20px); }
+    100% { transform: translateX(0); }
+}
+@keyframes bounceY {
+    0%   { transform: translateX(20); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateX(0); }
+}
+
