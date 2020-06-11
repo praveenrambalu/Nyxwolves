@@ -1,6 +1,6 @@
 AmCharts.makeChart("map",{
 					"type": "map",
-					"pathToImages": "http://www.amcharts.com/lib/3/images/",
+					"pathToImages": "https://www.amcharts.com/lib/3/images/",
 					"addClassNames": true,
 					"fontSize": 15,
 					"color": "#FFFFFF",
@@ -17,8 +17,8 @@ AmCharts.makeChart("map",{
 								"width": 80,
 								"height": 40,
 								"pixelMapperLogo": true,
-								"imageURL": "http://pixelmap.amcharts.com/static/img/logo.svg",
-								"url": "http://www.amcharts.com"
+								"imageURL": "https://pixelmap.amcharts.com/static/img/logo.svg",
+								"url": "https://www.amcharts.com"
 							}
 						],
 						"areas": [
