@@ -351,7 +351,7 @@
                                     <p>Director, CMO</p>
                                     <ul class="navbar-nav social share-list ml-auto">
                                         <li class="nav-item">
-                                            <a href="http://linkedin.com/in/venkat-boyalla" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            <a href="https://linkedin.com/in/venkat-boyalla" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="https://www.instagram.com/venkeybnk"  target="_blank" class="nav-link"><i class="icon-social-instagram"></i></a>
