@@ -183,21 +183,6 @@
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="/assets/images/news-6-h.jpg" alt="">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="blog-single-post-1.html">
-                                        <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                    </a>
-                                </div>
-                                
-                            </div>
-                        </div> 
-                    </div>
                 </div>
 
             </div>
