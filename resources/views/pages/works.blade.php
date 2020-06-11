@@ -111,6 +111,7 @@
                     </div>
                 </div>
                 <div class="row items">
+                    <a href="/works/joot-foods">
                     <div class="col-12 col-md-6 col-lg-4 item circle-card  filter branding" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
@@ -125,6 +126,7 @@
                             </div>
                         </div> 
                     </div>
+                    </a>
                     <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding digitalplatform" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
@@ -140,6 +142,7 @@
                             </div>
                         </div> 
                     </div>
+                    <a href="/works/north-bay">
                     <div class="col-12 col-md-6 col-lg-4 item circle-card filter digitalmarketing" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
@@ -154,6 +157,8 @@
                             </div>
                         </div> 
                     </div>
+                    </a>
+                    <a href="/works/vara-vasthu">
                     <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
@@ -168,7 +173,8 @@
                             </div>
                         </div> 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                </a>
+                    <a href="/works/western-valley"> <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
                                 <img src="/assets/images/portfolio/westernvalley.png" alt="">
@@ -183,6 +189,7 @@
                             </div>
                         </div> 
                     </div>
+                </a> 
                 </div>
 
             </div>
