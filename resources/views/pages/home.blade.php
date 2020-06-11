@@ -527,113 +527,91 @@
                     </div>
                 </div>
                 <div class="row items">
-
-                    <div href="#" class="col-12 col-md-6 col-lg-4 item circle-card  filter branding" data-tilt
-                        data-tilt-scale="1" data-tilt-max="10">
-                        <a href="#">
+                    <a href="/works/joot-foods">
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card  filter branding" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                             <div class="row card p-0 text-center">
                                 <div class="image-over">
                                     <img src="/assets/images/portfolio/jootfoods.png" alt="">
                                 </div>
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
-
-                                        <h4 class="m-0">Joot Foods</h4>
-
+                                        <a href="/works/joot-foods">
+                                            <h4 class="m-0">Joot Foods</h4>
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding digitalplatform" data-tilt
-                        data-tilt-scale="1" data-tilt-max="10">
-                        <a href="/works/homely-fresh-foods">
+                            </div> 
+                        </div>
+                    </a>
+                    <a href="/works/homely-fresh-foods">
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding digitalplatform" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                             <div class="row card p-0 text-center">
                                 <div class="image-over">
                                     <img src="/assets/images/portfolio/homelyfreshfoods.png" alt="">
                                 </div>
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
-
-                                        <h4 class="m-0">Homely Fresh Foods</h4>
-
+                                        <a href="/works/homely-fresh-foods">
+                                            <h4 class="m-0">Homely Fresh Foods</h4>
+                                        </a>
                                     </div>
-
+                                    
                                 </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 item circle-card filter digitalmarketing" data-tilt
-                    data-tilt-scale="1" data-tilt-max="10">
-                    <a href="#">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="/assets/images/portfolio/northbay.png" alt="">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-
-                                    <h4 class="m-0">North Bay</h4>
-
-                                </div>
-                            </div>
+                            </div> 
                         </div>
                     </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding webdesign" data-tilt
-                    data-tilt-scale="1" data-tilt-max="10">
-                    <a href="#">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="/assets/images/portfolio/varavasthu.png" alt="">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-
-                                    <h4 class="m-0">Vara Vasthu</h4>
-
+                    <a href="/works/north-bay">
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter digitalmarketing" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/northbay.png" alt="">
                                 </div>
-                            </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/north-bay">
+                                            <h4 class="m-0">North Bay</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
                         </div>
                     </a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt data-tilt-scale="1"
-                    data-tilt-max="10">
-                    <a href="#">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="/assets/images/portfolio/westernvalley.png" alt="">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-
-                                    <h4 class="m-0">Western Valley</h4>
-
+                    <a href="/works/vara-vasthu">
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/varavasthu.png" alt="">
                                 </div>
-
-                            </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/vara-vasthu">
+                                            <h4 class="m-0">Vara Vasthu</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
                         </div>
                     </a>
-                </div>
-                {{-- <div class="col-12 col-md-6 col-lg-4 item circle-card filter" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
-                        <div class="row card p-0 text-center">
-                            <div class="image-over">
-                                <img src="/assets/images/news-6-h.jpg" alt="">
-                            </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="blog-single-post-1.html">
-                                        <h4 class="m-0">How digital transformation has changed the world.</h4>
-                                    </a>
+                    <a href="/works/western-valley"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/westernvalley.png" alt="">
                                 </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/western-valley">
+                                            <h4 class="m-0">Western Valley</h4>
+                                        </a>
+                                    </div>
                                 
-                            </div>
-                        </div> 
-                    </div> --}}
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+                </div>
             </div>
-    </div>
-    </section>
+        </section>
 
     <!-- Testimonials -->
 
