@@ -18,7 +18,7 @@
         <!-- ==============================================
         Section Configuration
         =============================================== -->
-            <link rel="stylesheet" href="/assets/css/hff-style.css">
+            <link rel="stylesheet" href="/assets/css/joot-style.css">
 </head>
 <body>
 
@@ -111,83 +111,144 @@
     
     </header>
 
-
-
-<div class="container-fluid first-section">
-    <div class="row text-center">
-        <div class="col-sm-12 text-center">
-            <img src="/assets/img/hff/logo.png" alt="" class="hff-logo img img-responsive">
+    <section class="joot-logo-section">
+        <div class="container">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="/assets/img/joot/logo.png" class="joot-logo"  alt="Joot-logo" />
+            <h1 class="joot-logo-font">
+              JOOT  FOODS
+            </h1>
+          </div>
         </div>
-    </div>
-</div>
-<section id="intro-text">
-    <div class="container-fluid orange-bg">
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="/assets/img/hff/leaf.png" alt="" class="leaf-image" data-scroll>
+      </section>
+      <section id="black-bg">
+          {{-- <div class="container-fluid"></div> --}}
+      </section>
+      <section class="joot-description-section">
+        <div class="container-fluid">
+          <p class="text-center joot-about-paragraph">
+            Natural, wholesome and delicious meals prepared with the finest
+            ingredients by experienced chefs Sri Krishna Sweets, founded in 1948
+            by Sri. N.K Mahadeca Iyer established itself world-over as brand which
+            is synonymous with purity, divine taste and quality. Carrying its
+            tradition on through the brand JOOT.
+          </p>
+          <div class="p-3 pt-5">
+            <h1 class="text-center deliverables-heading" >
+              DELIVERABLES:
+            </h1>
+            <p class="text-center deliverables-content">
+              Social Media Branding & Packaging
+            </p>
+          </div>
+    
+         
+        </div>
+      </section>
+    
+      <section id="bite-sized">
+        <div class="container-fluid">
+          <div class="row ">
+            <img src="/assets/img/joot/bitesized.png" class="img img-responsive m-auto" alt="">
+          </div>
+        </div>
+      </section>
+    
+    
+      <section class="joot-mobile-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 joot-phone-text">
+              <p>
+                One of the greatest benefits of marketing through social media is
+                that it helps you cut marketing costs with sacrificing results
+              </p>
+              <p>
+                Engaging with customers through
+                <strong> Social Media Creatives</strong> helps you build stronger
+                and wider customer relationships
+              </p>
             </div>
-            <div class="col-sm-2"></div>
             <div class="col-sm-6">
-                <p class="about-text">
-                    Homely Fresh Foods is a new venture of Arusuvai Arasu group of companies, with experience in the industry for 60+ years. HFF deliver homemade food to your door step across Chennai.
-                </p>
+              <img src="/assets/img/joot/mobile.png" class="joot-phone-social" data-scroll />
             </div>
+          </div>
         </div>
-    </div>
-</section>
-
-<section id="deliverables">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-5 deliverables-section-text">
-                <h1 class="heading-deliverables">Deliverables : </h1>
-                <p class="deliverables-text">
-                    Logo <br>
-                    Social Media <br>
-                    Web Application <br>
-                </p>
+      </section>
+    
+      <section class="joot-social-section">
+          <h1 class="social-media-creatives">SOCIAL MEDIA CREATIVES</h1>
+        <div class="container-fluid">
+          <div class="row">
+          <div class="joot-social-media-container d-flex">
+            <div class="inst">
+              <img src="/assets/img/joot/instagram-sketched.png" alt="" />
             </div>
-            <div class="col-sm-7">
-                <img src="/assets/img/hff/phone.png" class="img img-responsive phone-img" >
+            <div class="fb">
+              <img src="/assets/img/joot/facebook.png" alt="" />
             </div>
-
+            <div class="twt">
+              <img src="/assets/img/joot/twitter.png" alt="" />
+            </div>
+            <div class="lkd">
+              <img src="/assets/img/joot/linkedin.png" alt="" />
+            </div>
+          </div>
+          <div class="joot-phone-image p-5" data-scroll>
+            <img src="/assets/img/joot/mobiles.png" class="img img-responsive joot-phone-image-2" />
+          </div>
         </div>
-    </div>
-   
-</section>
-
-<section id="webapp">
-    <div class="container-fluid">
-        <div class="row">
+    
+      </div>
+      </section>
+    
+      <section id="white-section">
+        <div class="container-fluid">
+          <div class="row">
             <div class="col-sm-6">
-                <h1 class="webapp-heading"> WEB APPLICATION</h1>
-                <p class="webapp-text">
-                    Web applications can help target numerous clientele and customers at a time. We help to make it easier to maintain a proper communication channel between potential customers and the business organization.
-                </p>
+              <img src="/assets/img/joot/bag.png" class="bag-image" >
             </div>
-            <div class="col-sm-6"></div>
-            <img src="/assets/img/hff/mac.png"  class="macbook" alt="">
+            <div class="col-sm-6">
+              <p class="bag-side-text">
+                When design and packaging work together brands are elevated from a commodity to an expression of a consumers lifestyle.
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
-<section id="socialmedia">
-    <div class="container-fluid vector-bg">
+        
+      </section>
+    <section id="orange-section">
+      <div class="container-fluid">
         <div class="row">
-            <h1 class="socialmedia">Social Media</h1>
+          <div class="col-sm-6"></div>
+          <div class="col-sm-6">
+            <p class="bag-side-text-orange">
+              We offer the satisfaction of having your quality products reflect with great <strong>Packaging Designs</strong> as per the needs.
+            </p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="/assets/img/hff/social1.png" class="img img-responsive socialmedia-phone">
-            </div>
-            <div class="col-sm-4">
-                <img src="/assets/img/hff/social2.png" class="img img-responsive socialmedia-phone">
-            </div>
-            <div class="col-sm-4">
-                <img src="/assets/img/hff/social3.png" class="img img-responsive socialmedia-phone">
-            </div>
-        </div>
-    </div>
-</section>
+      </div>
+    </section>
+    
+    <section class="joot-packaging-design">
+      <div class="container-fluid">
+      
+      <img src="/assets/img/joot/role.png" class="img img-responsive role-image" alt="" data-scroll />
+       
+       <div class="row">
+         <div class="col-sm-6">
+          <h1 class="packaging-design-text">PACKAGING <br />DESIGN</h1>
+         </div>
+         <div class="col-sm-6">
+            <img src="/assets/img/joot/packimage.png" class="packet-image">
+         </div>
+       </div>
+    
+         
+      </div>
+    
+    </section>
+
 
 @include('inc.search-menu')
 @include('inc.scripts')

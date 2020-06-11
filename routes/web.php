@@ -39,6 +39,7 @@ Route::get('/terms-and-conditions','PagesController@Terms');
 Route::get('/privacy-policy','PagesController@Privacy');
 
 Route::get('/works/homely-fresh-foods','PagesController@homelyfreshfoods');
+Route::get('/works/joot-foods','PagesController@jootfoods');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){

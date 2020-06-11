@@ -93,6 +93,14 @@ class PagesController extends Controller
     {
         return view('pages.works.homelyfreshfoods');
     }
+     public function jootfoods()
+    {
+        return view('pages.works.jootfoods');
+    }
+
+
+
+
      public function contactForm(Request $request)
     {
         // return $request;

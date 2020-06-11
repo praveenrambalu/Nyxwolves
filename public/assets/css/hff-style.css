@@ -339,10 +339,34 @@ margin-top: 150px;
 
 
 }
+[data-scroll] {
+    transition: all  1s ease-in-out;
+  }
+  [data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0) ;
+  }
+  [data-scroll="out"] {
+    opacity: 0;
+    transform:translateX(-20px);
+  }
+
+
+
+
 
 @keyframes bounce {
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
-
+@keyframes bounceX {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-20px); }
+    100% { transform: translateX(0); }
+}
+@keyframes bounceY {
+    0%   { transform: translateX(20); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateX(0); }
+}
