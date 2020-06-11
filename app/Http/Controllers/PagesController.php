@@ -97,6 +97,10 @@ class PagesController extends Controller
     {
         return view('pages.works.jootfoods');
     }
+     public function northbay()
+    {
+        return view('pages.works.northbay');
+    }
 
 
 

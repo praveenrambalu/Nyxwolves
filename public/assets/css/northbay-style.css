@@ -1,0 +1,313 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.navbar .nav-link.effect-motion-hover {
+    color: #000 !important;
+  }
+  
+  
+  
+  .navbar-sticky .nav-link.effect-motion-hover {
+    color: #fff !important;
+  }
+  
+  .navbar .navbar-nav.toggle li a {
+    color: #000 !important;
+  }
+  .navbar-sticky .navbar-nav.toggle li a {
+    color: #fff !important;
+  }
+  
+  
+  
+  section{
+    padding: 0 ;
+  }
+  
+.img.img-responsive.first-girl-image {
+	height: 600px;
+	margin-top: 150px;
+    /* margin-left: 0px; */
+    animation: 5s bounce linear infinite;
+}
+.img.img-responsive.logo-image {
+	height: 300px;
+	margin-top: 250px;
+}
+
+#second-section-iphone {
+   
+	width: 85%;
+	margin-left: 15%;
+}
+.bluebar,.whitebar{
+    min-height: 100px;
+    background-color: #21a399;
+}
+.whitebar{
+    background:#fff;
+}
+
+.container-fluid.iphone-section-rect {
+    padding: 100px 200px 20px 200px;
+    background-color: #21a399;
+}
+.iphone-left-text {
+	font-size: 35px;
+	color: #ffffff;
+	font-family: "Poppins";
+	font-weight: 400;
+	padding-top: 100px;
+	margin-left: -150px;
+}
+
+.img.img-responsive.iphone-right-image {
+	margin-left: -300px;
+}
+
+#girl-standing-section {
+	background: url(/assets/img/northbay/rectangle-box.png) no-repeat;
+	padding: 200px;
+	background-size: cover;
+    background-position: bottom center;
+    padding-bottom: 40px;
+}
+.girl-side-text {
+	font-size: 35px;
+	color: #ffffff;
+	font-family: "Poppins";
+	font-weight: 400;
+}
+.img.img-responsive.girl-single-image {
+    margin-top: -400px;
+    animation: 2s bounce linear infinite;
+    
+}
+
+#second-iphone-section {
+	padding: 70px 200px 200px 200px;
+}
+.second-iphone-image{
+    animation: 2s bounce linear infinite;
+}
+.with-over-text {
+	/* width: 487px; */
+	/* height: 734px; */
+	font-size: 35px;
+	color: #21a399;
+	font-family: "Poppins";
+	font-weight: 400;
+	margin-top: 250px;
+}
+
+#social-media-section{
+    padding: 200px;
+    padding-bottom: 0px;
+    background: url(/assets/img/northbay/bottom-rectangle.png) no-repeat;
+    background-size:cover;
+    background-position: top center;
+}
+.img.img-responsive.middle-phone {
+	margin-top: -250px;
+}
+.img.img-responsive.right-image {
+	margin-left: 90px;
+}
+.img.img-responsive.middle-phone:hover, .img.img-responsive.right-image:hover, .img.img-responsive.left-image:hover{
+    transform: scale(1.1);
+    transition: all 2s linear;
+}
+
+
+
+.white-frame-footer {
+	min-height: 300px;
+	background: white;
+	margin-top: -150px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #logo-intro-section
+{
+    margin-top: 50px;
+}
+    .img.img-responsive.first-girl-image {
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .img.img-responsive.logo-image {
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .bluebar, .whitebar {
+        min-height: 20px;
+    }
+    .container-fluid.iphone-section-rect {
+        padding: 20px;
+    }
+    .img.img-responsive.iphone-right-image {
+        margin-left: -60px;
+        height: 450px;
+    }
+    .iphone-left-text {
+        font-size: 23px;
+        padding-top: 50px;
+        margin-left: 0;
+    }
+    #girl-standing-section {
+        padding: 20px;
+    }
+    .girl-side-text {
+        font-size: 23px;
+    }
+    .img.img-responsive.girl-single-image {
+        margin-top: 10px;
+        height: 500px;
+    }
+    #second-iphone-section {
+        padding: 20px;
+    }
+    .img.img-responsive.second-iphone-image {
+        width: 300px;
+    }
+    .with-over-text {
+        font-size: 23px;
+        margin-top: 50px;
+    }
+    #social-media-section {
+        padding: 20px;
+        padding-bottom: 0px;
+        background: url(/assets/img/northbay/bottom-rectangle.png) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .img.img-responsive.middle-phone {
+        margin-top: 0;
+        height: 500px;
+    }
+    .img.img-responsive.left-image, .img.img.img-responsive.right-image {
+        display: none;
+    }
+    .white-frame-footer {
+        min-height: 100px;
+        background: white;
+        margin-top: -50px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    #logo-intro-section
+    {
+        margin-top: 150px;
+    }
+    .img.img-responsive.first-girl-image {
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .img.img-responsive.logo-image {
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .bluebar, .whitebar {
+        min-height: 50px;
+    }
+    .container-fluid.iphone-section-rect {
+        padding: 20px;
+    }
+    .img.img-responsive.iphone-right-image {
+        margin-left: -60px;
+        height: 450px;
+    }
+    .iphone-left-text {
+        font-size: 25px;
+        padding-top: 55px;
+        margin-left: 0;
+    }
+    #girl-standing-section {
+        padding: 20px;
+        padding-top: 50px;
+        
+    }
+    .girl-side-text {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .img.img-responsive.girl-single-image {
+        margin-top: -120px;
+        height: 500px;
+    }
+    #second-iphone-section {
+        padding: 20px;
+    }
+    .img.img-responsive.second-iphone-image {
+        width: 300px;
+    }
+    .with-over-text {
+        font-size: 23px;
+        margin-top: 50px;
+    }
+    #social-media-section {
+        padding: 20px;
+        padding-bottom: 0px;
+        background: url(/assets/img/northbay/bottom-rectangle.png) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .img.img-responsive.middle-phone {
+        margin-top: 0;
+        height: 414px;
+    }
+    .img.img-responsive.right-image {
+        margin-left: 10px;
+    }
+    .img.img-responsive.left-image, .img.img.img-responsive.right-image {
+        height: 220px;
+        margin-top: 50px;
+    }
+    .white-frame-footer {
+        min-height: 100px;
+        background: white;
+        margin-top: -50px;
+    }
+
+}
+  
+[data-scroll] {
+    transition: all  1s ease-in-out;
+  }
+  [data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0) ;
+  }
+  [data-scroll="out"] {
+    opacity: 0;
+    transform:translateX(-20px);
+  }
+
+
+
+
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+@keyframes bounceX {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-20px); }
+    100% { transform: translateX(0); }
+}
+@keyframes bounceY {
+    0%   { transform: translateX(20); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateX(0); }
+}
