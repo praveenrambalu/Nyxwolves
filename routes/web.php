@@ -42,6 +42,7 @@ Route::get('/works/homely-fresh-foods','PagesController@homelyfreshfoods');
 Route::get('/works/joot-foods','PagesController@jootfoods');
 Route::get('/works/north-bay','PagesController@northbay');
 Route::get('/works/vara-vasthu','PagesController@varavasthu');
+Route::get('/works/western-valley','PagesController@westernvalley');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
