@@ -21,7 +21,8 @@
             <link rel="stylesheet" href="/assets/css/hff-style.css">
 </head>
 <body>
-
+    @include('inc.preloader')
+    <div class="fullpage">
     <header>
 
         <!-- Navbar -->
@@ -190,6 +191,7 @@
 </section>
 @include('inc.footer')
 @include('inc.search-menu')
+</div>
 @include('inc.scripts')
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 <script>
