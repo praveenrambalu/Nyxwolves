@@ -201,6 +201,7 @@ just one month, the brand’s popularity skyrocketed and elevated the sales.
   </section>
   <section class="white-frame-footer"></section> 
 
+  @include('inc.footer')
 
 @include('inc.search-menu')
 @include('inc.scripts')

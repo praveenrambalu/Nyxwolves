@@ -370,3 +370,10 @@ margin-top: 150px;
     50%  { transform: translateY(-20px); }
     100% { transform: translateX(0); }
 }
+
+#footer{
+   background:#111111
+}
+#copyright{
+    background:#040402
+}

@@ -389,3 +389,9 @@ font-weight: 600;
     100% { transform: translateX(0); }
 }
 
+#footer{
+    background:#111111
+ }
+ #copyright{
+     background:#040402
+ }

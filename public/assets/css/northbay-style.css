@@ -103,7 +103,7 @@
 
 #social-media-section{
     padding: 200px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
     background: url(/assets/img/northbay/bottom-rectangle.png) no-repeat;
     background-size:cover;
     background-position: top center;
@@ -121,11 +121,11 @@
 
 
 
-.white-frame-footer {
+/* .white-frame-footer {
 	min-height: 300px;
 	background: white;
 	margin-top: -150px;
-}
+} */
 
 
 
@@ -181,7 +181,7 @@
     }
     #social-media-section {
         padding: 20px;
-        padding-bottom: 0px;
+        padding-bottom: 50px;
         background: url(/assets/img/northbay/bottom-rectangle.png) no-repeat;
         background-size: cover;
         background-position: top center;
@@ -193,11 +193,11 @@
     .img.img-responsive.left-image, .img.img.img-responsive.right-image {
         display: none;
     }
-    .white-frame-footer {
+    /* .white-frame-footer {
         min-height: 100px;
         background: white;
         margin-top: -50px;
-    }
+    } */
 
 }
 
@@ -256,7 +256,7 @@
     }
     #social-media-section {
         padding: 20px;
-        padding-bottom: 0px;
+        padding-bottom: 50px;
         background: url(/assets/img/northbay/bottom-rectangle.png) no-repeat;
         background-size: cover;
         background-position: top center;
@@ -272,11 +272,11 @@
         height: 220px;
         margin-top: 50px;
     }
-    .white-frame-footer {
+    /* .white-frame-footer {
         min-height: 100px;
         background: white;
         margin-top: -50px;
-    }
+    } */
 
 }
   
@@ -311,3 +311,10 @@
     50%  { transform: translateY(-20px); }
     100% { transform: translateX(0); }
 }
+
+#footer{
+    background:#111111
+ }
+ #copyright{
+     background:#040402
+ }

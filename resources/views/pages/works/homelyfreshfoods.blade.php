@@ -188,7 +188,7 @@
         </div>
     </div>
 </section>
-
+@include('inc.footer')
 @include('inc.search-menu')
 @include('inc.scripts')
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
