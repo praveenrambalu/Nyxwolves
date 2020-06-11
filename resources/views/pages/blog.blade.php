@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-
+ 
 @include('inc.head')
     
         <!-- ==============================================
@@ -55,7 +55,8 @@
 </head>
 
 <body>
-
+    @include('inc.preloader')
+    <div class="fullpage">
     <!-- Header -->
    @include('inc.header')
 
@@ -161,7 +162,7 @@
 
     @include('inc.search-menu')
     @include('inc.scroll-to-top')
-
+</div>
 
     <!-- ==============================================
         Vendor Scripts
