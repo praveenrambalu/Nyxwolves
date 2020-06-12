@@ -121,15 +121,26 @@ class PagesController extends Controller
         foreach ($services as $service) {
             $servicesmail=$servicesmail.' , '.$service;
         }
-
-        $name=$request->name;
-        $phoneno=$request->name;
+        $budgets= explode(",",$request->budget);
+        $budgetstore="";
+        $count=1;
+        foreach ($budgets as $budget)
+        {
+            if ($count==1) {
+                $budgetstore=" Rs. ". $budget." - ";
+                $count++;
+            }else{
+                $budgetstore=$budgetstore. "" ." Rs. ".$budget ;
+            }
+        }
+       $name=$request->name;
+        $phoneno=$request->phone;
         $email=$request->email;
         $company=$request->company;
         $services=$servicesmail;
         $budget=$request->budget;
         $message=$request->message;
         $user=User::find(1);
-        $user->notify(new NotificationsContactForm($name,$phoneno,$email,$company,$services,$budget,$message));
+        $user->notify(new NotificationsContactForm($name,$phoneno,$email,$company,$services,$budgetstore,$message));
     }
 }
