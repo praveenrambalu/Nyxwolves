@@ -56,7 +56,7 @@ class ContactForm extends Notification
         return (new MailMessage)
                     ->subject('Contact Form Submission - Nyx Wolves')
                     ->line(new HtmlString("<strong> Name  : </strong> {$this->name}"))
-                    ->line(new HtmlString("<strong> PhoneNo : </strong> {$this->phoneno}"))
+                    ->line(new HtmlString("<strong> Phone No : </strong> {$this->phoneno}"))
                     ->line(new HtmlString("<strong> Email  :</strong> {$this->email}"))
                     ->line(new HtmlString("<strong> Company : </strong> {$this->company}"))
                     ->line(new HtmlString("<strong> Services :</strong> {$this->services}"))

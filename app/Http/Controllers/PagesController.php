@@ -118,8 +118,14 @@ class PagesController extends Controller
         // return $request;
         $services=$request->services;
         $servicesmail="";
+        $servicecount=1;
         foreach ($services as $service) {
-            $servicesmail=$servicesmail.' , '.$service;
+            if ($servicecount==1) {
+                $servicesmail=$service;
+                $servicecount++;
+            }else{
+                $servicesmail=$servicesmail.' , '.$service; 
+            }
         }
         $budgets= explode(",",$request->budget);
         $budgetstore="";
