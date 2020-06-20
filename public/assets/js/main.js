@@ -246,7 +246,7 @@ $(function () {
 
     var sliderMid = new Swiper('.slider-mid', {
 
-        autoplay: false,
+        autoplay: true,
         loop: true,
         slidesPerView: 1,
         spaceBetween: 30,

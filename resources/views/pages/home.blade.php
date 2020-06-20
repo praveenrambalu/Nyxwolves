@@ -111,6 +111,25 @@
             min-height: 450px;
         }
 
+        @media only screen and (max-width: 600px) {
+            .swiper-pagination-bullet.swiper-pagination-bullet {
+                display: none;
+            }
+            #testimonials .swiper-slide.slide-center.text-center.item .card {
+                min-height: auto;
+            }
+
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 992px){
+
+            .swiper-pagination-bullet.swiper-pagination-bullet {
+                display: none;
+            }
+            #testimonials .swiper-slide.slide-center.text-center.item .card {
+                min-height: auto;
+            }
+        }
 
         .row.card.testi-card {
             background: none;
