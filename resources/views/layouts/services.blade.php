@@ -31,8 +31,6 @@
     </head>
 
     <body>
-        @include('inc.preloader')
-        <div class="fullpage">
         <!-- Header -->
         @include('inc.header')
         @yield('main-content')
@@ -40,7 +38,6 @@
         @include('inc.footer')
         @include('inc.search-menu')
         @include('inc.scroll-to-top')  
-    </div>
         @include('inc.scripts')
         @include('inc.contact-form-scripts')
 

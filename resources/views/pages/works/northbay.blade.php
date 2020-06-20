@@ -21,8 +21,6 @@
             <link rel="stylesheet" href="/assets/css/northbay-style.css">
 </head>
 <body>
-    @include('inc.preloader')
-    <div class="fullpage">
     <header>
 
         <!-- Navbar -->
@@ -205,7 +203,6 @@ just one month, the brand’s popularity skyrocketed and elevated the sales.
   @include('inc.footer')
 
 @include('inc.search-menu')
-</div>
 @include('inc.scripts')
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 <script>
