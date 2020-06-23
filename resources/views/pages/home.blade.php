@@ -108,7 +108,7 @@
 
 
         #testimonials .swiper-slide.slide-center.text-center.item .card {
-            min-height: 450px;
+            min-height: 500px;
         }
 
         @media only screen and (max-width: 600px) {
@@ -135,14 +135,21 @@
             background: none;
             box-shadow: none;
         }
+
+        .country-flag {
+	height: 35px;
+	margin-top: -20px;
+	/* margin-bottom: 30px; */
+	padding-bottom: 13px;
+}
     </style>
 </head>
 
 <body>
-    @include('inc.preloader')
+    {{-- @include('inc.preloader')
 
 
-    <div class="fullpage">
+    <div class="fullpage"> --}}
         {{-- <canvas id="canvas">Canvas is not supported in your browser</canvas> --}}
         <!-- Header -->
         <header>
@@ -650,9 +657,11 @@
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card testi-card">
                             <div class="col-12">
-                                <img src="/assets/images/testimonial/u.jpg" alt="" class="person">
-                                <h4>UpState E</h4>
-                                <p>It was really great working with them. Highly recommended!</p>
+                                <img src="/assets/images/testimonial/s.jpg" alt="" class="person">
+                                <h4>Sudhakar Nemmatha</h4>
+                                <p class="job">Founder, Dreamchoice Realty</p>
+                                <span><img src="/assets/images/testimonial/australia.png" class="country-flag"></span>
+                                <p>Nyx Wolves providing services to my business which is based in Sydney Australia. I have met many other hopeless developers before contacting Nyx Wolves. I am very much impressed with their work, skill set & mainly they communicate back promptly & also reasonable regards the fee for their services. I already recommended them to few of my friends & will keep doing. Highly recommend !</p>
                                 <ul class="navbar-nav social share-list ml-auto">
 
                                     <li class="nav-item">
@@ -679,6 +688,9 @@
                             <div class="col-12">
                                 <img src="/assets/images/testimonial/t.jpg" alt="Mary Evans" class="person">
                                 <h4>Thirukumaran</h4>
+                                <p class="job">COO, XR Labs</p>
+                                <span><img src="/assets/images/testimonial/india.png" class="country-flag"></span>
+
                                 <p>Nyx Wolves is a team that is highly professional, efficient and effective at what
                                     they do.
 
@@ -712,13 +724,12 @@
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card testi-card">
                             <div class="col-12">
-                                <img src="/assets/images/testimonial/s.jpg" alt="Sarah Lopez" class="person">
-                                <h4>Sudhakar Nemmatha</h4>
-                                <p>Nyx Wolves provides services to my business which is based in Sydney Australia. I
-                                    have met many other hopeless developers before contacting Nyx Wolves. I am very much
-                                    impressed with their work, skill set & mainly they communicate back promptly & also
-                                    reasonably regards the fee for their services. I already recommended them to a few
-                                    of my friends & will keep doing them. Highly recommended!!</p>
+                                <img src="/assets/images/testimonial/m.jpg" alt="Sarah Lopez" class="person">
+                                <h4>Meghna Pandya</h4>
+                                <p class="job">CEO, Maghna Pandya</p>
+                                <span><img src="/assets/images/testimonial/tanzania.png" class="country-flag"></span>
+                                <p>Nyx Wolves has an amazing team and it is a joy to work with them. They have been doing some really good graphic designing work for me. They are quick to respond and very patient. Highly Recommended.</p>
+
                                 <ul class="navbar-nav social share-list ml-auto">
 
                                     <li class="nav-item">
@@ -743,10 +754,12 @@
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card testi-card">
                             <div class="col-12">
-                                <img src="/assets/images/testimonial/c.jpg" alt="Joseph Hills" class="person">
-                                <h4>Chandra Shekar</h4>
-                                <p>This is my second project with them and they delivered great quality work again.
-                                    Definitely coming back for more work</p>
+                                <img src="/assets/images/testimonial/h.jpg" alt="Joseph Hills" class="person">
+                                <h4>Harris F</h4>
+                                <p class="job">Founder, Digital Interactive Services</p>
+                                <span><img src="/assets/images/testimonial/australia.png" class="country-flag"></span>
+
+                                <p>Creative work and very professional. Recieved proposal clearly Outline details what we discussed and agreed. I have utlised Nyx Wolves services for number of years and highly recommend them.  Services Utilised : 2 Websites, 1 Website and Logo concept, FB and Digital media Artwork, Video Editing, Copywriting</p>
                                 <ul class="navbar-nav social share-list ml-auto">
 
                                     <li class="nav-item">
@@ -771,9 +784,12 @@
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card testi-card">
                             <div class="col-12">
-                                <img src="/assets/images/testimonial/r.jpg" alt="Karen Usman" class="person">
-                                <h4>Raj Agarwal</h4>
-                                <p>A perfect company for startups</p>
+                                <img src="/assets/images/testimonial/u.jpg" alt="Karen Usman" class="person">
+                                <h4>Upstate Enterprise</h4>
+                                <p class="job">Founder, Upstate Enterprise</p>
+                                <span><img src="/assets/images/testimonial/usa.png" class="country-flag"></span>
+
+                                <p>Nyx did the work well, on time and within budget. I had asked for some creative vision, and although it took some care in explaining it, they worked really hard to get the work done on time. It was really a massive amount of work, but they plowed into it to meet our 3 day turnaround time requirements. Excellent work! Thanks to Sid there and his careful communications as he led the team there at Nyx !</p>
                                 <ul class="navbar-nav social share-list ml-auto">
 
                                     <li class="nav-item">
