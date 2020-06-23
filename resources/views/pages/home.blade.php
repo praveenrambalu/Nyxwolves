@@ -146,10 +146,10 @@
 </head>
 
 <body>
-    {{-- @include('inc.preloader')
+    @include('inc.preloader')
 
 
-    <div class="fullpage"> --}}
+    <div class="fullpage">
         {{-- <canvas id="canvas">Canvas is not supported in your browser</canvas> --}}
         <!-- Header -->
         <header>

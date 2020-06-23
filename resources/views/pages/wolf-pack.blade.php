@@ -79,6 +79,31 @@ input[type="checkbox"] + label::before {
 }
 
 
+
+
+#banner {
+    position: relative;
+    height:300px;
+    width:100%;
+    overflow: hidden;
+}
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+
+.text-center.videobanner-text {
+    color: #fff;
+}
+
+
+
         </style>
         
         
@@ -135,7 +160,14 @@ input[type="checkbox"] + label::before {
             </div>
         </section>
 
-
+        <div class="before"></div>
+        <section id="banner">
+            <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                <source src="/assets/bannervideo.mp4" type="video/mp4">
+                    <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.</video>
+                    <h2 class="text-center videobanner-text">Revolutionize your business process</h2>
+        </section>
+        <div class="after"></div>
         
        <!-- Features -->
        <section id="intro" class="offers featured right">
@@ -172,6 +204,10 @@ input[type="checkbox"] + label::before {
             </div>
         </div>
     </section>
+
+
+
+
 
 
         @include('inc.contact-form')
