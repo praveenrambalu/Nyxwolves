@@ -246,7 +246,216 @@
     </section>
 
 
-  
+    <section id="team" class="carousel">
+        <div class="container">
+            <div class="row text-center intro">
+                <div class="col-12">
+                    <h2>Team of Experts</h2>
+                    <p class="text-max-800">Our team is the soul of the company. We house the finest team of
+                        designers and developers to deliver the best service to our clients. </p>
+                </div>
+            </div>
+            <div class="swiper-container slider-mid items">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/aranganel.jpg" alt="Adams Baker" class="person">
+                                <h4>Dr. T. Arangannal</h4>
+                                <p>Venture Partner</p>
+                                <ul class="navbar-nav social share-list ml-auto">
+                                    <li class="nav-item">
+                                        <a href="https://www.facebook.com/arangannalthirumalai.t" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.linkedin.com/in/arangannal-thirumalai-6b4b76b2/"  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/sriram2.jpg" alt="Mary Evans" class="person">
+                                <h4>Sriram Sankar</h4>
+                                <p>Co-Founder, Director</p>
+                                <ul class="navbar-nav social share-list ml-auto">
+                                    <li class="nav-item">
+                                        {{-- <a href="https://www.facebook.com/injarsriram" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a> --}}
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.linkedin.com/in/injarsriram/"  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/sid.jpg" alt="Sarah Lopez" class="person">
+                                <h4>Sidhdharth Sivasubramanian</h4>
+                                <p>Co-Founder, Director</p>
+                                <ul class="navbar-nav social share-list ml-auto">
+                                    <li class="nav-item">
+                                        <a href="https://www.facebook.com/sidhdharthsivasubramanian/" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.linkedin.com/in/sidhdharths/"  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/venkat.jpg" alt="Sarah Lopez" class="person">
+                                <h4>Venkat Boyalla </h4>
+                                <p>Director, CMO</p>
+                                <ul class="navbar-nav social share-list ml-auto">
+                                    <li class="nav-item">
+                                        <a href="https://linkedin.com/in/venkat-boyalla" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.instagram.com/venkeybnk"  target="_blank" class="nav-link"><i class="icon-social-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/suraj.jpg" alt="Suraj" class="person">
+                                <h4>Suraj K S
+                                </h4>
+                                <p> Chief Operations Officer</p>
+                                <ul class="navbar-nav social share-list ml-auto">
+                                    <li class="nav-item">
+                                        <a href="" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=""  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/sanjay.jpg" alt="Nirmalaya" class="person">
+                                <h4>Sanjay Kumar</h4>
+                                <p>Executive Manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/nirmal.jpg" alt="Karen Usman" class="person">
+                                <h4>Nirmalaya Sanyal</h4>
+                                <p>Creative Head</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/jothi.jpg" alt="Jothicharan" class="person">
+                                <h4>Jothicharan Jothibabu</h4>
+                                <p>Development Head</p>
+                            </div>
+                        </div>
+                    </div> --}}
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/sakthi.jpg" alt="Sakthivel" class="person">
+                                <h4>Sakthivel R</h4>
+                                <p>Asst. Manager of Designs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/pratik.jpg" alt="Pratik" class="person">
+                                <h4>Pratik Seal</h4>
+                                <p>Digital Marketing Strategist</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/sanjayd.jpg" alt="Sanjay" class="person">
+                                <h4>Sanjay</h4>
+                                <p>Senior UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div> --}}
+                    {{-- <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/jones.jpg" alt="Jones" class="person">
+                                <h4>Jones</h4>
+                                <p>Junior Designer</p>
+                            </div>
+                        </div>
+                    </div> --}}
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/praveen.jpg" alt="Praveenram" class="person">
+                                <h4>Praveenram Balachandran</h4>
+                                <p>Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/lakshmanan.jpg" alt="Lakshmanan" class="person">
+                                <h4>Lakshmanan R</h4>
+                                <p>Web Developer</p>
+                            </div>
+                        </div>
+                    </div> --}}
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/chandu.jpg" alt="Chandu" class="person">
+                                <h4>Chandu V</h4>
+                                <p>Copywriter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
+                                <img src="/assets/images/team/PersonAvatar.png" alt="Maybe You" class="person">
+                                <h4>Maybe You ?</h4>
+                                <p>Join Us</p>
+                                <ul class="navbar-nav social share-list ml-auto">
+                                    <li class="nav-item">
+                                        <a href="mailto:admin@nyxwolves.com"  class="nav-link"> <i class="icon-envelope"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+</section>
 
 
 
@@ -278,7 +487,7 @@
 
 
     <!-- Team -->
-  <section id="team" class="carousel">
+  {{-- <section id="team" class="carousel">
             <div class="container">
                 <div class="row text-center intro">
                     <div class="col-12">
@@ -479,7 +688,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-</section>
+</section> --}}
 
 
       <section id="services" class="offers bg_gray">
