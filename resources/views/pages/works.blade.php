@@ -100,7 +100,7 @@
                             <a  class="filter-button active" data-filter="all">All Works</a>
                             <a  class="filter-button" data-filter="branding">Branding</a>
                             <a  class="filter-button" data-filter="digitalplatform">Digital Platforms</a>
-                            <a  class="filter-button" data-filter="webdesign">Web Design & Development</a>
+                            <a  class="filter-button" data-filter="webdesign">Digital Transformation</a>
                             <a  class="filter-button" data-filter="digitalmarketing">Digital Marketing</a>
                         </div>
 

@@ -55,14 +55,15 @@
                             <a href="/services/brand-and-identity" class="nav-link">Branding & Identity</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/services/web-design-and-development" class="nav-link">Web Design & Development</a>
+                            <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
                         </li>
                         <li class="nav-item">
                             <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
-                        </li>
+                      
                     </ul>
                 </div>
                 <div class="col-12 col-lg-3 p-3 text-center">
@@ -74,9 +75,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="mailto:admin@nyxwolves.com" class="nav-link">
+                            <a href="mailto:howl@nyxwolves.com" class="nav-link">
                                 <i class="icon-envelope mr-2"></i>
-                               admin@nyxwolves.com
+                               howl@nyxwolves.com
                             </a>
                         </li>
                         <li class="nav-item">

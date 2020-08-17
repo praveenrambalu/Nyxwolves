@@ -1,4 +1,4 @@
-@section('page','Web Design & Development - ')
+@section('page','Digital Transformation - ')
 
 @extends('layouts.services')
 @section('main-content')
@@ -35,7 +35,7 @@
                     <!-- Text -->
                     <div class="row">
                         <div class="col-12 align-self-center">
-                            <h2 class="featured">Web Design & Development</h2>
+                            <h2 class="featured">Digital Transformation</h2>
                             <p>Our exceptionally talented pack of developers and designers understand your every need to
                                 create a dynamic and aesthetic website design. We curate content to effectively
                                 communicate and create potential customers. From the development of a simple and elegant

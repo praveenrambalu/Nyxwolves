@@ -191,10 +191,9 @@
                                     class="icon-arrow-down"></i></a>
                             <div class="dropdown-menu">
                                 <a href="/services/brand-and-identity" class="nav-link">Branding & Identity</a>
-                                <a href="/services/web-design-and-development" class="nav-link">Web Design &
-                                    Development</a>
-                                <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
                                 <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
+                                <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
+                                <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -437,38 +436,8 @@
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/web-design-and-development">
-                            <div class="card">
-                                <img src="/assets/images/icons/web.png" class="icon-services" alt="">
-
-                                <h4>Web Design & Development</h4>
-                                <p>Our team uses cutting-edge technology to design and develop visually rich business
-                                    websites. With simplified yet elegant designs, we guarantee an exclusive website or
-                                    a
-                                    web application to enhance your growth. </p>
-                                <a href="/services/web-design-and-development"><i
-                                        class="btn-icon icon-arrow-right-circle"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/digital-marketing">
-                            <div class="card">
-                                <img src="/assets/images/icons/digital.png" class="icon-services" alt="">
-
-                                <h4>Digital Marketing</h4>
-                                <p>Our unique and powerful digital marketing strategies to reach potential customers
-                                    will
-                                    act as the best catalyst to expand your business. Our wolf pack diligently caters to
-                                    numerous robust methods that help you grow. </p>
-                                <a href="/services/digital-marketing"><i
-                                        class="btn-icon icon-arrow-right-circle"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 item">
                         <a href="/services/ai-and-digital-platforms">
-                            <div class="card featured right">
+                            <div class="card ">
                                 <img src="/assets/images/icons/ai-icon.png" class="icon-services" alt="">
 
                                 <h4>AI & Digital Platforms</h4>
@@ -482,6 +451,37 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-12 col-md-6 col-lg-6 item">
+                        <a href="/services/digital-transformation">
+                            <div class="card">
+                                <img src="/assets/images/icons/web.png" class="icon-services" alt="">
+
+                                <h4>Digital Transformation</h4>
+                                <p>Our team uses cutting-edge technology to design and develop visually rich business
+                                    websites. With simplified yet elegant designs, we guarantee an exclusive website or
+                                    a
+                                    web application to enhance your growth. </p>
+                                <a href="/services/digital-transformation"><i
+                                        class="btn-icon icon-arrow-right-circle"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 item">
+                        <a href="/services/digital-marketing">
+                            <div class="card featured right">
+                                <img src="/assets/images/icons/digital.png" class="icon-services" alt="">
+
+                                <h4>Digital Marketing</h4>
+                                <p>Our unique and powerful digital marketing strategies to reach potential customers
+                                    will
+                                    act as the best catalyst to expand your business. Our wolf pack diligently caters to
+                                    numerous robust methods that help you grow. </p>
+                                <a href="/services/digital-marketing"><i
+                                        class="btn-icon icon-arrow-right-circle"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                   
 
                 </div>
             </div>

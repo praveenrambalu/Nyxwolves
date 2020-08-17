@@ -4,12 +4,12 @@
     var rangeslider = document.getElementById('range-slider');
     var updateSliderValue = document.getElementById('slider-value');
 noUiSlider.create(rangeslider, {
-start: [20000, 80000],
-step: 1000,
+start: [1000, 10000],
+step: 100,
 connect: true,
 range: {
-    'min': 20000,
-    'max': 100000
+    'min': 1000,
+    'max': 10000
 },
 tooltips:true,
 format: wNumb({
@@ -30,7 +30,7 @@ document.getElementById('upper-value')  // 1
 // Display the slider value and how far the handle moved
 // from the left edge of the slider.
 rangeslider.noUiSlider.on('update', function (values, handle, unencoded, isTap, positions) {
-nodes[handle].innerHTML =  'Rs. ' + values[handle] ;
+nodes[handle].innerHTML =  '$ ' + values[handle] ;
 $("#budget").val(values)
 });
 

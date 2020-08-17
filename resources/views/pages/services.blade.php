@@ -79,26 +79,7 @@
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/web-design-and-development"> <div class="card">
-                            <img src="/assets/images/icons/web.png" class="icon-services" alt="">
-
-                            <h4>Web Design & Development</h4>
-                            <p>Our team uses cutting-edge technology to design and develop visually rich business websites. With simplified yet elegant designs, we guarantee an exclusive website or a web application to enhance your growth. </p>
-                            <i class="btn-icon icon-arrow-right-circle"></i>
-                        </div>
-                    </a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/digital-marketing"> <div class="card">
-                            <img src="/assets/images/icons/digital.png" class="icon-services" alt="">
-
-                            <h4>Digital Marketing</h4>
-                            <p>Our unique and powerful digital marketing strategies to reach potential customers will act as the best catalyst to expand your business. Our wolf pack diligently caters to numerous robust methods that help you grow. </p>
-                           <i class="btn-icon icon-arrow-right-circle"></i>
-                        </div></a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/ai-and-digital-platforms">  <div class="card featured right">
+                        <a href="/services/ai-and-digital-platforms">  <div class="card ">
                             <img src="/assets/images/icons/ai-icon.png" class="icon-services" alt="">
 
                             <h4>AI & Digital Platforms</h4>
@@ -106,6 +87,26 @@
                            <i class="btn-icon icon-arrow-right-circle"></i>
                         </div></a>
                     </div>
+                    <div class="col-12 col-md-6 col-lg-6 item">
+                        <a href="/services/digital-transformation"> <div class="card">
+                            <img src="/assets/images/icons/web.png" class="icon-services" alt="">
+
+                            <h4>Digital Transformation</h4>
+                            <p>Our team uses cutting-edge technology to design and develop visually rich business websites. With simplified yet elegant designs, we guarantee an exclusive website or a web application to enhance your growth. </p>
+                            <i class="btn-icon icon-arrow-right-circle"></i>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 item">
+                        <a href="/services/digital-marketing"> <div class="card featured right">
+                            <img src="/assets/images/icons/digital.png" class="icon-services" alt="">
+
+                            <h4>Digital Marketing</h4>
+                            <p>Our unique and powerful digital marketing strategies to reach potential customers will act as the best catalyst to expand your business. Our wolf pack diligently caters to numerous robust methods that help you grow. </p>
+                           <i class="btn-icon icon-arrow-right-circle"></i>
+                        </div></a>
+                    </div>
+                 
                    
                 </div>
             </div>

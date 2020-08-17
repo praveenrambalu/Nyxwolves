@@ -60,10 +60,10 @@
                   <li class="nav-item dropdown">
                     <a href="/services" class="nav-link effect-motion-hover">Services <i class="icon-arrow-down"></i></a>
                     <div class="dropdown-menu">
-                        <a href="/services/brand-and-identity" class="nav-link">Branding & Identity</a>
-                        <a href="/services/web-design-and-development" class="nav-link">Web Design & Development</a>
-                        <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
-                        <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
+                      <a href="/services/brand-and-identity" class="nav-link">Branding & Identity</a>
+                      <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
+                      <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
+                      <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
                     </div>
                 </li> 
                     <li class="nav-item">

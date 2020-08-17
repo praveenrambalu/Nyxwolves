@@ -133,10 +133,10 @@ class PagesController extends Controller
         foreach ($budgets as $budget)
         {
             if ($count==1) {
-                $budgetstore=" Rs. ". $budget." - ";
+                $budgetstore=" $ ". $budget." - ";
                 $count++;
             }else{
-                $budgetstore=$budgetstore. "" ." Rs. ".$budget ;
+                $budgetstore=$budgetstore. "" ." $ ".$budget ;
             }
         }
        $name=$request->name;

@@ -31,7 +31,7 @@ Route::get('/blog', 'PagesController@blog');
 Route::get('/blog/posts/{id}', 'PagesController@singleBlogPost');
 
 Route::get('/services/brand-and-identity','PagesController@brandIdentity');
-Route::get('/services/web-design-and-development','PagesController@webDesignDevelopment');
+Route::get('/services/digital-transformation','PagesController@webDesignDevelopment');
 Route::get('/services/digital-marketing','PagesController@digitalMarketing');
 Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform'); 
 
