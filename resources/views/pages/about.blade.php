@@ -250,7 +250,7 @@
         <div class="container">
             <div class="row text-center intro">
                 <div class="col-12">
-                    <h2>Team of Experts</h2>
+                    <h2>Our Pack</h2>
                     <p class="text-max-800">Our team is the soul of the company. We house the finest team of
                         designers and developers to deliver the best service to our clients. </p>
                 </div>
