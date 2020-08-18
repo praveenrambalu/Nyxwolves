@@ -282,7 +282,7 @@
                                 <p>Co-Founder, Director</p>
                                 <ul class="navbar-nav social share-list ml-auto">
                                     <li class="nav-item">
-                                        {{-- <a href="https://www.facebook.com/injarsriram" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a> --}}
+                                        <a href="https://medium.com/@sriramsankarinjar" target="_blank" class="nav-link"><i class="fa fa-medium"></i></a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="https://www.linkedin.com/in/injarsriram/"  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>

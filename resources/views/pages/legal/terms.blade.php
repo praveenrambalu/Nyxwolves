@@ -75,7 +75,7 @@
 	<p class="text-justify">&ldquo;<strong>We</strong>&rdquo; shall mean the Website and Nyx Wolves.</p>
 	</li>
 	<li>
-	<p class="text-justify">&ldquo;<strong>Website</strong>&rdquo; shall mean [www.nyxwolves.com] and shall include the mobile phone owned by Nyx Wolves called [<strong>insert name</strong>].</p>
+	<p class="text-justify">&ldquo;<strong>Website</strong>&rdquo; shall mean [www.nyxwolves.com] and shall include the mobile phone owned by Nyx Wolves called www.nyxwolves.com  .</p>
 	</li>
 	<li>
 	<p class="text-justify">&ldquo;<strong>User/ You</strong>&rdquo; shall mean an individual accessing from the Website.</p>
