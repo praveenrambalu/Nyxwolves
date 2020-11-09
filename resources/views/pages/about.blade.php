@@ -346,6 +346,24 @@
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card team">
                             <div class="col-12">
+                                <img src="/assets/images/team/sriramp.jpg" alt="Sriram" class="person">
+                                <h4>Sriram P
+                                </h4>
+                                <p> Cyber Security Advisor</p>
+                                <ul class="navbar-nav social share-list ml-auto">
+                                    <li class="nav-item">
+                                        <a href="" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=""  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center text-center item">
+                        <div class="row card team">
+                            <div class="col-12">
                                 <img src="/assets/images/team/sanjay.jpg" alt="Nirmalaya" class="person">
                                 <h4>Sanjay Kumar</h4>
                                 <p>Executive Manager</p>
