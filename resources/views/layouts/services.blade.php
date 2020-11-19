@@ -26,7 +26,7 @@
                 --footer-2-bg-color: #040402;
             }
         </style>
-      @include('inc.contact-form-white-style')  
+      {{-- @include('inc.contact-form-white-style')   --}}
         
     </head>
 
@@ -34,12 +34,15 @@
         <!-- Header -->
         @include('inc.header')
         @yield('main-content')
-        @include('inc.contact-form')
+        
+        {{-- @include('inc.contact-form') --}}
+
+
         @include('inc.footer')
         @include('inc.search-menu')
         @include('inc.scroll-to-top')  
         @include('inc.scripts')
-        @include('inc.contact-form-scripts')
+        {{-- @include('inc.contact-form-scripts') --}}
 
     </body>
 </html>

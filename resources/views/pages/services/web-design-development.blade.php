@@ -109,4 +109,19 @@
             </div>
         </div>
     </section>
+
+
+    <section class="banner" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/digital-platforms.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;padding: 60px 0; color:#fff !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-8 align-self-center">
+                    <h3 class="text-white">Ready to Build Your Product?</h3>
+                    <p>Digital excellence delivered to you seamlessly.</p>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <a href="/contact" class="btn m-auto mt-3 primary-button">Contact Now</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

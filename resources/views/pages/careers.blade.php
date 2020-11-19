@@ -222,7 +222,7 @@ input[type="checkbox"] + label::before {
 
 
 
-        @include('inc.contact-form')
+        {{-- @include('inc.contact-form') --}}
 
     <!-- About [video] -->
   
