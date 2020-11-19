@@ -47,6 +47,9 @@
                     <a href="/works" class="nav-link effect-motion-hover">Works</a>
                 </li>
                 <li class="nav-item">
+                    <a href="/careers" class="nav-link effect-motion-hover">Careers</a>
+                </li>
+                <li class="nav-item">
                     <a href="/wolf-pack" class="nav-link effect-motion-hover">Wolf Pack</a>
                 </li>
                

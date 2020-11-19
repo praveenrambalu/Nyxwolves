@@ -27,6 +27,10 @@ class PagesController extends Controller
     {
         return view('pages.works');
     }
+    public function careers()
+    {
+        return view('pages.careers');
+    }
     public function wolfPack()
     {
         return view('pages.wolf-pack');
@@ -34,28 +38,27 @@ class PagesController extends Controller
     public function contact()
     {
         return view('pages.contact');
-        $name="Name";
-        $phoneno="9876543210";
-        $email="praveen@nyxwolves.com";
-        $company="nyxwolves.com";
-        $services="Web Design";
-        $budget="Budget";
-        $message=" Hiiiiiiiiiiiii ";
-        $user=User::find(1);
-        $user->notify(new NotificationsContactForm($name,$phoneno,$email,$company,$services,$budget,$message));
+        $name = "Name";
+        $phoneno = "9876543210";
+        $email = "praveen@nyxwolves.com";
+        $company = "nyxwolves.com";
+        $services = "Web Design";
+        $budget = "Budget";
+        $message = " Hiiiiiiiiiiiii ";
+        $user = User::find(1);
+        $user->notify(new NotificationsContactForm($name, $phoneno, $email, $company, $services, $budget, $message));
         return "success";
-        
     }
     public function blog()
     {
-        $posts=Posts::where('status','active')->orderBy('id','desc')->paginate(3);
-        return view('pages.blog')->with('posts',$posts);
+        $posts = Posts::where('status', 'active')->orderBy('id', 'desc')->paginate(3);
+        return view('pages.blog')->with('posts', $posts);
     }
     public function singleBlogPost($id)
     {
-        if($post=Posts::where('id',$id)->where('status','active')->first()){
-            return view('pages.blog-detail')->with('post',$post);
-        }else{
+        if ($post = Posts::where('id', $id)->where('status', 'active')->first()) {
+            return view('pages.blog-detail')->with('post', $post);
+        } else {
             abort(404);
         }
     }
@@ -89,23 +92,23 @@ class PagesController extends Controller
     }
 
 
-     public function homelyfreshfoods()
+    public function homelyfreshfoods()
     {
         return view('pages.works.homelyfreshfoods');
     }
-     public function jootfoods()
+    public function jootfoods()
     {
         return view('pages.works.jootfoods');
     }
-     public function northbay()
+    public function northbay()
     {
         return view('pages.works.northbay');
     }
-     public function varavasthu()
+    public function varavasthu()
     {
         return view('pages.works.varavasthu');
     }
-     public function westernvalley()
+    public function westernvalley()
     {
         return view('pages.works.westernvalley');
     }
@@ -113,40 +116,39 @@ class PagesController extends Controller
 
 
 
-     public function contactForm(Request $request)
+    public function contactForm(Request $request)
     {
         // return $request;
-        $services=$request->services;
-        $servicesmail="";
-        $servicecount=1;
+        $services = $request->services;
+        $servicesmail = "";
+        $servicecount = 1;
         foreach ($services as $service) {
-            if ($servicecount==1) {
-                $servicesmail=$service;
+            if ($servicecount == 1) {
+                $servicesmail = $service;
                 $servicecount++;
-            }else{
-                $servicesmail=$servicesmail.' , '.$service; 
+            } else {
+                $servicesmail = $servicesmail . ' , ' . $service;
             }
         }
-        $budgets= explode(",",$request->budget);
-        $budgetstore="";
-        $count=1;
-        foreach ($budgets as $budget)
-        {
-            if ($count==1) {
-                $budgetstore=" $ ". $budget." - ";
+        $budgets = explode(",", $request->budget);
+        $budgetstore = "";
+        $count = 1;
+        foreach ($budgets as $budget) {
+            if ($count == 1) {
+                $budgetstore = " $ " . $budget . " - ";
                 $count++;
-            }else{
-                $budgetstore=$budgetstore. "" ." $ ".$budget ;
+            } else {
+                $budgetstore = $budgetstore . "" . " $ " . $budget;
             }
         }
-       $name=$request->name;
-        $phoneno=$request->phone;
-        $email=$request->email;
-        $company=$request->company;
-        $services=$servicesmail;
-        $budget=$request->budget;
-        $message=$request->message;
-        $user=User::find(1);
-        $user->notify(new NotificationsContactForm($name,$phoneno,$email,$company,$services,$budgetstore,$message));
+        $name = $request->name;
+        $phoneno = $request->phone;
+        $email = $request->email;
+        $company = $request->company;
+        $services = $servicesmail;
+        $budget = $request->budget;
+        $message = $request->message;
+        $user = User::find(1);
+        $user->notify(new NotificationsContactForm($name, $phoneno, $email, $company, $services, $budgetstore, $message));
     }
 }

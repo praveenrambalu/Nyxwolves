@@ -24,29 +24,30 @@ Route::get('/', 'PagesController@homePage');
 Route::get('/about', 'PagesController@aboutPage');
 Route::get('/services', 'PagesController@services');
 Route::get('/works', 'PagesController@works');
+Route::get('/careers', 'PagesController@careers');
 Route::get('/wolf-pack', 'PagesController@wolfPack');
 Route::get('/contact', 'PagesController@contact');
 Route::post('/contact-form', 'PagesController@contactForm');
 Route::get('/blog', 'PagesController@blog');
 Route::get('/blog/posts/{id}', 'PagesController@singleBlogPost');
 
-Route::get('/services/brand-and-identity','PagesController@brandIdentity');
-Route::get('/services/digital-transformation','PagesController@webDesignDevelopment');
-Route::get('/services/digital-marketing','PagesController@digitalMarketing');
-Route::get('/services/ai-and-digital-platforms','PagesController@aiDigitalPlatform'); 
+Route::get('/services/brand-and-identity', 'PagesController@brandIdentity');
+Route::get('/services/digital-transformation', 'PagesController@webDesignDevelopment');
+Route::get('/services/digital-marketing', 'PagesController@digitalMarketing');
+Route::get('/services/ai-and-digital-platforms', 'PagesController@aiDigitalPlatform');
 
-Route::get('/terms-and-conditions','PagesController@Terms');
-Route::get('/privacy-policy','PagesController@Privacy');
+Route::get('/terms-and-conditions', 'PagesController@Terms');
+Route::get('/privacy-policy', 'PagesController@Privacy');
 
-Route::get('/works/homely-fresh-foods','PagesController@homelyfreshfoods');
-Route::get('/works/joot-foods','PagesController@jootfoods');
-Route::get('/works/north-bay','PagesController@northbay');
-Route::get('/works/vara-vasthu','PagesController@varavasthu');
-Route::get('/works/western-valley','PagesController@westernvalley');
+Route::get('/works/homely-fresh-foods', 'PagesController@homelyfreshfoods');
+Route::get('/works/joot-foods', 'PagesController@jootfoods');
+Route::get('/works/north-bay', 'PagesController@northbay');
+Route::get('/works/vara-vasthu', 'PagesController@varavasthu');
+Route::get('/works/western-valley', 'PagesController@westernvalley');
 
 
-Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
-    Route::get('/','PostsController@viewPosts');
-    Route::get('add-post','PostsController@addpost');
-    Route::post('add-post','PostsController@addpostPost');
+Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
+    Route::get('/', 'PostsController@viewPosts');
+    Route::get('add-post', 'PostsController@addpost');
+    Route::post('add-post', 'PostsController@addpostPost');
 });
