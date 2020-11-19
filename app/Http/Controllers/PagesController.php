@@ -27,6 +27,26 @@ class PagesController extends Controller
     {
         return view('pages.works');
     }
+    public function team()
+    {
+
+
+
+
+
+
+        // $rss_url = 'https://medium.com/feed/coffee-driven-dev';
+        // $api_endpoint = 'https://api.rss2json.com/v1/api.json?rss_url=';
+        // $data = json_decode(file_get_contents($api_endpoint . urlencode($rss_url)), true);
+
+        // if ($data['status'] == 'ok') {
+
+        //     return $data['items'];
+        // }
+
+
+        return view('pages.team');
+    }
     public function careers()
     {
         return view('pages.careers');
