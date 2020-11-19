@@ -40,7 +40,7 @@
 
                                 <div class="gallery">
                                     <a >
-                                        <img src="/assets/images/services-featured-image/branding.jpg" class="w-100">
+                                        <img src="/assets/images/services-featured-image/branding.gif" class="w-100">
                                     </a>
                                 </div>
 

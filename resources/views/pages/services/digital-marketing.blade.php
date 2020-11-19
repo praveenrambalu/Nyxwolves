@@ -39,7 +39,7 @@
 
                             <div class="gallery">
                                 <a >
-                                    <img src="/assets/images/services-featured-image/marketing.jpg" class="w-100">
+                                    <img src="/assets/images/services-featured-image/marketing.gif" class="w-100">
                                 </a>
                             </div>
                         </div>

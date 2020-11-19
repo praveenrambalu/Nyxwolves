@@ -46,7 +46,7 @@
 
                             <div class="gallery">
                                 <a >
-                                    <img src="/assets/images/services-featured-image/webdev.jpg" class="w-100">
+                                    <img src="/assets/images/services-featured-image/webdev.gif" class="w-100">
                                 </a>
                             </div>
 
