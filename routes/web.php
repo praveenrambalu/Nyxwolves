@@ -24,6 +24,7 @@ Route::get('/', 'PagesController@homePage');
 Route::get('/about', 'PagesController@aboutPage');
 Route::get('/services', 'PagesController@services');
 Route::get('/works', 'PagesController@works');
+Route::get('/clients', 'PagesController@clients');
 Route::get('/team', 'PagesController@team');
 Route::get('/careers', 'PagesController@careers');
 Route::get('/wolf-pack', 'PagesController@wolfPack');
