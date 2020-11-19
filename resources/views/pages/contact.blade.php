@@ -109,9 +109,9 @@
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
-                        <a href="mailto:admin@nyxwolves.com"> <div class="card">
+                        <a href="mailto:howl@nyxwolves.com"> <div class="card">
                             <i class="icon icon-envelope"></i>
-                            <h4>admin@nyxwolves.com</h4>
+                            <h4>howl@nyxwolves.com</h4>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p> -->
                             <i class="btn-icon icon-arrow-right-circle"></i>
                         </div></a>
