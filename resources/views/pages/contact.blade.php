@@ -87,6 +87,9 @@
             </div>
         </section>
 
+
+         <!-- Contact -->
+         @include('inc.contact-form')
         <!-- Contacts -->
         <section id="contacts" class="offers">
             <div class="container">
@@ -141,8 +144,7 @@
             </div>
         </section>
 
-        <!-- Contact -->
-        @include('inc.contact-form')
+       
 
 
         @include('inc.footer')

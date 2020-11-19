@@ -45,6 +45,9 @@
                             <a href="/works" class="nav-link">Works</a>
                         </li>
                         <li class="nav-item">
+                            <a href="/careers" class="nav-link">Careers</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/wolf-pack" class="nav-link">Wolf Pack</a>
                         </li>
                     </ul>
