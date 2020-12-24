@@ -273,7 +273,7 @@
                         <div class="slide-content row justify-content-start">
                             <div class="col-12 d-flex inner">
                                 <div class="left align-self-center text-center text-md-left">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">A
+                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">
                                         For Rapid Execution.</h1>
                                     <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Our power-packed
                                         team delivers rapid results with high quality.</p>
