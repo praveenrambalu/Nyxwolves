@@ -824,6 +824,13 @@
     <!-- Partners -->
     <section id="partner" class="logos">
         <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-12 align-self-end">
+                    <a href="/blog" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
+                        class="icon-grid"></i>VIEW ALL</i></a>
+                </div>
+            </div>
             <div class="swiper-container slider-min">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-center item">
