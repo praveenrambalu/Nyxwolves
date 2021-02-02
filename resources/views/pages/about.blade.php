@@ -158,10 +158,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="gallery col-12 col-md-6">
-                    <a >
+                <div class=" col-12 col-md-6">
                         <img src="/assets/images/about-us.gif" class="image-fit">
-                    </a>
                 </div>
             </div>
 
@@ -224,8 +222,8 @@
     <section id="video" class="highlights right">
         <div class="container">
             <div class="row">
-                <div class="gallery col-12 col-md-6">
-                    <a data-poster="/assets/images/intro-video.gif" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
+                <div class=" col-12 col-md-6">
+                    <a target="_blank" data-poster="/assets/images/intro-video.gif" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
                         <i class="play-video icon-control-play"></i>
                         <div class="mask-radius"></div>
                         <img src="/assets/images/intro-video.gif" class="image-fit">
@@ -490,7 +488,7 @@
                         </div>
                     </div>
 
-                    <div class="gallery col-12 col-md-6">
+                    <div class=" col-12 col-md-6">
                         <a >
                             <img src="/assets/images/why-choose-us.jpg" class="image-fit">
                         </a>
