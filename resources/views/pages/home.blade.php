@@ -146,7 +146,7 @@
 </head>
 
 <body>
-    @include('inc.preloader')
+    {{-- @include('inc.preloader') --}}
 
 
     <div class="fullpage">
@@ -824,13 +824,7 @@
     <!-- Partners -->
     <section id="partner" class="logos">
         <div class="container">
-            <div class="row">
-
-                <div class="col-12 col-md-12 align-self-end">
-                    <a href="/blog" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
-                        class="icon-grid"></i>VIEW ALL</i></a>
-                </div>
-            </div>
+            
             <div class="swiper-container slider-min">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-center item">
@@ -872,6 +866,13 @@
                     <div class="swiper-slide slide-center item">
                         <img src="/assets/images/clients/14.png" class="image-fit w-85">
                     </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class=" col-12 col-md-12 align-self-center text-center  mt-5">
+                    <a href="/clients" class="btn text-center  primary-button" style="display: block; margin:auto"><i
+                        class="icon-grid" ></i>VIEW ALL</i></a>
                 </div>
             </div>
         </div>
