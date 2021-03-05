@@ -136,6 +136,10 @@ class PagesController extends Controller
     {
         return view('pages.works.westernvalley');
     }
+    public function bozmie()
+    {
+        return view('pages.works.bozmie');
+    }
 
 
 
