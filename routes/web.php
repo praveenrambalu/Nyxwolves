@@ -47,6 +47,7 @@ Route::get('/works/north-bay', 'PagesController@northbay');
 Route::get('/works/vara-vasthu', 'PagesController@varavasthu');
 Route::get('/works/western-valley', 'PagesController@westernvalley');
 Route::get('/works/bozmie', 'PagesController@bozmie');
+Route::get('/works/chatur-ideas', 'PagesController@chaturIdeas');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
