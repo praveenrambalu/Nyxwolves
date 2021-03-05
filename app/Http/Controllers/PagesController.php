@@ -140,6 +140,10 @@ class PagesController extends Controller
     {
         return view('pages.works.bozmie');
     }
+    public function tento()
+    {
+        return view('pages.works.tento');
+    }
     public function chaturIdeas()
     {
         return view('pages.works.chaturIdeas');
