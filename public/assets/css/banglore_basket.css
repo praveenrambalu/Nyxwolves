@@ -1,0 +1,585 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.custom-container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background: #fff;
+}
+
+.bang-main-content .bang-logo-holder {
+    margin-bottom: 50px;
+}
+
+.bang-main-content .bang-logo-holder .bang-logo {
+    width: 400px;
+}
+
+.bang-main-content .main-banner-content h3 {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.bang-main-content .main-banner-content h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #36BAB6;
+}
+
+.bang-main-content .main-banner-content h1 span {
+    color: #FBAE46;
+}
+
+.bang-main-content .bang-mockups .bang-mockup {
+    width: 100%;
+}
+
+section#bang-deliverables {
+    background: url(/assets/img/bangalore_basket/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+
+section#bang-deliverables .bang-deliverables .bang-deliverables-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-title {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #36BAB6;
+    padding-bottom: 50px;
+}
+
+section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-list {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #000000;
+    list-style: none;
+}
+
+section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-list li {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #000000;
+    list-style: none;
+}
+
+section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-list li::before {
+    content: "\2022";
+    color: #FBAE46;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+section#clean-section {
+    padding: 100px 0;
+}
+
+section#clean-section h3.clean-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #393939;
+}
+
+section#clean-section h1.clean-title {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #FBAE46;
+}
+
+section#clean-section .design-list-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: auto;
+}
+
+section#clean-section .design-list-container img {
+    width: 300px;
+    margin: 75px;
+}
+
+section#bang-green {
+    background: #36BAB6;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+section#bang-green h1 {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 167px;
+    color: #FFFFFF;
+}
+
+section#bang-green p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+section#bang-orange {
+    background: #FBAE46;
+    padding: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+section#bang-orange img {
+    width: 70%;
+    margin: auto;
+    margin-top: -280px;
+    text-align: center;
+    margin-left: 15%;
+}
+
+section#bang-orange p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #616161;
+    margin-top: 50px;
+}
+
+section#bang-section1 {
+    padding-top: 250px;
+    padding-bottom: 50px;
+    background: url("/assets/img/bangalore_basket/bg_flex_top.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+section#bang-section1 .row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section#bang-section1 .row h1 {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 167px;
+    color: #FBAE46;
+}
+
+section#bang-section1 .row p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.28);
+}
+
+section#bang-section2 {
+    background: #36BAB6;
+    min-height: 300px;
+    position: relative;
+}
+
+section#bang-section2 img {
+    width: 100%;
+    margin-top: -75px;
+}
+
+section#bang-order-detail {
+    padding: 50px 0;
+}
+
+section#bang-order-detail .bang-order-content-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #FBAE46;
+}
+
+section#bang-order-detail .bang-order-content-container p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #1A1B1B;
+    opacity: 0.4;
+}
+
+section#bang-order-detail .bang-order-image {
+    width: 100%;
+}
+
+section#bang-footer {
+    padding: 100px 0;
+    padding-bottom: 150px;
+    background: url("/assets/img/bangalore_basket/bg_flex_bottom.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+section#bang-footer .bang-footer-logo {
+    height: 220px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .bang-main-content .bang-logo-holder {
+        margin-bottom: 25px;
+    }
+
+    .bang-main-content .bang-logo-holder .bang-logo {
+        width: 100px;
+    }
+
+    .bang-main-content .main-banner-content h3 {
+        font-size: 1rem;
+    }
+
+    .bang-main-content .main-banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .bang-main-content .bang-mockups .bang-mockup {
+        width: 80%;
+    }
+
+    section#bang-deliverables {
+        background: none;
+        padding: 25px 0;
+    }
+
+    section#bang-deliverables .bang-deliverables .bang-deliverables-content {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-title {
+        font-size: 2rem;
+        padding-bottom: 0px;
+    }
+
+    section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-list {
+        font-size: 1rem;
+    }
+
+    section#clean-section {
+        padding: 25px 0;
+    }
+
+    section#clean-section h3.clean-title {
+        font-size: 1.5rem;
+    }
+
+    section#clean-section h1.clean-title {
+        font-size: 2rem;
+    }
+
+    section#clean-section .design-list-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 90%;
+        overflow: auto;
+        margin: auto;
+    }
+
+    section#clean-section .design-list-container img {
+        width: 80%;
+        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section#bang-green {
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+
+    section#bang-green h1 {
+        font-size: 2rem;
+        line-height: unset;
+    }
+
+    section#bang-green p {
+        font-size: 1rem;
+    }
+
+    section#bang-orange {
+        padding: unset;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    section#bang-orange img {
+        width: 80%;
+        margin: auto;
+        margin-top: -100px;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    section#bang-orange p {
+        font-size: 1rem;
+        margin-top: 25px;
+    }
+
+    section#bang-section1 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-size: contain;
+    }
+
+    section#bang-section1 .row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    section#bang-section1 .row h1 {
+        font-size: 2.5rem;
+        line-height: unset;
+    }
+
+    section#bang-section1 .row p {
+        font-size: 1rem;
+    }
+
+    section#bang-section2 {
+        min-height: 85px;
+    }
+
+    section#bang-section2 img {
+        width: 100%;
+        margin-top: -35px;
+    }
+
+    section#bang-order-detail {
+        padding: 25px 0;
+    }
+
+    section#bang-order-detail .bang-order-content-container h1 {
+        font-size: 2rem;
+    }
+
+    section#bang-order-detail .bang-order-content-container p {
+        font-size: 1rem;
+    }
+
+    section#bang-order-detail .bang-order-image {
+        width: 80%;
+        margin: auto;
+    }
+
+    section#bang-footer {
+        padding: 50px 0;
+        padding-bottom: 50px;
+        background: url("/assets/img/bangalore_basket/bg_flex_bottom.png");
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    section#bang-footer .bang-footer-logo {
+        height: 150px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+    .custom-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .bang-main-content .bang-logo-holder {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .bang-main-content .bang-logo-holder .bang-logo {
+        width: 200px;
+    }
+
+    .bang-main-content .main-banner-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .bang-main-content .main-banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .bang-main-content .bang-mockups .bang-mockup {
+        width: 100%;
+    }
+
+    section#bang-deliverables {
+        padding: 75px 0;
+    }
+
+    section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-title {
+        font-size: 3rem;
+        padding-bottom: 50px;
+    }
+
+    section#bang-deliverables .bang-deliverables .bang-deliverables-content .bang-deliverables-list {
+        font-size: 1.5rem;
+    }
+
+    section#clean-section {
+        padding: 50px 0;
+    }
+
+    section#clean-section h3.clean-title {
+        font-size: 1.5rem;
+    }
+
+    section#clean-section h1.clean-title {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+
+    section#clean-section .design-list-container {
+        width: 90%;
+        overflow: auto;
+    }
+
+    section#clean-section .design-list-container img {
+        width: 80%;
+        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section#bang-green {
+        background: #36BAB6;
+        padding-top: 50px;
+        padding-bottom: 120px;
+    }
+
+    section#bang-green h1 {
+        font-size: 3rem;
+        line-height: 100px;
+    }
+
+    section#bang-green p {
+        font-size: 1.5rem;
+    }
+
+    section#bang-orange {
+        padding: 50px;
+        padding-bottom: 50px;
+    }
+
+    section#bang-orange img {
+        margin-top: -180px;
+    }
+
+    section#bang-orange p {
+        font-family: "Quicksand", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #616161;
+        margin-top: 50px;
+    }
+
+    section#bang-section1 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    section#bang-section1 .row {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    section#bang-section1 .row h1 {
+        font-size: 3rem;
+        line-height: 120px;
+        color: #FBAE46;
+    }
+
+    section#bang-section1 .row p {
+        font-size: 1.5rem;
+    }
+
+    section#bang-section2 {
+        background: #36BAB6;
+        min-height: 150px;
+        position: relative;
+    }
+
+    section#bang-section2 img {
+        width: 100%;
+        margin-top: -75px;
+    }
+
+    section#bang-order-detail {
+        padding: 50px 0;
+    }
+
+    section#bang-order-detail .bang-order-content-container h1 {
+        font-size: 3rem;
+    }
+
+    section#bang-order-detail .bang-order-content-container p {
+        font-size: 1.5rem;
+    }
+
+    section#bang-order-detail .bang-order-image {
+        width: 100%;
+    }
+
+    section#bang-footer {
+        padding: 50px 0;
+        padding-bottom: 100px;
+        background: url("/assets/img/bangalore_basket/bg_flex_bottom.png");
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    section#bang-footer .bang-footer-logo {
+        height: 220px;
+        margin-bottom: 100px;
+    }
+}
+
+/*# sourceMappingURL=banglore_basket.css.map */

@@ -148,7 +148,10 @@ class PagesController extends Controller
     {
         return view('pages.works.chaturIdeas');
     }
-
+    public function banglorebasket()
+    {
+        return view('pages.works.banglorebasket');
+    }
 
 
 
