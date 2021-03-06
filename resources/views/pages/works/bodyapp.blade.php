@@ -247,7 +247,15 @@
         <div class="custom-container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <img src="/assets/img/bodyapp/footerlogo.png" class="img img-responsive " alt="">
+                    <img src="/assets/img/bodyapp/footerlogo.png" class="img img-responsive " alt="" style="margin-right: 50px;">
+                    <div class="row mt-3">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6 text-center">
+
+                        <a href="https://apps.apple.com/in/app/bodyapp-affordable-wellness/id1548891118" target="_blank"><img src="/assets/img/bodyapp/app_store.png"  class="img img-responsive" style="height: 60px;"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.bodyapp" target="_blank"><img src="/assets/img/bodyapp/play_store.png" class="img img-responsive" style="height: 60px;"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
