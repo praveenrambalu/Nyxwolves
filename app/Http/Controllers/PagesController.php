@@ -144,6 +144,10 @@ class PagesController extends Controller
     {
         return view('pages.works.tento');
     }
+    public function pen()
+    {
+        return view('pages.works.pen');
+    }
     public function chaturIdeas()
     {
         return view('pages.works.chaturIdeas');

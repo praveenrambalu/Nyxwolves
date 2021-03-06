@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.custom-container {
+  width: 80%;
+  margin: auto;
+}
+
+#pen-heading-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1999ccbe), to(rgba(25, 154, 204, 0)));
+  background: linear-gradient(180deg, #1999ccbe 0%, rgba(25, 154, 204, 0) 100%);
+  min-height: 150px;
+}
+
+#pen-heading-section .pen-logo {
+  height: 150px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+#pen-heading-section .pen-top-circle {
+  width: 600px;
+  top: 0;
+  position: absolute;
+  right: 0;
+}
+
+#pen-banner-section p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #5F636D;
+  width: 80%;
+}
+
+#pen-banner-section .penbanner-image {
+  width: 100%;
+}
+
+#pen-deliverables {
+  background: url("/assets/img/pen/vector.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding: 150px 0;
+  margin-top: 30px;
+}
+
+#pen-deliverables .deliverables-content .deliverables-title {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 167px;
+  /* identical to box height */
+  color: #199ACC;
+}
+
+#pen-deliverables .deliverables-content .deliverables-desc {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #000000;
+}
+
+#pen-deliverables .deliverables-content span.bar {
+  width: 93%;
+  height: 10px;
+  background: #199ACC;
+  display: block;
+  margin-top: 50px;
+}
+
+#pen-learn-for-free-section {
+  background: url("/assets/img/pen/learn_for_free_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding: 50px 0;
+}
+
+#pen-learn-for-free-section .pen-learn-for-free-section-image {
+  width: 50%;
+  position: absolute;
+  bottom: -270px;
+  left: -157px;
+}
+
+#pen-learn-for-free-section .pen-learn-content-holder .pen-learn-title {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+}
+
+#pen-learn-for-free-section .pen-learn-content-holder .pen-learn-desc {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: unset;
+  color: #FFFFFF;
+}
+
+#pen-give-take {
+  padding: 50px 0;
+  margin-top: 100px;
+  background: url("/assets/img/pen/give_and_take_courses_bg_square.png");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+#pen-give-take .pen-give-screenshot {
+  width: 70%;
+}
+
+#pen-give-take .circle-bg .give-take-title {
+  background: #199ACC;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #FFFFFF;
+  padding: 130px;
+}
+
+#pen-courses .courses-div {
+  height: auto;
+  width: 90%;
+  background: #199ACC;
+  padding: 100px 50px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+#pen-courses .courses-div h1 {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #FFFFFF;
+}
+
+#pen-courses .courses-div p {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: unset;
+  color: #FFFFFF;
+}
+
+#pen-courses .pen-courses-image {
+  width: 70%;
+  margin-left: 30%;
+}
+
+#pen-core-values .corevalues-div {
+  height: auto;
+  background: #199ACC;
+  padding: 100px 50px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+
+#pen-core-values .corevalues-div h1 {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #FFFFFF;
+}
+
+#pen-core-values .corevalues-div p {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: unset;
+  color: #FFFFFF;
+}
+
+#pen-core-values .pen-corevalue-image {
+  width: 70%;
+  margin-right: 30%;
+}
+
+#pen-landing-page {
+  background: url("/assets/img/pen/background-landing.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#pen-landing-page h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #199ACC;
+}
+
+#pen-landing-page h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #606470;
+}
+
+#pen-landing-page .landing-page-image {
+  width: 100%;
+}
+
+#penfooter {
+  background: #fff;
+  padding: 25px 0;
+}
+
+#penfooter img {
+  height: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-container {
+    width: 90%;
+    margin: auto;
+  }
+  #pen-heading-section {
+    margin: 50px 0;
+    min-height: 0;
+    background: none;
+  }
+  #pen-heading-section .pen-logo {
+    height: 80px;
+    margin-top: 0px;
+    position: relative;
+  }
+  #pen-heading-section .pen-top-circle {
+    width: 600px;
+    top: 0;
+    position: absolute;
+    right: 0;
+    display: none;
+  }
+  #pen-banner-section p {
+    font-size: 1rem;
+    width: 90%;
+  }
+  #pen-banner-section .penbanner-image {
+    width: 100%;
+  }
+  #pen-deliverables {
+    padding: 50px 0;
+    background-size: 60%;
+  }
+  #pen-deliverables .deliverables-content .deliverables-title {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  #pen-deliverables .deliverables-content .deliverables-desc {
+    font-size: 1rem;
+  }
+  #pen-deliverables .deliverables-content span.bar {
+    width: 60%;
+    height: 5px;
+  }
+  #pen-learn-for-free-section {
+    background: #199ACC;
+    padding: 50px 0;
+  }
+  #pen-learn-for-free-section .pen-learn-for-free-section-image {
+    width: 60%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0 20%;
+  }
+  #pen-learn-for-free-section .pen-learn-content-holder .pen-learn-title {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  #pen-learn-for-free-section .pen-learn-content-holder .pen-learn-desc {
+    font-size: 1rem;
+  }
+  #pen-give-take {
+    padding: 50px 0;
+    margin-top: 50px;
+    background: #fff;
+  }
+  #pen-give-take .pen-give-screenshot {
+    width: 50%;
+  }
+  #pen-give-take .circle-bg .give-take-title {
+    background: #199ACC;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding: 60px;
+    margin-left: 100px;
+  }
+  #pen-courses {
+    background: #199ACC;
+    padding: 50px 0;
+  }
+  #pen-courses .courses-div {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  #pen-courses .courses-div h1 {
+    font-size: 2rem;
+  }
+  #pen-courses .courses-div p {
+    font-size: 1rem;
+  }
+  #pen-courses .pen-courses-image {
+    width: 60%;
+    margin: 0 20%;
+  }
+  #pen-core-values {
+    background: #fff;
+  }
+  #pen-core-values .corevalues-div {
+    height: auto;
+    padding: 25px 0px;
+    background: white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  #pen-core-values .corevalues-div h1 {
+    font-size: 2rem;
+    color: #199ACC;
+  }
+  #pen-core-values .corevalues-div p {
+    font-size: 1rem;
+    color: #199ACC;
+  }
+  #pen-core-values .pen-corevalue-image {
+    width: 60%;
+    margin: 0 20%;
+  }
+  #pen-landing-page {
+    margin-top: 100px;
+  }
+  #pen-landing-page h3 {
+    font-size: 1.5rem;
+  }
+  #pen-landing-page h1 {
+    font-size: 2rem;
+  }
+  #pen-landing-page .landing-page-image {
+    width: 100%;
+  }
+  #penfooter {
+    padding: 15px 0;
+  }
+  #penfooter img {
+    height: 75px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+  #pen-heading-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(#1999ccbe), to(rgba(25, 154, 204, 0)));
+    background: linear-gradient(180deg, #1999ccbe 0%, rgba(25, 154, 204, 0) 100%);
+    min-height: 150px;
+  }
+  #pen-heading-section .pen-logo {
+    height: 80px;
+    margin-top: 25px;
+    position: relative;
+  }
+  #pen-heading-section .pen-top-circle {
+    width: 400px;
+    top: 0;
+    position: absolute;
+    right: 0;
+  }
+  #pen-banner-section p {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  #pen-banner-section .penbanner-image {
+    width: 100%;
+  }
+  #pen-deliverables {
+    background: url("/assets/img/pen/vector.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-size: 60%;
+    padding: 50px 0;
+    margin-top: 30px;
+  }
+  #pen-deliverables .deliverables-content .deliverables-title {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+  #pen-deliverables .deliverables-content .deliverables-desc {
+    font-size: 1.5rem;
+  }
+  #pen-deliverables .deliverables-content span.bar {
+    width: 60%;
+    height: 5px;
+  }
+  #pen-learn-for-free-section {
+    background: #199ACC;
+    padding: 50px 0;
+  }
+  #pen-learn-for-free-section .pen-learn-for-free-section-image {
+    width: 70%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  #pen-learn-for-free-section .pen-learn-content-holder .pen-learn-title {
+    font-size: 2.5rem;
+  }
+  #pen-learn-for-free-section .pen-learn-content-holder .pen-learn-desc {
+    font-size: 1.5rem;
+  }
+  #pen-give-take {
+    padding: 50px 0;
+    margin-top: 50px;
+    background: #199ACC;
+  }
+  #pen-give-take .pen-give-screenshot {
+    width: 25%;
+  }
+  #pen-give-take .circle-bg .give-take-title {
+    background: #199ACC;
+    height: auto;
+    width: auto;
+    font-size: 2.5rem;
+    padding: 15px;
+  }
+  #pen-courses {
+    background: #FFF;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  #pen-courses .courses-div {
+    background: #FFF;
+    padding: 50px 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  #pen-courses .courses-div h1 {
+    font-size: 2.5rem;
+    color: #199ACC;
+  }
+  #pen-courses .courses-div p {
+    font-size: 1.5rem;
+    color: #199ACC;
+  }
+  #pen-courses .pen-courses-image {
+    width: 100%;
+    margin-left: 0%;
+  }
+  #pen-core-values {
+    background: #199ACC;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #pen-core-values .corevalues-div {
+    height: auto;
+    padding: 50px 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  #pen-core-values .corevalues-div h1 {
+    font-size: 2.5rem;
+  }
+  #pen-core-values .corevalues-div p {
+    font-size: 1.5rem;
+  }
+  #pen-core-values .pen-corevalue-image {
+    width: 70%;
+    margin-right: 30%;
+  }
+  #pen-landing-page {
+    background: url("/assets/img/pen/background-landing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  #pen-landing-page h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #199ACC;
+  }
+  #pen-landing-page h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #606470;
+  }
+  #pen-landing-page .landing-page-image {
+    width: 100%;
+  }
+  #penfooter {
+    background: #fff;
+    padding: 25px 0;
+  }
+  #penfooter img {
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=pen_app.css.map */
