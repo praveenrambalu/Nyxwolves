@@ -278,6 +278,24 @@
                         </div>
                     </a> 
 
+                    <a href="/works/bodyapp"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/bodyapp.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/bodyapp">
+                                            <h4 class="m-0 ">Bodyapp</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+
 
                 </div>
 

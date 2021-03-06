@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.custom-container {
+  width: 90%;
+  margin: auto;
+}
+
+#bodyapp_top_banner_section {
+  padding-top: 100px;
+}
+
+#bodyapp_top_banner_section img.top_logo {
+  height: 250px;
+}
+
+#bodyapp_top_banner_section h1.pen_banner_content {
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #393939;
+  width: 50%;
+  margin: auto;
+}
+
+#bodyapp_top_banner_section h1.pen_banner_content span {
+  color: #FF5757;
+}
+
+#bodyapp_top_banner_section .banner_image {
+  width: 80%;
+  margin: auto;
+}
+
+#bodyapp_deliverables {
+  padding: 50px 0;
+}
+
+#bodyapp_deliverables .deliverables_content {
+  width: 80%;
+  margin: auto;
+}
+
+#bodyapp_deliverables .deliverables_content h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #393939;
+}
+
+#bodyapp_deliverables .deliverables_content ul {
+  list-style-type: none;
+}
+
+#bodyapp_deliverables .deliverables_content ul li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #313131;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#bodyapp_deliverables .deliverables_content ul li::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  background: #FF5757;
+}
+
+#bodyapp_deliverables .mindfullness_image {
+  width: 80%;
+  margin-top: -150px;
+}
+
+#bodyapp_app {
+  padding-bottom: 50px;
+}
+
+#bodyapp_app .bodyapp_app_content_holder {
+  position: relative;
+}
+
+#bodyapp_app .bodyapp_app_content_holder span {
+  height: 500px;
+  width: 300px;
+  background: #FFDDDD;
+  display: block;
+}
+
+#bodyapp_app .bodyapp_app_content_holder h1 {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #393939;
+  width: 50%;
+  line-height: 1.5;
+  top: 115px;
+  left: 50px;
+  position: absolute;
+}
+
+#bodyapp_app .screenshots {
+  width: 80%;
+}
+
+#bodyapp_partner {
+  padding: 50px 0;
+}
+
+#bodyapp_partner .partner_black_bg {
+  padding: 75px;
+  background: #2D2D2D;
+}
+
+#bodyapp_partner .partner_black_bg h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  width: 50%;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+#bodyapp_partner .partner-phone {
+  width: 100%;
+  margin-top: -400px;
+}
+
+#bodyapp_landing {
+  padding: 50px 0;
+}
+
+#bodyapp_landing .landing_content h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #20242F;
+  width: 85%;
+  margin: auto;
+}
+
+#bodyapp_landing .landing_content h1 span {
+  color: #FF5757;
+}
+
+#bodyapp_landing .landing_computer_image {
+  width: 100%;
+  margin-top: 100px;
+}
+
+#bodyapp_footer {
+  padding: 50px;
+}
+
+#bodyapp_footer img {
+  height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  #bodyapp_top_banner_section {
+    padding-top: 100px;
+  }
+  #bodyapp_top_banner_section img.top_logo {
+    height: unset;
+    margin: auto;
+    width: 80%;
+  }
+  #bodyapp_top_banner_section h1.pen_banner_content {
+    padding-top: 50px;
+    font-size: 3rem;
+    width: unset;
+  }
+  #bodyapp_top_banner_section .banner_image {
+    width: 100%;
+    margin: auto;
+  }
+  #bodyapp_deliverables {
+    padding: 50px 0;
+  }
+  #bodyapp_deliverables .deliverables_content {
+    width: unset;
+  }
+  #bodyapp_deliverables .deliverables_content h3 {
+    font-size: 2rem;
+  }
+  #bodyapp_deliverables .deliverables_content ul li {
+    font-size: 1rem;
+  }
+  #bodyapp_deliverables .mindfullness_image {
+    width: 100%;
+    margin-top: 0;
+    margin: auto;
+  }
+  #bodyapp_app {
+    padding-bottom: 50px;
+  }
+  #bodyapp_app .bodyapp_app_content_holder {
+    position: relative;
+  }
+  #bodyapp_app .bodyapp_app_content_holder span {
+    height: 300px;
+    width: 300px;
+  }
+  #bodyapp_app .bodyapp_app_content_holder h1 {
+    font-size: 2rem;
+    width: 100%;
+    top: 50px;
+    left: 5px;
+    position: absolute;
+  }
+  #bodyapp_app .screenshots {
+    width: 100%;
+  }
+  #bodyapp_partner {
+    padding: 50px 0;
+  }
+  #bodyapp_partner .partner_black_bg {
+    padding: 25px;
+  }
+  #bodyapp_partner .partner_black_bg h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  #bodyapp_partner .partner-phone {
+    width: 100%;
+    margin-top: 0;
+  }
+  #bodyapp_landing {
+    padding: 25px 0;
+  }
+  #bodyapp_landing .landing_content h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 85%;
+  }
+  #bodyapp_landing .landing_computer_image {
+    width: 100%;
+    margin-top: 0;
+  }
+  #bodyapp_footer {
+    padding: 25px;
+  }
+  #bodyapp_footer img {
+    height: unset;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+  #bodyapp_top_banner_section {
+    padding-top: 100px;
+  }
+  #bodyapp_top_banner_section img.top_logo {
+    height: 200px;
+  }
+  #bodyapp_top_banner_section h1.pen_banner_content {
+    padding-top: 30px;
+    font-size: 3rem;
+    width: 100%;
+    margin: auto;
+  }
+  #bodyapp_top_banner_section .banner_image {
+    width: 100%;
+    margin: auto;
+  }
+  #bodyapp_deliverables {
+    padding: 50px 0;
+  }
+  #bodyapp_deliverables .deliverables_content {
+    width: 80%;
+    margin: auto;
+  }
+  #bodyapp_deliverables .deliverables_content h3 {
+    font-size: 3rem;
+  }
+  #bodyapp_deliverables .deliverables_content ul li {
+    font-size: 1.5rem;
+  }
+  #bodyapp_deliverables .mindfullness_image {
+    width: 80%;
+    margin-top: -80px;
+  }
+  #bodyapp_app {
+    padding-bottom: 50px;
+  }
+  #bodyapp_app .bodyapp_app_content_holder span {
+    height: 300px;
+    width: 300px;
+  }
+  #bodyapp_app .bodyapp_app_content_holder h1 {
+    font-size: 2.5rem;
+    width: 80%;
+    top: 75px;
+    left: 50px;
+  }
+  #bodyapp_app .screenshots {
+    margin-top: 25px;
+    width: 100%;
+  }
+  #bodyapp_partner .partner_black_bg h1 {
+    font-size: 2rem;
+    width: 50%;
+  }
+  #bodyapp_partner .partner-phone {
+    width: 100%;
+    margin-top: -300px;
+  }
+  #bodyapp_landing {
+    padding: 25px 0;
+  }
+  #bodyapp_landing .landing_content h1 {
+    font-size: 2rem;
+    width: 85%;
+    margin: auto;
+  }
+  #bodyapp_landing .landing_computer_image {
+    width: 100%;
+    margin-top: 0px;
+  }
+  #bodyapp_footer {
+    padding: 25px;
+  }
+  #bodyapp_footer img {
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=bodyapp_style.css.map */

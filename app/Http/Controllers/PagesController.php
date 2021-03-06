@@ -156,6 +156,10 @@ class PagesController extends Controller
     {
         return view('pages.works.banglorebasket');
     }
+    public function bodyapp()
+    {
+        return view('pages.works.bodyapp');
+    }
 
 
 

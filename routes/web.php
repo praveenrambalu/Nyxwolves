@@ -49,6 +49,7 @@ Route::get('/works/western-valley', 'PagesController@westernvalley');
 Route::get('/works/bozmie', 'PagesController@bozmie');
 Route::get('/works/tento', 'PagesController@tento');
 Route::get('/works/pen', 'PagesController@pen');
+Route::get('/works/bodyapp', 'PagesController@bodyapp');
 Route::get('/works/banglore-basket', 'PagesController@banglorebasket');
 Route::get('/works/chatur-ideas', 'PagesController@chaturIdeas');
 
