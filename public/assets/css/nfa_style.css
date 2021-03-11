@@ -1,0 +1,654 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.custom-container {
+  width: 90%;
+  margin: auto;
+}
+
+#nfa_banner img {
+  width: 100%;
+}
+
+#nfa_banner .nfa_logo {
+  height: 150px;
+  width: auto;
+}
+
+#nfa_banner p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #5F636D;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#nfa_banner span.bar {
+  background: #6BB242;
+  height: 5px;
+  width: 50%;
+  display: block;
+}
+
+#nfa_below_banner {
+  background-color: #6BB242;
+  background-image: url("/assets/img/nfa/nfa.png");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+#nfa_deliverables .deliverables_title_holder {
+  background: url("/assets/img/nfa/deliverables_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 50px 0;
+}
+
+#nfa_deliverables .deliverables_title_holder h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+
+#nfa_deliverables .deliverables_content {
+  background: url("/assets/img/nfa/deliverables_bggg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0;
+}
+
+#nfa_deliverables .deliverables_content .deliverables_content_title_holder {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+}
+
+#nfa_deliverables .deliverables_content .deliverables_content_title_holder h3.deliverables_content_title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 60px;
+  color: #3F3F40;
+}
+
+#nfa_deliverables .deliverables_content .deliverables_content_title_holder .deliverables_content_bar {
+  width: 100%;
+  height: 10px;
+  border: 3px solid #6BB242;
+  border-left: none;
+  border-right: none;
+  display: block;
+}
+
+#nfa_deliverables .deliverables_content img {
+  width: 100%;
+}
+
+#nfa_deliverables .deliverables_content img.logo {
+  width: auto;
+  height: 150px;
+  margin-top: 150px;
+}
+
+#nfa_services {
+  padding: 100px 0;
+}
+
+#nfa_services .services_title_holder {
+  background: url("/assets/img/nfa/services_title_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+#nfa_services .services_title_holder .services-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+#nfa_services img.service_image {
+  width: 100%;
+}
+
+#nfa_advice {
+  background: url("/assets/img/nfa/advice_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+#nfa_advice .advice_title_holder h1.advice_title {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  /* Border is the new background */
+  background: none;
+  /* Rotate from top left corner (not default) */
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  position: absolute;
+  top: 300px;
+  margin-left: 25px;
+}
+
+#nfa_advice img {
+  width: 100%;
+}
+
+#nfa_advice p {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+#nfa_testimonials .testimonial_title_holder {
+  background: #fff;
+  padding: 50px 0;
+}
+
+#nfa_testimonials .testimonial_title_holder h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #393C3C;
+}
+
+#nfa_testimonials .testimonial_main_holder {
+  background: #F5F4F0;
+}
+
+#nfa_testimonials .testimonial_main_holder img {
+  width: 100%;
+}
+
+#nfa_commercials .title_holder {
+  padding: 50px 0;
+  padding-bottom: 200px;
+  background: url("/assets/img/nfa/commercials_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#nfa_commercials .title_holder h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+#nfa_commercials p {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #3F3F40;
+}
+
+#nfa_commercials img {
+  width: 100%;
+  margin-top: -200px;
+  margin-left: 9%;
+}
+
+#nfa_footer {
+  padding-top: 100px;
+  background: #fff;
+}
+
+#nfa_footer img {
+  height: 200px;
+}
+
+#nfa_footer .graybar {
+  height: 60px;
+  background: #3F3F40;
+  margin: 50px 0;
+}
+
+#nfa_footer .greenbar {
+  height: 60px;
+  background: #6BB242;
+}
+
+@media only screen and (max-width: 600px) {
+  #nfa_banner img {
+    width: 100%;
+  }
+  #nfa_banner .nfa_logo {
+    height: auto;
+    width: 80%;
+    margin-top: 100px;
+  }
+  #nfa_banner p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #5F636D;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #nfa_banner span.bar {
+    background: #6BB242;
+    height: 5px;
+    width: 100%;
+    display: block;
+  }
+  #nfa_below_banner {
+    background-color: #6BB242;
+    background-image: url("/assets/img/nfa/nfa.png");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  #nfa_deliverables .deliverables_title_holder {
+    background: url("/assets/img/nfa/deliverables_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 30px 0;
+  }
+  #nfa_deliverables .deliverables_title_holder h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+  }
+  #nfa_deliverables .deliverables_content {
+    background: url("/assets/img/nfa/deliverables_bggg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;
+  }
+  #nfa_deliverables .deliverables_content .deliverables_content_title_holder {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: auto;
+  }
+  #nfa_deliverables .deliverables_content .deliverables_content_title_holder h3.deliverables_content_title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 60px;
+    color: #3F3F40;
+  }
+  #nfa_deliverables .deliverables_content .deliverables_content_title_holder .deliverables_content_bar {
+    width: 100%;
+    height: 10px;
+    border: 3px solid #6BB242;
+    border-left: none;
+    border-right: none;
+    display: block;
+  }
+  #nfa_deliverables .deliverables_content img {
+    width: 100%;
+  }
+  #nfa_deliverables .deliverables_content img.logo {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #nfa_services {
+    padding: 50px 0;
+  }
+  #nfa_services .services_title_holder {
+    background: url("/assets/img/nfa/services_title_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+  #nfa_services .services_title_holder .services-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #000;
+  }
+  #nfa_services img.service_image {
+    width: 100%;
+  }
+  #nfa_advice {
+    background: url("/assets/img/nfa/advice_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+  }
+  #nfa_advice .advice_title_holder h1.advice_title {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    /* Border is the new background */
+    background: none;
+    /* Rotate from top left corner (not default) */
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+    position: absolute;
+    top: 200px;
+    margin-left: 25px;
+  }
+  #nfa_advice img {
+    width: 100%;
+  }
+  #nfa_advice p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    width: 60%;
+    margin-left: 40%;
+  }
+  #nfa_testimonials .testimonial_title_holder {
+    background: #fff;
+    padding: 25px 0;
+  }
+  #nfa_testimonials .testimonial_title_holder h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #393C3C;
+  }
+  #nfa_testimonials .testimonial_main_holder {
+    background: #F5F4F0;
+  }
+  #nfa_testimonials .testimonial_main_holder img {
+    width: 100%;
+  }
+  #nfa_commercials .title_holder {
+    padding: 50px 0;
+    padding-bottom: 100px;
+    background: url("/assets/img/nfa/commercials_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  #nfa_commercials .title_holder h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #fff;
+  }
+  #nfa_commercials p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #3F3F40;
+  }
+  #nfa_commercials img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #nfa_footer {
+    padding-top: 100px;
+    background: #fff;
+  }
+  #nfa_footer img {
+    height: auto;
+    width: 80%;
+    margin: auto;
+  }
+  #nfa_footer .graybar {
+    height: 60px;
+    background: #3F3F40;
+    margin: 50px 0;
+  }
+  #nfa_footer .greenbar {
+    height: 60px;
+    background: #6BB242;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+  #nfa_banner {
+    margin-top: 50px;
+  }
+  #nfa_banner img {
+    width: 100%;
+  }
+  #nfa_banner .nfa_logo {
+    height: 150px;
+    width: auto;
+  }
+  #nfa_banner p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #5F636D;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #nfa_banner span.bar {
+    background: #6BB242;
+    height: 5px;
+    width: 50%;
+    display: block;
+  }
+  #nfa_below_banner {
+    background-color: #6BB242;
+    background-image: url("/assets/img/nfa/nfa.png");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  #nfa_deliverables .deliverables_title_holder {
+    background: url("/assets/img/nfa/deliverables_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0;
+  }
+  #nfa_deliverables .deliverables_title_holder h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+  }
+  #nfa_deliverables .deliverables_content {
+    background: url("/assets/img/nfa/deliverables_bggg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+  }
+  #nfa_deliverables .deliverables_content .deliverables_content_title_holder {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: auto;
+  }
+  #nfa_deliverables .deliverables_content .deliverables_content_title_holder h3.deliverables_content_title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 60px;
+    color: #3F3F40;
+  }
+  #nfa_deliverables .deliverables_content .deliverables_content_title_holder .deliverables_content_bar {
+    width: 100%;
+    height: 10px;
+    border: 3px solid #6BB242;
+    border-left: none;
+    border-right: none;
+    display: block;
+  }
+  #nfa_deliverables .deliverables_content img {
+    width: 100%;
+  }
+  #nfa_deliverables .deliverables_content img.logo {
+    width: auto;
+    height: 100px;
+    margin-top: 50px;
+  }
+  #nfa_services {
+    padding: 100px 0;
+  }
+  #nfa_services .services_title_holder {
+    background: url("/assets/img/nfa/services_title_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+  #nfa_services .services_title_holder .services-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #000;
+  }
+  #nfa_services img.service_image {
+    width: 100%;
+  }
+  #nfa_advice {
+    background: url("/assets/img/nfa/advice_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+  }
+  #nfa_advice .advice_title_holder h1.advice_title {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    /* Border is the new background */
+    background: none;
+    /* Rotate from top left corner (not default) */
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+    position: absolute;
+    top: 165px;
+    margin-left: 0;
+  }
+  #nfa_advice img {
+    width: 100%;
+  }
+  #nfa_advice p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+  }
+  #nfa_testimonials .testimonial_title_holder {
+    background: #fff;
+    padding: 25px 0;
+  }
+  #nfa_testimonials .testimonial_title_holder h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #393C3C;
+  }
+  #nfa_testimonials .testimonial_main_holder {
+    background: #F5F4F0;
+  }
+  #nfa_testimonials .testimonial_main_holder img {
+    width: 100%;
+  }
+  #nfa_commercials .title_holder {
+    padding: 25px 0;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+    background: url("/assets/img/nfa/commercials_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  #nfa_commercials .title_holder h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #fff;
+  }
+  #nfa_commercials p {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #3F3F40;
+  }
+  #nfa_commercials img {
+    width: 100%;
+    margin-top: -100px;
+    margin-left: 0;
+  }
+  #nfa_footer {
+    padding-top: 50px;
+    background: #fff;
+  }
+  #nfa_footer img {
+    height: 100px;
+  }
+  #nfa_footer .graybar {
+    height: 60px;
+    background: #3F3F40;
+    margin: 50px 0;
+  }
+  #nfa_footer .greenbar {
+    height: 60px;
+    background: #6BB242;
+  }
+}
+/*# sourceMappingURL=nfa_style.css.map */

@@ -176,6 +176,10 @@ class PagesController extends Controller
     {
         return view('pages.works.wondryears');
     }
+    public function nfa()
+    {
+        return view('pages.works.nfa');
+    }
 
 
 
