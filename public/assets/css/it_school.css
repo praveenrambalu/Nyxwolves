@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.custom-container {
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(45.33%, rgba(0, 0, 0, 0.502689)), color-stop(63.24%, rgba(0, 0, 0, 0.318694)), color-stop(82.21%, rgba(0, 0, 0, 0.12795)), to(black));
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.502689) 45.33%, rgba(0, 0, 0, 0.318694) 63.24%, rgba(0, 0, 0, 0.12795) 82.21%, black 100%);
+}
+
+#it_school_banner {
+  padding: 100px 0;
+}
+
+#it_school_banner .it_school_logo {
+  height: 250px;
+  margin-top: 50px;
+}
+
+#it_school_banner .banner_image {
+  width: 100%;
+  margin-top: -150px;
+}
+
+#it_school_banner .banner-bar {
+  height: 30px;
+  display: block;
+}
+
+#it_school_banner .banner-bar.gray {
+  width: 60%;
+  background: #2C2c2c;
+}
+
+#it_school_banner .banner-bar.red {
+  width: 100%;
+  background: #E7242E;
+}
+
+#it_school_banner .banner_text {
+  margin-top: 50px;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  width: 80%;
+}
+
+#it_school_banner .banner_text span {
+  color: #E7242E;
+  width: 80%;
+  display: block;
+}
+
+#it_school_deliverables {
+  padding: 100px 0;
+}
+
+#it_school_deliverables .deliverables-title {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#it_school_deliverables .deliverables-title h1 {
+  font-size: 4rem;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+#it_school_deliverables .deliverables-title span {
+  width: 100%;
+  margin: auto;
+  height: 6px;
+  background: #E7242E;
+  display: block;
+}
+
+#it_school_deliverables .deliverables-content h3 {
+  font-size: 3rem;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#it_school_deliverables .deliverables-content img {
+  width: 50%;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.divider_section {
+  padding: 50px 0;
+  background: #E7242E;
+}
+
+.divider_section.full {
+  width: 100%;
+}
+
+.divider_section h1 {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.courses_activities p {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.courses_activities img {
+  width: 100%;
+  margin-top: -100px;
+}
+
+.internships p {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+.internships img {
+  width: 100%;
+  margin-top: -150px;
+}
+
+.forums h3 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.forums p {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.forums .forum-image-holder img {
+  width: 100%;
+  margin-left: 11%;
+}
+
+.clean-title {
+  padding: 100px 0;
+}
+
+.clean-title h2 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.clean-title h1 {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #E7242E;
+  font-weight: bold;
+}
+
+.clean_phone {
+  margin-top: 100px;
+  padding: 20px 0;
+  background: #E7242E;
+  text-align: center;
+}
+
+.clean_phone img {
+  width: 80%;
+  margin-top: -150px;
+}
+
+.it_school_footer {
+  padding: 100px 0;
+  background: #000;
+}
+
+.it_school_footer img {
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  #it_school_banner {
+    padding: 50px 0;
+  }
+  #it_school_banner .it_school_logo {
+    height: 100px;
+    margin-top: 25px;
+  }
+  #it_school_banner .banner_image {
+    width: 100%;
+    margin-top: 0;
+  }
+  #it_school_banner .banner-bar {
+    height: 20px;
+    display: block;
+  }
+  #it_school_banner .banner-bar.gray {
+    width: 60%;
+  }
+  #it_school_banner .banner-bar.red {
+    width: 100%;
+  }
+  #it_school_banner .banner_text {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  #it_school_banner .banner_text span {
+    width: 100%;
+  }
+  #it_school_deliverables {
+    padding: 25px 0;
+  }
+  #it_school_deliverables .deliverables-title h1 {
+    font-size: 2.5rem;
+  }
+  #it_school_deliverables .deliverables-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  #it_school_deliverables .deliverables-content img {
+    width: 70%;
+    margin-top: 15px;
+  }
+  .divider_section {
+    padding: 25px 0;
+    margin: 25px 0;
+  }
+  .divider_section h1 {
+    font-size: 2.5rem;
+  }
+  .courses_activities p {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .courses_activities img {
+    width: 100%;
+    margin-top: 0;
+  }
+  .internships p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .internships img {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .forums h3 {
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .forums p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .forums .forum-image-holder img {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .clean-title {
+    padding: 50px 0;
+  }
+  .clean-title h2 {
+    font-size: 2rem;
+  }
+  .clean-title h1 {
+    font-size: 2.5rem;
+  }
+  .clean_phone {
+    margin-top: 25px;
+  }
+  .clean_phone img {
+    width: 100%;
+    margin-top: -50px;
+  }
+  .it_school_footer {
+    padding: 25px 0;
+    background: #000;
+  }
+  .it_school_footer img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+  #it_school_banner {
+    padding: 50px 0;
+  }
+  #it_school_banner .it_school_logo {
+    height: 150px;
+    margin-top: 50px;
+  }
+  #it_school_banner .banner_image {
+    width: 100%;
+    margin-top: 0;
+  }
+  #it_school_banner .banner-bar {
+    height: 20px;
+    display: block;
+  }
+  #it_school_banner .banner-bar.gray {
+    width: 60%;
+    background: #2C2c2c;
+  }
+  #it_school_banner .banner-bar.red {
+    width: 100%;
+    background: #E7242E;
+  }
+  #it_school_banner .banner_text {
+    margin-top: 25px;
+    font-size: 3rem;
+    width: 100%;
+  }
+  #it_school_banner .banner_text span {
+    width: 100%;
+  }
+  #it_school_deliverables {
+    padding: 25px 0;
+  }
+  #it_school_deliverables .deliverables-title h1 {
+    font-size: 3rem;
+  }
+  #it_school_deliverables .deliverables-content h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  #it_school_deliverables .deliverables-content img {
+    width: 80%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+  .divider_section {
+    padding: 30px 0;
+    margin-bottom: 25px;
+  }
+  .divider_section h1 {
+    font-size: 3rem;
+  }
+  .courses_activities p {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .courses_activities img {
+    width: 100%;
+    margin-top: 0;
+  }
+  .internships {
+    margin-bottom: 30px;
+  }
+  .internships p {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .internships img {
+    width: 100%;
+    margin-top: 0;
+  }
+  .forums {
+    margin: 50px 0;
+  }
+  .forums h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .forums p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .forums .forum-image-holder img {
+    width: 100%;
+    margin-left: 11%;
+  }
+  .clean-title {
+    padding: 50px 0;
+  }
+  .clean_phone {
+    margin-top: 75px;
+    padding: 50px 0;
+  }
+  .clean_phone img {
+    width: 100%;
+    margin-top: -150px;
+  }
+  .it_school_footer {
+    padding: 100px 0;
+    background: #000;
+  }
+  .it_school_footer img {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=it_school.css.map */

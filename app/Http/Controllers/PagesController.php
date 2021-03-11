@@ -164,6 +164,18 @@ class PagesController extends Controller
     {
         return view('pages.works.kavya');
     }
+    public function tie_chennai()
+    {
+        return view('pages.works.tie_chennai');
+    }
+    public function it_school()
+    {
+        return view('pages.works.it_school');
+    }
+    public function wondryears()
+    {
+        return view('pages.works.wondryears');
+    }
 
 
 

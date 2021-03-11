@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.custom-container {
+  width: 90%;
+  margin: auto;
+}
+
+#tie_top_holder .tie_logo {
+  margin-top: 200px;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+#tie_top_holder .banner_image {
+  width: 70%;
+  margin-left: 30%;
+}
+
+#tie_top_holder .tie_banner_content h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+#tie_top_holder .tie_banner_content h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.2;
+  width: 65%;
+}
+
+#tie_top_holder .tie_banner_content h1 span {
+  color: #D8182A;
+  font-weight: 600;
+}
+
+#tie_pillers {
+  background: #CF1928;
+  background-image: url("/assets/img/tie/pillers_bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  background-size: 80%;
+  padding: 100px 0;
+  padding-bottom: 250px;
+}
+
+#tie_pillers h3.title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+#tie_pillers ul.pillars-list {
+  color: #fff;
+  list-style: none;
+}
+
+#tie_pillers ul.pillars-list li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+#tie_pillers ul.pillars-list li span img.pillers_icon {
+  width: 70px;
+  margin-right: 25px;
+}
+
+#tie_pillers .pillers_image_holder {
+  position: relative;
+}
+
+#tie_pillers .pillers_image_holder img.pillers_image {
+  width: 100%;
+  position: absolute;
+  margin-top: 250px;
+}
+
+#tie_events {
+  padding: 100px 0;
+  margin-top: 150px;
+}
+
+#tie_events h3.tie_event_title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #1A1B1B;
+  margin-left: 15%;
+}
+
+#tie_events .tie_event_bar {
+  height: 5px;
+  background: #D8182A;
+  display: block;
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+#tie_events .tie_event_image {
+  width: 100%;
+  margin-left: 8%;
+}
+
+#tie_events .tie_event_container {
+  background: #1A1B1B;
+  padding: 50px 75px;
+}
+
+#tie_events .tie_event_container ul.tie_event_list {
+  list-style: none;
+}
+
+#tie_events .tie_event_container ul.tie_event_list li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 91px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+#tie_responsive_website {
+  padding: 100px 0;
+  padding-bottom: 25px;
+  background: #D8182A;
+}
+
+#tie_responsive_website h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  width: 60%;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+#tie_responsive_website .responsive_website_image_holder .responsive_website_image {
+  width: 100%;
+  margin-top: -250px;
+}
+
+#tie_responsive_website_two {
+  background: #2D2D2D;
+  background-image: url("/assets/img/tie/responsive_page_website.png");
+  padding: 50px 0;
+  padding-bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#tie_responsive_website_two .responsive_website_image2_holder img {
+  width: 100%;
+  margin-top: 350px;
+}
+
+#tie_responsive_website_two .responsive_website_content {
+  margin-top: 600px;
+}
+
+#tie_responsive_website_two .responsive_website_content h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #FFFFFF;
+}
+
+#tie_responsive_website_two .responsive_website_content p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  width: 80%;
+  margin-top: 25px;
+}
+
+#tie_landing {
+  padding: 100px 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-10.36%, rgba(196, 196, 196, 0)), color-stop(-1.75%, #CECED0), color-stop(4.45%, #CDCDCF), color-stop(15.96%, #D4D4D6), color-stop(28.22%, #DEDEDE), color-stop(35.79%, #E2E2E3), color-stop(43.74%, #E2E2E4), color-stop(50.26%, #E7E7E9), color-stop(60.93%, #EBEBED), color-stop(71.52%, #EDEDEF), color-stop(81.94%, #EEEEF0), color-stop(91.99%, #EEEEF0), color-stop(97.52%, #ECECEE), color-stop(117.76%, #E0E1E1));
+  background: linear-gradient(90deg, rgba(196, 196, 196, 0) -10.36%, #CECED0 -1.75%, #CDCDCF 4.45%, #D4D4D6 15.96%, #DEDEDE 28.22%, #E2E2E3 35.79%, #E2E2E4 43.74%, #E7E7E9 50.26%, #EBEBED 60.93%, #EDEDEF 71.52%, #EEEEF0 81.94%, #EEEEF0 91.99%, #ECECEE 97.52%, #E0E1E1 117.76%);
+  background-image: url("/assets/img/tie/landing.png");
+  height: 1440px;
+}
+
+#tie_landing h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #393939;
+}
+
+#tie_landing h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #CF1728;
+}
+
+#tie_footer {
+  padding: 50px 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-10.36%, rgba(196, 196, 196, 0)), color-stop(-1.75%, #CECED0), color-stop(4.45%, #CDCDCF), color-stop(15.96%, #D4D4D6), color-stop(28.22%, #DEDEDE), color-stop(35.79%, #E2E2E3), color-stop(43.74%, #E2E2E4), color-stop(50.26%, #E7E7E9), color-stop(60.93%, #EBEBED), color-stop(71.52%, #EDEDEF), color-stop(81.94%, #EEEEF0), color-stop(91.99%, #EEEEF0), color-stop(97.52%, #ECECEE), color-stop(117.76%, #E0E1E1));
+  background: linear-gradient(90deg, rgba(196, 196, 196, 0) -10.36%, #CECED0 -1.75%, #CDCDCF 4.45%, #D4D4D6 15.96%, #DEDEDE 28.22%, #E2E2E3 35.79%, #E2E2E4 43.74%, #E7E7E9 50.26%, #EBEBED 60.93%, #EDEDEF 71.52%, #EEEEF0 81.94%, #EEEEF0 91.99%, #ECECEE 97.52%, #E0E1E1 117.76%);
+}
+
+#tie_footer img {
+  height: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  #tie_top_holder .tie_logo {
+    margin-top: 70px;
+    height: 75px;
+    margin-bottom: 50px;
+  }
+  #tie_top_holder .banner_image {
+    width: 70%;
+    margin-left: unset;
+    margin: auto;
+  }
+  #tie_top_holder .tie_banner_content h3 {
+    font-size: 1rem;
+  }
+  #tie_top_holder .tie_banner_content h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  #tie_pillers {
+    background-size: 100%;
+    padding: 25px 0;
+    padding-bottom: 25px;
+  }
+  #tie_pillers h3.title {
+    font-size: 2rem;
+  }
+  #tie_pillers ul.pillars-list li {
+    font-size: 1rem;
+    margin-top: 12px;
+  }
+  #tie_pillers ul.pillars-list li span img.pillers_icon {
+    width: 50px;
+    margin-right: 15px;
+  }
+  #tie_pillers .pillers_image_holder {
+    position: relative;
+  }
+  #tie_pillers .pillers_image_holder img.pillers_image {
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+  }
+  #tie_events {
+    padding: 25px 0;
+    margin-top: 50px;
+  }
+  #tie_events h3.tie_event_title {
+    font-size: 2rem;
+    margin-left: 15%;
+  }
+  #tie_events .tie_event_bar {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+  #tie_events .tie_event_image {
+    width: 100%;
+    margin-left: 0;
+  }
+  #tie_events .tie_event_container {
+    padding: 25px 25px;
+  }
+  #tie_events .tie_event_container ul.tie_event_list li {
+    font-size: 1.5rem;
+    line-height: 75px;
+    color: #FFFFFF;
+  }
+  #tie_responsive_website {
+    padding: 25px 0;
+    padding-bottom: 25px;
+  }
+  #tie_responsive_website h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  #tie_responsive_website .responsive_website_image_holder .responsive_website_image {
+    width: 100%;
+    margin-top: 0;
+  }
+  #tie_responsive_website_two {
+    background: #1a1b1b;
+    padding: 25px 0;
+    padding-bottom: 50px;
+    background-size: contain;
+  }
+  #tie_responsive_website_two .responsive_website_image2_holder img {
+    width: 100%;
+    margin-top: 25px;
+  }
+  #tie_responsive_website_two .responsive_website_content {
+    margin-top: 0;
+  }
+  #tie_responsive_website_two .responsive_website_content h1 {
+    font-size: 2rem;
+  }
+  #tie_responsive_website_two .responsive_website_content p {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 25px;
+  }
+  #tie_landing {
+    padding: 25px 0;
+    padding-bottom: 100px;
+    height: auto;
+    background-image: url("/assets/img/tie/landing.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #tie_landing h3 {
+    font-size: 1rem;
+  }
+  #tie_landing h1 {
+    font-size: 2rem;
+    margin-bottom: 340px;
+  }
+  #tie_footer {
+    padding: 50px 0;
+  }
+  #tie_footer img {
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+  #tie_top_holder .tie_logo {
+    margin-top: 50px;
+    height: 80px;
+    margin-bottom: 50px;
+  }
+  #tie_top_holder .banner_image {
+    width: 90%;
+    margin-left: 10%;
+  }
+  #tie_top_holder .tie_banner_content h3 {
+    font-size: 1.5rem;
+  }
+  #tie_top_holder .tie_banner_content h1 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  #tie_pillers {
+    background: #CF1928;
+    background-image: url("/assets/img/tie/pillers_bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-size: 100%;
+    padding: 50px 0;
+    padding-bottom: 50px;
+  }
+  #tie_pillers h3.title {
+    font-size: 2.5rem;
+  }
+  #tie_pillers ul.pillars-list li {
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+  #tie_pillers ul.pillars-list li span img.pillers_icon {
+    width: 50px;
+    margin-right: 15px;
+  }
+  #tie_pillers .pillers_image_holder img.pillers_image {
+    margin-top: 350px;
+  }
+  #tie_events {
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+  #tie_events h3.tie_event_title {
+    font-size: 3rem;
+    margin-left: 0%;
+  }
+  #tie_events .tie_event_bar {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  #tie_events .tie_event_image {
+    width: 100%;
+    margin-left: 0%;
+  }
+  #tie_events .tie_event_container {
+    padding: 25px;
+    margin-top: 80px;
+  }
+  #tie_events .tie_event_container ul.tie_event_list li {
+    font-size: 1.5rem;
+    line-height: unset;
+  }
+  #tie_responsive_website {
+    padding: 50px 0;
+    padding-bottom: 25px;
+  }
+  #tie_responsive_website h1 {
+    font-size: 2rem;
+    width: 60%;
+  }
+  #tie_responsive_website .responsive_website_image_holder .responsive_website_image {
+    width: 80%;
+    margin-top: 0;
+  }
+  #tie_responsive_website_two {
+    padding: 50px 0;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #tie_responsive_website_two .responsive_website_image2_holder img {
+    width: 100%;
+    margin-top: 75px;
+  }
+  #tie_responsive_website_two .responsive_website_content {
+    margin-top: 200px;
+  }
+  #tie_responsive_website_two .responsive_website_content h1 {
+    font-size: 2rem;
+  }
+  #tie_responsive_website_two .responsive_website_content p {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 25px;
+  }
+  #tie_landing {
+    padding: 50px 0;
+    height: 760px;
+    background-position: center;
+    background-size: cover;
+  }
+  #tie_landing h3 {
+    font-size: 1rem;
+    color: #393939;
+  }
+  #tie_landing h1 {
+    font-size: 2rem;
+  }
+  #tie_footer {
+    padding: 50px 0;
+  }
+  #tie_footer img {
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=tie_style.css.map */

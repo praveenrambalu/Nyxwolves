@@ -53,6 +53,9 @@ Route::get('/works/bodyapp', 'PagesController@bodyapp');
 Route::get('/works/kaviya-artistry', 'PagesController@kaviya-artistry');
 Route::get('/works/banglore-basket', 'PagesController@banglorebasket');
 Route::get('/works/chatur-ideas', 'PagesController@chaturIdeas');
+Route::get('/works/tie-chennai', 'PagesController@tie_chennai');
+Route::get('/works/it_school', 'PagesController@it_school');
+Route::get('/works/wondryears', 'PagesController@wondryears');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
