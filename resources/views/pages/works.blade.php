@@ -315,6 +315,60 @@
                         </div>
                     </a> 
 
+                    <a href="/works/tie-chennai"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/tie_chennai.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/tie-chennai">
+                                            <h4 class="m-0 ">TiE Chennai</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+
+                    <a href="/works/it_school"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/it_school.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/it_school">
+                                            <h4 class="m-0 ">IT School</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+
+                    <a href="/works/wondryears"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/wondryears.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/wondryears">
+                                            <h4 class="m-0 ">Wondryears</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+
 
                 </div>
 
