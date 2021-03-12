@@ -180,6 +180,10 @@ class PagesController extends Controller
     {
         return view('pages.works.nfa');
     }
+    public function tbg()
+    {
+        return view('pages.works.tbg');
+    }
 
 
 
