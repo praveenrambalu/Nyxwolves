@@ -184,6 +184,10 @@ class PagesController extends Controller
     {
         return view('pages.works.tbg');
     }
+    public function bcc()
+    {
+        return view('pages.works.bcc');
+    }
 
 
 
