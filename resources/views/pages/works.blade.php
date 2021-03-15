@@ -226,7 +226,7 @@
                         </div>
                     </a> 
 
-                    <a href="/works/tento"> 
+                    {{-- <a href="/works/tento"> 
                         <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                             <div class="row card p-0 text-center">
                                 <div class="image-over">
@@ -242,7 +242,7 @@
                                 </div>
                             </div> 
                         </div>
-                    </a> 
+                    </a>  --}}
                     <a href="/works/pen"> 
                         <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                             <div class="row card p-0 text-center">
