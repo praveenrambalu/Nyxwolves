@@ -419,6 +419,23 @@
                             </div> 
                         </div>
                     </a> 
+                    <a href="/works/ananta"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/ananta.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/ananta">
+                                            <h4 class="m-0 ">Ananta Spa Group</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
 
 
                 </div>

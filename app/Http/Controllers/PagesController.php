@@ -188,6 +188,10 @@ class PagesController extends Controller
     {
         return view('pages.works.bcc');
     }
+    public function ananta()
+    {
+        return view('pages.works.ananta');
+    }
 
 
 

@@ -59,6 +59,7 @@ Route::get('/works/wondryears', 'PagesController@wondryears');
 Route::get('/works/nfa', 'PagesController@nfa');
 Route::get('/works/tbg', 'PagesController@tbg');
 Route::get('/works/bcc', 'PagesController@bcc');
+Route::get('/works/ananta', 'PagesController@ananta');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
