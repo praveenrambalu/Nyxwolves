@@ -196,6 +196,10 @@ class PagesController extends Controller
     {
         return view('pages.works.andyzfc');
     }
+    public function paperdate()
+    {
+        return view('pages.works.paperdate');
+    }
 
 
 

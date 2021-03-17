@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+.custom-container {
+  width: 90%;
+  margin: auto;
+}
+
+#paper_date_banner {
+  background: url("/assets/img/paperdate/banner_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+#paper_date_banner img {
+  width: 300px;
+  margin-top: 300px;
+}
+
+#paper_date_banner h1 {
+  font-family: "Qwigley", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9rem;
+  color: #3E4C59;
+}
+
+#paper_date_banner h3 {
+  font-family: "Rancho", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7rem;
+  line-height: 101px;
+  /* identical to box height, or 56% */
+  color: #F4C245;
+}
+
+#postcard {
+  background: #F4D979;
+}
+
+#postcard img {
+  width: 100%;
+}
+
+#deliverables {
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, color-stop(60%, white), color-stop(60%, #F9E1DE));
+  background: linear-gradient(90deg, white 60%, #F9E1DE 60%);
+}
+
+#deliverables img {
+  width: 100%;
+}
+
+#paperdate_projects {
+  background: white;
+}
+
+#paperdate_projects img {
+  width: 100%;
+}
+
+#clean_elegent {
+  background: white;
+}
+
+#clean_elegent img {
+  width: 100%;
+}
+
+#paperdate_footer .paperdate_footer_blank {
+  height: 500px;
+  background: #fff;
+}
+
+#paperdate_footer .paperdate_footer_logo_container {
+  background: #F9E1DE;
+  padding-bottom: 50px;
+}
+
+#paperdate_footer .paperdate_footer_logo_container img {
+  width: 250px;
+  margin-top: -100px;
+}
+
+@media only screen and (max-width: 600px) {
+  #paper_date_banner {
+    background: url("/assets/img/paperdate/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    margin-bottom: 50px;
+  }
+  #paper_date_banner img {
+    width: 100px;
+    margin-top: 100px;
+  }
+  #paper_date_banner h1 {
+    font-family: "Qwigley", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: unset;
+    color: #3E4C59;
+    margin-bottom: -25px;
+  }
+  #paper_date_banner h3 {
+    font-family: "Rancho", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: unset;
+    color: #F4C245;
+  }
+  #paperdate_footer .paperdate_footer_blank {
+    height: 200px;
+    background: #fff;
+  }
+  #paperdate_footer .paperdate_footer_logo_container {
+    background: #F9E1DE;
+    padding-bottom: 50px;
+  }
+  #paperdate_footer .paperdate_footer_logo_container img {
+    width: 150px;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+  #paper_date_banner {
+    background: url("/assets/img/paperdate/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 50px;
+  }
+  #paper_date_banner img {
+    width: 200px;
+    margin-top: 200px;
+  }
+  #paper_date_banner h1 {
+    font-family: "Qwigley", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    color: #3E4C59;
+    margin-bottom: -25px;
+  }
+  #paper_date_banner h3 {
+    font-family: "Rancho", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    /* identical to box height, or 56% */
+    color: #F4C245;
+  }
+  #paperdate_footer .paperdate_footer_blank {
+    height: 200px;
+    background: #fff;
+  }
+  #paperdate_footer .paperdate_footer_logo_container {
+    background: #F9E1DE;
+    padding-bottom: 50px;
+  }
+  #paperdate_footer .paperdate_footer_logo_container img {
+    width: 150px;
+    margin-top: -100px;
+  }
+}
+/*# sourceMappingURL=paperdate_style.css.map */
