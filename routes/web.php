@@ -60,6 +60,7 @@ Route::get('/works/nfa', 'PagesController@nfa');
 Route::get('/works/tbg', 'PagesController@tbg');
 Route::get('/works/bcc', 'PagesController@bcc');
 Route::get('/works/ananta', 'PagesController@ananta');
+Route::get('/works/andyzfc', 'PagesController@andyzfc');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {

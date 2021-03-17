@@ -192,6 +192,10 @@ class PagesController extends Controller
     {
         return view('pages.works.ananta');
     }
+    public function andyzfc()
+    {
+        return view('pages.works.andyzfc');
+    }
 
 
 
