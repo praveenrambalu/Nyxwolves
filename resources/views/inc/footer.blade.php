@@ -45,6 +45,9 @@
                             <a href="/works" class="nav-link">Works</a>
                         </li>
                         <li class="nav-item">
+                            <a href="/clients" class="nav-link">Clients</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/careers" class="nav-link">Careers</a>
                         </li>
                         <li class="nav-item">

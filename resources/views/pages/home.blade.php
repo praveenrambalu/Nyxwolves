@@ -547,12 +547,15 @@
             <div class="container">
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">Our Work</h2>
+                        <h2 class="featured">Our Works</h2>
                         <p> Our excellent digital platform solutions and persistent efforts have enabled our clients to
                             achieve a great feat in their domain. They have embraced us and we are proud to be a part of
                             their success. </p>
                     </div>
+                   
                     <div class="col-12 col-md-3 align-self-end">
+                        <a href="/works" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
+                                class="icon-grid"></i>VIEW ALL</i></a>
                     </div>
                 </div>
                 <div class="row items">
@@ -845,6 +848,20 @@
     <section id="partner" class="logos">
         <div class="container">
             
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 class="featured">Our Clients</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem autem illum impedit aspernatur reprehenderit dolores obcaecati sunt explicabo? Accusamus dignissimos incidunt deserunt praesentium quia tempore voluptatem corrupti velit laudantium!</p>
+                </div>
+               
+                <div class="col-12 col-md-3 align-self-end">
+                    <a href="/clients" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i
+                            class="icon-grid"></i>VIEW ALL</i></a>
+                </div>
+            </div>
+            <br>
+            <br>
+
             <div class="swiper-container slider-min">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-center item">
@@ -886,13 +903,6 @@
                     <div class="swiper-slide slide-center item">
                         <img src="/assets/images/clients/14.png" class="image-fit w-85">
                     </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class=" col-12 col-md-12 align-self-center text-center  mt-5">
-                    <a href="/clients" class="btn text-center  primary-button" style="display: block; margin:auto"><i
-                        class="icon-grid" ></i>VIEW ALL</i></a>
                 </div>
             </div>
         </div>
