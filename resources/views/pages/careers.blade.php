@@ -156,7 +156,7 @@ input[type="checkbox"] + label::before {
                     </div>
                     <div class="career-nature-holder col-12 col-md-5">
                         <p class="career-nature">Nature :Full time</p>
-                        <p class="career-nature">Location: Chennai, Tamil Nadu</p>
+                        <p class="career-nature">Location: Bangalore, India</p>
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
@@ -171,7 +171,7 @@ input[type="checkbox"] + label::before {
                     </div>
                     <div class="career-nature-holder col-12 col-md-5">
                         <p class="career-nature">Nature :Full time</p>
-                        <p class="career-nature">Location: Chennai, Tamil Nadu</p>
+                        <p class="career-nature">Location: Bangalore, India</p>
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
@@ -180,7 +180,7 @@ input[type="checkbox"] + label::before {
                 </div>
                 <div class="row career-card mt-2 mb-2">
                     <div class="career-title col-12 col-md-5">
-                       <h3 class="career-heading">PHP & Wordpress Developer</h3>
+                       <h3 class="career-heading">Digital Marketing Strategist</h3>
                        <p class="career-experience">Experience : 0-1 Years  <br><small class="career-experience"> Freshers Welcome</small></p>
                        {{-- <small class="career-experience"> Freshers Welcome</small> --}}
                     </div>
@@ -190,13 +190,13 @@ input[type="checkbox"] + label::before {
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
-                        <a href="mailto:admin@nyxwolves.com?subject=PHP & Wordpress Developer" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
+                        <a href="mailto:admin@nyxwolves.com?subject=Digital Marketing Strategist" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
                     </div>
                 </div>
 
                 <div class="row career-card mt-2 mb-2">
                     <div class="career-title col-12 col-md-5">
-                       <h3 class="career-heading">Web & App Development Architect </h3>
+                       <h3 class="career-heading">Business Development Executive </h3>
                        <p class="career-experience">Experience : 1+ Years  </p>
                        {{-- <small class="career-experience"> Freshers Welcome</small> --}}
                     </div>
@@ -206,7 +206,7 @@ input[type="checkbox"] + label::before {
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
-                        <a href="mailto:admin@nyxwolves.com?subject=Web & App Development Architect" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
+                        <a href="mailto:admin@nyxwolves.com?subject=Business Development Executive" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
                     </div>
                 </div>
                 
