@@ -149,150 +149,57 @@ input[type="checkbox"] + label::before {
         <section id="video" class="highlights right">
            <div class="container">
                <div class="row">
+
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/1.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/2.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/3.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/4.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/5.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/6.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/7.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/8.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/9.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/10.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/11.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/12.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/13.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/14.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/15.png" class="client-logo" alt="">
                    </div>
                    <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
+                       <img src="/assets/images/clients/16.png" class="client-logo" alt="">
                    </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
-                   <div class="col-sm-6 col-md-4 col-lg-3">
-                       <img src="//placehold.it/1390x730" class="client-logo" alt="">
-                   </div>
+                 
+         
                </div>
            </div>
         </section>
