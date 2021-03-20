@@ -556,81 +556,101 @@
                     </div>
                 </div>
                 <div class="row items">
-                    <a href="/works/joot-foods">
-                        <div class="col-12 col-md-6 col-lg-4 item circle-card  filter branding" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/portfolio/jootfoods.png" alt="">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="/works/joot-foods">
-                                            <h4 class="m-0">Joot Foods</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </a>
-                    <a href="/works/homely-fresh-foods">
-                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding digitalplatform" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/portfolio/homelyfreshfoods.png" alt="">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="/works/homely-fresh-foods">
-                                            <h4 class="m-0">Homely Fresh Foods</h4>
-                                        </a>
-                                    </div>
-                                    
-                                </div>
-                            </div> 
-                        </div>
-                    </a>
-                    <a href="/works/north-bay">
-                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter digitalmarketing" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/portfolio/northbay.png" alt="">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="/works/north-bay">
-                                            <h4 class="m-0">North Bay</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </a>
-                    <a href="/works/vara-vasthu">
-                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter branding webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="/assets/images/portfolio/varavasthu.png" alt="">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="/works/vara-vasthu">
-                                            <h4 class="m-0">Vara Vasthu</h4>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </a>
-                    <a href="/works/western-valley"> 
+                    <a href="/works/wondryears"> 
                         <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
                             <div class="row card p-0 text-center">
                                 <div class="image-over">
-                                    <img src="/assets/images/portfolio/westernvalley.png" alt="">
+                                    <img src="/assets/images/portfolio/wondryears.png" alt="">
                                 </div>
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
-                                        <a href="/works/western-valley">
-                                            <h4 class="m-0">Western Valley</h4>
+                                        <a href="/works/wondryears">
+                                            <h4 class="m-0 text-dark">Wondryears</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+                    <a href="/works/nfa"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/nfa.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/nfa">
+                                            <h4 class="m-0 text-dark">NFA</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+                    <a href="/works/tbg"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/tbg.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/tbg">
+                                            <h4 class="m-0 text-dark">TBG</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+                    <a href="/works/tie-chennai"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/tie_chennai.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/tie-chennai">
+                                            <h4 class="m-0 ">TiE Chennai</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a>  
+                    <a href="/works/ananta"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/ananta.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/ananta">
+                                            <h4 class="m-0 ">Ananta Spa Group</h4>
+                                        </a>
+                                    </div>
+                                
+                                </div>
+                            </div> 
+                        </div>
+                    </a> 
+                    <a href="/works/andyzfc"> 
+                        <div class="col-12 col-md-6 col-lg-4 item circle-card filter webdesign" data-tilt   data-tilt-scale="1"  data-tilt-max="10">
+                            <div class="row card p-0 text-center">
+                                <div class="image-over">
+                                    <img src="/assets/images/portfolio/andyzfc.png" alt="">
+                                </div>
+                                <div class="card-caption col-12 p-0">
+                                    <div class="card-body">
+                                        <a href="/works/andyzfc">
+                                            <h4 class="m-0 ">AndyzFC</h4>
                                         </a>
                                     </div>
                                 
