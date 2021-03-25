@@ -150,3 +150,56 @@
 }
 
 /* #endregion Effect */
+
+
+#custom-team .custom-container {
+    width: 90%;
+    margin: auto;
+}
+
+#custom-team .custom-container .team_card .team_custom_image {
+    width: 100%;
+}
+
+#custom-team .custom-container .team_card .team-content h3 {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#custom-team .custom-container .team_card .team-content p {
+    font-size: 0.9rem;
+    line-height: 0;
+    margin-bottom: 45px;
+
+}
+
+[data-scroll] {
+    transition: opacity 1s;
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: .15s;
+    transition: all .4s linear;
+}
+
+[data-scroll="out"] {
+    opacity: 0;
+}
+
+.team_card {
+    opacity: 0;
+    transition: all .4s linear
+}
+
+.team_card.animated {
+    opacity: 1;
+}
+
+.team_card:nth-child(2n) {
+    transition-delay: .15s;
+}

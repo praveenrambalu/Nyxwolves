@@ -1,5 +1,9 @@
 @section('page','Branding & Identity - ')
-
+<style>
+    body{
+        background: #fff;
+    }
+</style>
 @extends('layouts.services')
 @section('main-content')
     
