@@ -160,7 +160,7 @@ class PagesController extends Controller
     {
         return view('pages.works.bodyapp');
     }
-    public function kavya()
+    public function Kaviya()
     {
         return view('pages.works.kavya');
     }
