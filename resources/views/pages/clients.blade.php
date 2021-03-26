@@ -198,6 +198,39 @@ input[type="checkbox"] + label::before {
                    <div class="col-sm-6 col-md-4 col-lg-3">
                        <img src="/assets/images/clients/16.png" class="client-logo" alt="">
                    </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/17.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/18.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/19.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/20.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/21.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/22.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/23.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/24.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/25.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/26.png" class="client-logo" alt="">
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-lg-3">
+                       <img src="/assets/images/clients/27.png" class="client-logo" alt="">
+                   </div>
                  
          
                </div>

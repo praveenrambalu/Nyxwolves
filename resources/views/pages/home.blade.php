@@ -146,7 +146,7 @@
 </head>
 
 <body>
-    {{-- @include('inc.preloader') --}}
+    @include('inc.preloader')
 
 
     <div class="fullpage">
