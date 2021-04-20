@@ -40,7 +40,7 @@
 
                                 <div class="gallery">
                                     <a >
-                                        <img src="/assets/images/services-featured-image/ai.gif" class="w-100">
+                                        <img src="/assets/images/services-featured-image/ai_digital_platform.gif" class="w-100">
                                     </a>
                                 </div>
 
