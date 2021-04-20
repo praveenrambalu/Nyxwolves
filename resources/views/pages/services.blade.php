@@ -72,7 +72,7 @@
                         <a href="/services/brand-and-identity">
                             <div href="/services/brand-and-identity" class="card featured left">
                                 <!-- <i class="icon icon-tag"></i> -->
-                                <img src="/assets/images/services_icons/branding.gif" class="icon-services" alt="">
+                                <img src="/assets/images/services_icons/brandingw.gif" class="icon-services" alt="">
                                 <h4>Branding & Identity</h4>
                                 <p>Our dynamic team builds your brand that speaks for itself. We strategize and
                                     inculcate
@@ -86,7 +86,7 @@
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <a href="/services/ai-and-digital-platforms">
                             <div class="card ">
-                                <img src="/assets/images/services_icons/ai-and-digital-platforms.gif" class="icon-services" alt="">
+                                <img src="/assets/images/services_icons/ai-and-digital-platformsw.gif" class="icon-services" alt="">
 
                                 <h4>AI & Digital Platforms</h4>
                                 <p>With Artificial Intelligence, we help you build all forms of incredibly-smart
@@ -102,7 +102,7 @@
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <a href="/services/digital-transformation">
                             <div class="card">
-                                <img src="/assets/images/services_icons/digital_transformation.gif" class="icon-services" alt="">
+                                <img src="/assets/images/services_icons/digital_transformationw.gif" class="icon-services" alt="">
 
                                 <h4>Digital Transformation</h4>
                                 <p>Our team uses cutting-edge technology to design and develop visually rich business
@@ -117,7 +117,7 @@
                     <div class="col-12 col-md-6 col-lg-6 item">
                         <a href="/services/digital-marketing">
                             <div class="card featured right">
-                                <img src="/assets/images/services_icons/digital_marketing.gif" class="icon-services" alt="">
+                                <img src="/assets/images/services_icons/digital_marketingw.gif" class="icon-services" alt="">
 
                                 <h4>Digital Marketing</h4>
                                 <p>Our unique and powerful digital marketing strategies to reach potential customers
