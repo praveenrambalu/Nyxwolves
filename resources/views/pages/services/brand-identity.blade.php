@@ -1,4 +1,4 @@
-@section('page','Branding & Identity - ')
+@section('page','Branding & UI/UX - ')
 <style>
     body{
         background: #fff;
@@ -39,7 +39,7 @@
                         <!-- Text -->
                         <div class="row">
                             <div class="col-12 align-self-center">
-                                <h2 class="featured">Branding and Identity</h2>
+                                <h2 class="featured">Branding and UI & UX</h2>
                                 <p>Branding is a way of showing the world who you are without the need to speak. Make your brand your identity through our creative design and development strategies. Our unique and innovative brand marketing strategy allows you to gain widespread brand awareness. Be it a startup or an established business, with vigorous branding we put you ahead of your competitors, right from its inception. Our powerful branding absolutely serves your every business requirement. With amazing designs that inculcate your ideas and goals, we promise a dynamic branding to each one of our customers.  </p>
 
                                 <div class="gallery">

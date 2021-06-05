@@ -190,10 +190,10 @@
                             <a href="/services" class="nav-link effect-motion-hover">Services <i
                                     class="icon-arrow-down"></i></a>
                             <div class="dropdown-menu">
-                                <a href="/services/brand-and-identity" class="nav-link">Branding & Identity</a>
-                                <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
+                                <a href="/services/brand-and-ui-ux" class="nav-link">Branding & Identity</a>
+                                <a href="/services/product-development" class="nav-link">AI & Digital Platforms</a>
                                 <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
-                                <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
+                                <a href="/services/digital-process-automation" class="nav-link">Digital Marketing</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -424,43 +424,14 @@
                 </div>
                 <div class="row justify-content-center text-center items">
                     <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/brand-and-identity">
-                            <div href="/services/brand-and-identity" class="card featured left">
-                                <!-- <i class="icon icon-tag"></i> -->
-                                <img src="/assets/images/services_icons/branding.gif" class="icon-services" alt="">
-                                <h4>Branding & Identity</h4>
-                                <p>Our dynamic team builds your brand that speaks for itself. We strategize and
-                                    inculcate
-                                    design and creativity into branding that mirrors your business goals, ideals, and
-                                    principles. </p>
-                                <a href="/services/brand-and-identity"><i
-                                        class="btn-icon icon-arrow-right-circle"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/ai-and-digital-platforms">
-                            <div class="card ">
-                                <img src="/assets/images/services_icons/ai-and-digital-platforms.gif" class="icon-services" alt="">
-
-                                <h4>AI & Digital Platforms</h4>
-                                <p>With Artificial Intelligence, we help you build all forms of incredibly-smart
-                                    software
-                                    products and give them an exclusive edge. Our innovative solutions place your
-                                    business
-                                    on equal footing with the current trends and ensure a powerful tomorrow.</p>
-                                <a href="/services/ai-and-digital-platforms"><i
-                                        class="btn-icon icon-arrow-right-circle"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 item">
                         <a href="/services/digital-transformation">
-                            <div class="card">
+                            <div href="/services/digital-transformation" class="card featured left">
+                                <!-- <i class="icon icon-tag"></i> -->
                                 <img src="/assets/images/services_icons/digital_transformation.gif" class="icon-services" alt="">
-
+                       
                                 <h4>Digital Transformation</h4>
-                                <p>Our team uses cutting-edge technology to design and develop visually rich business
+                             
+                                   <p>Our team uses cutting-edge technology to design and develop visually rich business
                                     websites. With simplified yet elegant designs, we guarantee an exclusive website or
                                     a
                                     web application to enhance your growth. </p>
@@ -470,17 +441,42 @@
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/digital-marketing">
-                            <div class="card featured right">
-                                <img src="/assets/images/services_icons/digital_marketing.gif" class="icon-services" alt="">
+                        <a href="/services/product-development">
+                            <div class="card ">
+                                <img src="/assets/images/services_icons/ai-and-digital-platforms.gif" class="icon-services" alt="">
 
-                                <h4>Digital Marketing</h4>
-                                <p>Our unique and powerful digital marketing strategies to reach potential customers
-                                    will
-                                    act as the best catalyst to expand your business. Our wolf pack diligently caters to
-                                    numerous robust methods that help you grow. </p>
-                                <a href="/services/digital-marketing"><i
+                                <h4>Product Development</h4>
+                                <p>With robust frameworks and tech stack, we help you build all forms of incredibly-smart software products and give them an exclusive edge. Our innovative solutions place your business on equal footing with the current trends and ensure a powerful tomorrow.</p>
+                                <a href="/services/product-development"><i
                                         class="btn-icon icon-arrow-right-circle"></i></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 item">
+                        <a href="/services/digital-process-automation">
+                            <div class="card">
+                                         
+                                        <img src="/assets/images/services_icons/digital_marketing.gif" class="icon-services" alt="">
+                                     <h4>Digital Process Automation</h4>
+                                
+                                    <p>We find the gaps in business processes across industries and build solutions that automate. We build a digital fortress around your business to make it scalable both horizontally & vertically! </p>
+                                <a href="/services/digital-process-automation"><i
+                                        class="btn-icon icon-arrow-right-circle"></i></a>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 item">
+                        <a href="/services/brand-and-ui-ux">
+                            <div class="card featured right">
+                                    <img src="/assets/images/services_icons/branding.gif" class="icon-services" alt="">
+                                
+                                <h4>Branding & UI/UX</h4>
+                            
+                                <p>Our dynamic team builds your brand that speaks for itself. We strategize & inculcate design & creativity into products that bring life to technology and connect with the users</p>
+                                 <a href="/services/brand-and--ui-ux"><i
+                                        class="btn-icon icon-arrow-right-circle"></i></a>    
+                                    
                             </div>
                         </a>
                     </div>
@@ -568,7 +564,7 @@
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
                                         <a href="/works/wondryears">
-                                            <h4 class="m-0 text-dark">Wondryears</h4>
+                                            
                                         </a>
                                     </div>
                                 
@@ -585,7 +581,7 @@
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
                                         <a href="/works/nfa">
-                                            <h4 class="m-0 text-dark">NFA</h4>
+                                        
                                         </a>
                                     </div>
                                 
@@ -602,7 +598,7 @@
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
                                         <a href="/works/tbg">
-                                            <h4 class="m-0 text-dark">TBG</h4>
+                                           
                                         </a>
                                     </div>
                                 
@@ -619,7 +615,7 @@
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
                                         <a href="/works/tie-chennai">
-                                            <h4 class="m-0 ">TiE Chennai</h4>
+                                            
                                         </a>
                                     </div>
                                 
@@ -636,7 +632,7 @@
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
                                         <a href="/works/ananta">
-                                            <h4 class="m-0 ">Ananta Spa Group</h4>
+                                            
                                         </a>
                                     </div>
                                 
@@ -653,7 +649,7 @@
                                 <div class="card-caption col-12 p-0">
                                     <div class="card-body">
                                         <a href="/works/andyzfc">
-                                            <h4 class="m-0 ">AndyzFC</h4>
+                                            
                                         </a>
                                     </div>
                                 
@@ -840,6 +836,14 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
+            <div class=" row justify-content-between d-flex" >
+                <div>
+                    <img src="/assets/images/free-logo.png" height="200px" width="200px" alt="">
+                </div>
+                <div>
+                    <img src="/assets/images/g-logo.png" height="200px" width="200px" alt="">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -851,7 +855,7 @@
             <div class="row intro">
                 <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                     <h2 class="featured">Our Clients</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem autem illum impedit aspernatur reprehenderit dolores obcaecati sunt explicabo? Accusamus dignissimos incidunt deserunt praesentium quia tempore voluptatem corrupti velit laudantium!</p>
+                    <p> Our pack has shared the journey with these amazing brands and helped them build technologies and design. Here are our earned diamonds in our forest!</p>
                 </div>
                
                 <div class="col-12 col-md-3 align-self-end">
@@ -862,50 +866,42 @@
             <br>
             <br>
 
+         
+            
+          
             <div class="swiper-container slider-min">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/1.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/1.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/2.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/2.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/3.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/3.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/4.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/4.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/5.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/5.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/6.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/6.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/7.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/7.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/9.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/9.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/10.png" class="image-fit w-85">
+                        <img src="/assets/images/client_logos_new_homepage/10.png" class="image-fit w-85">
                     </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/11.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/12.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/13.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/14.png" class="image-fit w-85">
-                    </div>
+                  
                 </div>
             </div>
-        </div>
+      </div>
     </section>
 
     <!-- Blog -->

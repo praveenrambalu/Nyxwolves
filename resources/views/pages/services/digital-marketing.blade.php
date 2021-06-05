@@ -1,4 +1,4 @@
-@section('page','Digital Marketing - ')
+@section('page','Digital Process Automation - ')
 
 @extends('layouts.services')
 @section('main-content')
@@ -34,7 +34,7 @@
                     <!-- Text -->
                     <div class="row">
                         <div class="col-12 align-self-center">
-                            <h2 class="featured">Digital Marketing</h2>
+                            <h2 class="featured">Digital Process Automation</h2>
                             <p>In a world where everything runs on fingertips, marketing on online platforms has become an inevitable part of success in every field. Our effective and novel digital marketing strategies redefine your opportunities and generate potential prospects to nurture your growth by creating backlinks to your website. Our wide spectrum of digital marketing campaigns tremendously increases your online presence and engages your audience with brilliance and charm. Our extensive digital marketing strategies are designed to tailor customized posts to get your customers hooked and enhance your brand awareness.  </p>
 
                             <div class="gallery">

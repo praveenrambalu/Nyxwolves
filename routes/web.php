@@ -33,10 +33,10 @@ Route::post('/contact-form', 'PagesController@contactForm');
 Route::get('/blog', 'PagesController@blog');
 Route::get('/blog/posts/{id}', 'PagesController@singleBlogPost');
 
-Route::get('/services/brand-and-identity', 'PagesController@brandIdentity');
+Route::get('/services/brand-and-ui-ux', 'PagesController@brandIdentity');
 Route::get('/services/digital-transformation', 'PagesController@webDesignDevelopment');
-Route::get('/services/digital-marketing', 'PagesController@digitalMarketing');
-Route::get('/services/ai-and-digital-platforms', 'PagesController@aiDigitalPlatform');
+Route::get('/services/digital-process-automation', 'PagesController@digitalMarketing');
+Route::get('/services/product-development', 'PagesController@aiDigitalPlatform');
 
 Route::get('/terms-and-conditions', 'PagesController@Terms');
 Route::get('/privacy-policy', 'PagesController@Privacy');

@@ -69,32 +69,25 @@
                 </div>
                 <div class="row justify-content-center text-center items">
                     <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/brand-and-identity">
-                            <div href="/services/brand-and-identity" class="card featured left">
+                        <a href="/services/brand-and-ui-ux">
+                            <div href="/services/brand-and-ui-ux" class="card featured left">
                                 <!-- <i class="icon icon-tag"></i> -->
                                 <img src="/assets/images/services_icons/brandingw.gif" class="icon-services" alt="">
                                 <h4>Branding & Identity</h4>
-                                <p>Our dynamic team builds your brand that speaks for itself. We strategize and
-                                    inculcate
-                                    design and creativity into branding that mirrors your business goals, ideals, and
-                                    principles. </p>
-                                <a href="/services/brand-and-identity"><i
+                                <p>Our dynamic team builds your brand that speaks for itself. We strategize & inculcate design & creativity into products that bring life to technology and connect with the users. </p>
+                                <a href="/services/brand-and-ui-ux"><i
                                         class="btn-icon icon-arrow-right-circle"></i></a>
                             </div>
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/ai-and-digital-platforms">
+                        <a href="/services/product-development">
                             <div class="card ">
                                 <img src="/assets/images/services_icons/ai-and-digital-platformsw.gif" class="icon-services" alt="">
 
                                 <h4>AI & Digital Platforms</h4>
-                                <p>With Artificial Intelligence, we help you build all forms of incredibly-smart
-                                    software
-                                    products and give them an exclusive edge. Our innovative solutions place your
-                                    business
-                                    on equal footing with the current trends and ensure a powerful tomorrow.</p>
-                                <a href="/services/ai-and-digital-platforms"><i
+                                <p>With robust frameworks and tech stack, we help you build all forms of incredibly-smart software products and give them an exclusive edge. Our innovative solutions place your business on equal footing with the current trends and ensure a powerful tomorrow.</p>
+                                <a href="/services/product-development"><i
                                         class="btn-icon icon-arrow-right-circle"></i></a>
                             </div>
                         </a>
@@ -115,16 +108,13 @@
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 item">
-                        <a href="/services/digital-marketing">
+                        <a href="//services/digital-process-automation">
                             <div class="card featured right">
                                 <img src="/assets/images/services_icons/digital_marketingw.gif" class="icon-services" alt="">
 
                                 <h4>Digital Marketing</h4>
-                                <p>Our unique and powerful digital marketing strategies to reach potential customers
-                                    will
-                                    act as the best catalyst to expand your business. Our wolf pack diligently caters to
-                                    numerous robust methods that help you grow. </p>
-                                <a href="/services/digital-marketing"><i
+                                <p>We find the gaps in business processes across industries and build solutions that automate. We build a digital fortress around your business to make it scalable both horizontally & vertically! </p>
+                                <a href="//services/digital-process-automation"><i
                                         class="btn-icon icon-arrow-right-circle"></i></a>
                             </div>
                         </a>
