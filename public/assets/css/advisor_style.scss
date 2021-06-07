@@ -1,0 +1,65 @@
+.advisor-section{
+    .advisor-card{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        .advisor-ring{
+            border: 10px solid #0443B7;
+            border-radius: 50%;
+            margin-bottom: 25px;
+            .advisor-image{
+                width: 100%;
+                padding: 15px;
+                border-radius: 50%;
+
+            }
+        
+        }
+        .advisor-name{
+            font-family: 'Poppins';
+            color: #212121;
+            font-size: 18px;
+        }
+        .advisor-description{
+            color: #787878;
+            font-family: 'Poppins';
+            .advisor-line{
+                width: 30px;
+                background: #0342B5;
+                height: 2px;
+                display: inline-block;
+                margin-bottom: 4px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+        &:hover{
+            .advisor-ring{
+                box-shadow: 4px 5px 10px #00000085;
+                animation: advisor-ring 0.5s ease-in-out ;
+
+                .advisor-image{
+                    padding: 0px;
+                    animation: advisor-image 0.5s ease-in-out ;
+                }
+            }
+        }
+    }
+}
+
+@keyframes advisor-ring {
+    0%{
+        box-shadow: none;
+    }
+    100%{
+        box-shadow: 4px 5px 10px #00000085;
+    }
+}
+@keyframes advisor-image {
+    0%{
+        padding: 15px;
+    }
+    100%{
+        padding: 0px;
+    }
+}

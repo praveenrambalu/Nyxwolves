@@ -1,0 +1,92 @@
+.advisor-section .advisor-card {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.advisor-section .advisor-card .advisor-ring {
+  border: 10px solid #0443B7;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.advisor-section .advisor-card .advisor-ring .advisor-image {
+  width: 100%;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.advisor-section .advisor-card .advisor-name {
+  font-family: 'Poppins';
+  color: #212121;
+  font-size: 18px;
+}
+
+.advisor-section .advisor-card .advisor-description {
+  color: #787878;
+  font-family: 'Poppins';
+}
+
+.advisor-section .advisor-card .advisor-description .advisor-line {
+  width: 30px;
+  background: #0342B5;
+  height: 2px;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.advisor-section .advisor-card:hover .advisor-ring {
+  -webkit-box-shadow: 4px 5px 10px #00000085;
+          box-shadow: 4px 5px 10px #00000085;
+  -webkit-animation: advisor-ring 0.5s ease-in-out;
+          animation: advisor-ring 0.5s ease-in-out;
+}
+
+.advisor-section .advisor-card:hover .advisor-ring .advisor-image {
+  padding: 0px;
+  -webkit-animation: advisor-image 0.5s ease-in-out;
+          animation: advisor-image 0.5s ease-in-out;
+}
+
+@-webkit-keyframes advisor-ring {
+  0% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  100% {
+    -webkit-box-shadow: 4px 5px 10px #00000085;
+            box-shadow: 4px 5px 10px #00000085;
+  }
+}
+
+@keyframes advisor-ring {
+  0% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  100% {
+    -webkit-box-shadow: 4px 5px 10px #00000085;
+            box-shadow: 4px 5px 10px #00000085;
+  }
+}
+
+@-webkit-keyframes advisor-image {
+  0% {
+    padding: 15px;
+  }
+  100% {
+    padding: 0px;
+  }
+}
+
+@keyframes advisor-image {
+  0% {
+    padding: 15px;
+  }
+  100% {
+    padding: 0px;
+  }
+}
+/*# sourceMappingURL=advisor_style.css.map */

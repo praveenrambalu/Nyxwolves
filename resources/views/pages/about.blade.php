@@ -53,6 +53,12 @@
             }
         </style>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
+<link rel="stylesheet" href="/assets/css/advisor_style.css">
+
 </head>
 
 <body>
@@ -395,11 +401,118 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-</section>
+    </section>
+
+    <section  class="advisor-section bg_gray">
+        <div class="container">
+            <div class="row text-center intro">
+                <div class="col-12">
+                    <h2>Our Advisors</h2>
+                    <p class="text-max-800">Our team is the soul of the company. We house the finest team of
+                        designers and developers to deliver the best service to our clients. </p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="advisor-carousel owl-carousel owl-theme">
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/amar_prasad_reddy.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/andy_mohan.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/arangannal.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/ganesh_bala.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/ravikumar.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/santhosh.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/sriram.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/varsha_aswani.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+
+                        </div>
+                    </div>
 
 
+                </div>
+            </div>
+           
 
-     <section id="intro" class="bg_gray">
+        </div>
+    </section>
+
+     <section id="intro" >
             <div class="container">
                 <div class="row">
                   
@@ -681,6 +794,34 @@
         =============================================== -->
    @include('inc.scripts')
    <script src="/assets/js/counter.js"></script>
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script >
+       // $(document).ready(function(){
+       //     $( ".owl-prev").html('<i class="fa fa-arrow-circle-left team-carousel-arrow"></i>');
+       //     $( ".owl-next").html('<i class="fa fa-arrow-circle-right team-carousel-arrow" ></i>');
+       // });
+       $('.advisor-carousel').owlCarousel({
+       margin:10,
+       responsiveClass:true,
+       dots:true,
+       loop:true,
+       nav:false,
+       responsive:{
+           0:{
+               items:1,
+               dots:false
+           },
+           600:{
+               items:3,
+           },
+           1000:{
+               items:4,
+               dots:true
+           }
+       }
+   })
+   </script>
 </body>
 
 </html>
