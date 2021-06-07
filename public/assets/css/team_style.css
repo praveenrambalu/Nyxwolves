@@ -1,0 +1,263 @@
+.custom-team-section {
+  padding: 150px 0;
+}
+
+.custom-team-section .team-container {
+  width: 90%;
+  margin: auto;
+}
+
+.custom-team-section .team-title-section h1.team-heading {
+  font-size: 4.6875rem;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.custom-team-section .team-title-section p.team-sub-heading {
+  font-size: 20px;
+  font-family: 'Poppins';
+  width: 80%;
+  margin: auto;
+}
+
+.custom-team-section .team-section {
+  padding: 50px 0;
+}
+
+.custom-team-section .team-section .team-carousel.owl-carousel.owl-theme .owl-dots {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.custom-team-section .team-section .team-carousel.owl-carousel.owl-theme .owl-dots .owl-dot {
+  margin-right: 7px;
+}
+
+.custom-team-section .team-section .team-carousel.owl-carousel.owl-theme .owl-dots .owl-dot:focus {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.custom-team-section .team-section .team-carousel.owl-carousel.owl-theme .owl-dots .owl-dot::after {
+  content: url("/assets/img/wolf-palm.svg");
+  position: relative;
+  /*or absolute*/
+  z-index: 100000;
+  /*a number that's more than the modal box*/
+  left: -50px;
+  top: 10px;
+}
+
+.custom-team-section .team-section .team-carousel.owl-carousel.owl-theme .owl-dots .owl-dot.active::after {
+  content: url("/assets/img/wolf-palm-active.svg");
+  position: relative;
+  /*or absolute*/
+  z-index: 100000;
+  /*a number that's more than the modal box*/
+  left: -50px;
+  top: 5px;
+}
+
+.custom-team-section .team-section .team-card {
+  width: 100%;
+  -webkit-transition: 2s ease all;
+  transition: 2s ease all;
+}
+
+.custom-team-section .team-section .team-card img {
+  width: 100%;
+  border-radius: 57px;
+}
+
+.custom-team-section .team-section .team-card img.team_black {
+  opacity: 1;
+  display: block;
+}
+
+.custom-team-section .team-section .team-card img.team_white {
+  opacity: 0;
+  display: none;
+}
+
+.custom-team-section .team-section .team-card:hover img.team_black {
+  opacity: 0;
+  display: none;
+}
+
+.custom-team-section .team-section .team-card:hover img.team_white {
+  opacity: 1;
+  display: block;
+  -webkit-box-shadow: 0 0 20px 0px #00000038;
+          box-shadow: 0 0 20px 0px #00000038;
+}
+
+.custom-team-section .team-section .team-card .blue_card {
+  display: none;
+}
+
+.custom-team-section .team-section .team-card:hover .blue_card {
+  width: 86.5%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  background: #0443B7;
+  z-index: -1;
+  display: block;
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-animation: 0.2s ease-in-out bluecardrotator;
+          animation: 0.2s ease-in-out bluecardrotator;
+}
+
+.custom-team-section .team-section .team-card .team_content {
+  display: none;
+}
+
+.custom-team-section .team-section .team-card:hover .team_content {
+  -webkit-animation: 0.4s ease-in-out teamcontent;
+          animation: 0.4s ease-in-out teamcontent;
+  display: block;
+  position: absolute;
+  background: #1C1C1C;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px 20px;
+  text-align: center;
+  width: 92.5%;
+  margin: auto;
+  border-bottom-left-radius: 57px;
+  border-bottom-right-radius: 57px;
+}
+
+.custom-team-section .team-section .team-card:hover .team_content h3.name {
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.custom-team-section .team-section .team-card:hover .team_content p.designation {
+  color: #0443B7;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.custom-team-section .team-section .team-card .triangle {
+  display: none;
+}
+
+.custom-team-section .team-section .team-card:hover .triangle {
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-animation: 0.2s ease-in-out arrowrotator;
+          animation: 0.2s ease-in-out arrowrotator;
+}
+
+.custom-team-section .team-section .team-card:hover .triangle.left {
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 40px solid #1C1C1C;
+  top: 125px;
+  left: 4px;
+}
+
+.custom-team-section .team-section .team-card:hover .triangle.right {
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 40px solid #1C1C1C;
+  top: 50px;
+  right: -10px;
+}
+
+@-webkit-keyframes bluecardrotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
+  }
+}
+
+@keyframes bluecardrotator {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
+  }
+}
+
+@-webkit-keyframes teamcontent {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes teamcontent {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes arrowrotator {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid #0443B7;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid #1C1C1C;
+  }
+}
+
+@keyframes arrowrotator {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid #0443B7;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid #1C1C1C;
+  }
+}
+/*# sourceMappingURL=team_style.css.map */

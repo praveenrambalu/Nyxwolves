@@ -1,0 +1,230 @@
+.custom-team-section{
+    padding: 150px 0;
+    .team-container {
+        width: 90%;
+        margin: auto;
+    }
+    .team-title-section{
+        h1.team-heading{
+            font-size: 4.6875rem;
+            font-family:'Poppins';
+            font-weight: bold;
+        }
+        p.team-sub-heading{
+            font-size: 20px;
+            font-family:'Poppins';
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    .team-section{
+        padding: 50px 0;
+        .team-carousel.owl-carousel.owl-theme{
+            .owl-dots{
+                text-align: right;
+                margin-top: 25px;
+                .owl-dot{
+                    margin-right: 7px;
+                    &:focus {
+                        border: none;
+                        background: none;
+                        outline: none;
+                    }
+                    &::after{
+                        content:url('/assets/img/wolf-palm.svg'); 
+                        position:relative; /*or absolute*/
+                        z-index:100000; /*a number that's more than the modal box*/
+                        left:-50px;
+                        top:10px;
+                    }
+                    &.active{
+                        &::after{
+                            content:url('/assets/img/wolf-palm-active.svg'); 
+                            position:relative; /*or absolute*/
+                            z-index:100000; /*a number that's more than the modal box*/
+                            left:-50px;
+                            top:5px;
+                        }
+                    }
+                }
+            }
+        }
+        .team-card{
+            width: 100%;
+            transition: 2s ease all;
+       
+            img{
+                width: 100%;
+                border-radius: 57px;
+                &.team_black{
+                    opacity: 1;
+                    display:block;
+                    // animation: 0.2s linear teamopacitytoone;
+                }
+                &.team_white{
+                   opacity: 0;
+                   display: none;
+                //    animation: 0.2s linear teamopacitytozero;
+                }
+            }
+            &:hover{
+                img{
+                    &.team_black{
+                       opacity: 0;
+                       display: none;
+                    //    animation: 0.5s linear teamopacitytozero;
+                    }
+                    &.team_white{
+                        opacity: 1;
+                        display:block;
+                        box-shadow: 0 0 20px 0px #00000038;
+
+                        // animation: 0.5s linear teamopacitytoone;
+                    }
+                } 
+            }
+
+            .blue_card{
+                display: none;
+            }
+            &:hover{
+                .blue_card{
+                    width: 86.5%;
+                    height: 100%;
+                    position: absolute;
+                    display: block;
+                    background: #0443B7;
+                    z-index: -1;
+                    display: block;
+                   transform:rotate(9deg);
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    animation: 0.2s ease-in-out bluecardrotator;
+                }
+            }
+           
+            .team_content{
+                display: none;
+            }
+            &:hover{
+                .team_content{
+                    animation:0.4s ease-in-out teamcontent;
+                    display: block;
+                    position: absolute;
+                    background: #1C1C1C;
+                    margin: auto;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    padding: 15px 20px;
+                    text-align: center;
+                    width: 92.5%;
+                    margin: auto;
+                    border-bottom-left-radius: 57px;
+                    border-bottom-right-radius: 57px;
+                    h3.name{
+                        color: #fff;
+                        font-family: 'Poppins';
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                    }
+                    p.designation{
+                        color: #0443B7;
+                        font-family: 'Poppins';
+                        font-size: 1rem;
+                        font-weight: bold;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .triangle{
+                display: none;
+            }
+
+            &:hover{
+                .triangle{
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    animation: 0.2s ease-in-out arrowrotator;
+                    // transform: rotate(-90deg);
+
+                &.left{
+                    border-top: 30px solid transparent;
+                    border-bottom: 30px solid transparent; 
+                    
+                    border-left:40px solid #1C1C1C; 
+                    top: 125px;
+                    left: 4px;
+                }
+                &.right{
+                    border-top: 30px solid transparent;
+                    border-bottom: 30px solid transparent; 
+                    
+                    border-left:40px solid #1C1C1C; 
+                    top: 50px;
+                    right: -10px;
+                }
+                }
+            }
+
+        }
+    }
+}
+
+@keyframes bluecardrotator {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(9deg);
+    }
+}
+// @keyframes teamopacitytozero {
+//     0%{
+//        opacity: 0;
+//     }
+//     100%{
+//         opacity: 1;
+//     }
+// }
+// @keyframes teamopacitytoone {
+//     0%{
+//        opacity: 0;
+//     }
+//     100%{
+//         opacity: 1;
+//     }
+// }
+
+
+@keyframes teamcontent {
+    0%{
+       opacity: 0;
+       transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes arrowrotator {
+    0%{
+        transform: rotate(-90deg);
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent; 
+        
+        border-left:40px solid #0443B7; 
+    }
+    100%{
+        transform: rotate(0deg);
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent; 
+        
+        border-left:40px solid #1C1C1C;
+    }
+}

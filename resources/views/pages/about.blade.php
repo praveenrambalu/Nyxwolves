@@ -58,6 +58,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
 <link rel="stylesheet" href="/assets/css/advisor_style.css">
+<link rel="stylesheet" href="/assets/css/team_style.css">
 
 </head>
 
@@ -250,7 +251,7 @@
     </section>
 
 
-    <section id="team" class="carousel">
+    {{-- <section id="team" class="carousel">
         <div class="container">
             <div class="row text-center intro">
                 <div class="col-12">
@@ -401,7 +402,308 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+    </section> --}}
+
+    <section class="custom-team-section">
+        <div class="container">
+            <div class="row text-center intro">
+                <div class="col-12">
+                    <h2>Our Wolf Pack</h2>
+                    <p class="text-max-800">Our team is the soul of the company. We house the finest team of
+                        designers and developers to deliver the best service to our clients. </p>
+                </div>
+            </div>
+        </div>
+        <div class="team-container">
+            <div class="team-section">
+                <div class="row">
+                    <div class="team-carousel owl-carousel owl-theme">
+                        <div class="team-card  item col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card  item col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card  item col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card  item col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card  item col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card  item col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                        <div class="team-card item  col-sm-12">
+                            <div class="blue_card"></div>
+                            <div class="triangle left"></div>
+                            <div class="triangle right"></div>
+
+                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
+                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
+
+                            <div class="team_content">
+                                <h3 class="name">Gautam Krishnan</h3>
+                                <p class="designation">Software Head</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
 
     <section  class="advisor-section bg_gray">
         <div class="container">
@@ -821,6 +1123,26 @@
            }
        }
    })
+   $('.team-carousel').owlCarousel({
+        margin:10,
+        responsiveClass:true,
+        dots:true,
+        loop:true,
+        nav:false,
+        responsive:{
+            0:{
+                items:1,
+                dots:false
+            },
+            600:{
+                items:3,
+            },
+            1000:{
+                items:4,
+                dots:true
+            }
+        }
+    })
    </script>
 </body>
 
