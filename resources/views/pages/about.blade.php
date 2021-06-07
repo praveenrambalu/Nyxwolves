@@ -408,296 +408,32 @@
         <div class="container">
             <div class="row text-center intro">
                 <div class="col-12">
-                    <h2>Our Wolf Pack</h2>
-                    <p class="text-max-800">Our team is the soul of the company. We house the finest team of
-                        designers and developers to deliver the best service to our clients. </p>
+                    <h2>Our Pack</h2>
+                    <p class="text-max-800">Our team is the soul of the company. We house the finest team of designers and developers to deliver the best service to our clients. </p>
                 </div>
             </div>
         </div>
-        <div class="team-container">
+        <div class="container">
             <div class="team-section">
                 <div class="row">
+                   
                     <div class="team-carousel owl-carousel owl-theme">
-                        <div class="team-card  item col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
+                        <x-team title="Designation" name="Sidhdharth" image="sidhdharth" />
+                        <x-team title="Designation" name="Sriram" image="sriram" />
+                        <x-team title="Designation" name="Ajith" image="ajith" />
+                        <x-team title="Designation" name="Devi Sri" image="devisri" />
+                        <x-team title="Software Head" name="Gautam Krishnan" image="gautam" />
+                        <x-team title="Designation" name="Gayathri" image="gayathri" />
+                        <x-team title="Designation" name="Keshav" image="keshav" />
+                        <x-team title="Designation" name="Keshav OP" image="keshavop" />
+                        <x-team title="Designation" name="Nirmalaya" image="nirmalaya" />
+                        <x-team title="Designation" name="Praveenram" image="praveenram" />
+                        <x-team title="Designation" name="Priya" image="priya" />
+                        <x-team title="Designation" name="Rishav" image="rishav" />
+                        <x-team title="Designation" name="Sakthivel" image="sakthivel" />
+                        <x-team title="Designation" name="Sanjay" image="sanjay" />
+                        <x-team title="Designation" name="Venkat" image="venkat" />
 
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card  item col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card  item col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card  item col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card  item col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card  item col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
-                        <div class="team-card item  col-sm-12">
-                            <div class="blue_card"></div>
-                            <div class="triangle left"></div>
-                            <div class="triangle right"></div>
-
-                            <img src="/assets/img/team/team_black.png" class="img img-responsive team_black" alt="">
-                            <img src="/assets/img/team/team_white.png" class="img img-responsive team_white" alt="">
-
-                            <div class="team_content">
-                                <h3 class="name">Gautam Krishnan</h3>
-                                <p class="designation">Software Head</p>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -734,7 +470,7 @@
                                 <img src="/assets/img/advisor/andy_mohan.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <h3 class="advisor-name">Andy Morgan</h3> 
                             <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
 
                         </div>
@@ -745,7 +481,7 @@
                                 <img src="/assets/img/advisor/arangannal.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <h3 class="advisor-name">Dr. T. Arangannal</h3> 
                             <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
 
                         </div>
@@ -756,7 +492,7 @@
                                 <img src="/assets/img/advisor/ganesh_bala.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <h3 class="advisor-name">Ganesh Bala</h3> 
                             <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
 
                         </div>
@@ -767,7 +503,7 @@
                                 <img src="/assets/img/advisor/ravikumar.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <h3 class="advisor-name">Prof. Dr. V. Ravikumar</h3> 
                             <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
 
                         </div>
@@ -778,8 +514,8 @@
                                 <img src="/assets/img/advisor/santhosh.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+                            <h3 class="advisor-name">Santhosh Muruganandham</h3> 
+                            <p class="advisor-description"><span class="advisor-line"></span> Co Founder & Managing Director - Kolapasi <span class="advisor-line"></span></p> 
 
                         </div>
                     </div>
@@ -789,7 +525,7 @@
                                 <img src="/assets/img/advisor/sriram.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <h3 class="advisor-name">P. Sriram</h3> 
                             <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
 
                         </div>
@@ -800,7 +536,7 @@
                                 <img src="/assets/img/advisor/varsha_aswani.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
+                            <h3 class="advisor-name">Varsha Aswani</h3> 
                             <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
 
                         </div>
