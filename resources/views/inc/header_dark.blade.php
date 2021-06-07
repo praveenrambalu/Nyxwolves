@@ -37,10 +37,10 @@
               <li class="nav-item dropdown">
                 <a href="/services" class="nav-link effect-motion-hover">Services <i class="icon-arrow-down"></i></a>
                 <div class="dropdown-menu">
-                    <a href="/services/brand-and-ui-ux" class="nav-link">Branding & Identity</a>
-                    <a href="/services/product-development" class="nav-link">AI & Digital Platforms</a>
+                    <a href="/services/brand-and-ui-ux" class="nav-link">Branding & UI/UX</a>
+                    <a href="/services/product-development" class="nav-link">Product Development</a>
                     <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
-                    <a href="/services/digital-process-automation" class="nav-link">Digital Marketing</a>
+                    <a href="/services/digital-process-automation" class="nav-link">Digital Process Automation</a>
                 </div>
             </li> 
                 <li class="nav-item">
@@ -80,7 +80,7 @@
             <!-- Navbar Action-->
             <ul class="navbar-nav action">
                 <li class="nav-item ml-3">
-                    <a href="/contact" class=" btn ml-lg-auto primary-button"><i class="icon-rocket"></i>CONTACT US</a>
+                    <a href="/contact" class=" btn ml-lg-auto primary-button"><i class="icon-rocket"></i>START YOUR PROJECT</a>
                 </li>
             </ul>
         </div>

@@ -91,10 +91,10 @@
                                 <div class="row">
                                     <div class="col-12 p-0 text-left">
                                         <h5 class="pt-1 pb-3 text-white">Services</h5>
-                                        <input type="checkbox" name="services[]" value="Web Design" id="box-1">
-                                        <label for="box-1">Web Design</label>
-                                        <input type="checkbox" name="services[]" value="Web Development" id="box-2">
-                                        <label for="box-2">Web Development</label>
+                                        <input type="checkbox" name="services[]" value="App Development" id="box-1">
+                                        <label for="box-1">App Development</label>
+                                        <input type="checkbox" name="services[]" value="Product Development" id="box-2">
+                                        <label for="box-2">Product Development</label>
                                         <input type="checkbox" name="services[]" value="UI UX" id="box-3">
                                         <label for="box-3">UI / UX</label>
                                         <input type="checkbox" name="services[]" value="Design Platforms" id="box-4">
@@ -158,26 +158,25 @@
             <div class="gallery col-12 col-md-6 pl-md-5 d-none d-md-block">
 
                 <!-- Step 1 -->
-                <a id="step-1" data-poster="/assets/images/lets_talk.png"
-                    href="https://www.youtube.com/watch?v=2dz90LJOVz0">
-                    <i class="play-video icon-control-play"></i>
-                    <div class="mask-radius"></div>
-                    <img src="/assets/images/lets_talk.png" class="image-fit">
+                <a id="step-1" data-poster="/assets/images/lets-talk2.png"
+                   >
+                 
+                    <img src="/assets/images/lets-talk2.png" class="image-responsive">
                 </a>
 
                 <!-- Step 2 -->
-                <a id="step-2" href="/assets/images/lets_talk.png" style="display:none">
-                    <img src="/assets/images/lets_talk.png" class="image-fit">
+                <a id="step-2" href="/assets/images/lets-talk2.png" style="display:none">
+                    <img src="/assets/images/lets-talk2.png" class="image-fit">
                 </a>
 
                 <!-- Step 3 -->
-                <a id="step-3" href="/assets/images/lets_talk.png" style="display:none">
-                    <img src="/assets/images/lets_talk.png" class="image-fit">
+                <a id="step-3" href="/assets/images/lets-talk2.png" style="display:none">
+                    <img src="/assets/images/lets-talk2.png" class="image-fit">
                 </a>
 
                 <!-- Step 4 -->
-                <a id="step-4" href="/assets/images/lets_talk.png" style="display:none">
-                    <img src="/assets/images/lets_talk.png" class="image-fit">
+                <a id="step-4" href="/assets/images/lets-talk2.png" style="display:none">
+                    <img src="/assets/images/lets-talk2.png" class="image-fit">
                 </a>
 
             </div>

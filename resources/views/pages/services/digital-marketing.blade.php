@@ -16,7 +16,7 @@
                             -->
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
-                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">We're always here for you
+                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Elevate your business digitally
                                 </h1>
                             </div>
                         </div>
@@ -35,7 +35,8 @@
                     <div class="row">
                         <div class="col-12 align-self-center">
                             <h2 class="featured">Digital Process Automation</h2>
-                            <p>In a world where everything runs on fingertips, marketing on online platforms has become an inevitable part of success in every field. Our effective and novel digital marketing strategies redefine your opportunities and generate potential prospects to nurture your growth by creating backlinks to your website. Our wide spectrum of digital marketing campaigns tremendously increases your online presence and engages your audience with brilliance and charm. Our extensive digital marketing strategies are designed to tailor customized posts to get your customers hooked and enhance your brand awareness.  </p>
+                            <p>In a world where everything runs on computers, and are run by computers, we identify and enable the space in which technology can automate the process. Any monotonous or labour consuming process can be automated partially or completely by the right software. Our expertise in an array of frameworks enable us to develop robust digital tools and softwares that can automate business processes. Across industries, we've always found the need to automate and utilized it to our maximum to deliver powerful softwares. 
+                      </p>
 
                             <div class="gallery">
                                 <a >
@@ -52,15 +53,15 @@
                            
                             <ul>
 
-                                <li> Social Media Marketing </li>
-                                <li> Search Engine Optimization (SEO) </li>
-                                <li> AdWords Marketing & Google Ads </li>
-                                <li> LinkedIn Marketing </li>
-                                <li> Google My Business Setup </li>
-                                <li> Online Reputation Management </li>
-                                <li> Marketing Campaigns </li>
-                                <li> Political & Event Promotions/Campaigns </li>
-                                <li> Applications, Branding Campaigns </li>
+                                <li> Productive Application </li>
+                                <li> System Integration</li>
+                                <li> Cloud Migration </li>
+                                <li> Internal Software Setup </li>
+                                <li> Infrastructure Setup </li>
+                                <li> Business Process Optimization </li>
+                                <li> Platform Modernization </li>
+                                <li> Agile Software Development</li>
+                                
 
                             <ul>
                         </div>

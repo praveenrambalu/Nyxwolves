@@ -223,16 +223,16 @@
         <div class="container">
             <div class="row">
                 <div class=" col-12 col-md-6">
-                    <a target="_blank" data-poster="/assets/images/intro-video.gif" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
-                        <i class="play-video icon-control-play"></i>
-                        <div class="mask-radius"></div>
-                        <img src="/assets/images/intro-video.gif" class="image-fit">
+                    <a target="_blank" data-poster="/assets/images/wolf-about.gif" href="https://www.youtube.com/watch?v=2dz90LJOVz0">
+                        <i class="play-video icon-control-play" style="display:none;"></i>
+                        <div class="mask-radius" style="display:none;"></div>
+                        <img src="/assets/images/wolf-about.gif" class="image-fit">
                     </a>
                 </div>
                 <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
                     <div class="row intro">
                         <div class="col-12 p-0">
-                            <h2 class="featured alt">Who we Are ?</h2>
+                            <h2 class="featured alt">Who Are We?</h2>
                             <p>We are a bootstrapped team embedded with strong values in assisting our clients to scale up in their fields. Quality and innovation bleeds in every work that we pursue. Since the inception, we have been excelling in developing innovative and creative solutions for our clients. Our growth as a team has aided numerous companies to succeed like never before.</p>
                         </div>
                     </div>
@@ -248,7 +248,7 @@
         <div class="container">
             <div class="row text-center intro">
                 <div class="col-12">
-                    <h2>Our Pack</h2>
+                    <h2>Our Wolf Pack</h2>
                     <p class="text-max-800">Our team is the soul of the company. We house the finest team of
                         designers and developers to deliver the best service to our clients. </p>
                 </div>
@@ -258,7 +258,7 @@
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card team">
                             <div class="col-12">
-                                <img src="/assets/images/team/aranganel.jpg" alt="Adams Baker" class="person">
+                                <img src="/assets/images/team/aranganel.jpg" alt="Dr. T Arangannal" class="person">
                                 <h4>Dr. T. Arangannal</h4>
                                 <p>Venture Partner</p>
                                 <ul class="navbar-nav social share-list ml-auto">
@@ -323,24 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/suraj.jpg" alt="Suraj" class="person">
-                                <h4>Suraj K S
-                                </h4>
-                                <p> Chief Operations Officer</p>
-                                <ul class="navbar-nav social share-list ml-auto">
-                                    <li class="nav-item">
-                                        <a href="" target="_blank" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href=""  target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card team">
                             <div class="col-12">
@@ -359,15 +342,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/sanjay.jpg" alt="Nirmalaya" class="person">
-                                <h4>Sanjay Kumar</h4>
-                                <p>Executive Manager</p>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card team">
@@ -378,51 +353,17 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/jothi.jpg" alt="Jothicharan" class="person">
-                                <h4>Jothicharan Jothibabu</h4>
-                                <p>Development Head</p>
-                            </div>
-                        </div>
-                    </div> --}}
+                    
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card team">
                             <div class="col-12">
                                 <img src="/assets/images/team/sakthi.jpg" alt="Sakthivel" class="person">
                                 <h4>Sakthivel R</h4>
-                                <p>Asst. Manager of Designs</p>
+                                <p>Head of Designs</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/pratik.jpg" alt="Pratik" class="person">
-                                <h4>Pratik Seal</h4>
-                                <p>Digital Marketing Strategist</p>
-                            </div>
-                        </div>
-                    </div>
-                    {{-- <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/sanjayd.jpg" alt="Sanjay" class="person">
-                                <h4>Sanjay</h4>
-                                <p>Senior UI/UX Designer</p>
-                            </div>
-                        </div>
-                    </div> --}}
-                    {{-- <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/jones.jpg" alt="Jones" class="person">
-                                <h4>Jones</h4>
-                                <p>Junior Designer</p>
-                            </div>
-                        </div>
-                    </div> --}}
+                   
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card team">
                             <div class="col-12">
@@ -432,24 +373,7 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/lakshmanan.jpg" alt="Lakshmanan" class="person">
-                                <h4>Lakshmanan R</h4>
-                                <p>Web Developer</p>
-                            </div>
-                        </div>
-                    </div> --}}
-                    <div class="swiper-slide slide-center text-center item">
-                        <div class="row card team">
-                            <div class="col-12">
-                                <img src="/assets/images/team/chandu.jpg" alt="Chandu" class="person">
-                                <h4>Chandu V</h4>
-                                <p>Copywriter</p>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="swiper-slide slide-center text-center item">
                         <div class="row card team">
                             <div class="col-12">
@@ -582,25 +506,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/suraj.jpg" alt="Suraj" class="person">
-                                    <h4>Suraj K S
-                                    </h4>
-                                    <p> Chief Operations Officer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/sanjay.jpg" alt="Nirmalaya" class="person">
-                                    <h4>Sanjay Kumar</h4>
-                                    <p>Executive Manager</p>
-                                </div>
-                            </div>
-                        </div>
+                   
 
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card team">
@@ -611,15 +517,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/jothi.jpg" alt="Jothicharan" class="person">
-                                    <h4>Jothicharan Jothibabu</h4>
-                                    <p>Development Head</p>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card team">
                                 <div class="col-12">
@@ -629,33 +527,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/pratik.jpg" alt="Pratik" class="person">
-                                    <h4>Pratik Seal</h4>
-                                    <p>Digital Marketing Strategist</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/sanjayd.jpg" alt="Sanjay" class="person">
-                                    <h4>Sanjay</h4>
-                                    <p>Senior UI/UX Designer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/jones.jpg" alt="Jones" class="person">
-                                    <h4>Jones</h4>
-                                    <p>Junior Designer</p>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card team">
                                 <div class="col-12">
@@ -665,24 +537,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/lakshmanan.jpg" alt="Lakshmanan" class="person">
-                                    <h4>Lakshmanan R</h4>
-                                    <p>Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card team">
-                                <div class="col-12">
-                                    <img src="/assets/images/team/chandu.jpg" alt="Chandu" class="person">
-                                    <h4>Chandu V</h4>
-                                    <p>Copywriter</p>
-                                </div>
-                            </div>
-                        </div>
+                      
                         <div class="swiper-slide slide-center text-center item">
                             <div class="row card team">
                                 <div class="col-12">
@@ -727,7 +582,7 @@
             <div class="row intro">
                 <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                     <h2 class="featured">Our Partners</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem autem illum impedit aspernatur reprehenderit dolores obcaecati sunt explicabo? Accusamus dignissimos incidunt deserunt praesentium quia tempore voluptatem corrupti velit laudantium!</p>
+                    <p> Our pillars that hold us strong together to build this fortress with the wolves.</p>
                 </div>
                
                 <div class="col-12 col-md-3 align-self-end">
@@ -739,43 +594,31 @@
             <div class="swiper-container slider-min">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/1.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/born2win.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/2.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/briteb.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/3.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/primefort.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/4.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/ajna-digital.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/5.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/euphoriaz.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/6.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/peritum.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/7.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/panimalar.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/9.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/ajna-ai.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/10.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/11.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/12.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/13.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/clients/14.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/srm-partner.png" class="image-fit w-85">
                     </div>
                 </div>
             </div>

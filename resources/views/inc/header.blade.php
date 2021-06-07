@@ -37,10 +37,10 @@
               <li class="nav-item dropdown">
                 <a href="/services" class="nav-link effect-motion-hover">Services <i class="icon-arrow-down"></i></a>
                 <div class="dropdown-menu">
-                    <a href="/services/brand-and-ui-ux" class="nav-link">Branding & Identity</a>
-                    <a href="/services/product-development" class="nav-link">AI & Digital Platforms</a>
+                    <a href="/services/brand-and-ui-ux" class="nav-link">Branding & UI/UX</a>
+                    <a href="/services/product-development" class="nav-link">Product Development</a>
                     <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
-                    <a href="/services/digital-process-automation" class="nav-link">Digital Marketing</a>
+                    <a href="/services/digital-process-automation" class="nav-link">Digital Process Automation</a>
                 </div>
             </li> 
                 <li class="nav-item">
@@ -52,22 +52,7 @@
                 
                
             </ul>
-
-            <!-- Navbar Icons-->
-            <!-- <ul class="navbar-nav icons ml-auto m-xl-0">
-                <li class="nav-item">
-                    <a href="#" class="nav-link effect-motion-hover" data-toggle="modal" data-target="#search">
-                        <i class="icon-magnifier"></i>
-                    </a>
-                </li>
-                <li class="nav-item social">
-                    <a href="#" class="nav-link effect-motion-hover"><i class="icon-social-twitter"></i></a>
-                </li>
-                <li class="nav-item social">
-                    <a href="#" class="nav-link effect-motion-hover"><i class="icon-social-instagram"></i></a>
-                </li>
-            </ul> -->
-
+            
             <!-- Navbar Toggle-->
             <ul class="navbar-nav toggle">
                 <li class="nav-item">
@@ -80,10 +65,10 @@
             <!-- Navbar Action-->
             <ul class="navbar-nav action">
                 <li class="nav-item ml-3">
-                    <a href="/contact" class=" btn ml-lg-auto primary-button"><i class="icon-rocket"></i>CONTACT US</a>
+                    <a href="/contact" class=" btn ml-lg-auto primary-button"><i class="icon-rocket"></i>START YOUR PROJECT</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-</header>   
+</header>

@@ -50,24 +50,21 @@
                         <li class="nav-item">
                             <a href="/careers" class="nav-link">Careers</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="/wolf-pack" class="nav-link">Wolf Pack</a>
-                        </li>
                     </ul>
                 </div>
                 <div class="col-12 col-lg-3 p-3 text-center">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/services/brand-and-identity" class="nav-link">Branding & Identity</a>
+                            <a href="/services/brand-and-ui-ux" class="nav-link">Branding & UI/UX</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/services/ai-and-digital-platforms" class="nav-link">AI & Digital Platforms</a>
+                            <a href="/services/product-development" class="nav-link">Product Development</a>
                         </li>
                         <li class="nav-item">
                             <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/services/digital-marketing" class="nav-link">Digital Marketing</a>
+                            <a href="/services/digital-process-automation" class="nav-link">Digital Process Automation</a>
                         </li>
                       
                     </ul>
@@ -89,9 +86,16 @@
                         <li class="nav-item">
                             <a href="https://g.page/nyxwolves?share" target="_blank" class="nav-link">
                                 <i class="icon-location-pin mr-2"></i>
-                                Chennai, Tamil Nadu
+                                Chennai, India
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="https://goo.gl/maps/DLq3Eakw8m6ex58D7" target="_blank" class="nav-link">
+                                <i class="icon-location-pin mr-2"></i>
+                                Bangalore, India
+                            </a>
+                        </li>
+                        
                         <!-- <li class="nav-item">
                             <a href="contact.html" class="mt-4 ml-auto mr-auto btn primary-button"><i class="icon-speech"></i>SEND A MESSAGE</a>
                         </li> -->
@@ -114,5 +118,20 @@
             </div>
         </div>
     </section>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60bcc5dfdd60a20abbe4d90d/1f7gm9shb';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 </footer>

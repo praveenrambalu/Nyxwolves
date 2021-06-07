@@ -154,7 +154,7 @@
         <!-- Header -->
         <header>
             <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
+            <nav data-aos="zoom-out" data-aos-delay="500" class="navbar navbar-expand">
                 <div class="container header">
 
                     <!-- Navbar Brand-->
@@ -190,7 +190,7 @@
                             <a href="/services" class="nav-link effect-motion-hover">Services <i
                                     class="icon-arrow-down"></i></a>
                             <div class="dropdown-menu">
-                                <a href="/services/brand-and-ui-ux" class="nav-link">Branding & UI-UX</a>
+                                <a href="/services/brand-and-ui-ux" class="nav-link">Branding & UI/UX</a>
                                 <a href="/services/product-development" class="nav-link">Product Development</a>
                                 <a href="/services/digital-transformation" class="nav-link">Digital Transformation</a>
                                 <a href="/services/digital-process-automation" class="nav-link">Digital Process Automation</a>
@@ -202,9 +202,7 @@
                         <li class="nav-item">
                             <a href="/careers" class="nav-link effect-motion-hover">Careers</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="/wolf-pack" class="nav-link effect-motion-hover">Wolf Pack</a>
-                        </li>
+        
 
                     </ul>
 
@@ -235,8 +233,7 @@
                     <!-- Navbar Action-->
                     <ul class="navbar-nav action">
                         <li class="nav-item ml-3">
-                            <a href="/contact" class=" btn ml-lg-auto primary-button"><i class="icon-rocket"></i>CONTACT
-                                US</a>
+                            <a href="/contact" class=" btn ml-lg-auto primary-button"><i class="icon-rocket"></i>START YOUR PROJECT</a>
                         </li>
                     </ul>
                 </div>
@@ -661,6 +658,24 @@
             </div>
         </section>
 
+ <section class="banner" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/digital-platforms.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;padding: 60px 0; color:#fff !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-8 align-self-center">
+                        <h3 class="text-white">Ready to Level-Up Your Business?</h3>
+                        <p>Digital excellence delivered to you seamlessly.</p>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                        <a href="/contact" class="btn m-auto mt-3 primary-button">Start Your Project Now</i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
     <!-- Testimonials -->
 
 
@@ -836,14 +851,16 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <div class=" row justify-content-between d-flex" >
-                <div>
-                    <img src="/assets/images/free-logo.png" height="200px" width="200px" alt="">
+            
+            <div class="row">
+                <div class="col-6 col-md-6 align-self-center text-center">
+                <a href="https://www.google.com/search?q=nyxwolves" target="_blank"><img src="/assets/images/testimonial/google.png" /> </a>
                 </div>
-                <div>
-                    <img src="/assets/images/g-logo.png" height="200px" width="200px" alt="">
+                
+                <div class="col-6 col-md-6 align-self-center text-center">
+                <a href="https://www.freelancer.com/u/nyxwolves" target="_blank" ><img src="/assets/images/testimonial/freelancer.png" /></a>
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
 
@@ -903,7 +920,19 @@
             </div>
       </div>
     </section>
-
+<section class="banner" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/digital-platforms.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;padding: 60px 0; color:#fff !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-8 align-self-center">
+                        <h3 class="text-white">Ready to Level-Up Your Business?</h3>
+                        <p>Digital excellence delivered to you seamlessly.</p>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                        <a href="/contact" class="btn m-auto mt-3 primary-button">Start Your Project Now</i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     <!-- Blog -->
     @include('inc.blog')
 
