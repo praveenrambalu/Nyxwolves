@@ -314,7 +314,7 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section> --}}
-        <div class="nyx_banner"  data-0="position:fixed; opacity:1" data-2900="position:fixed; opacity:1;display:block;" data-3000="position:relative; opacity:0;display:none;">
+        <div class="nyx_banner"  data-0="position:fixed; opacity:1" data-2900="position:fixed; opacity:1;display:block;" data-3200="position:fixed; opacity:0;display:none;">
 
             <!-- <div data-0="background-color:rgb(0,0,255);transform:rotate(0deg);" class="absolute text" data-500="background-color:rgb(255,0,0);transform:rotate(360deg);">WOOOT</div> -->
             <div class="hidden_background" data-0="background-color:transparent" data-1200="background-color: blue "
