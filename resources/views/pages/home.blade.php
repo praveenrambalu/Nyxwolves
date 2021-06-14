@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.css" />
     <link rel="stylesheet" href="/assets/css/final_style.css">
+    <link rel="stylesheet" href="/assets/css/map_style.css">
     <!-- ==============================================
         Section Configuration
         =============================================== -->
@@ -1051,7 +1052,7 @@
     @include('inc.blog')
 
     <!-- Subscribe -->
-    <section id="subscribe" class="subscription map" style="background:rgb(0,0,0); padding-top:150px">
+    <section id="subscribe" class="subscription map" style="background:#141414; padding-top:150px">
         <div class="row intro">
             <div class="container">
                 <div class="col-12 col-md-9 align-self-center text-center text-md-left">
@@ -1061,7 +1062,20 @@
             </div>
 
         </div>
-        <div id="map" style="width: 100%; height: 500px; "></div>
+        {{-- <div id="map" style="width: 100%; height: 500px; "></div> --}}
+
+        <div id="map_holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="map_holder">
+                            <img src="/assets/img/map_svg.svg" class="img img-responsive map_image" alt="">
+                            <img src="/assets/img/map_marker.png" class="img img-responsive map_marker_image wow " alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -1086,7 +1100,19 @@
 <script>
     skrollr.init();
 </script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" ></script>
+<script>
+wow = new WOW(
+{
+boxClass:     'wow',      // default
+animateClass: 'animated', // default
+offset:       0,          // default
+mobile:       true,       // default
+live:         true        // default
+}
+)
+wow.init();
+    </script>
 </body>
 
 </html>

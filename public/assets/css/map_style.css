@@ -1,0 +1,82 @@
+#map_holder {
+  background: #141414;
+  padding: 100px 0;
+}
+
+#map_holder .map_holder {
+  position: relative;
+}
+
+#map_holder .map_holder .map_image {
+  width: 100%;
+  position: relative;
+  -webkit-animation: 5s mapscale linear infinite;
+          animation: 5s mapscale linear infinite;
+}
+
+#map_holder .map_holder .map_marker_image {
+  width: 96%;
+  position: absolute;
+  top: -5px;
+  left: 45px;
+}
+
+#map_holder .map_holder .map_marker_image.animated {
+  -webkit-animation: 2s markerbounce ease-in-out;
+          animation: 2s markerbounce ease-in-out;
+}
+
+@-webkit-keyframes markerbounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: -5px;
+  }
+}
+
+@keyframes markerbounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: -5px;
+  }
+}
+
+@-webkit-keyframes mapscale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes mapscale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=map_style.css.map */
