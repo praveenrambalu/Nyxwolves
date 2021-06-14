@@ -1,0 +1,668 @@
+.nyx_banner {
+  background: url("/assets/img/banner_background.png");
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.nyx_banner .wolf-palm {
+  height: 100px;
+  position: absolute;
+  left: 40%;
+  right: 60%;
+  top: 18%;
+}
+
+.nyx_banner .hidden_background {
+  height: 100vh;
+}
+
+.nyx_banner .banner_text {
+  width: 80%;
+  margin: auto 20% auto 0;
+}
+
+.nyx_banner .banner_text .first_section_text.first {
+  margin-top: 250px;
+}
+
+.nyx_banner .banner_text h1 {
+  text-align: right;
+  font-size: 6rem;
+  font-family: 'Poppins';
+  color: rgba(255, 255, 255, 0.2);
+  text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.nyx_banner .banner_text h1.active {
+  color: #fff;
+  text-align: left;
+}
+
+.nyx_banner .banner_text h1.clear {
+  opacity: 0;
+  -webkit-animation: fadeOutClear 1s linear;
+          animation: fadeOutClear 1s linear;
+}
+
+.nyx_banner .wolf-image-container {
+  position: relative;
+}
+
+.nyx_banner .wolf-image-container .wolf-line {
+  position: absolute;
+}
+
+.nyx_banner .wolf-image-container .wolf-container {
+  -webkit-animation: animationFrames linear 3s infinite;
+          animation: animationFrames linear 3s infinite;
+}
+
+.nyx_banner .banner_two img.banner_image {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 200px;
+  -webkit-animation: 2s spin ease-in-out infinite;
+          animation: 2s spin ease-in-out infinite;
+}
+
+.nyx_banner .banner_two .banner_left_text {
+  width: 70%;
+  margin: auto;
+}
+
+.nyx_banner .banner_two .banner_left_text h1 {
+  text-align: left;
+  font-size: 6rem;
+  font-family: 'Poppins';
+  color: #fff;
+  text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.nyx_banner .banner_two .banner_right_text {
+  width: 100%;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.nyx_banner .banner_two .banner_right_text h1 {
+  text-align: left;
+  font-size: 5rem;
+  font-family: 'Poppins';
+  color: #0031D1;
+  text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  margin-bottom: 50px;
+}
+
+#hidden_circle {
+  height: 50px;
+  width: 50px;
+  background: #0031D1;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#hidden_circle.active {
+  -webkit-animation: scaleCircle linear 2s;
+          animation: scaleCircle linear 2s;
+}
+
+#hidden_circle.full {
+  -webkit-animation: scaleCircle linear 2s;
+          animation: scaleCircle linear 2s;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .nyx_banner {
+    background: url("/assets/img/banner_background.png");
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: bottom center;
+  }
+  .nyx_banner .wolf-palm {
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    top: 18%;
+  }
+  .nyx_banner .hidden_background {
+    height: 100vh;
+  }
+  .nyx_banner .banner_text {
+    width: 80%;
+    margin: auto 20% auto 0;
+  }
+  .nyx_banner .banner_text h1 {
+    text-align: right;
+    font-size: 6rem;
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_text h1.active {
+    color: #fff;
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1.clear {
+    opacity: 0;
+    -webkit-animation: fadeOutClear 1s linear;
+            animation: fadeOutClear 1s linear;
+  }
+  .nyx_banner .wolf-image-container {
+    position: relative;
+  }
+  .nyx_banner .wolf-image-container .wolf-line {
+    position: absolute;
+    margin-left: -150px;
+  }
+  .nyx_banner .wolf-image-container .wolf-image {
+    margin-left: -150px;
+  }
+  .nyx_banner .wolf-image-container .wolf-container {
+    -webkit-animation: animationFrames linear 3s infinite;
+            animation: animationFrames linear 3s infinite;
+  }
+  .nyx_banner .banner_two img.banner_image {
+    width: 100%;
+    margin-top: 00px;
+    margin-bottom: 0px;
+  }
+  .nyx_banner .banner_two .banner_left_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .nyx_banner .banner_two .banner_left_text h1 {
+    text-align: left;
+    font-size: 5rem;
+    font-family: 'Poppins';
+    color: #fff;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_two .banner_right_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .nyx_banner .banner_two .banner_right_text h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Poppins';
+    color: #0031D1;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
+  .nyx_banner {
+    background: url("/assets/img/banner_background.png");
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: bottom center;
+  }
+  .nyx_banner .wolf-palm {
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    top: 18%;
+  }
+  .nyx_banner .hidden_background {
+    height: 100vh;
+  }
+  .nyx_banner .banner_text {
+    width: 80%;
+    margin: auto 20% auto 0;
+  }
+  .nyx_banner .banner_text .first_section_text.first {
+    margin-top: 50px;
+  }
+  .nyx_banner .banner_text .second_section_text.first {
+    margin-top: -250px;
+    text-align: left;
+    font-size: 5rem;
+  }
+  .nyx_banner .banner_text h1 {
+    text-align: right;
+    font-size: 6rem;
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_text h1.active {
+    color: #fff;
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1.clear {
+    opacity: 0;
+    -webkit-animation: fadeOutClear 1s linear;
+            animation: fadeOutClear 1s linear;
+  }
+  .nyx_banner .wolf-image-container {
+    position: relative;
+  }
+  .nyx_banner .wolf-image-container .wolf-line {
+    position: absolute;
+    margin-left: -150px;
+  }
+  .nyx_banner .wolf-image-container .wolf-image {
+    margin-left: -150px;
+  }
+  .nyx_banner .wolf-image-container .wolf-container {
+    -webkit-animation: animationFrames linear 3s infinite;
+            animation: animationFrames linear 3s infinite;
+  }
+  .nyx_banner .banner_two img.banner_image {
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: 50px;
+  }
+  .nyx_banner .banner_two .banner_left_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 250px;
+  }
+  .nyx_banner .banner_two .banner_left_text h1 {
+    text-align: left;
+    font-size: 4rem;
+    font-family: 'Poppins';
+    color: #fff;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_two .banner_right_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 300px;
+    text-align: left;
+  }
+  .nyx_banner .banner_two .banner_right_text h1 {
+    text-align: left;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    color: #0031D1;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) and (orientation: portrait) {
+  .nyx_banner {
+    background: url("/assets/img/banner_background.png");
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: bottom center;
+  }
+  .nyx_banner .wolf-palm {
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    top: 18%;
+  }
+  .nyx_banner .hidden_background {
+    height: 100vh;
+  }
+  .nyx_banner .half-50 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .nyx_banner .banner_text {
+    width: 80%;
+    margin: auto 20% auto 0;
+  }
+  .nyx_banner .banner_text .first_section_text.first {
+    margin-top: 50px;
+  }
+  .nyx_banner .banner_text .second_section_text {
+    font-size: 6rem;
+    text-align: left;
+  }
+  .nyx_banner .banner_text .second_section_text.first {
+    margin-top: 400px;
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1 {
+    text-align: right;
+    font-size: 10rem;
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_text h1.active {
+    color: #fff;
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1.clear {
+    opacity: 0;
+    -webkit-animation: fadeOutClear 1s linear;
+            animation: fadeOutClear 1s linear;
+  }
+  .nyx_banner .wolf-image-container {
+    position: relative;
+  }
+  .nyx_banner .wolf-image-container .wolf-line {
+    position: absolute;
+    margin-top: -150%;
+    margin-left: 100%;
+  }
+  .nyx_banner .wolf-image-container .wolf-image {
+    width: 115%;
+    /* margin: auto; */
+    margin-top: -150%;
+    margin-left: 100%;
+  }
+  .nyx_banner .wolf-image-container .wolf-container {
+    -webkit-animation: animationFrames linear 3s infinite;
+            animation: animationFrames linear 3s infinite;
+  }
+  .nyx_banner .banner_two img.banner_image {
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: 50px;
+  }
+  .nyx_banner .banner_two .col-md-6.half-50 {
+    width: 50%;
+    max-width: 50%;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .nyx_banner .banner_two .banner_left_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 250px;
+  }
+  .nyx_banner .banner_two .banner_left_text h1 {
+    text-align: left;
+    font-size: 7rem;
+    font-family: 'Poppins';
+    color: #fff;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_two .banner_right_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .nyx_banner .banner_two .banner_right_text h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Poppins';
+    color: #0031D1;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1370px) {
+  .nyx_banner {
+    background: url("/assets/img/banner_background.png");
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: bottom center;
+  }
+  .nyx_banner .wolf-palm {
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    top: 18%;
+  }
+  .nyx_banner .hidden_background {
+    height: 100vh;
+  }
+  .nyx_banner .banner_text {
+    width: 80%;
+    margin: auto 20% auto 0;
+  }
+  .nyx_banner .banner_text h1 {
+    text-align: right;
+    font-size: 6rem;
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_text h1.second_section_text {
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1.active {
+    color: #fff;
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1.clear {
+    opacity: 0;
+    -webkit-animation: fadeOutClear 1s linear;
+            animation: fadeOutClear 1s linear;
+  }
+  .nyx_banner .wolf-image-container {
+    position: relative;
+  }
+  .nyx_banner .wolf-image-container .wolf-line {
+    position: absolute;
+  }
+  .nyx_banner .wolf-image-container .wolf-container {
+    -webkit-animation: animationFrames linear 3s infinite;
+            animation: animationFrames linear 3s infinite;
+  }
+  .nyx_banner .banner_two img.banner_image {
+    width: 80%;
+    margin-top: 300px;
+    margin-bottom: 25px;
+  }
+  .nyx_banner .banner_two .banner_left_text {
+    width: 70%;
+    margin: auto;
+    margin-top: 300px;
+  }
+  .nyx_banner .banner_two .banner_left_text h1 {
+    text-align: left;
+    font-size: 5rem;
+    font-family: 'Poppins';
+    color: #fff;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_two .banner_right_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 300px;
+  }
+  .nyx_banner .banner_two .banner_right_text h1 {
+    text-align: left;
+    font-size: 4rem;
+    font-family: 'Poppins';
+    color: #0031D1;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nyx_banner {
+    background: url("/assets/img/banner_background.png");
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: bottom center;
+  }
+  .nyx_banner .col-sm-6.col-xs-6.half-50.align-self-center {
+    width: 100%;
+  }
+  .nyx_banner .wolf-palm {
+    height: 50px;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    top: 18%;
+  }
+  .nyx_banner .hidden_background {
+    height: 100vh;
+  }
+  .nyx_banner .banner_text {
+    width: 80%;
+    margin: auto 20% auto 0;
+    margin-top: 75px;
+  }
+  .nyx_banner .banner_text .first_section_text.first {
+    margin-top: 0px;
+  }
+  .nyx_banner .banner_text h1 {
+    text-align: right;
+    font-size: 5rem;
+    font-family: 'Poppins';
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_text h1.active {
+    color: #fff;
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1.clear {
+    opacity: 0;
+    -webkit-animation: fadeOutClear 1s linear;
+            animation: fadeOutClear 1s linear;
+  }
+  .nyx_banner .banner_text h1.second_section_text {
+    font-size: 3rem;
+    text-align: left;
+  }
+  .nyx_banner .banner_text h1.second_section_text.first {
+    margin-top: 200px;
+  }
+  .nyx_banner .wolf-image-container {
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: 60%;
+    margin-top: -200px;
+  }
+  .nyx_banner .wolf-image-container .wolf-line {
+    position: absolute;
+    width: 150px;
+  }
+  .nyx_banner .wolf-image-container .wolf-image {
+    width: 150px;
+  }
+  .nyx_banner .wolf-image-container .wolf-container {
+    -webkit-animation: animationFrames linear 3s infinite;
+            animation: animationFrames linear 3s infinite;
+  }
+  .nyx_banner .banner_two .half-50 {
+    width: 100%;
+  }
+  .nyx_banner .banner_two img.banner_image {
+    width: 74%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin: auto;
+  }
+  .nyx_banner .banner_two .banner_left_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .nyx_banner .banner_two .banner_left_text h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    color: #fff;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+  }
+  .nyx_banner .banner_two .banner_left_text h1 br {
+    display: none;
+  }
+  .nyx_banner .banner_two .banner_right_text {
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .nyx_banner .banner_two .banner_right_text h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    color: #0031D1;
+    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    margin-bottom: 5px;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  53% {
+    -webkit-transform: scaleX(1.2);
+            transform: scaleX(1.2);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes animationFrames {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  53% {
+    -webkit-transform: scaleX(1.2);
+            transform: scaleX(1.2);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+/*# sourceMappingURL=final_style.css.map */

@@ -1,0 +1,712 @@
+.nyx_banner{
+    background: url("/assets/img/banner_background.png");
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    .wolf-palm{
+        height: 100px;
+        position: absolute;
+        left: 40%;
+        right: 60%;
+        top: 18%;
+    }
+    .hidden_background{
+        height: 100vh;
+    }
+    .banner_text{
+        width: 80%;
+        margin: auto 20% auto 0;
+        .first_section_text{
+            &.first{
+                margin-top: 250px;
+            }
+        }
+        h1{
+            text-align: right;
+            font-size: 6rem;
+            font-family: 'Poppins';
+            color: rgba(255, 255, 255, 0.2);
+            text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+            transition: 0.5s ease all;
+            &.active{
+                color: #fff;
+                text-align: left;
+            }
+            &.clear{
+                opacity: 0;
+                animation: fadeOutClear 1s linear;
+
+            }
+           
+        }
+    }
+
+    .wolf-image-container{
+        position: relative;
+        .wolf-line{
+            position: absolute;
+        }
+
+        // .wolf-image{
+        //     // transition: 0.5s ease all;
+           
+
+        // }
+        .wolf-container{
+            animation: animationFrames linear 3s infinite;
+            // background: red;
+        }
+       
+    }
+
+    .banner_two{
+        img.banner_image{
+            width: 100%;
+            margin-top: 150px;
+            margin-bottom: 200px;
+            animation: 2s spin ease-in-out infinite;
+        }
+        .banner_left_text{
+            width: 70%;
+            margin: auto;
+            // margin-top: 100px;
+            h1{
+                text-align: left;
+                font-size: 6rem;
+                font-family: 'Poppins';
+                color: #fff;
+                text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                transition: 0.5s ease all;
+            }
+        }
+        .banner_right_text{
+            width: 100%;
+            margin: auto;
+            margin-top: 250px;
+            h1{
+                text-align: left;
+                font-size: 5rem;
+                font-family: 'Poppins';
+                color: #0031D1;
+                text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                transition: 0.5s ease all;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+
+
+#hidden_circle {
+    height: 50px;
+    width: 50px;
+    background: #0031D1;
+    border-radius: 50%;
+    position: absolute;
+    &.active{
+        animation: scaleCircle linear 2s;
+    }
+    &.full{
+        animation: scaleCircle linear 2s;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+
+    .nyx_banner{
+        background: url("/assets/img/banner_background.png");
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        background-size: cover;
+        background-position: bottom center;
+        .wolf-palm{
+            height: 100px;
+            position: absolute;
+            left: 40%;
+            right: 60%;
+            top: 18%;
+        }
+        .hidden_background{
+            height: 100vh;
+        }
+        .banner_text{
+            width: 80%;
+            margin: auto 20% auto 0;
+            h1{
+                text-align: right;
+                font-size: 6rem;
+                font-family: 'Poppins';
+                color: rgba(255, 255, 255, 0.2);
+                text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                transition: 0.5s ease all;
+                &.active{
+                    color: #fff;
+                    text-align: left;
+                }
+                &.clear{
+                    opacity: 0;
+                    animation: fadeOutClear 1s linear;
+    
+                }
+               
+            }
+        }
+    
+        .wolf-image-container{
+            position: relative;
+            .wolf-line{
+                position: absolute;
+                margin-left: -150px;
+
+            }
+    
+            .wolf-image{
+                // transition: 0.5s ease all;
+                    margin-left: -150px;
+    
+            }
+            .wolf-container{
+                animation: animationFrames linear 3s infinite;
+                // background: red;
+            }
+           
+        }
+    
+        .banner_two{
+            img.banner_image{
+                width: 100%;
+                margin-top: 00px;
+                margin-bottom: 0px;
+            }
+            .banner_left_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 100px;
+                h1{
+                    text-align: left;
+                    font-size: 5rem;
+                    font-family: 'Poppins';
+                    color: #fff;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                }
+            }
+            .banner_right_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 100px;
+                h1{
+                    text-align: center;
+                    font-size: 4rem;
+                    font-family: 'Poppins';
+                    color: #0031D1;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+    
+
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px)  and (orientation: landscape)  {
+    .nyx_banner{
+        background: url("/assets/img/banner_background.png");
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        background-size: cover;
+        background-position: bottom center;
+        .wolf-palm{
+            height: 100px;
+            position: absolute;
+            left: 40%;
+            right: 60%;
+            top: 18%;
+        }
+        .hidden_background{
+            height: 100vh;
+        }
+        .banner_text{
+            width: 80%;
+            margin: auto 20% auto 0;
+            .first_section_text{
+                &.first{
+                    margin-top: 50px;
+                }
+            }
+            .second_section_text{
+                &.first{
+                    margin-top: -250px;
+                    text-align: left;
+                    font-size: 5rem;
+                }
+            }
+            h1{
+                text-align: right;
+                font-size: 6rem;
+                font-family: 'Poppins';
+                color: rgba(255, 255, 255, 0.2);
+                text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                transition: 0.5s ease all;
+                &.active{
+                    color: #fff;
+                    text-align: left;
+                }
+                &.clear{
+                    opacity: 0;
+                    animation: fadeOutClear 1s linear;
+    
+                }
+               
+            }
+        }
+    
+        .wolf-image-container{
+            position: relative;
+            .wolf-line{
+                position: absolute;
+                margin-left: -150px;
+
+            }
+    
+            .wolf-image{
+                // transition: 0.5s ease all;
+               
+                margin-left: -150px;
+            }   
+            .wolf-container{
+                animation: animationFrames linear 3s infinite;
+                // background: red;
+            }
+           
+        }
+    
+        .banner_two{
+            img.banner_image{
+                width: 100%;
+                margin-top: 250px;
+                margin-bottom: 50px;
+            }
+            // .col-md-6.half-50{
+            //     width: 50%;
+            //     max-width: 50%;
+            // }
+            .banner_left_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 250px;
+                h1{
+                    text-align: left;
+                    font-size: 4rem;
+                    font-family: 'Poppins';
+                    color: #fff;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                }
+            }
+            .banner_right_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 300px;
+                text-align: left;
+                h1{
+                    text-align: left;
+                    font-size: 3rem;
+                    font-family: 'Poppins';
+                    color: #0031D1;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1365px)  and (orientation: portrait)  {
+    .nyx_banner{
+        background: url("/assets/img/banner_background.png");
+        // background: red;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        background-size: cover;
+        background-position: bottom center;
+        .wolf-palm{
+            height: 100px;
+            position: absolute;
+            left: 40%;
+            right: 60%;
+            top: 18%;
+        }
+        .hidden_background{
+            height: 100vh;
+        }
+        .half-50{
+            width: 100%;
+            max-width: 100%;
+        }
+        .banner_text{
+            width: 80%;
+            margin: auto 20% auto 0;
+            .first_section_text{
+                &.first{
+                    margin-top: 50px;
+                }
+            }
+            .second_section_text{
+                font-size: 6rem;
+                text-align: left;
+                &.first{
+                    margin-top: 400px;
+                    text-align: left;
+                }
+            }
+            h1{
+                text-align: right;
+                font-size: 10rem;
+                font-family: 'Poppins';
+                color: rgba(255, 255, 255, 0.2);
+                text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                transition: 0.5s ease all;
+                &.active{
+                    color: #fff;
+                    text-align: left;
+                }
+                &.clear{
+                    opacity: 0;
+                    animation: fadeOutClear 1s linear;
+    
+                }
+               
+            }
+        }
+    
+        .wolf-image-container{
+            position: relative;
+            .wolf-line{
+                position: absolute;
+                margin-top: -150%;
+                margin-left: 100%;
+
+            }
+    
+            .wolf-image{
+                // transition: 0.5s ease all;
+                width: 115%;
+                /* margin: auto; */
+                margin-top: -150%;
+                margin-left: 100%;
+            }   
+            .wolf-container{
+                animation: animationFrames linear 3s infinite;
+                // background: red;
+            }
+           
+        }
+    
+        .banner_two{
+            img.banner_image{
+                width: 100%;
+                margin-top: 250px;
+                margin-bottom: 50px;
+            }
+            .col-md-6.half-50{
+                width: 50%;
+                max-width: 50%;
+                flex: 50%;
+            }
+            .banner_left_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 250px;
+                h1{
+                    text-align: left;
+                    font-size: 7rem;
+                    font-family: 'Poppins';
+                    color: #fff;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                }
+            }
+            .banner_right_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 50px;
+                text-align: center;
+                h1{
+                    text-align: center;
+                    font-size: 5rem;
+                    font-family: 'Poppins';
+                    color: #0031D1;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1370px)   {
+    .nyx_banner{
+        background: url("/assets/img/banner_background.png");
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        background-size: cover;
+        background-position: bottom center;
+        .wolf-palm{
+            height: 100px;
+            position: absolute;
+            left: 40%;
+            right: 60%;
+            top: 18%;
+        }
+        .hidden_background{
+            height: 100vh;
+        }
+        .banner_text{
+            width: 80%;
+            margin: auto 20% auto 0;
+            h1{
+                text-align: right;
+                font-size: 6rem;
+                font-family: 'Poppins';
+                color: rgba(255, 255, 255, 0.2);
+                text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                transition: 0.5s ease all;
+                &.second_section_text{
+                    text-align: left;
+                }
+                &.active{
+                    color: #fff;
+                    text-align: left;
+                }
+                &.clear{
+                    opacity: 0;
+                    animation: fadeOutClear 1s linear;
+    
+                }
+               
+            }
+        }
+    
+        .wolf-image-container{
+            position: relative;
+            .wolf-line{
+                position: absolute;
+            }
+    
+            // .wolf-image{
+            //     // transition: 0.5s ease all;
+               
+    
+            // }
+            .wolf-container{
+                animation: animationFrames linear 3s infinite;
+                // background: red;
+            }
+           
+        }
+    
+        .banner_two{
+            img.banner_image{
+                width: 80%;
+                margin-top: 300px;
+                margin-bottom: 25px;
+            }
+            .banner_left_text{
+                width: 70%;
+                margin: auto;
+                margin-top: 300px;
+                h1{
+                    text-align: left;
+                    font-size: 5rem;
+                    font-family: 'Poppins';
+                    color: #fff;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                }
+            }
+            .banner_right_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 300px;
+                h1{
+                    text-align: left;
+                    font-size: 4rem;
+                    font-family: 'Poppins';
+                    color: #0031D1;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .nyx_banner{
+        background: url("/assets/img/banner_background.png");
+        height: 100vh;
+
+        width: 100%;
+        position: fixed;
+        background-size: cover;
+        background-position: bottom center;
+        .col-sm-6.col-xs-6.half-50.align-self-center {
+            width: 100%;
+        }
+        .wolf-palm{
+            height: 50px;
+            position: absolute;
+            left: 40%;
+            right: 60%;
+            top: 18%;
+        }
+        .hidden_background{
+            height: 100vh;
+
+        }
+        .banner_text{
+            width: 80%;
+            margin: auto 20% auto 0;
+            margin-top: 75px;
+            .first_section_text{
+                &.first{
+                    margin-top: 0px;
+                }
+            }
+            h1{
+                text-align: right;
+                font-size: 5rem;
+                font-family: 'Poppins';
+                color: rgba(255, 255, 255, 0.2);
+                text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                transition: 0.5s ease all;
+                &.active{
+                    color: #fff;
+                    text-align: left;
+                }
+                &.clear{
+                    opacity: 0;
+                    animation: fadeOutClear 1s linear;
+    
+                }
+                &.second_section_text{
+                    font-size: 3rem;
+                    text-align: left;
+                    &.first{
+                        margin-top: 200px;
+                    }
+                }
+               
+            }
+        }
+    
+        .wolf-image-container{
+            position: relative;
+            width: max-content;
+            margin-left: 60%;
+            margin-top: -200px;
+            .wolf-line{
+                position: absolute;
+                width:150px;
+            }
+    
+            .wolf-image{
+                // transition: 0.5s ease all;
+               
+                width:150px;
+    
+            }
+            .wolf-container{
+                animation: animationFrames linear 3s infinite;
+                // background: red;
+                // width: max-content;
+                // margin-left: 80%;
+            }
+           
+        }
+    
+        .banner_two{
+            .half-50{
+                width: 100%;
+            }
+            img.banner_image{
+                width: 74%;
+                margin-top: 0;
+                margin-bottom: 0px;
+                margin: auto;
+            }
+            .banner_left_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 100px;
+                h1{
+                    text-align: center;
+                    font-size: 3rem;
+                    font-family: 'Poppins';
+                    color: #fff;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                    br{
+                        display: none;
+                    }
+                }
+            }
+            .banner_right_text{
+                width: 100%;
+                margin: auto;
+                margin-top: 0px;
+                h1{
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-family: 'Poppins';
+                    color: #0031D1;
+                    text-shadow: 12.4965px 12.4965px 45.4419px rgba(0, 0, 0, 0.4);
+                    transition: 0.5s ease all;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes animationFrames{
+    0% {
+      transform:  scaleX(1.00) ;
+    }
+    53% {
+      transform:  scaleX(1.2) ;
+    }
+    100% {
+      transform:  scaleX(1.00) ;
+    }
+}

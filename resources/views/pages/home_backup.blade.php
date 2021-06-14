@@ -14,7 +14,7 @@
     
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.css" />
-    <link rel="stylesheet" href="/assets/css/final_style.css">
+
     <!-- ==============================================
         Section Configuration
         =============================================== -->
@@ -142,13 +142,7 @@
 	/* margin-bottom: 30px; */
 	padding-bottom: 13px;
 }
-
     </style>
-        <style>
-            .spacer {
-                height: 375vh;
-            }
-        </style>
 </head>
 
 <body>
@@ -249,7 +243,7 @@
 
 
         <!-- Banner -->
-        {{-- <section id="slider" class="p-0">
+        <section id="slider" class="p-0">
             <div class="swiper-container slider-full animation slider-h-100">
                 <div class="swiper-wrapper">
 
@@ -313,115 +307,7 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-        </section> --}}
-        <div class="nyx_banner"  data-0="position:fixed; opacity:1" data-2900="position:fixed; opacity:1;display:block;" data-3000="position:relative; opacity:0;display:none;">
-
-            <!-- <div data-0="background-color:rgb(0,0,255);transform:rotate(0deg);" class="absolute text" data-500="background-color:rgb(255,0,0);transform:rotate(360deg);">WOOOT</div> -->
-            <div class="hidden_background" data-0="background-color:transparent" data-1200="background-color: blue "
-                data-1800="background-color:black;">
-                <div class="container-fluid" data-0="display:block;" data-2000="display:block" data-2001="display:none;">
-                    <div class="row">
-                        <div id="hidden_circle" data-800="opacity:0; " data-1000="opacity:1; transform:  scale(1) ;"
-                            data-1200="transform:scale(100%)" data-1201="opacity:0"></div>
-                        <img class="wolf-palm" src="/assets/img/wolf-hand.svg" data-0="opacity:0; display:blcok;"
-                            data-1700="opacity:0" data-1800="opacity:1; transform:scale(1); top:18%; left:40%"
-                            data-1900="transform: scale(5.5);top: 50%;left: 28%;z-index: 9; display:block;" data-2000="transform: scale(1);top: 100%;left: 10%;
-                        z-index: 8;" />
-                        <img class="wolf-palm" src="/assets/img/wolf-hand-black.svg" data-0="opacity:0; display:blcok;"
-                            data-1700="opacity:0" data-1800="opacity:1; transform:scale(1); top:18%; left:40%"
-                            data-1900="transform: scale(5.5);top: 50%;left: 28%;z-index: 7; display:block;" />
-    
-                        <div class="col-sm-6 col-xs-6 half-50 align-self-center">
-                            <div class="banner_text" id="my-sticky-element">
-                                <h1 class="first  first_section_text" data-0="transform:translateX(0); color:#fff; opacity:0.2; display:block;"
-                                    data-100="transform:translateX(-50px); color:#fff; opacity:1; display:block;"
-                                    data-1300="transform:translateX(0); opacity:1; display:block;"
-                                    data-1500="transform:translateX(1200px);opacity:0; display:none">We</h1>
-                                <h1 class="second first_section_text"
-                                    data-200="transform:translateX(0); color:#fff; opacity:0.2; display:block;"
-                                    data-300="transform:translateX(-50px); color:#fff; opacity:1; display:block;"
-                                    data-1300="transform:translateX(0); opacity:1; display:block;"
-                                    data-1500="transform:translateX(1200px);opacity:0; display:none">Build</h1>
-                                <h1 class="three first_section_text"
-                                    data-400="transform:translateX(0); color:#fff; opacity:0.2; display:block;"
-                                    data-500="transform:translateX(-50px); color:#fff; opacity:1; display:block;"
-                                    data-1300="transform:translateX(0); opacity:1; display:block;"
-                                    data-1500="transform:translateX(1200px);opacity:0; display:none">Cool</h1>
-                                <h1 class="four first_section_text" data-600="transform:translateX(0); color:#fff; opacity:0.2; display:block;"
-                                    data-700="transform:translateX(-50px); color:#fff; opacity:1; display:block;"
-                                    data-1300="transform:translateX(0); opacity:1; display:block;"
-                                    data-1500="transform:translateX(1200px);opacity:0; display:none ">Stuff</h1>
-                                <h1 class="second_section_text first" data-0="opacity:0; transform:translateX(1200); display:none;"
-                                    data-1600="display:block; transform:translateX(1200); opacity:0; color:#fff;"
-                                    data-1700="transform:translateX(0); opacity:1; color:#fff;">A Digital</h1>
-                                <h1 class="second_section_text data-0="opacity:0; transform:translateX(1200); display:none;"
-                                    data-1600="display:block; transform:translateX(1200); opacity:0; color:#fff;"
-                                    data-1700="transform:translateX(0); opacity:1; color:#fff;">software</h1>
-                                <h1 class="second_section_text data-0="opacity:0; transform:translateX(1200); display:none;"
-                                    data-1600="display:block; transform:translateX(1200); opacity:0; color:#fff;"
-                                    data-1700="transform:translateX(0); opacity:1; color:#fff;">development</h1>
-                                <h1 class="second_section_text data-0="opacity:0; transform:translateX(1200); display:none;"
-                                    data-1600="display:block; transform:translateX(1200); opacity:0; color:#fff;"
-                                    data-1700="transform:translateX(0); opacity:1; color:#fff;">startup</h1>
-    
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-6 half-50 align-self-center">
-                            <div class="wolf-image-container">
-                                <img src="/assets/img/wolf-line.png" class="img img-responsive wolf-line" alt=""
-                                    data-0="opacity:1" data-1300="opacity:0">
-    
-                                    <div class="wolf-container">
-                                        <img src="/assets/img/wolf4.png" class="img img-responsive wolf-image"
-                                            data-0="opacity:0.5;transform:translateX(0) " data-100="transform:translateX(-50px)"
-                                            data-300="transform:translateX(-100px)" data-500="transform:translateX(-150px)"
-                                            data-700="opacity:1; transform:translateX(-200px)"
-                                            data-1300="opacity:0; transform:translateX(200px)" alt="">
-                                    </div>
-    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid banner_two" data-0="display:none;" data-2000="display:none;" data-2001="display:block;">
-                    <div class="row">
-                        <div class="col-sm-4 col-xs-12 half-50 align-self-center col-md-6 col-lg-4">
-                            <div class="banner_left_text">
-    
-                                <h1  data-2100="opacity:0" data-2200="opacity:1">
-                                    with <br>
-                                    a <br>
-                                    coercion <br>
-                                    of <br>
-                                </h1>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-xs-12 half-50 text-center align-self-center col-md-6 col-lg-4">
-                            <img src="/assets/img/banner_tree.png" data-2000="opacity:0 " data-2100="opacity:1 " data-2400="display:block" data-2500="display:none" class="img img-responsive banner_image" alt="">
-                            <img src="/assets/img/banner_brain.png" data-2400="opacity:0; display:none; " data-2500="opacity:1; display:block; " data-2600="display:none" class="img img-responsive banner_image" alt="">
-                            <img src="/assets/img/banner_diamond.png" data-2500="opacity:0; display:none; " data-2600="opacity:1; display:block; " class="img img-responsive banner_image" alt="">
-                        </div>
-                        <div class="col-sm-4 col-xs-12 col-md-12 col-lg-4">
-                            <div class="banner_right_text">
-    
-                                <h1  data-2200="opacity:0" data-2300="opacity:1; color:blue" data-2400="color:white">
-                                   DESIGN
-                                </h1>
-                                <h1  data-2400="opacity:0" data-2500="opacity:1; color:blue" data-2600="color:white">
-                                   TECHNOLOGY
-                                </h1>
-                                <h1  data-2600="opacity:0" data-2700="opacity:1; color:blue" data-2800="color:white">
-                                   EXCELLENCE
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-        </div>
-    
-        <div class="spacer"></div>
+        </section>
 
         <!-- About [image] -->
         <section id="intro" class="highlights left">
@@ -1082,11 +968,6 @@
     <script src="/assets/js/map.js"></script>
     {{-- <script src="/assets/js/rain.js"></script> --}}
     @include('inc.contact-form-scripts')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
-<script>
-    skrollr.init();
-</script>
-
 </body>
 
 </html>
