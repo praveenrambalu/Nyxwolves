@@ -855,7 +855,9 @@
        dots:true,
        loop:true,
        nav:false,
-       autoplay:true,
+       autoplay:1000,
+    //    autoplaySpeed: 100,
+       autoplayHoverPause:true,
        responsive:{
            0:{
                items:1,
@@ -876,7 +878,9 @@
         dots:true,
         loop:true,
         nav:false,
-        autoplay:true,
+        autoplay:1000,
+        // autoplaySpeed: 100,
+        autoplayHoverPause:true,
         responsive:{
             0:{
                 items:1,
