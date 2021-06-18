@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <section id="pen-give-take">
+    {{-- <section id="pen-give-take">
         <div class="custom-container">
             <div class="row">
                 <div class="col-sm-8 square-bg align-self-center">
@@ -129,7 +129,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <section id="pen-courses">
