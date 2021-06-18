@@ -750,32 +750,37 @@
             <div class="swiper-container slider-min">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/born2win.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/briteb.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
                         <img src="/assets/images/our-partners/primefort.png" class="image-fit w-85">
-                    </div>
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/ajna-digital.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
                         <img src="/assets/images/our-partners/euphoriaz.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/peritum.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/born2win.png" class="image-fit w-85">
+                    </div>
+                    <div class="swiper-slide slide-center item">
+                        <img src="/assets/images/our-partners/srm-partner.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
                         <img src="/assets/images/our-partners/panimalar.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/ajna-ai.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/peritum.png" class="image-fit w-85">
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/srm-partner.png" class="image-fit w-85">
+                        <img src="/assets/images/our-partners/briteb.png" class="image-fit w-85">
                     </div>
+                 
+                    <div class="swiper-slide slide-center item">
+                        <img src="/assets/images/our-partners/ajna-digital.png" class="image-fit w-85">
+                    </div>
+                  
+                  
+                  
+                    <div class="swiper-slide slide-center item">
+                        <img src="/assets/images/our-partners/ajna-ai.png" class="image-fit w-85">
+                    </div>
+                  
                 </div>
             </div>
         </div>
