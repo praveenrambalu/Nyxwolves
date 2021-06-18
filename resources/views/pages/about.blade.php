@@ -855,6 +855,7 @@
        dots:true,
        loop:true,
        nav:false,
+       autoplay:true,
        responsive:{
            0:{
                items:1,
@@ -875,6 +876,7 @@
         dots:true,
         loop:true,
         nav:false,
+        autoplay:true,
         responsive:{
             0:{
                 items:1,

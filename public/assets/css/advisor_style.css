@@ -50,6 +50,23 @@
           animation: advisor-image 0.5s ease-in-out;
 }
 
+.advisor-section .owl-dots {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.advisor-section .owl-dots button.owl-dot {
+  padding: 10px !important;
+  background: #999;
+  border-radius: 50%;
+  margin-right: 15px;
+  outline: none;
+}
+
+.advisor-section .owl-dots button.owl-dot.active {
+  background: #0342B5;
+}
+
 @-webkit-keyframes advisor-ring {
   0% {
     -webkit-box-shadow: none;

@@ -45,6 +45,21 @@
             }
         }
     }
+
+    .owl-dots{
+        text-align: center;
+        margin-top: 25px;
+         button.owl-dot{
+            padding: 10px !important;
+            background:#999;
+            border-radius: 50%;
+            margin-right: 15px;
+            outline: none;
+            &.active{
+                background: #0342B5;
+            }
+        }
+    }
 }
 
 @keyframes advisor-ring {
