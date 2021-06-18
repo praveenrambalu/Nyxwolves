@@ -418,21 +418,17 @@
                 <div class="row">
                    
                     <div class="team-carousel owl-carousel owl-theme">
-                        <x-team title="Designation" name="Sidhdharth" image="sidhdharth" />
-                        <x-team title="Designation" name="Sriram" image="sriram" />
-                        <x-team title="Designation" name="Ajith" image="ajith" />
-                        <x-team title="Designation" name="Devi Sri" image="devisri" />
-                        <x-team title="Software Head" name="Gautam Krishnan" image="gautam" />
-                        <x-team title="Designation" name="Gayathri" image="gayathri" />
-                        <x-team title="Designation" name="Keshav" image="keshav" />
-                        <x-team title="Designation" name="Keshav OP" image="keshavop" />
-                        <x-team title="Designation" name="Nirmalaya" image="nirmalaya" />
-                        <x-team title="Designation" name="Praveenram" image="praveenram" />
-                        <x-team title="Designation" name="Priya" image="priya" />
-                        <x-team title="Designation" name="Rishav" image="rishav" />
-                        <x-team title="Designation" name="Sakthivel" image="sakthivel" />
-                        <x-team title="Designation" name="Sanjay" image="sanjay" />
-                        <x-team title="Designation" name="Venkat" image="venkat" />
+                        <x-team title="Co-founder,Director" name="Sriram Sankar " image="sriram" />
+                        <x-team title="Co-founder,Director" name="Sidhdharth Sivasubramanian" image="sidhdharth" />
+                        <x-team title="Director,CMO" name="Venkat Boyalla" image="venkat" />
+                        <x-team title="Head of Human Resources" name="Keshav Anand " image="keshav" />
+                        <x-team title="Head of Software & Information Security" name="Gautam Krishnan" image="gautam" />
+                        <x-team title="Head of Design" name="Sakthivel Ravichandran" image="sakthivel" />
+                        <x-team title="Solution Architect" name="Rishav Sinha" image="rishav" />
+                        <x-team title=" Creative Head" name="Nirmalya Sanyal " image="nirmalaya" />
+                        <x-team title=" Head of Marketing" name="Devisri" image="devisri" />
+                        <x-team title="Customer Relation & Delivery Manager" name="Gayatri" image="gayathri" />
+                        <x-team title=" Head of Operations" name="Keshav Mohan " image="keshavop" />
 
                     </div>
                 </div>
@@ -460,29 +456,7 @@
                             </div>
 
                             <h3 class="advisor-name">Dr. Amar Prasad Reddy</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
-
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="advisor-card">
-                            <div class="advisor-ring">
-                                <img src="/assets/img/advisor/andy_mohan.png" class="img img-responsive advisor-image" alt="Advisor Image">
-                            </div>
-
-                            <h3 class="advisor-name">Andy Morgan</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
-
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="advisor-card">
-                            <div class="advisor-ring">
-                                <img src="/assets/img/advisor/arangannal.png" class="img img-responsive advisor-image" alt="Advisor Image">
-                            </div>
-
-                            <h3 class="advisor-name">Dr. T. Arangannal</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+                            <p class="advisor-description">Vice Chairman, National Cyber Safety and Security Standards</p> 
 
                         </div>
                     </div>
@@ -492,8 +466,8 @@
                                 <img src="/assets/img/advisor/ganesh_bala.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Ganesh Bala</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+                            <h3 class="advisor-name">Ganesh Bala </h3> 
+                            <p class="advisor-description">Ex MD at One Works BIM Technologies</p> 
 
                         </div>
                     </div>
@@ -503,30 +477,8 @@
                                 <img src="/assets/img/advisor/ravikumar.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Prof. Dr. V. Ravikumar</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
-
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="advisor-card">
-                            <div class="advisor-ring">
-                                <img src="/assets/img/advisor/santhosh.png" class="img img-responsive advisor-image" alt="Advisor Image">
-                            </div>
-
-                            <h3 class="advisor-name">Santhosh Muruganandham</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Co Founder & Managing Director - Kolapasi <span class="advisor-line"></span></p> 
-
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="advisor-card">
-                            <div class="advisor-ring">
-                                <img src="/assets/img/advisor/sriram.png" class="img img-responsive advisor-image" alt="Advisor Image">
-                            </div>
-
-                            <h3 class="advisor-name">P. Sriram</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+                            <h3 class="advisor-name"> Emeritus Prof. Dr. Ravikumar V </h3> 
+                            <p class="advisor-description">National Ambassador, HRPM New Delhi</p> 
 
                         </div>
                     </div>
@@ -536,11 +488,64 @@
                                 <img src="/assets/img/advisor/varsha_aswani.png" class="img img-responsive advisor-image" alt="Advisor Image">
                             </div>
 
-                            <h3 class="advisor-name">Varsha Aswani</h3> 
-                            <p class="advisor-description"><span class="advisor-line"></span> Advisor <span class="advisor-line"></span></p> 
+                            <h3 class="advisor-name">Varsha Aswani </h3> 
+                            <p class="advisor-description">Founder - Born2Win Research Foundation Trust</p> 
 
                         </div>
                     </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/santhosh.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Santhosh Muruganandham </h3> 
+                            <p class="advisor-description">Co-Founder & Managing Director @ Kolapasi</p> 
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/andy_mohan.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Andy Morgan</h3> 
+                            <p class="advisor-description">Founder & CEO Euphoriaz Group</p> 
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/sriram.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Sriram P </h3> 
+                            <p class="advisor-description">Security Advisor / Founder PrimeFort</p> 
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <div class="advisor-card">
+                            <div class="advisor-ring">
+                                <img src="/assets/img/advisor/arangannal.png" class="img img-responsive advisor-image" alt="Advisor Image">
+                            </div>
+
+                            <h3 class="advisor-name">Dr. Arangkannal Thirumalai </h3> 
+                            <p class="advisor-description">Venture Partner</p> 
+
+                        </div>
+                    </div>
+            
+              
+           
+               
+                   
 
 
                 </div>
