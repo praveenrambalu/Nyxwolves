@@ -736,13 +736,17 @@
         <div class="container">
             
             <div class="row intro">
-                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                    <h2 class="featured">Our Partners</h2>
-                    <p> Our pillars that hold us strong together to build this fortress with the wolves.</p>
-                </div>
                
-                <div class="col-12 col-md-3 align-self-end">
+                <div class="col-12 col-md-12 pl-md-12 align-self-center text-center ">
+                    <div class="row intro">
+                        <div class="col-12 p-0 text-center">
+                            <h2 class="">Our Partners</h2>
+                            <p>Our pillars that hold us strong together to build this fortress with the wolves</p>
+                        </div>
+                    </div>
                 </div>
+
+                
             </div>
             <br>
             <br>
@@ -855,9 +859,9 @@
        dots:true,
        loop:true,
        nav:false,
-       autoplay:1000,
-    //    autoplaySpeed: 100,
-       autoplayHoverPause:true,
+       autoplay:true,
+        autoplayHoverPause:true,
+        autoplayTimeout:1000,
        responsive:{
            0:{
                items:1,
@@ -868,7 +872,7 @@
            },
            1000:{
                items:4,
-               dots:true
+               dotsEach:true
            }
        }
    })
@@ -878,9 +882,9 @@
         dots:true,
         loop:true,
         nav:false,
-        autoplay:1000,
-        // autoplaySpeed: 100,
+        autoplay:true,
         autoplayHoverPause:true,
+        autoplayTimeout:1000,
         responsive:{
             0:{
                 items:1,
@@ -891,7 +895,7 @@
             },
             1000:{
                 items:4,
-                dots:true
+                dots:true,
             }
         }
     })
