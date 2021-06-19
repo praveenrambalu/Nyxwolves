@@ -1098,7 +1098,7 @@
     @include('inc.contact-form-scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
 <script>
-    skrollr.init();
+    skrollr.init({forceHeight: false});
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" ></script>
 <script>
