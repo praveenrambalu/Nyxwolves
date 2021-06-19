@@ -861,7 +861,7 @@
        nav:false,
        autoplay:true,
         autoplayHoverPause:true,
-        autoplayTimeout:1000,
+        autoplayTimeout:2000,
        responsive:{
            0:{
                items:1,
@@ -884,7 +884,7 @@
         nav:false,
         autoplay:true,
         autoplayHoverPause:true,
-        autoplayTimeout:1000,
+        autoplayTimeout:2000,
         responsive:{
             0:{
                 items:1,
