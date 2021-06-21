@@ -151,7 +151,7 @@
             }
             @media only screen and (max-width: 600px) {
                 .spacer {
-                height: 500vh;
+                height: 450vh;
             }   
             }
         </style>
