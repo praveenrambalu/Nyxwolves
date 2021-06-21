@@ -149,6 +149,11 @@
             .spacer {
                 height: 375vh;
             }
+            @media only screen and (max-width: 600px) {
+                .spacer {
+                height: 500vh;
+            }   
+            }
         </style>
 </head>
 
@@ -1098,7 +1103,12 @@
     @include('inc.contact-form-scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
 <script>
-    skrollr.init({forceHeight: false});
+    skrollr.init({forceHeight: false,
+            mobileCheck: function() {
+                //hack - forces mobile version to be off
+                return false;
+            }
+        });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" ></script>
 <script>
