@@ -6,7 +6,9 @@
         .map_image{
             width: 100%;
             position: relative;
-            animation: 5s mapscale linear infinite;
+            // &.animated{
+            //     animation: 2s mapscale linear ease-in-out;
+            // }
 
         }
         .map_marker_image{

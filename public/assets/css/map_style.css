@@ -10,8 +10,6 @@
 #map_holder .map_holder .map_image {
   width: 100%;
   position: relative;
-  -webkit-animation: 5s mapscale linear infinite;
-          animation: 5s mapscale linear infinite;
 }
 
 #map_holder .map_holder .map_marker_image {

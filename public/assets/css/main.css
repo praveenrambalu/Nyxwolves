@@ -2901,3 +2901,16 @@ canvas {
         transform: rotate(360deg);
     }
 }
+
+.partner-card {
+    text-align: center;
+
+}
+
+.partner-card p {
+    font-family: 'Poppins';
+    color: #212121;
+    font-size: 1.125rem;
+    font-weight: bold;
+
+}

@@ -448,8 +448,7 @@
             </div>
 
             <div class="row mt-5">
-                <div class="advisor-carousel owl-carousel owl-theme">
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/amar_prasad_reddy.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -460,7 +459,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/ganesh_bala.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -471,7 +470,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/ravikumar.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -482,7 +481,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/varsha_aswani.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -493,7 +492,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/santhosh.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -506,7 +505,7 @@
                     </div>
 
 
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/andy_mohan.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -517,7 +516,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/sriram.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -530,7 +529,7 @@
                     </div>
 
 
-                    <div class="col-sm-12">
+                    <div class="col-sm-3">
                         <div class="advisor-card">
                             <div class="advisor-ring">
                                 <img src="/assets/img/advisor/arangannal.png" class="img img-responsive advisor-image" alt="Advisor Image">
@@ -548,7 +547,6 @@
                    
 
 
-                </div>
             </div>
            
 
@@ -754,36 +752,71 @@
             <div class="swiper-container slider-min">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/primefort.png" class="image-fit w-85">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/primefort.png" class="image-fit w-85">
+                            <p> Cyber Security Partner</p>
+                        </div>
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/euphoriaz.png" class="image-fit w-85">
+                        <div class="partner-card">
+                            
+                            <img src="/assets/images/our-partners/euphoriaz.png" class="image-fit w-85">
+                            <p> Strategic Partner</p>
+                        </div>
+
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/born2win.png" class="image-fit w-85">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/born2win.png" class="image-fit w-85">
+                            <p>CSR Partner</p>
+                        </div>
+
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/srm-partner.png" class="image-fit w-85">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/peritum.png" class="image-fit w-85">
+                            <p>Legal Partner</p>
+                        </div>
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/panimalar.png" class="image-fit w-85">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/ajna-ai.png" class="image-fit w-85">
+                            <p> AI Division</p>
+                        </div>
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/peritum.png" class="image-fit w-85">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/briteb.png" class="image-fit w-85">
+                            <p>Finance Partner</p>
+                        </div>
                     </div>
                     <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/briteb.png" class="image-fit w-85">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/ajna-digital.png" class="image-fit w-85">
+                            <p>Australian Partner</p>
+                        </div>
                     </div>
+                    <div class="swiper-slide slide-center item">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/panimalar.png" class="image-fit w-85">
+                            <p>Education Partner</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-center item">
+                        <div class="partner-card">
+                            <img src="/assets/images/our-partners/srm-partner.png" class="image-fit w-85">
+                            <p>Educational Partner</p>
+                        </div>
+                    </div>
+           
+                   
+                   
                  
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/ajna-digital.png" class="image-fit w-85">
-                    </div>
+                
                   
                   
                   
-                    <div class="swiper-slide slide-center item">
-                        <img src="/assets/images/our-partners/ajna-ai.png" class="image-fit w-85">
-                    </div>
+  
                   
                 </div>
             </div>
