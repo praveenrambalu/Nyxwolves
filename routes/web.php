@@ -62,6 +62,7 @@ Route::get('/works/bcc', 'PagesController@bcc');
 Route::get('/works/ananta', 'PagesController@ananta');
 Route::get('/works/andyzfc', 'PagesController@andyzfc');
 Route::get('/works/paperdate', 'PagesController@paperdate');
+Route::get('/works/wondryearssvg', 'PagesController@wondryearssvg');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
