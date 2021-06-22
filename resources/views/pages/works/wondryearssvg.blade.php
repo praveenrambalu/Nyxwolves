@@ -59,7 +59,7 @@
 <br>
 <br>
  
-<img src="/assets/img/Wonderyears.svg" alt="">
+<img src="/assets/img/Wonderyears.svg" style="width:100%" alt="">
     
 
 @include('inc.footer')
