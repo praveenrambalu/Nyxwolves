@@ -1,496 +1,532 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-*{
-  padding: 0;
-  margin: 0;
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .navbar .nav-link.effect-motion-hover {
-  color: #000 !important;
+    color: #000 !important;
 }
 
 
 
 .navbar-sticky .nav-link.effect-motion-hover {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .navbar .navbar-nav.toggle li a {
-  color: #000 !important;
+    color: #000 !important;
 }
+
 .navbar-sticky .navbar-nav.toggle li a {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 
 
-section{
-  padding: 0 ;
+section {
+    padding: 0;
 }
 
 
 .joot-logo-section {
-  
-  background: white;
-  padding: 20px;
-  margin-bottom: 50px;
-  padding-top: 150px;
-  
+
+    background: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    padding-top: 150px;
+
 }
 
-.joot-logo{
-  width: 300px;
-  animation: 5s bounce linear infinite;
+.joot-logo {
+    width: 300px;
+    animation: 5s bounce linear infinite;
 }
 
 .joot-logo-font {
-  font-size: 100px;
-  border-right: 15px solid black;
-  /* padding-right: 50px; */
-  font-weight: 700;
-  word-break: break-word;
-  width: 50%;
-  padding-left: 100px;
-  text-align: right;
-  padding-right: 50px;
-  color: #000;
+    font-size: 100px;
+    border-right: 15px solid black;
+    /* padding-right: 50px; */
+    font-weight: 700;
+    word-break: break-word;
+    width: 50%;
+    padding-left: 100px;
+    text-align: right;
+    padding-right: 50px;
+    color: #000;
 }
 
 
-#black-bg{
-  background:#000;
-  height: 50px;
+#black-bg {
+    background: #000;
+    height: 50px;
 }
 
 
 
 .joot-description-section {
- background:url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
- background-size: cover;
- background-position: center center;
-  padding: 200px;
-  padding-top: 50px;
-  padding-bottom: 0;
+    background: url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 200px;
+    padding-top: 50px;
+    padding-bottom: 0;
 
 }
 
 
-.joot-about-paragraph{
-font-size: 31px;
-line-height: 42px;
-color: #231f20;
-font-family: "Poppins";
-font-weight: 400;
-text-align: center;
+.joot-about-paragraph {
+    font-size: 31px;
+    line-height: 42px;
+    color: #231f20;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: center;
 }
 
-.deliverables-heading{
-font-size: 57px;
-line-height: 44px;
-color: #472d00;
-font-family: "Poppins";
-font-weight: 700;
-text-align: center;
+.deliverables-heading {
+    font-size: 57px;
+    line-height: 44px;
+    color: #472d00;
+    font-family: "Poppins";
+    font-weight: 700;
+    text-align: center;
 }
-.deliverables-content{
-font-size: 39px;
-line-height: 44px;
-color: #231f20;
-font-family: "Poppins";
-font-weight: 500;
-text-align: center;
-margin-top: 40px;
+
+.deliverables-content {
+    font-size: 39px;
+    line-height: 44px;
+    color: #231f20;
+    font-family: "Poppins";
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
 }
-#bite-sized{
-  background: linear-gradient(85deg, #ede400, #f7f759) 16%;
+
+#bite-sized {
+    background: linear-gradient(85deg, #ede400, #f7f759) 16%;
 }
 
 
 
 .joot-mobile-section {
-padding: 200px;
-padding-bottom: 0;
-background: url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
-background-size: cover;
-background-position: center center;
+    padding: 200px;
+    padding-bottom: 0;
+    background: url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
-.joot-phone-text p{
- 
-font-size: 31px;
-line-height: 42px;
-color: #231f20;
-font-family: "Poppins";
-font-weight: 400;
+
+.joot-phone-text p {
+
+    font-size: 31px;
+    line-height: 42px;
+    color: #231f20;
+    font-family: "Poppins";
+    font-weight: 400;
 }
 
 .joot-phone-social {
-	margin-top: -350px;
+    margin-top: -350px;
 }
 
 
 .joot-social-section {
-  background-color: #ebebeb;
-  padding: 200px;
-  margin-top: -150px;
-  padding-bottom: 0;
+    background-color: #ebebeb;
+    padding: 200px;
+    margin-top: -150px;
+    padding-bottom: 0;
 }
 
 
 .joot-social-section .joot-social-media-container div img {
-  width: 35%;
-  margin-left: 35%;
-  opacity: 0.6;
+    width: 35%;
+    margin-left: 35%;
+    opacity: 0.6;
 }
 
 
 .social-media-creatives {
-	position: absolute;
-	font-size: 108px;
-	line-height: 112px;
-	color: #d5d5d5;
-	width: 70%;
-	font-family: "Poppins";
-	font-weight: 700;
-	text-align: center;
-	-webkit-transform: rotate(270deg);
-	transform: rotate(270deg);
-	right: -300px;
-	margin-top: 450px;
-}
-
-#white-section{
-  padding: 200px;
-  margin-bottom: -500px;
-  padding-bottom: 0;
-}
-
-
-.bag-image {
-	/* height: 700px; */
-  margin-bottom: -100px;
-  animation:bounce 3s linear infinite ;
-}
-.bag-side-text{
-font-size: 31px;
-line-height: 42px;
-color: #231f20;
-font-family: "Poppins";
-font-weight: 400;
-text-align: right;
-}
-#orange-section{
-  padding: 200px;
-  padding-bottom: ;
-  background:url(/assets/img/joot/orange-mashed-bg.png) no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin-top: -300px;
-  margin-bottom: 130px;
-}
-.bag-side-text-orange{
-  font-size: 31px;
-  line-height: 42px;
-  color: #fff;
-  font-family: "Poppins";
-  font-weight: 400;
-  text-align: right;
-  }
-  .img.img-responsive.role-image {
     position: absolute;
-    right: 0;
-    margin-top: -200px;
-  }
-
-.joot-packaging-design{
-  background: url(/assets/img/joot/blue-mashed-bg.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-bottom: 100px;
-}
-.packet-image {
-	margin-left: -200px;
-  margin-top: 50px;
-  animation: bounceY 2s linear infinite ;
-}
-
-.joot-packaging-design h1 {
-  color: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  left: 0;
-  top: 40%;
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
-  text-align: center;
-  font-size: 100px;
-  font-weight: 700;
-}
-@media only screen and (max-width: 600px) {
-  .joot-logo-section {
-    background: white;
-    padding: 20px;
-    padding-top: 150px;
-  }
-
-  .joot-logo-font {
-    font-size: 31px;
-    border-right: 5px solid black;
-    width: unset;
-    padding-left: 55px;
-    text-align: right;
-    padding-right: 28px;
-  }
-  .joot-logo{
-    width: 200px;
-  }
-  .joot-description-section {
-     padding: 20px;
-     padding-top: 50px;
-     padding-bottom: 0;
-   
-   }
-   #black-bg{
-    background:#000;
-    height: 30px;
-    padding: 0;
-  }
-
-  .joot-about-paragraph{
-    font-size: 23px;
-    text-align: justify;
-  }
-  .deliverables-heading{
-    font-size: 40px;
-    }
-    .deliverables-content{
-    font-size: 23px;
-    }
-
-    .joot-mobile-section {
-      padding: 20px;
-      padding-bottom: 0;
-      background: url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
-      background-size: cover;
-    }
-    .joot-phone-text p{
-    font-size: 25px;
-    }
-    .joot-phone-social {
-      margin-top: 0;
-      height: 300px;
-    }
-    .joot-social-section {
-      background-color: #ebebeb;
-      padding: 20px;
-      padding-bottom: 0;
-      margin-top: 30px;
-      padding-top: 50px;
-    } 
-    .social-media-creatives {
-      display: none;
-    }
-    .img.img-responsive.joot-phone-image-2 {
-      height: 250px;
-  }
-      
-      
-  #white-section {
-    padding: 20px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .bag-image {
-    height: 300px;
-    margin-bottom:0;
-  }
-    
-  .bag-side-text {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  #orange-section {
-    padding: 20px;
-    padding-bottom: 50px;
-    margin-top: 0;
-  }
-  .bag-side-text-orange {
-    font-size: 23px;
-    line-height: 30px;
-  }
-
-  .img.img-responsive.role-image {
-	position: relative;
-	right: 0;
-	margin-top: -200px;
-	height: 200px;
-}
-
-.joot-packaging-design h1 {
-	color: rgba(255, 255, 255, 0.5);
-	position: relative;
-	left: 0;
-	top: 40%;
-	-webkit-transform: rotate(0deg);
-	transform: rotate(0deg);
-	text-align: center;
-	font-size: 40px;
-	font-weight: 700;
-}
-      
-.packet-image {
-	height: 300px;
-	margin-left: 0;
-	margin-top: 50px;
-}
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 992px){
-
-  .joot-logo-section {
-    background: white;
-    padding: 20px;
-    padding-top: 150px;
-  }
-
-  .joot-logo-font {
-    font-size: 65px;
-    border-right: 10px solid black;
-    width: unset;
-    padding-left: 55px;
-    text-align: right;
-    padding-right: 65px;
-  }
-  #black-bg{
-    background:#000;
-    height: 30px;
-    padding: 0;
-  }
-
-  .joot-logo{
-    width: 250px;
-  }
-  .joot-description-section {
-     padding: 20px;
-     padding-top: 50px;
-     padding-bottom: 0;
-   
-   }
-
-  .joot-about-paragraph{
-    font-size: 23px;
-    text-align: justify;
-  }
-  .deliverables-heading{
-    font-size: 40px;
-    }
-    .deliverables-content{
-    font-size: 23px;
-    }
-
-    .joot-mobile-section {
-      padding: 20px;
-      padding-bottom: 0;
-      background: url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
-      background-size: cover;
-    }
-    .joot-phone-text p{
-    font-size: 25px;
-    }
-    .joot-phone-social {
-      margin-top: 0;
-      height: 500px;
-    }
-    .joot-social-section {
-      background-color: #ebebeb;
-      padding: 20px;
-      padding-bottom: 0;
-      margin-top: 30px;
-      padding-top: 50px;
-    } 
-    .img.img-responsive.joot-phone-image-2 {
-      height: 250px;
-  }
-      
-  .social-media-creatives {
-    position: absolute;
-    font-size: 40px;
-    line-height: unset;
+    font-size: 108px;
+    line-height: 112px;
     color: #d5d5d5;
-    width: 43%;
+    width: 70%;
     font-family: "Poppins";
     font-weight: 700;
     text-align: center;
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
-    right: 0;
-    margin-top: 175px;
-  }
+    right: -300px;
+    margin-top: 450px;
+}
 
-      
-  #white-section {
-    padding: 20px;
-    margin-bottom: 0;
+#white-section {
+    padding: 0 100px;
+    margin-bottom: -500px;
     padding-bottom: 0;
-  }
+}
 
-  .bag-image {
-    height: 300px;
+
+.bag-image {
+    /* height: 700px; */
     margin-bottom: -100px;
-  }
-    
-  .bag-side-text {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  #orange-section {
-    padding: 20px;
-    padding-bottom: 50px;
-    margin-top: 0;
-  }
-  .bag-side-text-orange {
-    font-size: 23px;
-    line-height: 30px;
-  }
+    animation: bounce 3s linear infinite;
+}
 
-  .img.img-responsive.role-image {
-	position: absolute;
-	right: 0;
-	margin-top: -200px;
-	height: 200px;
+.bag-side-text {
+    font-size: 31px;
+    line-height: 42px;
+    color: #231f20;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: right;
+}
+
+#orange-section {
+    padding: 200px;
+    padding-bottom: ;
+    background: url(/assets/img/joot/orange-mashed-bg.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -300px;
+    margin-bottom: 130px;
+}
+
+.bag-side-text-orange {
+    font-size: 31px;
+    line-height: 42px;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: right;
+}
+
+.img.img-responsive.role-image {
+    position: absolute;
+    right: 0;
+    margin-top: -200px;
+}
+
+.joot-packaging-design {
+    background: url(/assets/img/joot/blue-mashed-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 100px;
+}
+
+.packet-image {
+    margin-left: -200px;
+    margin-top: 50px;
+    animation: bounceY 2s linear infinite;
 }
 
 .joot-packaging-design h1 {
-	position: relative;
-	left: 0;
-	top: 50%;
-	-webkit-transform: rotate(270deg);
-	transform: rotate(270deg);
-	text-align: center;
-	font-size: 60px;
-	font-weight: 700;
-}  
-.packet-image {
-	height: 300px;
-	margin-left: 0;
-	margin-top: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 40%;
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+    .joot-logo-section {
+        background: white;
+        padding: 20px;
+        padding-top: 150px;
+    }
+
+    .joot-logo-font {
+        font-size: 31px;
+        border-right: 5px solid black;
+        width: unset;
+        padding-left: 55px;
+        text-align: right;
+        padding-right: 28px;
+    }
+
+    .joot-logo {
+        width: 200px;
+    }
+
+    .joot-description-section {
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 0;
+
+    }
+
+    #black-bg {
+        background: #000;
+        height: 30px;
+        padding: 0;
+    }
+
+    .joot-about-paragraph {
+        font-size: 23px;
+        text-align: justify;
+    }
+
+    .deliverables-heading {
+        font-size: 40px;
+    }
+
+    .deliverables-content {
+        font-size: 23px;
+    }
+
+    .joot-mobile-section {
+        padding: 20px;
+        padding-bottom: 0;
+        background: url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
+        background-size: cover;
+    }
+
+    .joot-phone-text p {
+        font-size: 25px;
+    }
+
+    .joot-phone-social {
+        margin-top: 0;
+        height: 300px;
+    }
+
+    .joot-social-section {
+        background-color: #ebebeb;
+        padding: 20px;
+        padding-bottom: 0;
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+
+    .social-media-creatives {
+        display: none;
+    }
+
+    .img.img-responsive.joot-phone-image-2 {
+        height: 250px;
+    }
+
+
+    #white-section {
+        padding: 20px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .bag-image {
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+    .bag-side-text {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    #orange-section {
+        padding: 20px;
+        padding-bottom: 50px;
+        margin-top: 0;
+    }
+
+    .bag-side-text-orange {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .img.img-responsive.role-image {
+        position: relative;
+        right: 0;
+        margin-top: -200px;
+        height: 200px;
+    }
+
+    .joot-packaging-design h1 {
+        color: rgba(255, 255, 255, 0.5);
+        position: relative;
+        left: 0;
+        top: 40%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .packet-image {
+        height: 300px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .joot-logo-section {
+        background: white;
+        padding: 20px;
+        padding-top: 150px;
+    }
+
+    .joot-logo-font {
+        font-size: 65px;
+        border-right: 10px solid black;
+        width: unset;
+        padding-left: 55px;
+        text-align: right;
+        padding-right: 65px;
+    }
+
+    #black-bg {
+        background: #000;
+        height: 30px;
+        padding: 0;
+    }
+
+    .joot-logo {
+        width: 250px;
+    }
+
+    .joot-description-section {
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 0;
+
+    }
+
+    .joot-about-paragraph {
+        font-size: 23px;
+        text-align: justify;
+    }
+
+    .deliverables-heading {
+        font-size: 40px;
+    }
+
+    .deliverables-content {
+        font-size: 23px;
+    }
+
+    .joot-mobile-section {
+        padding: 20px;
+        padding-bottom: 0;
+        background: url(/assets/img/joot/gold-mashed-bg.png) no-repeat;
+        background-size: cover;
+    }
+
+    .joot-phone-text p {
+        font-size: 25px;
+    }
+
+    .joot-phone-social {
+        margin-top: 0;
+        height: 500px;
+    }
+
+    .joot-social-section {
+        background-color: #ebebeb;
+        padding: 20px;
+        padding-bottom: 0;
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+
+    .img.img-responsive.joot-phone-image-2 {
+        height: 250px;
+    }
+
+    .social-media-creatives {
+        position: absolute;
+        font-size: 40px;
+        line-height: unset;
+        color: #d5d5d5;
+        width: 43%;
+        font-family: "Poppins";
+        font-weight: 700;
+        text-align: center;
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+        right: 0;
+        margin-top: 175px;
+    }
+
+
+    #white-section {
+        padding: 20px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .bag-image {
+        height: 300px;
+        margin-bottom: -100px;
+    }
+
+    .bag-side-text {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    #orange-section {
+        padding: 20px;
+        padding-bottom: 50px;
+        margin-top: 0;
+    }
+
+    .bag-side-text-orange {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .img.img-responsive.role-image {
+        position: absolute;
+        right: 0;
+        margin-top: -200px;
+        height: 200px;
+    }
+
+    .joot-packaging-design h1 {
+        position: relative;
+        left: 0;
+        top: 50%;
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+        text-align: center;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .packet-image {
+        height: 300px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
 
 }
 
 [data-scroll] {
-  transition: all  1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
+
 [data-scroll="in"] {
-  opacity: 1;
-  transform: translateX(0) ;
+    opacity: 1;
+    transform: translateX(0);
 }
+
 [data-scroll="out"] {
-  opacity: 0;
-  transform:translateX(-20px);
+    opacity: 0;
+    transform: translateX(-20px);
 }
 
 
@@ -498,24 +534,51 @@ text-align: right;
 
 
 @keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
-}
-@keyframes bounceX {
-  0%   { transform: translateX(0); }
-  50%  { transform: translateX(-20px); }
-  100% { transform: translateX(0); }
-}
-@keyframes bounceY {
-  0%   { transform: translateX(20); }
-  50%  { transform: translateY(-20px); }
-  100% { transform: translateX(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
-#footer{
-  background:#111111
+@keyframes bounceX {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
-#copyright{
-   background:#040402
+
+@keyframes bounceY {
+    0% {
+        transform: translateX(20);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#footer {
+    background: #111111
+}
+
+#copyright {
+    background: #040402
 }
