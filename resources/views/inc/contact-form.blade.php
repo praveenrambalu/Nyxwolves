@@ -58,7 +58,7 @@
                                 <div class="row">
                                     <div class="col-12 input-group p-0">
                                         <input type="text" name="name" minlength="3"
-                                            class="form-control input-style" placeholder="Name" autofocus required>
+                                            class="form-control input-style" placeholder="Name"  required>
                                     </div>
                                 </div>
                                 <div class="row">
