@@ -58,7 +58,7 @@
                                 <div class="row">
                                     <div class="col-12 input-group p-0">
                                         <input type="text" name="name" minlength="3"
-                                            class="form-control input-style" placeholder="Name" required>
+                                            class="form-control input-style" placeholder="Name" autofocus required>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -85,7 +85,7 @@
                                 <div class="row">
                                     <div class="col-12 input-group p-0">
                                         <input type="text" name="company" minlength="3"
-                                            class="form-control input-style" placeholder="Company" required>
+                                            class="form-control input-style" placeholder="Company" autofocus required>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -134,7 +134,7 @@
                                 <div class="row">
                                     <div class="col-12 input-group p-0">
                                         <textarea name="message" minlength="3" class="form-control input-style"
-                                            placeholder="Message" required></textarea>
+                                            placeholder="Message" required autofocus></textarea>
                                     </div>
                                 </div>
                                 <div

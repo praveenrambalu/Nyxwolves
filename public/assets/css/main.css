@@ -285,6 +285,11 @@ h2.featured.alt:before {
     left: 0;
 }
 
+.title.effect-static-text.aos-init.aos-animate {
+    text-align: left;
+    font-size: 3rem;
+}
+
 .odd h2 {
     color: var(--white-color);
 }
@@ -347,7 +352,7 @@ hr {
 
 section {
     width: 100%;
-    padding: 130px 0;
+    padding: 75px 0;
 }
 
 section:nth-child(1) {
@@ -692,7 +697,7 @@ aside {
 }
 
 .showcase .card:hover .image-over img {
-    filter: blur(3px);
+    /* filter: blur(3px); */
 }
 
 .subscription .intro {
@@ -710,7 +715,7 @@ aside {
 .form .message {
     position: absolute;
     top: 0;
-    left: 15px;
+    left: 0;
     width: 100%;
     height: 100%;
     padding: 35px;
@@ -804,7 +809,7 @@ header .navbar-expand .navbar-brand i {
 }
 
 header .navbar-expand .navbar-brand img {
-    max-height: 35px;
+    max-height: 50px;
 }
 
 .navbar-expand .navbar-nav .nav-item a:not(.btn) {
@@ -2355,6 +2360,14 @@ footer .copyright p {
         content: none;
     }
 
+    header .navbar-expand .navbar-brand img {
+        max-height: 35px;
+    }
+
+    .title.effect-static-text.aos-init.aos-animate {
+        font-size: 2rem;
+    }
+
     /* #endregion General */
 
     /* #region Helper Class */
@@ -2438,7 +2451,7 @@ footer .copyright p {
     /* #region Section */
 
     body section {
-        padding: 90px 0;
+        padding: 40px 0;
     }
 
     body section.bg-image-1,
@@ -2511,6 +2524,10 @@ footer .copyright p {
         font-size: 3rem;
     }
 
+    .title.effect-static-text.aos-init.aos-animate {
+        font-size: 2rem;
+    }
+
     /* #endregion General */
 
     /* #region Header */
@@ -2541,7 +2558,7 @@ footer .copyright p {
     background: url(https://i.ibb.co/ypVJxZR/step-arrow.png) center center no-repeat;
 }
 
-.working-process .row {
+.working-process .row.workingprocess {
     margin: 0 -65px;
 }
 
@@ -2766,10 +2783,7 @@ canvas {
     background-repeat: no-repeat;
 }
 
-.title.effect-static-text.aos-init.aos-animate {
-    text-align: left;
-    font-size: 3rem;
-}
+
 
 .icon-services {
     height: 70px;
@@ -2833,6 +2847,10 @@ canvas {
     top: 275%;
 }
 
+.row.justify-content-center.text-center.items.social-icons {
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
 
 @keyframes movebounce {
     0% {

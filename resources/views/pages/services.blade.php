@@ -140,12 +140,12 @@
                         <h2 class="featured">Our Process</h2>
                         <p>Our unique 3 step approach is the curated magic potion at delivering quality service.</p>
                     </div>
-                </div>
+                </div>           
             </div>
             <div class="container mt-5">
               
                 <div class="working-process-step">
-                <div class="row">
+                <div class="row workingprocess">
                     <!--Process Block-->
                     <div class="process-block col-md-4">
                         <div class="inner-box">

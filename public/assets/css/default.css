@@ -74,7 +74,7 @@
 /* #region Button */
 
 .client-logo {
-    margin: 15px;
+    margin: 15px auto;
     border: 2px solid #ffffff;
     border-radius: 20px;
     background: white !important;

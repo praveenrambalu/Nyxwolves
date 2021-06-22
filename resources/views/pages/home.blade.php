@@ -158,10 +158,10 @@
 </head>
 
 <body>
-    @include('inc.preloader')
+    {{-- @include('inc.preloader') --}}
 
 
-    <div class="fullpage">
+    <div class="fullpages">
         {{-- <canvas id="canvas">Canvas is not supported in your browser</canvas> --}}
         <!-- Header -->
         <header>
@@ -1054,7 +1054,7 @@
             </div>
         </section>
     <!-- Blog -->
-    @include('inc.blog')
+    {{-- @include('inc.blog') --}}
 
     <!-- Subscribe -->
     <section id="subscribe" class="subscription map" style="background:#141414; padding-top:150px">
