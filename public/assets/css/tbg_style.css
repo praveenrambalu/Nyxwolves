@@ -1,462 +1,508 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 .custom-container {
-  width: 90%;
-  margin: auto;
+    width: 90%;
+    margin: auto;
 }
 
 #tbg_banner {
-  background: url("/assets/img/tbg/banner_bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  padding: 50px 0;
+    background: url("/assets/img/tbg/banner_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 50px 0;
 }
 
 #tbg_banner img {
-  width: 100%;
+    width: 100%;
 }
 
 #tbg_banner img.tbg_logo {
-  width: auto;
-  height: 150px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+    width: auto;
+    height: 150px;
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
 }
 
 #tbg_banner h1 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 3rem;
-  color: #65ABDE;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #65ABDE;
 }
 
 #tbg_banner h3 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-  color: #2F2F2F;
-  margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #2F2F2F;
+    margin-top: 25px;
 }
 
 #tbg_banner h2 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2.5rem;
-  color: #2F2F2F;
-  margin-top: 25px;
-  display: block;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #2F2F2F;
+    margin-top: 25px;
+    display: block;
 }
 
 #tbg_deliverables {
-  background: url("/assets/img/tbg/deliverables_bg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
-  padding: 100px 0;
-  padding-bottom: 0;
+    background: url("/assets/img/tbg/deliverables_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding: 100px 0;
+    padding-bottom: 0;
 }
 
 #tbg_deliverables img {
-  width: 55%;
-  margin: auto;
+    width: 55%;
+    margin: auto;
 }
 
 #tbg_deliverables .deliverables_title_holder {
-  margin-top: 150px;
+    margin-top: 150px;
 }
 
 #tbg_deliverables .deliverables_title_holder h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  color: #65ABDE;
-  font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #65ABDE;
+    font-size: 2rem;
 }
 
 #tbg_deliverables .deliverables_title_holder h1 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4rem;
-  color: #2F2F2F;
-  border-left: 5px solid #65ABDE;
-  padding-left: 25px;
-  text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    color: #2F2F2F;
+    border-left: 5px solid #65ABDE;
+    padding-left: 25px;
+    text-transform: uppercase;
 }
 
 #tbg_deliverables2 {
-  background: url("/assets/img/tbg/deliverables2_bg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom center;
-  padding-bottom: 250px;
+    background: url("/assets/img/tbg/deliverables2_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    padding-bottom: 250px;
 }
 
 #tbg_deliverables2 img {
-  width: 70%;
-  margin: auto;
-  margin-bottom: -130px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: -130px;
 }
 
 #tbg_deliverables2 .deliverables-holder {
-  background: #2F2F2F;
-  padding-top: 150px;
-  width: 75%;
-  margin: auto;
+    background: #2F2F2F;
+    padding-top: 150px;
+    width: 75%;
+    margin: auto;
 }
 
 #tbg_deliverables2 .deliverables-holder .deliverables-content h3 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  line-height: 82px;
-  /* identical to box height */
-  color: #FFFFFF;
-}
-
-#tbg_deliverables2 .deliverables-holder .deliverables-content h3 span {
-  border: 5px solid #65ABDE;
-  margin: 0 15px;
-}
-
-#tbg_what_we_do {
-  background: #65ABDE;
-  padding: 50px 0;
-}
-
-#tbg_what_we_do h3.tbg_title {
-  background: #2F2F2F;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4rem;
-  /* identical to box height */
-  color: #FFFFFF;
-  padding: 25px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-#tbg_what_we_do h3.tbg_title span {
-  font-weight: bold;
-}
-
-#tbg_what_we_do p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-  text-align: justify;
-  color: #FFFFFF;
-  margin: 50px 0;
-}
-
-#tbg_laptop img {
-  width: 100%;
-  margin-top: -150px;
-}
-
-#tbg_footer {
-  padding: 100px;
-}
-
-#tbg_footer img {
-  width: 35%;
-}
-
-@media only screen and (max-width: 600px) {
-  #tbg_banner {
-    background: url("/assets/img/tbg/banner_bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding: 25px 0;
-  }
-  #tbg_banner img {
-    width: 100%;
-  }
-  #tbg_banner img.tbg_logo {
-    width: auto;
-    height: 150px;
-    margin-top: 25px;
-    margin-bottom: 50px;
-  }
-  #tbg_banner h1 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
-    color: #65ABDE;
-  }
-  #tbg_banner h3 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    color: #2F2F2F;
-    margin-top: 25px;
-  }
-  #tbg_banner h2 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #2F2F2F;
-    margin-top: 25px;
-    display: block;
-  }
-  #tbg_deliverables {
-    background: url("/assets/img/tbg/deliverables_bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
-    padding: 50px 0;
-    padding-bottom: 0;
-  }
-  #tbg_deliverables img {
-    width: 100%;
-    margin: auto;
-    margin-top: 25px;
-  }
-  #tbg_deliverables .deliverables_title_holder {
-    margin-top: 50px;
-  }
-  #tbg_deliverables .deliverables_title_holder h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    color: #65ABDE;
-    font-size: 2rem;
-  }
-  #tbg_deliverables .deliverables_title_holder h1 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.5rem;
-    color: #2F2F2F;
-    border-left: 5px solid #65ABDE;
-    padding-left: 25px;
-    text-transform: uppercase;
-  }
-  #tbg_deliverables2 {
-    background: url("/assets/img/tbg/deliverables2_bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom center;
-    padding-bottom: 50px;
-  }
-  #tbg_deliverables2 img {
-    width: 100%;
-    margin: auto;
-    margin-bottom: -50px;
-  }
-  #tbg_deliverables2 .deliverables-holder {
-    background: #2F2F2F;
-    padding-top: 50px;
-    width: 100%;
-    margin: auto;
-  }
-  #tbg_deliverables2 .deliverables-holder .deliverables-content h3 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: .6rem;
-    /* identical to box height */
-    color: #FFFFFF;
-  }
-  #tbg_deliverables2 .deliverables-holder .deliverables-content h3 span {
-    border: 1px solid #65ABDE;
-    margin: 0 3px;
-  }
-  #tbg_what_we_do {
-    background: #65ABDE;
-    padding: 25px 0;
-  }
-  #tbg_what_we_do h3.tbg_title {
-    background: #2F2F2F;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.5rem;
-    /* identical to box height */
-    color: #FFFFFF;
-    padding: 25px;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
-  #tbg_what_we_do h3.tbg_title span {
-    font-weight: bold;
-  }
-  #tbg_what_we_do p {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    text-align: justify;
-    color: #FFFFFF;
-    margin: 25px 0;
-  }
-  #tbg_laptop img {
-    width: 100%;
-    margin-top: -50px;
-  }
-  #tbg_footer {
-    padding: 50px;
-  }
-  #tbg_footer img {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1204px) {
-  #tbg_banner {
-    background: url("/assets/img/tbg/banner_bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding: 50px 0;
-  }
-  #tbg_banner img {
-    width: 100%;
-    margin-top: 170px;
-  }
-  #tbg_banner img.tbg_logo {
-    width: auto;
-    height: 150px;
-    margin-top: 0px;
-    margin-bottom: 25px;
-  }
-  #tbg_banner h1 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.5rem;
-    color: #65ABDE;
-  }
-  #tbg_banner h3 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    color: #2F2F2F;
-    margin-top: 25px;
-  }
-  #tbg_banner h2 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #2F2F2F;
-    margin-top: 25px;
-    display: block;
-  }
-  #tbg_deliverables {
-    background: url("/assets/img/tbg/deliverables_bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
-    padding: 50px 0;
-    padding-bottom: 0;
-  }
-  #tbg_deliverables img {
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
-  }
-  #tbg_deliverables .deliverables_title_holder {
-    margin-top: 100px;
-  }
-  #tbg_deliverables .deliverables_title_holder h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    color: #65ABDE;
-    font-size: 2rem;
-  }
-  #tbg_deliverables .deliverables_title_holder h1 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3rem;
-    color: #2F2F2F;
-    border-left: 5px solid #65ABDE;
-    padding-left: 25px;
-    text-transform: uppercase;
-  }
-  #tbg_deliverables2 {
-    background: url("/assets/img/tbg/deliverables2_bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom center;
-    padding-bottom: 100px;
-  }
-  #tbg_deliverables2 img {
-    width: 80%;
-    margin: auto;
-    margin-bottom: -50px;
-  }
-  #tbg_deliverables2 .deliverables-holder {
-    background: #2F2F2F;
-    padding-top: 50px;
-    width: 90%;
-    margin: auto;
-  }
-  #tbg_deliverables2 .deliverables-holder .deliverables-content h3 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1rem;
     line-height: 82px;
     /* identical to box height */
     color: #FFFFFF;
-  }
-  #tbg_deliverables2 .deliverables-holder .deliverables-content h3 span {
+}
+
+#tbg_deliverables2 .deliverables-holder .deliverables-content h3 span {
     border: 5px solid #65ABDE;
     margin: 0 15px;
-  }
-  #tbg_what_we_do {
+}
+
+#tbg_what_we_do {
     background: #65ABDE;
     padding: 50px 0;
-  }
-  #tbg_what_we_do h3.tbg_title {
+}
+
+#tbg_what_we_do h3.tbg_title {
     background: #2F2F2F;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 4rem;
     /* identical to box height */
     color: #FFFFFF;
     padding: 25px;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-  }
-  #tbg_what_we_do h3.tbg_title span {
+}
+
+#tbg_what_we_do h3.tbg_title span {
     font-weight: bold;
-  }
-  #tbg_what_we_do p {
+}
+
+#tbg_what_we_do p {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: justify;
     color: #FFFFFF;
     margin: 50px 0;
-  }
-  #tbg_laptop img {
-    width: 100%;
-    margin-top: -100px;
-  }
-  #tbg_footer {
-    padding: 50px;
-  }
-  #tbg_footer img {
-    width: 80%;
-  }
 }
+
+#tbg_laptop img {
+    width: 100%;
+    margin-top: -150px;
+}
+
+#tbg_footer {
+    padding: 100px;
+}
+
+#tbg_footer img {
+    width: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+    #tbg_banner {
+        background: url("/assets/img/tbg/banner_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 25px 0;
+    }
+
+    #tbg_banner img {
+        width: 100%;
+    }
+
+    #tbg_banner img.tbg_logo {
+        width: auto;
+        height: 150px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    #tbg_banner h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #65ABDE;
+    }
+
+    #tbg_banner h3 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        color: #2F2F2F;
+        margin-top: 25px;
+    }
+
+    #tbg_banner h2 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #2F2F2F;
+        margin-top: 25px;
+        display: block;
+    }
+
+    #tbg_deliverables {
+        background: url("/assets/img/tbg/deliverables_bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+        padding: 50px 0;
+        padding-bottom: 0;
+    }
+
+    #tbg_deliverables img {
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    #tbg_deliverables .deliverables_title_holder {
+        margin-top: 50px;
+    }
+
+    #tbg_deliverables .deliverables_title_holder h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: #65ABDE;
+        font-size: 2rem;
+    }
+
+    #tbg_deliverables .deliverables_title_holder h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5rem;
+        color: #2F2F2F;
+        border-left: 5px solid #65ABDE;
+        padding-left: 25px;
+        text-transform: uppercase;
+    }
+
+    #tbg_deliverables2 {
+        background: url("/assets/img/tbg/deliverables2_bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        padding-bottom: 50px;
+    }
+
+    #tbg_deliverables2 img {
+        width: 100%;
+        margin: auto;
+        margin-bottom: -50px;
+    }
+
+    #tbg_deliverables2 .deliverables-holder {
+        background: #2F2F2F;
+        padding-top: 50px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #tbg_deliverables2 .deliverables-holder .deliverables-content h3 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: .6rem;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+
+    #tbg_deliverables2 .deliverables-holder .deliverables-content h3 span {
+        border: 1px solid #65ABDE;
+        margin: 0 3px;
+    }
+
+    #tbg_what_we_do {
+        background: #65ABDE;
+        padding: 25px 0;
+    }
+
+    #tbg_what_we_do h3.tbg_title {
+        background: #2F2F2F;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5rem;
+        /* identical to box height */
+        color: #FFFFFF;
+        padding: 25px;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+
+    #tbg_what_we_do h3.tbg_title span {
+        font-weight: bold;
+    }
+
+    #tbg_what_we_do p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        text-align: justify;
+        color: #FFFFFF;
+        margin: 25px 0;
+    }
+
+    #tbg_laptop img {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    #tbg_footer {
+        padding: 50px;
+    }
+
+    #tbg_footer img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1204px) {
+    #tbg_banner {
+        background: url("/assets/img/tbg/banner_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 50px 0;
+    }
+
+    #tbg_banner img {
+        width: 100%;
+        margin-top: 170px;
+    }
+
+    #tbg_banner img.tbg_logo {
+        width: auto;
+        height: 150px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    #tbg_banner h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: #65ABDE;
+    }
+
+    #tbg_banner h3 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        color: #2F2F2F;
+        margin-top: 25px;
+    }
+
+    #tbg_banner h2 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        color: #2F2F2F;
+        margin-top: 25px;
+        display: block;
+    }
+
+    #tbg_deliverables {
+        background: url("/assets/img/tbg/deliverables_bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+        padding: 50px 0;
+        padding-bottom: 0;
+    }
+
+    #tbg_deliverables img {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #tbg_deliverables .deliverables_title_holder {
+        margin-top: 100px;
+    }
+
+    #tbg_deliverables .deliverables_title_holder h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: #65ABDE;
+        font-size: 2rem;
+    }
+
+    #tbg_deliverables .deliverables_title_holder h1 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3rem;
+        color: #2F2F2F;
+        border-left: 5px solid #65ABDE;
+        padding-left: 25px;
+        text-transform: uppercase;
+    }
+
+    #tbg_deliverables2 {
+        background: url("/assets/img/tbg/deliverables2_bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        padding-bottom: 100px;
+    }
+
+    #tbg_deliverables2 img {
+        width: 80%;
+        margin: auto;
+        margin-bottom: -50px;
+    }
+
+    #tbg_deliverables2 .deliverables-holder {
+        background: #2F2F2F;
+        padding-top: 50px;
+        width: 90%;
+        margin: auto;
+    }
+
+    #tbg_deliverables2 .deliverables-holder .deliverables-content h3 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 82px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+
+    #tbg_deliverables2 .deliverables-holder .deliverables-content h3 span {
+        border: 5px solid #65ABDE;
+        margin: 0 15px;
+    }
+
+    #tbg_what_we_do {
+        background: #65ABDE;
+        padding: 50px 0;
+    }
+
+    #tbg_what_we_do h3.tbg_title {
+        background: #2F2F2F;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3rem;
+        /* identical to box height */
+        color: #FFFFFF;
+        padding: 25px;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+
+    #tbg_what_we_do h3.tbg_title span {
+        font-weight: bold;
+    }
+
+    #tbg_what_we_do p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        text-align: justify;
+        color: #FFFFFF;
+        margin: 50px 0;
+    }
+
+    #tbg_laptop img {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    #tbg_footer {
+        padding: 50px;
+    }
+
+    #tbg_footer img {
+        width: 80%;
+    }
+}
+
 /*# sourceMappingURL=tbg_style.css.map */
