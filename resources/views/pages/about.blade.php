@@ -416,11 +416,48 @@
         <div class="container">
             <div class="team-section">
                 <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <x-team title="Co-founder,Director" name="Sriram Sankar " image="sriram" />
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <x-team title="Co-founder,Director" name="Sidhdharth Sivasubramanian" image="sidhdharth" />
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <x-team title="Director,CMO" name="Venkat Boyalla" image="venkat" />
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-team-section bg_gray">
+        <div class="container">
+            <div class="row text-center intro">
+                <div class="col-12">
+                    <h2>Our Pack</h2>
+                    <p class="text-max-800">Our team is the soul of the company. We house the finest team of designers and developers to deliver the best service to our clients. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="team-section">
+                <div class="row">
                    
                     <div class="team-carousel owl-carousel owl-theme">
-                        <x-team title="Co-founder,Director" name="Sriram Sankar " image="sriram" />
+                        {{-- <x-team title="Co-founder,Director" name="Sriram Sankar " image="sriram" />
                         <x-team title="Co-founder,Director" name="Sidhdharth Sivasubramanian" image="sidhdharth" />
-                        <x-team title="Director,CMO" name="Venkat Boyalla" image="venkat" />
+                        <x-team title="Director,CMO" name="Venkat Boyalla" image="venkat" /> --}}
                         <x-team title="Head of Human Resources" name="Keshav Anand " image="keshav" />
                         <x-team title="Head of Software & Information Security" name="Gautam Krishnan" image="gautam" />
                         <x-team title="Head of Design" name="Sakthivel Ravichandran" image="sakthivel" />
@@ -437,7 +474,7 @@
     </section>
 
 
-    <section  class="advisor-section bg_gray">
+    <section  class="advisor-section ">
         <div class="container">
             <div class="row text-center intro">
                 <div class="col-12">
@@ -928,6 +965,29 @@
             },
             1000:{
                 items:4,
+                dots:true,
+            }
+        }
+    })
+   $('.director-carousel').owlCarousel({
+        margin:10,
+        responsiveClass:true,
+        dots:true,
+        loop:false,
+        nav:false,
+        autoplay:true,
+        autoplayHoverPause:true,
+        autoplayTimeout:2000,
+        responsive:{
+            0:{
+                items:1,
+                dots:false
+            },
+            600:{
+                items:3,
+            },
+            1000:{
+                items:3,
                 dots:true,
             }
         }
