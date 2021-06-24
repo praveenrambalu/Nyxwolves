@@ -165,7 +165,7 @@
                         <div class="col-12 p-0">
                             <h2 class="featured alt">About Us</h2>
                             <p>Our passion-driven team turns your every idea into reality. Brewing beauty out of chaos is our forte. We enable our clients to meet their goals and exceed their own expectations. We help you build and scale business on digital platforms in today’s digitally-driven world.</p>
-                                <p>We work with our customers to build their business right from scratch to where they are today. Your success is our mantra. With a broad expertise of enabling successful enterprises and startups in the domain of Food, Healthcare, Education & Training, Media & Entertainment, we are committed to create a global digital impact for your brand.</p>
+                               
                         </div>
                     </div>
                 </div>
@@ -178,6 +178,32 @@
         <div class="rectangle-shape right shape1"><img src="/assets/images/shape1.png" alt="image"></div>
 
     </section>
+
+
+    <section id="intro" class="highlights left">
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 col-md-6">
+                    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_mqt3ijez.json"  background="transparent"  speed="1"  style="width: 1080; height: 1080;"  loop  autoplay></lottie-player>
+                </div>
+                <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+                    <div class="row intro">
+                        <div class="col-12 p-0">
+                            {{-- <h2 class="featured alt">About Us</h2>
+                            <p>Our passion-driven team turns your every idea into reality. Brewing beauty out of chaos is our forte. We enable our clients to meet their goals and exceed their own expectations. We help you build and scale business on digital platforms in today’s digitally-driven world.</p> --}}
+                                <p>We work with our customers to build their business right from scratch to where they are today. Your success is our mantra. With a broad expertise of enabling successful enterprises and startups in the domain of Food, Healthcare, Education & Training, Media & Entertainment, we are committed to create a global digital impact for your brand.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="rectangle-shape right shape1"><img src="/assets/images/shape1.png" alt="image"></div>
+
+    </section>
+
+
 
 
     {{-- <section class="highlights left">
@@ -617,8 +643,10 @@
 
                     <div class=" col-12 col-md-6">
                         <a >
-                            <img src="/assets/images/why-choose-us.jpg" class="image-fit">
+                            {{-- <img src="/assets/images/why-choose-us.jpg" class="image-fit"> --}}
                         </a>
+                       
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_mkedoxnv.json"  background="transparent"  speed="1"  style="width: 1080; height: 1080;"  loop  autoplay></lottie-player>
                     </div>
 
 
@@ -1007,6 +1035,8 @@
         }
     })
    </script>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 
 </html>
