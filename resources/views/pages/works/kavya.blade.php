@@ -61,7 +61,7 @@
                 <img src="/assets/img/kavya/1 2.png" alt="" class="logo__img" />
         </div>
         <div class="col-12 p-0">
-            <div class="col-8 col-sm-8" style="position: absolute;">
+            <div class="col-8 col-sm-8" >
                 <p class="disp_img_text">
                     Makeup<br />
                     Beyond<br />
@@ -77,7 +77,7 @@
         </div>
         <div class="col-12 text1" >
             <div class="row">
-                <div class="col-6 p-0">
+                <div class="col-6 p-0 folderonmob">
                     <p class="text2">
                         A Boutique<br />
                         Website<br />
@@ -85,7 +85,7 @@
                         Makeup Artist<br />
                     </p>
                 </div>
-                <div class="col-6 p-0">
+                <div class="col-6 p-0 folderonmob">
                     <p class="text3">
                         I was very passionate in the art of<br/>
                         applying makeup. My initial thoughts <br/>

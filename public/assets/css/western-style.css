@@ -1,46 +1,48 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
 }
 
 .navbar .nav-link.effect-motion-hover {
     color: #000 !important;
-  }
-  
-  
-  
-  .navbar-sticky .nav-link.effect-motion-hover {
+}
+
+
+
+.navbar-sticky .nav-link.effect-motion-hover {
     color: #fff !important;
-  }
-  
-  .navbar .navbar-nav.toggle li a {
+}
+
+.navbar .navbar-nav.toggle li a {
     color: #000 !important;
-  }
-  .navbar-sticky .navbar-nav.toggle li a {
+}
+
+.navbar-sticky .navbar-nav.toggle li a {
     color: #fff !important;
-  }
-  
-  
-  
-  section{
-    padding: 0 ;
-  }
-  
+}
+
+
+
+section {
+    padding: 0;
+}
 
 
 
 
-.western-top-section{
+
+.western-top-section {
     padding: 200px;
     padding-bottom: 100px;
 }
+
 .ooty-image {
-	height: 450px;
-	/* margin-top: 150px; */
-	margin-left: 200px;
+    height: 450px;
+    /* margin-top: 150px; */
+    margin-left: 200px;
 }
 
-.black-box-logo{
+.black-box-logo {
     background: black;
     padding: 30px;
     margin-left: -150px;
@@ -50,22 +52,22 @@
 }
 
 
-#green-bg{
+#green-bg {
     /* height:100px; */
     background-color: #427322;
 }
 
-.western-valley-text{
-font-size: 45px;
-color: #ffffff;
-font-family: "Poppins";
-font-weight: 700;
-text-align: center;
-padding: 20px;
-text-transform: uppercase;
+.western-valley-text {
+    font-size: 45px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
 }
 
-#about-section{
+#about-section {
     background: url(/assets/img/western/green-suttle-bg.png) no-repeat;
     background-position: center center;
     background-size: cover;
@@ -75,44 +77,45 @@ text-transform: uppercase;
     padding-top: 100px;
 }
 
-.about-text{
-font-size: 32px;
-color: #ffffff;
-font-family: "Poppins";
-font-weight: 400;
+.about-text {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 400;
 }
 
-.deliverables-content{
+.deliverables-content {
     width: 350px;
-height: 350px;
-border-radius: 175px;
-background-color: #3b6920;
+    height: 350px;
+    border-radius: 175px;
+    background-color: #3b6920;
     padding: 25px;
     margin-left: 180px;
 }
+
 .deliverables-heading {
-	font-size: 41px;
-	color: #f9d906;
-	font-family: "Poppins";
-	font-weight: 700;
-	text-align: center;
-	margin-top: 75px;
+    font-size: 41px;
+    color: #f9d906;
+    font-family: "Poppins";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 75px;
 }
 
 
 .deliverables-sub-content {
-	width: 255px;
-	font-size: 26px;
-	color: #ffffff;
-	font-family: "Poppins";
-	font-weight: 400;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 40px;
+    width: 255px;
+    font-size: 26px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 
-#macsection{
+#macsection {
     background: url(/assets/img/western/green-bg.png) no-repeat;
     background-position: center center;
     background-size: cover;
@@ -120,8 +123,8 @@ background-color: #3b6920;
 }
 
 .img.img-responsive.nature-mac {
-	margin-left: -15px;
-	margin-top: -130px;
+    margin-left: -15px;
+    margin-top: -130px;
 }
 
 .modern-platform-text {
@@ -135,15 +138,17 @@ background-color: #3b6920;
     margin-left: 120px;
 }
 
-#macbooksection{
+#macbooksection {
     padding-bottom: 200px;
 }
+
 .img.img-responsive.nature-mac-book {
     margin-left: 278px;
     margin-top: -150px;
-    
+
 }
-.websiteboost-text{
+
+.websiteboost-text {
     font-size: 44px;
     color: #69be32;
     font-family: "Poppins";
@@ -151,59 +156,62 @@ background-color: #3b6920;
     text-align: center;
     width: 50%;
     margin: 0 auto;
-        margin-top: 0px;
+    margin-top: 0px;
     margin-top: 150px;
 }
 
-.western-about-text{
-font-size: 31px;
-color: #161616;
-font-family: "Poppins";
-font-weight: 400;
-text-align: center;
-margin-top: 120px;
+.western-about-text {
+    font-size: 31px;
+    color: #161616;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
 }
 
-#black-bg-image{
-background-color: #161616;
-padding: 200px;
-padding-top: 100px;
-text-align: center;
-}
-.web-application{
-font-size: 53px;
-letter-spacing: 5px;
-color: #ffffff;
-font-family: "Poppins";
-font-weight: 700;
-text-align: center;
-margin: auto;
+#black-bg-image {
+    background-color: #161616;
+    padding: 200px;
+    padding-top: 100px;
+    text-align: center;
 }
 
-#laptop-section{
+.web-application {
+    font-size: 53px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+#laptop-section {
     text-align: center;
     margin-top: -150px;
     padding-bottom: 0;
 }
 
-.green-bg-footer{
+.green-bg-footer {
     margin-top: 100px;
     height: 61px;
-    background-color: #6abf31; 
+    background-color: #6abf31;
     padding: 0;
 }
 
 
 @media only screen and (max-width: 600px) {
-    .western-top-section{
+    .western-top-section {
         padding: 20px;
         padding-bottom: 100px;
         padding-top: 150px;
     }
+
     .ooty-image {
         height: 250px;
         margin-left: 0px;
     }
+
     .black-box-logo {
         margin-top: 80px;
         height: 150px;
@@ -212,25 +220,25 @@ margin: auto;
         margin-left: 10px;
     }
 
-    #green-bg{
+    #green-bg {
         background-color: #427322;
     }
-    
-    .western-valley-text{
-     font-size: 25px;
+
+    .western-valley-text {
+        font-size: 25px;
     }
 
-    #about-section{
+    #about-section {
         padding: 20px;
         padding-bottom: 100px;
     }
-    
-    .about-text{
-    font-size: 23px;
-    color: #ffffff;
+
+    .about-text {
+        font-size: 23px;
+        color: #ffffff;
     }
 
-    .deliverables-content{
+    .deliverables-content {
         width: 250px;
         height: 250px;
         border-radius: 175px;
@@ -238,6 +246,7 @@ margin: auto;
         padding: 25px;
         margin-left: 0px;
     }
+
     .deliverables-heading {
         font-size: 25px;
         color: #f9d906;
@@ -246,67 +255,72 @@ margin: auto;
         text-align: center;
         margin-top: 50px;
     }
-    
-    
+
+
     .deliverables-sub-content {
         width: 155px;
         font-size: 23px;
         margin-top: 20px;
     }
-    
+
     .img.img-responsive.nature-mac {
         margin-left: -50px;
         margin-top: -50px;
         height: 250px;
     }
-    
+
     .modern-platform-text {
         font-size: 23px;
         width: 100%;
         margin-top: 50px;
         margin-left: 0;
     }
+
     #macsection {
         padding-bottom: 50px;
     }
-    .websiteboost-text{
+
+    .websiteboost-text {
         font-size: 23px;
         width: 100%;
         margin: 0 auto;
         margin-top: 50px;
     }
 
-    #macbooksection{
+    #macbooksection {
         padding-bottom: 20px;
     }
+
     .img.img-responsive.nature-mac-book {
         margin-left: 40px;
         margin-top: 20px;
         height: 250px;
     }
 
-    .western-about-text{
+    .western-about-text {
         font-size: 23px;
         margin-top: 30px;
     }
 
-    #black-bg-image{
+    #black-bg-image {
         padding: 20px;
         padding-bottom: 50px;
         text-align: center;
     }
-    .web-application{
-    font-size: 25px;
-    letter-spacing: 3px;
-    line-height: 2;
+
+    .web-application {
+        font-size: 25px;
+        letter-spacing: 3px;
+        line-height: 2;
     }
 
     #laptop-section {
         margin-top: -50px;
     }
+
     .img.img-responsive.laptop-image {
         height: 100px;
-        margin-top: 0;
+        margin-top: -30px;
     }
 
     .green-bg-footer {
@@ -317,15 +331,17 @@ margin: auto;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px){
-    .western-top-section{
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .western-top-section {
         padding: 100px;
         padding-bottom: 100px;
     }
+
     .ooty-image {
         height: 250px;
         margin-left: 0px;
     }
+
     .black-box-logo {
         margin-top: 80px;
         height: 150px;
@@ -334,25 +350,25 @@ margin: auto;
         margin-left: -25px;
     }
 
-    #green-bg{
+    #green-bg {
         background-color: #427322;
     }
-    
-    .western-valley-text{
-     font-size: 30px;
+
+    .western-valley-text {
+        font-size: 30px;
     }
 
-    #about-section{
+    #about-section {
         padding: 20px;
         padding-bottom: 100px;
     }
-    
-    .about-text{
-    font-size: 23px;
-    color: #ffffff;
+
+    .about-text {
+        font-size: 23px;
+        color: #ffffff;
     }
 
-    .deliverables-content{
+    .deliverables-content {
         width: 250px;
         height: 250px;
         border-radius: 175px;
@@ -360,6 +376,7 @@ margin: auto;
         padding: 25px;
         margin-left: 0px;
     }
+
     .deliverables-heading {
         font-size: 25px;
         color: #f9d906;
@@ -368,64 +385,69 @@ margin: auto;
         text-align: center;
         margin-top: 50px;
     }
-    
-    
+
+
     .deliverables-sub-content {
         width: 155px;
         font-size: 23px;
         margin-top: 20px;
     }
-    
+
     .img.img-responsive.nature-mac {
         margin-left: -50px;
         margin-top: -50px;
         height: 250px;
     }
-    
+
     .modern-platform-text {
         font-size: 25px;
         width: 100%;
         margin-top: 75px;
         margin-left: 0;
     }
+
     #macsection {
         padding-bottom: 50px;
     }
-    .websiteboost-text{
+
+    .websiteboost-text {
         font-size: 25px;
         width: 100%;
         margin: 0 auto;
         margin-top: 75px;
     }
 
-    #macbooksection{
+    #macbooksection {
         padding-bottom: 20px;
     }
+
     .img.img-responsive.nature-mac-book {
         margin-left: 40px;
         margin-top: 20px;
         height: 250px;
     }
 
-    .western-about-text{
+    .western-about-text {
         font-size: 23px;
         margin-top: 30px;
     }
 
-    #black-bg-image{
+    #black-bg-image {
         padding: 20px;
         padding-bottom: 50px;
         text-align: center;
     }
-    .web-application{
-    font-size: 25px;
-    letter-spacing: 3px;
-    line-height: 2;
+
+    .web-application {
+        font-size: 25px;
+        letter-spacing: 3px;
+        line-height: 2;
     }
 
     #laptop-section {
         margin-top: -50px;
     }
+
     .img.img-responsive.laptop-image {
         height: 200px;
         margin-top: 0;
@@ -441,40 +463,69 @@ margin: auto;
 }
 
 [data-scroll] {
-    transition: all  1s ease-in-out;
-  }
-  [data-scroll="in"] {
+    transition: all 1s ease-in-out;
+}
+
+[data-scroll="in"] {
     opacity: 1;
-    transform: translateX(0) ;
-  }
-  [data-scroll="out"] {
+    transform: translateX(0);
+}
+
+[data-scroll="out"] {
     opacity: 0;
-    transform:translateX(-20px);
-  }
+    transform: translateX(-20px);
+}
 
 
 
 
 
 @keyframes bounce {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
-}
-@keyframes bounceX {
-    0%   { transform: translateX(0); }
-    50%  { transform: translateX(-20px); }
-    100% { transform: translateX(0); }
-}
-@keyframes bounceY {
-    0%   { transform: translateX(20); }
-    50%  { transform: translateY(-20px); }
-    100% { transform: translateX(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
-#footer{
-    background:#111111
- }
- #copyright{
-     background:#040402
- }
+@keyframes bounceX {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceY {
+    0% {
+        transform: translateX(20);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#footer {
+    background: #111111
+}
+
+#copyright {
+    background: #040402
+}

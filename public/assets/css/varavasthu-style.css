@@ -35,7 +35,7 @@ section {
 
 #logointro {
     background-color: #c9a654;
-    padding: 200px;
+    padding: 130px;
     padding-top: 150px;
     padding-bottom: 100px;
 }
@@ -430,7 +430,19 @@ span.golden {
     }
 }
 
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+    #logointro {
+        padding: 100px;
+    }
 
+    .intro-text-name {
+        font-size: 6rem;
+    }
+
+    .vara-website {
+        font-size: 34px;
+    }
+}
 
 @keyframes bounce {
     0% {

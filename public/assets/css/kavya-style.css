@@ -16,10 +16,11 @@ body {
 }
 
 .disp_img_text {
+    position: absolute;
     font-style: normal;
     font-weight: 700;
     line-height: 155px;
-    position: relative;
+    /* position: relative; */
     font-size: 100px;
     top: 15rem;
     z-index: 1;
@@ -99,69 +100,19 @@ body {
     z-index: -1;
 }
 
-@media only screen and (max-width: 600px) {
-    .disp_img_text {
-        font-size: 25px;
-        line-height: 40px;
-        top: 0px;
-        padding: 0px;
-    }
 
-    .logo__img {
-        width: 40%;
-    }
-
-    .text4 {
-        font-size: 30px;
-        line-height: 45px;
-    }
-
-    .doublequotes {
-        top: -75px;
-        font-size: 100px;
-        line-height: 0px;
-    }
-
-    .text1 {
-        padding: 0px 25px;
-        top: -30px;
-    }
-
-    .text2 {
-        font-size: 20px;
-        line-height: 40px;
-        top: 2rem;
-    }
-
-    .text3 {
-        font-size: 9px;
-        line-height: 20px;
-    }
-
-    .thirdimg__cont {
-        padding: 20px 20px;
-    }
-
-    .backcont {
-        width: 30%;
-        top: 4rem;
-        right: 50px;
-        height: 365px;
-    }
-
-    .backcont2 {
-        height: 185px;
-        top: -15rem;
-        right: 50px;
-    }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 1200px) and (min-width: 601px) {
     .disp_img_text {
         line-height: 65px;
         font-size: 45px;
-        top: 6rem;
+        top: 12rem;
+    }
+
+    .disp_img {
+        top: 0;
+        margin-bottom: 50px;
     }
 
     .doublequotes {
@@ -224,6 +175,75 @@ body {
         height: 335px;
         top: -28rem;
         right: 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .disp_img_text {
+        font-size: 25px;
+        line-height: 40px;
+        top: 13rem;
+        padding: 0px;
+    }
+
+    .disp_img {
+        top: 0;
+        margin-bottom: 80px;
+    }
+
+    .folderonmob {
+        flex: 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .logo__img {
+        width: 40%;
+    }
+
+    .text4 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .doublequotes {
+        top: -75px;
+        font-size: 100px;
+        line-height: 0px;
+    }
+
+    .text1 {
+        padding: 0px 25px;
+        top: -30px;
+    }
+
+    .text2 {
+        font-size: 20px;
+        line-height: 40px;
+        top: 2rem;
+    }
+
+    .text3 {
+        font-size: 9px;
+        line-height: 20px;
+        margin-top: 50px;
+    }
+
+    .thirdimg__cont {
+        padding: 20px 20px;
+    }
+
+    .backcont {
+        width: 30%;
+        top: 4rem;
+        right: 50px;
+        height: 365px;
+    }
+
+    .backcont2 {
+        height: 185px;
+        top: -15rem;
+        right: 50px;
     }
 }
 
