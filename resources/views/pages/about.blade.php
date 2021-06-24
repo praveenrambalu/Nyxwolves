@@ -59,7 +59,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
 <link rel="stylesheet" href="/assets/css/advisor_style.css">
 <link rel="stylesheet" href="/assets/css/team_style.css">
-
+<style>
+    .director-carousel .owl-stage-outer .owl-stage {
+    margin: auto;
+}
+</style>
 </head>
 
 <body>
@@ -415,7 +419,15 @@
         </div>
         <div class="container">
             <div class="team-section">
-                <div class="row">
+                <div class="director-carousel owl-carousel owl-theme">
+                    <x-team title="Co-founder,Director" name="Sriram Sankar " image="sriram" />
+                    <x-team title="Co-founder,Director" name="Sidhdharth Sivasubramanian" image="sidhdharth" />
+                    <x-team title="Director,CMO" name="Venkat Boyalla" image="venkat" />
+
+                </div>
+
+
+                {{-- <div class="row">
                     <div class="col-sm-12 text-center">
                         <div class="row">
                             <div class="col-sm-1"></div>
@@ -436,7 +448,7 @@
                             <div class="col-sm-1"></div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -970,12 +982,13 @@
         }
     })
    $('.director-carousel').owlCarousel({
-        margin:10,
+        margin:20,
         responsiveClass:true,
         dots:true,
         loop:false,
         nav:false,
         autoplay:true,
+        touchDrag:false,
         autoplayHoverPause:true,
         autoplayTimeout:2000,
         responsive:{
@@ -987,7 +1000,7 @@
                 items:3,
             },
             1000:{
-                items:3,
+                items:4,
                 dots:true,
             }
         }
