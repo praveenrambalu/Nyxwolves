@@ -989,6 +989,7 @@
         nav:false,
         autoplay:true,
         touchDrag:false,
+        mouseDrag:false,
         autoplayHoverPause:true,
         autoplayTimeout:2000,
         responsive:{
