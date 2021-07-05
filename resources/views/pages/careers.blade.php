@@ -123,7 +123,7 @@ input[type="checkbox"] + label::before {
        @include('inc.header')
 
         <!-- Banner -->
-        <section id="slider" class="p-0 featured odd" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/services.jpg); background-size:cover; background-repeat:no-repeat;">
+        <section id="slider" class="p-0 featured odd" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/breadcrumb/Careers.jpg); background-size:cover; background-repeat:no-repeat;">
             <div class="swiper-container slider-disabled slider-h-75">
                 <div class="swiper-wrapper">
     
@@ -160,7 +160,7 @@ input[type="checkbox"] + label::before {
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
-                        <a href="mailto:admin@nyxwolves.com?subject=Applying for Senior Flutter Developer" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
+                        <a href="https://forms.gle/h5WwWNzEhN8DMR156" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
                     </div>
                 </div>
                 <div class="row career-card mt-2 mb-2">
@@ -175,7 +175,7 @@ input[type="checkbox"] + label::before {
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
-                        <a href="mailto:admin@nyxwolves.com?subject=Junior Full Stack Web Developer " class="btn m-auto mt-3 primary-button">Apply Now</i></a>
+                        <a href="https://forms.gle/h5WwWNzEhN8DMR156" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
                     </div>
                 </div>
                 <div class="row career-card mt-2 mb-2">
@@ -190,7 +190,7 @@ input[type="checkbox"] + label::before {
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
-                        <a href="mailto:admin@nyxwolves.com?subject=Digital Marketing Strategist" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
+                        <a href="https://forms.gle/h5WwWNzEhN8DMR156" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
                     </div>
                 </div>
 
@@ -206,7 +206,7 @@ input[type="checkbox"] + label::before {
                        
                     </div>
                     <div class="career-btn col-12 col-md-2">
-                        <a href="mailto:admin@nyxwolves.com?subject=Business Development Executive" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
+                        <a href="https://forms.gle/h5WwWNzEhN8DMR156" class="btn m-auto mt-3 primary-button">Apply Now</i></a>
                     </div>
                 </div>
                 

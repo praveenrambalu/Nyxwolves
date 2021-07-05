@@ -126,7 +126,7 @@ input[type="checkbox"] + label::before {
        @include('inc.header')
 
         <!-- Banner -->
-        <section id="slider" class="p-0 featured odd" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/services.jpg);  background-size:cover; background-repeat:no-repeat;">
+        <section id="slider" class="p-0 featured odd" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/breadcrumb/Clients.jpg);  background-size:cover; background-repeat:no-repeat;">
             <div class="swiper-container slider-disabled slider-h-75">
                 <div class="swiper-wrapper">
     
