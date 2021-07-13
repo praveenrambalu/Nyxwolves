@@ -109,7 +109,7 @@
             </div>
         </section>
 
-        <section class="banner" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/digital-platforms.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;padding: 60px 0; color:#fff !important;">
+        <section class="banner" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/breadcrumb/artificial_intelligence.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;padding: 60px 0; color:#fff !important;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-8 align-self-center">

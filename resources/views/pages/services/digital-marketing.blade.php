@@ -103,12 +103,12 @@
     </section>
 
 
-    <section class="banner" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/banners/digital-platforms.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;padding: 60px 0; color:#fff !important;">
+    <section class="banner" style="background:linear-gradient(45deg,#00000012,#000000c4),url(/assets/images/breadcrumb/digital_marketing.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;padding: 60px 0; color:#fff !important;">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-8 align-self-center">
-                    <h3 class="text-white">Ready to Promote Your Brand Digitally?</h3>
-                    <p>Digital excellence delivered to you seamlessly.</p>
+                    <h3 class="text-dark">Ready to Promote Your Brand Digitally?</h3>
+                    <p class="text-dark">Digital excellence delivered to you seamlessly.</p>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <a href="/contact" class="btn m-auto mt-3 primary-button">Contact Now</i></a>
