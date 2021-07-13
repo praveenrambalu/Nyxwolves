@@ -105,9 +105,8 @@
                 </div>
                 <div class="col-sm-6 align-self-center">
                     <div class="pen-learn-content-holder">
-                        <h1 class="pen-learn-title">Learn for free</h1>
-                        <p class="pen-learn-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididuntlabore et dolore magna </p>
+                        {{-- <h1 class="pen-learn-title">Learn for free</h1> --}}
+                        <p class="pen-learn-desc">Responsive web design is a style of web development where both the layout and the content responds to the device on which it is being rendered and the size of the screen it is presented on. If you're viewing this article on a desktop browser, for example, try making your browser window smaller. The content column will shrink and the placement of the text will adjust. On our homepage, you'll see the image sizes adjust and the layout shrink from three columns, to two columns, to a singular column of content.</p>
                     </div>
                 </div>
             </div>
@@ -138,8 +137,7 @@
                 <div class="col-sm-7 align-self-center">
                     <div class="courses-div">
                         <h1>Courses</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididuntlabore et dolore </p>
+                        <p>The Structured Learning App | PEN is an e-learning Platform Carefully architected for aspirants of structured</p>
                     </div>
                 </div>
                 <div class="col-sm-5 align-self-center">
@@ -159,8 +157,7 @@
                 <div class="col-sm-7 align-self-center">
                     <div class="corevalues-div">
                         <h1>Our Core Values</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididuntlabore et dolore </p>
+                        <p>The Structured Learning App | PEN is an e-learning Platform Carefully architected for aspirants of structured</p>
                     </div>
                 </div>
             </div>

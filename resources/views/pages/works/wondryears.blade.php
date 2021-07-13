@@ -167,7 +167,7 @@
                         <img src="/assets/img/wondryears/phone1.png" class="img img-responsive" alt="">
                     </div>
                     <div class="col-sm-7 align-self-center">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Read the latest blogs and exciting articles related to your interests.</p>
                     </div>
                 </div>
             </div>

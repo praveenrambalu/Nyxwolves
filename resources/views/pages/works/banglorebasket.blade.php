@@ -64,8 +64,11 @@
                     <img src="/assets/img/bangalore_basket/logo.png" alt="Banglore Basket Logo" class="bang-logo wow bounceInUp">
                 </div>
                 <div class="main-banner-content">
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                     <h1>Duis  <span>aute irure </span>  dolor ex ea </h1>   
+                   
+                    <h3> Nuts & Dry fruits delivered</h3>
+
+                     <h1>on time, every time.
+                        No <span> compromises </span> or <span> surprises. </span></h1>   
                 </div>
             </div>
             <div class="col-sm-6 align-self-center">
@@ -122,10 +125,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h1 >Lorem Ipsum</h1>
                 </div>
                 <div class="col-sm-12 text-center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p style="visibility:hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt  ut labore et dolore magna </p>
                 </div>
             </div>
@@ -139,7 +141,7 @@
                     <img src="/assets/img/bangalore_basket/mockup2.png" alt="Banglore Basket Mockup" class="img img-responsive wow pulse infinite">
                 </div>
                 <div class="col-sm-12 text-center">
-                    <p>Lorem ipsum dolor sit amet, </p>
+                    {{-- <p>Lorem ipsum dolor sit amet, </p> --}}
                 </div>
             </div>
         </div>
@@ -149,9 +151,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h1>Lorem Ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt  ut labore et dolore magna </p>
+                    <h1>Highest Quality Products</h1>
+                    <p>Our dried fruits and nuts are sourced from high-quality growers and therefore are premium in size, taste and flavor. We have a state-of-the-art cleaning and packaging facility to ensure quality in all our processes – from sourcing to delivery. </p>
                 </div>
             </div>
         </div>
@@ -172,9 +173,8 @@
             <div class="row">
                 <div class="col-sm-6 align-self-center">
                     <div class="bang-order-content-container">
-                        <h1>Lorem ipsum
-                            dolor sit amet</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h1>Best Services</h1>
+                            <p>Our dried fruits and nuts are sourced from high-quality growers and therefore are premium in size, taste and flavor. We have a state-of-the-art cleaning and packaging facility to ensure quality in all our processes – from sourcing to delivery. </p>
                     </div>
                 </div>
                 <div class="col-sm-6 align-self-center">

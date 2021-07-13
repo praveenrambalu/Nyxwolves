@@ -95,14 +95,14 @@
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                         {{-- <h2 class="featured">Our Work</h2> --}}
-                     
+{{--                      
                         <div id="filter">
                             <a  class="filter-button active" data-filter="all">All Works</a>
                             <a  class="filter-button" data-filter="branding">Branding</a>
                             <a  class="filter-button" data-filter="digitalplatform">Digital Platforms</a>
                             <a  class="filter-button" data-filter="webdesign">Digital Transformation</a>
                             <a  class="filter-button" data-filter="digitalmarketing">Digital Marketing</a>
-                        </div>
+                        </div> --}}
 
                     </div>
                     <div class="col-12 col-md-3 align-self-end">

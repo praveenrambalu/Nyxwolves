@@ -155,8 +155,8 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-12 col-md-3"></div>
                 <div class="col-lg-4 col-sm-12 col-md-9">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiulgod tempor incididuntlabore et dolore magna </p>
+                    {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiulgod tempor incididuntlabore et dolore magna </p> --}}
                 </div>
                 <div class="col-lg-5 col-sm-12 col-md-12">
                 </div>
@@ -198,11 +198,11 @@
         <div class="custom-container">
             <div class="row">
                 <div class="col-sm-5 align-self-center">
-                    <p>Lorem ipsum dolor
+                    {{-- <p>Lorem ipsum dolor
                         sit amet, consectetur
                         adipiscing elit, 
                         sed do eiusmod tempor incididuntlabore et
-                        dolore magna </p>
+                        dolore magna </p> --}}
                 </div>
                 <div class="col-sm-7 align-self-center">
                     <img src="/assets/img/nfa/clean.png" class="img img-responsive " alt="">
