@@ -1,0 +1,1571 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+#main-wrapper {
+  background: #000;
+}
+
+.custom-container {
+  width: 90%;
+}
+
+#textanimation, #designanimation, #technologyanimation,
+#excellanceanimation, #aboutanimation {
+  height: 100vh;
+  background: #272727;
+  overflow: hidden;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#textanimation .row, #designanimation .row, #technologyanimation .row,
+#excellanceanimation .row, #aboutanimation .row {
+  margin-top: 25vh;
+}
+
+#aboutanimation {
+  height: 100vh;
+  background: #272727;
+  overflow: hidden;
+  font-family: 'Rajdhani', sans-serif;
+  position: relative;
+}
+
+.withacoercionof, .second-text-holder, .third-text-holder,
+.four-text-holder, .about-text-holder {
+  color: #fff;
+  text-align: left;
+}
+
+.text-with,
+.text-a,
+.text-coe,
+.text-rcion,
+.text-of,
+.second-text-des,
+.second-text-si,
+.second-text-gn,
+.third-text-tech,
+.third-text-nology,
+.four-text-excel,
+.four-text-lence,
+.fifth-text-about,
+.fifth-text-us,
+.services-text-our,
+.services-text-services {
+  opacity: 0;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 11rem;
+  color: #fff;
+}
+
+.second-text-holder {
+  color: #fff;
+  text-align: left;
+}
+
+.tree-image, .technology-image, .diamond-image {
+  width: 0%;
+}
+
+.wolf-wrapper {
+  position: relative;
+}
+
+.wolf-hang {
+  position: absolute;
+  height: 350px;
+  top: 50px;
+  right: -435px;
+}
+
+#aboutcontentanimation {
+  height: 100vh;
+  background: #0442E2;
+  overflow: hidden;
+}
+
+#aboutcontentanimation .row {
+  margin-top: 50px;
+}
+
+#aboutcontentanimation .about-image {
+  width: 100%;
+  opacity: 0;
+}
+
+#aboutcontentanimation p {
+  font-size: 2rem;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  display: none;
+}
+
+#oursevicesanimation {
+  height: 100vh;
+  background: #0442E2;
+  overflow: hidden;
+}
+
+#oursevicesanimation .services-image {
+  width: 100%;
+  opacity: 0;
+}
+
+#servicesdigitaltransformation {
+  height: 100vh;
+  background: #272727;
+  overflow: hidden;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+#servicesdigitaltransformation .digitaltransformation-image {
+  opacity: 0;
+}
+
+#servicesdigitaltransformation .servicesdigitaltransformation-text-holder {
+  margin-top: 17.1875rem;
+  margin-left: 50px;
+}
+
+#servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-digital,
+#servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-transformation {
+  font-size: 8rem;
+  opacity: 0;
+  color: #fff;
+}
+
+#productdevelopmentanimation {
+  height: 100vh;
+  background: #272727;
+  overflow: hidden;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+#productdevelopmentanimation .productdevelopment-image {
+  width: 100%;
+  opacity: 0;
+}
+
+#productdevelopmentanimation .productdevelopment-text-holder {
+  margin-top: -20rem;
+  margin-left: 50px;
+}
+
+#productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-product,
+#productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-development {
+  font-size: 8rem;
+  opacity: 0;
+  color: #fff;
+}
+
+#digitalprocessautomationanimation {
+  height: 100vh;
+  background: #272727;
+  overflow: hidden;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+#digitalprocessautomationanimation .digitalprocessautomation-image {
+  width: 100%;
+  opacity: 0;
+}
+
+#digitalprocessautomationanimation .digitalprocessautomation-text-holder {
+  margin-left: 50px;
+}
+
+#digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-digital,
+#digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-processautomation {
+  font-size: 8rem;
+  opacity: 0;
+  color: #fff;
+}
+
+#brandinganimation {
+  height: 100vh;
+  background: #272727;
+  overflow: hidden;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+#brandinganimation .branding-image {
+  width: 100%;
+  opacity: 0;
+}
+
+#brandinganimation .branding-text-holder {
+  margin-left: 50px;
+  margin-top: -17.1875rem;
+}
+
+#brandinganimation .branding-text-holder .branding-text-branding,
+#brandinganimation .branding-text-holder .branding-text-uiux {
+  font-size: 8rem;
+  opacity: 0;
+  color: #fff;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0442E2;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+#particlesbanner {
+  height: 100vh;
+}
+
+#webuildtext {
+  opacity: 0;
+  position: absolute;
+  width: 80%;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+#wolf-anim {
+  width: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+}
+
+#webuildtext path {
+  fill: #fff;
+  stroke: transparent;
+}
+
+#webuildtext path:hover {
+  -webkit-animation: 0.1s webuildtext-anim linear;
+          animation: 0.1s webuildtext-anim linear;
+}
+
+@-webkit-keyframes webuildtext-anim {
+  from {
+    fill: #fff;
+    stroke: transparent;
+  }
+  to {
+    fill: transparent;
+    stroke: #fff;
+  }
+}
+
+@keyframes webuildtext-anim {
+  from {
+    fill: #fff;
+    stroke: transparent;
+  }
+  to {
+    fill: transparent;
+    stroke: #fff;
+  }
+}
+
+.scrolldown-option {
+  position: absolute;
+  top: 85%;
+  right: 5%;
+  z-index: 5;
+}
+
+.scrolldown-option .scrolldown-arrow-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.scrolldown-option .scrolldown-arrow-holder .arrow-image {
+  height: 65px;
+  -webkit-animation: arrow-anim 1s ease infinite;
+          animation: arrow-anim 1s ease infinite;
+}
+
+.scrolldown-option .scrolldown-arrow-holder .scrolldown-text {
+  color: #fff;
+  width: 135px;
+  opacity: 0.9;
+}
+
+.scrolldown-option .scrolldown-arrow-holder .scrolldown-text .scroll-text {
+  font-size: 1rem;
+}
+
+@-webkit-keyframes arrow-anim {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes arrow-anim {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.text-animation-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-and-image-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-and-image-holder .left-content {
+  margin-left: 50px;
+  width: 50%;
+}
+
+.text-and-image-holder .right-content {
+  text-align: center;
+  width: 50%;
+}
+
+.about-text-holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(20%, -50%);
+          transform: translate(20%, -50%);
+}
+
+#main-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+#textanimation, #excellanceanimation, #oursevicesanimation {
+  -webkit-transform: scale(0.9) translateY(250px);
+          transform: scale(0.9) translateY(250px);
+  -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  border-radius: 50px;
+  -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+          box-shadow: -5px 1px 20px 0px #0442E2;
+}
+
+#designanimation, #aboutanimation {
+  -webkit-transform: scale(0.9) translateX(250px);
+          transform: scale(0.9) translateX(250px);
+  -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  border-radius: 50px;
+  -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+          box-shadow: -5px 1px 20px 0px #0442E2;
+}
+
+#technologyanimation, #aboutcontentanimation {
+  -webkit-transform: scale(0.9) translateX(-250px);
+          transform: scale(0.9) translateX(-250px);
+  -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+  border-radius: 50px;
+  -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+          box-shadow: -5px 1px 20px 0px #0442E2;
+}
+
+#gifanimation {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: #0442E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#gifanimation .rocket_animation {
+  width: 100%;
+}
+
+.services-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.services-holder .top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.services-holder .top-container.right {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.services-holder .top-container .image {
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1224px) {
+  .about-text-holder {
+    -webkit-transform: translate(10%, -50%);
+            transform: translate(10%, -50%);
+  }
+  .text-with,
+  .text-a,
+  .text-coe,
+  .text-rcion,
+  .text-of,
+  .second-text-des,
+  .second-text-si,
+  .second-text-gn,
+  .third-text-tech,
+  .third-text-nology,
+  .four-text-excel,
+  .four-text-lence,
+  .fifth-text-about,
+  .fifth-text-us,
+  .services-text-our,
+  .services-text-services {
+    font-size: 9rem;
+  }
+  .wolf-hang {
+    height: 275px;
+    top: 100px;
+    right: -300px;
+  }
+  #aboutcontentanimation p {
+    font-size: 1.5rem;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder {
+    margin-top: 17.1875rem;
+    margin-left: 50px;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-digital,
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-transformation {
+    font-size: 7rem;
+  }
+  #productdevelopmentanimation .productdevelopment-image {
+    margin-top: 20rem;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder {
+    margin-top: -20rem;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-product,
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-development {
+    font-size: 7rem;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-image {
+    width: 100%;
+    opacity: 0;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder {
+    margin-top: 5rem;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-digital,
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-processautomation {
+    font-size: 7rem;
+  }
+  #brandinganimation .branding-image {
+    margin-top: 20rem;
+  }
+  #brandinganimation .branding-text-holder {
+    margin-top: -17.1875rem;
+  }
+  #brandinganimation .branding-text-holder .branding-text-branding,
+  #brandinganimation .branding-text-holder .branding-text-uiux {
+    font-size: 7rem;
+  }
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  /* ---- particles.js container ---- */
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0442E2;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  /* ---- stats.js ---- */
+  #particlesbanner {
+    height: 100vh;
+  }
+  #webuildtext {
+    opacity: 0;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  #wolf-anim {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+  }
+  #webuildtext path {
+    fill: #fff;
+    stroke: transparent;
+  }
+  #webuildtext path:hover {
+    -webkit-animation: 0.1s webuildtext-anim linear;
+            animation: 0.1s webuildtext-anim linear;
+  }
+  .scrolldown-option {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+  }
+  .scrolldown-option .scrolldown-arrow-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .arrow-image {
+    height: 65px;
+    -webkit-animation: arrow-anim 1s ease infinite;
+            animation: arrow-anim 1s ease infinite;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text {
+    color: #fff;
+    width: 135px;
+    opacity: 0.9;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text .scroll-text {
+    font-size: 1rem;
+  }
+  .text-animation-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .text-and-image-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .text-and-image-holder .left-content {
+    margin-left: 50px;
+    width: 50%;
+  }
+  .text-and-image-holder .right-content {
+    text-align: center;
+    width: 50%;
+  }
+  .about-text-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(10%, -50%);
+            transform: translate(10%, -50%);
+  }
+  #main-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  #textanimation, #excellanceanimation, #oursevicesanimation {
+    -webkit-transform: scale(0.9) translateY(250px);
+            transform: scale(0.9) translateY(250px);
+    -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    border-radius: 50px;
+    -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+            box-shadow: -5px 1px 20px 0px #0442E2;
+  }
+  #designanimation, #aboutanimation {
+    -webkit-transform: scale(0.9) translateX(250px);
+            transform: scale(0.9) translateX(250px);
+    -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    border-radius: 50px;
+    -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+            box-shadow: -5px 1px 20px 0px #0442E2;
+  }
+  #technologyanimation, #aboutcontentanimation {
+    -webkit-transform: scale(0.9) translateX(-250px);
+            transform: scale(0.9) translateX(-250px);
+    -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    border-radius: 50px;
+    -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+            box-shadow: -5px 1px 20px 0px #0442E2;
+  }
+  #gifanimation {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #0442E2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #gifanimation .rocket_animation {
+    width: 100%;
+  }
+  .services-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+  .services-holder .top-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .services-holder .top-container.right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .services-holder .top-container .image {
+    width: 70%;
+    margin: auto;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .about-text-holder {
+    -webkit-transform: translate(10%, -50%);
+            transform: translate(10%, -50%);
+  }
+  .text-with,
+  .text-a,
+  .text-coe,
+  .text-rcion,
+  .text-of,
+  .second-text-des,
+  .second-text-si,
+  .second-text-gn,
+  .third-text-tech,
+  .third-text-nology,
+  .four-text-excel,
+  .four-text-lence,
+  .fifth-text-about,
+  .fifth-text-us,
+  .services-text-our,
+  .services-text-services {
+    font-size: 6rem;
+  }
+  .wolf-hang {
+    height: 275px;
+    top: 100px;
+    right: -300px;
+  }
+  #aboutcontentanimation p {
+    font-size: 1.5rem;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder {
+    margin-top: 17.1875rem;
+    margin-left: 50px;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-digital,
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-transformation {
+    font-size: 5rem;
+  }
+  #productdevelopmentanimation .productdevelopment-image {
+    margin-top: 20rem;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder {
+    margin-top: -20rem;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-product,
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-development {
+    font-size: 5rem;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-image {
+    width: 100%;
+    opacity: 0;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder {
+    margin-top: 5rem;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-digital,
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-processautomation {
+    font-size: 5rem;
+  }
+  #brandinganimation .branding-image {
+    margin-top: 20rem;
+  }
+  #brandinganimation .branding-text-holder {
+    margin-top: -17.1875rem;
+  }
+  #brandinganimation .branding-text-holder .branding-text-branding,
+  #brandinganimation .branding-text-holder .branding-text-uiux {
+    font-size: 5rem;
+  }
+  canvas {
+    display: block;
+  }
+  /* ---- particles.js container ---- */
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0442E2;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  /* ---- stats.js ---- */
+  #particlesbanner {
+    height: 100vh;
+  }
+  #webuildtext {
+    opacity: 0;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  #wolf-anim {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+  }
+  #webuildtext path {
+    fill: #fff;
+    stroke: transparent;
+  }
+  #webuildtext path:hover {
+    -webkit-animation: 0.1s webuildtext-anim linear;
+            animation: 0.1s webuildtext-anim linear;
+  }
+  .scrolldown-option {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+  }
+  .scrolldown-option .scrolldown-arrow-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .arrow-image {
+    height: 65px;
+    -webkit-animation: arrow-anim 1s ease infinite;
+            animation: arrow-anim 1s ease infinite;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text {
+    color: #fff;
+    width: 135px;
+    opacity: 0.9;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text .scroll-text {
+    font-size: 1rem;
+  }
+  .text-animation-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .text-and-image-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .text-and-image-holder .left-content {
+    margin-left: 50px;
+    width: 50%;
+  }
+  .text-and-image-holder .right-content {
+    text-align: center;
+    width: 50%;
+  }
+  .about-text-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(10%, -50%);
+            transform: translate(10%, -50%);
+  }
+  #main-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  #textanimation, #excellanceanimation, #oursevicesanimation {
+    -webkit-transform: scale(0.9) translateY(250px);
+            transform: scale(0.9) translateY(250px);
+    -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    border-radius: 50px;
+    -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+            box-shadow: -5px 1px 20px 0px #0442E2;
+  }
+  #designanimation, #aboutanimation {
+    -webkit-transform: scale(0.9) translateX(250px);
+            transform: scale(0.9) translateX(250px);
+    -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    border-radius: 50px;
+    -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+            box-shadow: -5px 1px 20px 0px #0442E2;
+  }
+  #technologyanimation, #aboutcontentanimation {
+    -webkit-transform: scale(0.9) translateX(-250px);
+            transform: scale(0.9) translateX(-250px);
+    -webkit-transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s, -webkit-transform 350ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    border-radius: 50px;
+    -webkit-box-shadow: -5px 1px 20px 0px #0442E2;
+            box-shadow: -5px 1px 20px 0px #0442E2;
+  }
+  #gifanimation {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #0442E2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #gifanimation .rocket_animation {
+    width: 100%;
+  }
+  .services-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+  .services-holder .top-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .services-holder .top-container.right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .services-holder .top-container .image {
+    width: 70%;
+    margin: auto;
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-text-holder {
+    -webkit-transform: translate(10%, -50%);
+            transform: translate(10%, -50%);
+    text-align: center;
+  }
+  .text-with,
+  .text-a,
+  .text-coe,
+  .text-rcion,
+  .text-of,
+  .second-text-des,
+  .second-text-si,
+  .second-text-gn,
+  .third-text-tech,
+  .third-text-nology,
+  .four-text-excel,
+  .four-text-lence,
+  .fifth-text-about,
+  .fifth-text-us,
+  .services-text-our,
+  .services-text-services {
+    font-size: 6rem;
+  }
+  .services-text-our,
+  .services-text-services {
+    text-align: center;
+  }
+  .wolf-hang {
+    height: 275px;
+    top: 100px;
+    right: -300px;
+  }
+  #aboutcontentanimation p {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder {
+    margin-top: 17.1875rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-digital,
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-transformation {
+    font-size: 3.5rem;
+  }
+  #productdevelopmentanimation .productdevelopment-image {
+    margin-top: 0rem;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder {
+    margin-top: 0rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-product,
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-development {
+    font-size: 3.5rem;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-image {
+    width: 100%;
+    opacity: 0;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder {
+    margin-top: 5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-digital,
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-processautomation {
+    font-size: 3.5rem;
+  }
+  #brandinganimation .branding-image {
+    margin-top: 0rem;
+  }
+  #brandinganimation .branding-text-holder {
+    margin-top: 0rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #brandinganimation .branding-text-holder .branding-text-branding,
+  #brandinganimation .branding-text-holder .branding-text-uiux {
+    font-size: 3.5rem;
+  }
+  canvas {
+    display: block;
+  }
+  /* ---- particles.js container ---- */
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0442E2;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  /* ---- stats.js ---- */
+  #particlesbanner {
+    height: 100vh;
+  }
+  #webuildtext {
+    opacity: 0;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  #wolf-anim {
+    width: 100%;
+    left: 0;
+    margin: auto;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+  }
+  #webuildtext path {
+    fill: #fff;
+    stroke: transparent;
+  }
+  #webuildtext path:hover {
+    -webkit-animation: 0.1s webuildtext-anim linear;
+            animation: 0.1s webuildtext-anim linear;
+  }
+  .scrolldown-option {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+  }
+  .scrolldown-option .scrolldown-arrow-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .arrow-image {
+    height: 65px;
+    -webkit-animation: arrow-anim 1s ease infinite;
+            animation: arrow-anim 1s ease infinite;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text {
+    color: #fff;
+    width: 135px;
+    opacity: 0.9;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text .scroll-text {
+    font-size: 1rem;
+  }
+  .text-animation-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .text-and-image-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .text-and-image-holder .left-content {
+    margin-left: 50px;
+    width: 100%;
+    margin: auto;
+  }
+  .text-and-image-holder .right-content {
+    text-align: center;
+    width: 100%;
+  }
+  .about-text-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  #main-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  #gifanimation {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #0442E2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #gifanimation .rocket_animation {
+    width: 100%;
+  }
+  .services-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+  .services-holder .top-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .services-holder .top-container.right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .services-holder .top-container .image {
+    width: 70%;
+    margin: auto;
+    float: right;
+  }
+  h1.withacoercionof, .second-text-holder, .third-text-holder, .four-text-holder {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .about-text-holder {
+    -webkit-transform: translate(10%, -50%);
+            transform: translate(10%, -50%);
+    text-align: center;
+  }
+  .text-with,
+  .text-a,
+  .text-coe,
+  .text-rcion,
+  .text-of,
+  .second-text-des,
+  .second-text-si,
+  .second-text-gn,
+  .third-text-tech,
+  .third-text-nology,
+  .four-text-excel,
+  .four-text-lence,
+  .fifth-text-about,
+  .fifth-text-us,
+  .services-text-our,
+  .services-text-services {
+    font-size: 4rem;
+  }
+  .services-text-our,
+  .services-text-services {
+    text-align: center;
+  }
+  .wolf-hang {
+    height: 275px;
+    top: 100px;
+    right: -300px;
+  }
+  #aboutcontentanimation p {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder {
+    margin-top: 17.1875rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-digital,
+  #servicesdigitaltransformation .servicesdigitaltransformation-text-holder .servicesdigitaltransformation-text-transformation {
+    font-size: 2.5rem;
+  }
+  #productdevelopmentanimation .productdevelopment-image {
+    margin-top: 0rem;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder {
+    margin-top: 0rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-product,
+  #productdevelopmentanimation .productdevelopment-text-holder .productdevelopment-text-development {
+    font-size: 2.5rem;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-image {
+    width: 100%;
+    opacity: 0;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder {
+    margin-top: 5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-digital,
+  #digitalprocessautomationanimation .digitalprocessautomation-text-holder .digitalprocessautomation-text-processautomation {
+    font-size: 2.5rem;
+  }
+  #brandinganimation .branding-image {
+    margin-top: 0rem;
+  }
+  #brandinganimation .branding-text-holder {
+    margin-top: 0rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #brandinganimation .branding-text-holder .branding-text-branding,
+  #brandinganimation .branding-text-holder .branding-text-uiux {
+    font-size: 2.5rem;
+  }
+  canvas {
+    display: block;
+  }
+  /* ---- particles.js container ---- */
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0442E2;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  /* ---- stats.js ---- */
+  #particlesbanner {
+    height: 100vh;
+  }
+  #webuildtext {
+    opacity: 0;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  #wolf-anim {
+    width: 100%;
+    left: 0;
+    margin: auto;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+  }
+  #webuildtext path {
+    fill: #fff;
+    stroke: transparent;
+  }
+  #webuildtext path:hover {
+    -webkit-animation: 0.1s webuildtext-anim linear;
+            animation: 0.1s webuildtext-anim linear;
+  }
+  .scrolldown-option {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+  }
+  .scrolldown-option .scrolldown-arrow-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .arrow-image {
+    height: 65px;
+    -webkit-animation: arrow-anim 1s ease infinite;
+            animation: arrow-anim 1s ease infinite;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text {
+    color: #fff;
+    width: 135px;
+    opacity: 0.9;
+  }
+  .scrolldown-option .scrolldown-arrow-holder .scrolldown-text .scroll-text {
+    font-size: 1rem;
+  }
+  .text-animation-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .text-and-image-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .text-and-image-holder .left-content {
+    margin-left: 50px;
+    width: 100%;
+    margin: auto;
+  }
+  .text-and-image-holder .right-content {
+    text-align: center;
+    width: 100%;
+  }
+  .about-text-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  #main-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  #gifanimation {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #0442E2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #gifanimation .rocket_animation {
+    width: 100%;
+  }
+  .services-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+  .services-holder .top-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .services-holder .top-container.right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .services-holder .top-container .image {
+    width: 70%;
+    margin: auto;
+    float: right;
+  }
+  h1.withacoercionof, .second-text-holder, .third-text-holder, .four-text-holder {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

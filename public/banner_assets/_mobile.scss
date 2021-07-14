@@ -1,0 +1,278 @@
+
+@media only screen and (max-width: 767px){
+
+
+    $servicestextsize:3.5rem;
+    $textsize:6rem;
+    
+    .about-text-holder{
+        transform: translate(10%, -50%);
+        text-align: center;
+    }
+    
+    .text-with,
+    .text-a,
+    .text-coe,
+    .text-rcion,
+    .text-of ,
+    .second-text-des,
+    .second-text-si,
+    .second-text-gn,
+    .third-text-tech,
+    .third-text-nology,
+    .four-text-excel,
+    .four-text-lence,
+    .fifth-text-about,
+    .fifth-text-us,
+    .services-text-our,
+    .services-text-services
+    {
+        font-size: $textsize;
+    }
+    .services-text-our,
+    .services-text-services{
+        text-align: center;
+    }
+    .wolf-hang {
+        height: 275px;
+        top: 100px;
+        right: -300px;
+    }
+    
+    // About Content
+    
+    #aboutcontentanimation{
+        p{
+            font-size:1rem;
+            margin-bottom: 50px;
+        }
+    }
+    
+  
+    // Digital Transformation Styles
+
+#servicesdigitaltransformation{
+    .servicesdigitaltransformation-text-holder{
+        margin-top: 17.1875rem;
+        margin-left: 0;
+        text-align: center;
+        .servicesdigitaltransformation-text-digital,
+        .servicesdigitaltransformation-text-transformation{
+            font-size:$servicestextsize;
+        }
+    }
+}
+
+
+// Product Development Styles
+
+#productdevelopmentanimation{
+    .productdevelopment-image{
+        margin-top: 0rem;
+    }
+    .productdevelopment-text-holder{
+        margin-top:0rem;
+        margin-left: 0;
+        text-align: center;
+        .productdevelopment-text-product,
+        .productdevelopment-text-development{
+            font-size:$servicestextsize;
+        }
+    }
+}
+
+
+// Digital Transformation Styles
+
+#digitalprocessautomationanimation{
+    .digitalprocessautomation-image{
+        width: 100%;
+        opacity:0;
+    }
+    .digitalprocessautomation-text-holder{
+        margin-top:5rem;
+        margin-left: 0;
+        text-align: center;
+        .digitalprocessautomation-text-digital,
+        .digitalprocessautomation-text-processautomation{
+            font-size:$servicestextsize;
+        }
+    }
+}
+
+
+
+// Product Development Styles
+
+#brandinganimation{
+    .branding-image{
+        margin-top: 0rem;
+    }
+    .branding-text-holder{
+        margin-top:0rem;
+        margin-left: 0;
+        text-align: center;
+        .branding-text-branding,
+        .branding-text-uiux{
+            font-size:$servicestextsize;
+        }
+    }
+}
+    
+    
+    
+    
+    canvas {
+        display: block;
+      } /* ---- particles.js container ---- */
+      #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #0442E2;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+      } /* ---- stats.js ---- */
+    
+    
+    #particlesbanner{
+        height: 100vh;
+    }
+    #webuildtext{
+        opacity:0;
+        position: absolute;
+        width: 80%;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+    }
+    
+    
+    #wolf-anim{
+        width: 100%;
+        left: 0;
+        margin:auto;
+        transform: translateX(0);
+        position: absolute;
+        z-index: 2;
+        // opacity: 0;
+        top: 0;
+    }
+    
+    #webuildtext path{
+        fill:#fff;
+        stroke:transparent;
+        &:hover{
+           animation: 0.1s webuildtext-anim linear ;
+        }
+    }
+    
+    
+
+    
+    .scrolldown-option{
+        position:absolute;
+        top: 85%;
+        right: 5%;
+        .scrolldown-arrow-holder{
+            display:flex;
+            .arrow-image{
+                height: 65px;
+                animation: arrow-anim 1s ease infinite;
+            }
+            .scrolldown-text{
+                color: #fff;
+                width: 135px;
+                opacity: 0.9;
+                .scroll-text{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    
+
+    .text-animation-holder{
+        display:flex;
+        height:100%;
+        width:100%;
+        align-items: center;
+    }
+    
+    .text-and-image-holder{
+        display:flex;
+        height:100%;
+        width:100%;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        .left-content{
+            margin-left:50px;
+            width: 100%;
+            margin:auto;
+        }
+        .right-content{
+            text-align: center;
+            width: 100%;
+        }
+    }
+    
+    .about-text-holder{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #main-wrapper{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #gifanimation{
+        height:100vh;
+        width:100%;
+        overflow: hidden;
+        background:#0442E2;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        .rocket_animation{
+        width:100%;
+        }
+    }
+    
+
+    .services-holder{
+        display:flex;
+        height:100%;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        .top-container{
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            &.right{
+                flex-direction: column;
+                align-items: flex-end;
+            }
+            .image{
+                width: 70%;
+                margin: auto;
+                float: right;
+            }
+        }
+    }
+    
+    h1.withacoercionof, .second-text-holder,.third-text-holder,.four-text-holder{
+        // margin-left:30px;
+        text-align: center;
+    }
+    
+    }
